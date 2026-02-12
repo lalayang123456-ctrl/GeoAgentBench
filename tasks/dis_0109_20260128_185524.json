@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0109_20260128_185524",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between Barclays Bank and Sports Direct in meters.",
+  "spawn_pano_id": "jaHI8nalKXBzDdi73yskOg",
+  "spawn_heading": 15.5,
+  "pois": [
+    {
+      "name": "Barclays Bank",
+      "type": "bank",
+      "lat": 50.9047682,
+      "lng": -1.4040945999999999,
+      "address": "70 Above Bar St, Southampton SO14 7DS, UK",
+      "pano_id": "0HB84FRUNUFcPQPqEUiieQ"
+    },
+    {
+      "name": "Sports Direct",
+      "type": "clothing_store",
+      "lat": 50.9039989,
+      "lng": -1.4039643,
+      "address": "40-50 Above Bar St, Southampton SO14 7DW, UK",
+      "pano_id": "yzlU46xm8gHFw1wq6QHEcA"
+    }
+  ],
+  "geofence_id": "list_perception_1769597724",
+  "ground_truth": {
+    "distance_between_pois_m": 86.0,
+    "bearing_a_to_b_deg": 173.9,
+    "bearing_b_to_a_deg": 353.9
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:55:24.770037",
+    "spawn_location": {
+      "lat": 50.90416544865934,
+      "lng": -1.404360294391466
+    }
+  }
+}

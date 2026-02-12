@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0013_20260128_151531",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between Vodafone and HSBC Nottingham in meters.",
+  "spawn_pano_id": "y1TUDtbU-bY7IZgZJTtKzA",
+  "spawn_heading": 102.5,
+  "pois": [
+    {
+      "name": "Vodafone",
+      "type": "cell_phone_store",
+      "lat": 52.9547944,
+      "lng": -1.1475634,
+      "address": "34 Clumber St, Nottingham NG1 3GB, UK",
+      "pano_id": "y1TUDtbU-bY7IZgZJTtKzA"
+    },
+    {
+      "name": "HSBC Nottingham",
+      "type": "bank",
+      "lat": 52.9543593,
+      "lng": -1.1473860999999999,
+      "address": "Hsbc Bank, 26 Clumber St, Nottingham NG1 3GA, UK",
+      "pano_id": "Akd5RSDkvlLqH8-Si_kz-w"
+    }
+  ],
+  "geofence_id": "list_perception_1769584531",
+  "ground_truth": {
+    "distance_between_pois_m": 49.8,
+    "bearing_a_to_b_deg": 166.2,
+    "bearing_b_to_a_deg": 346.2
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T15:15:31.787908",
+    "spawn_location": {
+      "lat": 52.9548174193026,
+      "lng": -1.147735852813646
+    }
+  }
+}

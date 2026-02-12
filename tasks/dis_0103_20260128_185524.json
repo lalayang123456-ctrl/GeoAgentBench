@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0103_20260128_185524",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between HSBC Southampton City and Metro Bank in meters.",
+  "spawn_pano_id": "jaHI8nalKXBzDdi73yskOg",
+  "spawn_heading": 330.1,
+  "pois": [
+    {
+      "name": "HSBC Southampton City",
+      "type": "bank",
+      "lat": 50.9042708,
+      "lng": -1.4044562999999999,
+      "address": "55 Above Bar St, Southampton SO14 7DZ, UK",
+      "pano_id": "ScvEza6S3upEjgEZHJkkEQ"
+    },
+    {
+      "name": "Metro Bank",
+      "type": "bank",
+      "lat": 50.903900099999994,
+      "lng": -1.404461,
+      "address": "Unit 1 & 2, West Quay Shopping Centre, Above Bar St, Southampton SO15 1QD, UK",
+      "pano_id": "MFzJtcHrXnR5GnaE2D8N0A"
+    }
+  ],
+  "geofence_id": "list_perception_1769597724",
+  "ground_truth": {
+    "distance_between_pois_m": 41.2,
+    "bearing_a_to_b_deg": 180.5,
+    "bearing_b_to_a_deg": 0.5
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:55:24.765981",
+    "spawn_location": {
+      "lat": 50.90416544865934,
+      "lng": -1.404360294391466
+    }
+  }
+}

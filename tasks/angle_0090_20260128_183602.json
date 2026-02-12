@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0090_20260128_183602",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of lululemon from Levi's\u00ae London Regent Street.",
+  "spawn_pano_id": "jKld27CbJ87uCk4Bk5xQzw",
+  "spawn_heading": 264.8,
+  "pois": [
+    {
+      "name": "Levi's\u00ae London Regent Street",
+      "type": "clothing_store",
+      "lat": 51.5123752,
+      "lng": -0.1396812,
+      "address": "176 Regent St., London W1B 5TJ, UK",
+      "pano_id": "ThsofjRbj3-WRpLJY7Nd8Q"
+    },
+    {
+      "name": "lululemon",
+      "type": "clothing_store",
+      "lat": 51.51233980000001,
+      "lng": -0.1403092,
+      "address": "179 Regent St., London W1B 4JQ, UK",
+      "pano_id": "ft7grcVGi6rKShJurYHr5w"
+    }
+  ],
+  "geofence_id": "list_perception_1769596562",
+  "ground_truth": {
+    "distance_between_pois_m": 43.6,
+    "bearing_a_to_b_deg": 264.8,
+    "bearing_b_to_a_deg": 84.8
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:36:02.117641",
+    "spawn_location": {
+      "lat": 51.51242972511474,
+      "lng": -0.1399921069180271
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0105_20260128_185524",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of River Island from NatWest Southampton City.",
+  "spawn_pano_id": "jaHI8nalKXBzDdi73yskOg",
+  "spawn_heading": 165.7,
+  "pois": [
+    {
+      "name": "NatWest Southampton City",
+      "type": "bank",
+      "lat": 50.90469710000001,
+      "lng": -1.4039853999999998,
+      "address": "68 Above Bar St, Southampton SO14 7DS, UK",
+      "pano_id": "rDcWtOvT3dSuyWAxI3Y_bg"
+    },
+    {
+      "name": "River Island",
+      "type": "clothing_store",
+      "lat": 50.904346399999994,
+      "lng": -1.4038435,
+      "address": "56-58 Above Bar St, Southampton SO14 7DS, UK",
+      "pano_id": "k3JiBcRQszwIRE-WYWs9Pg"
+    }
+  ],
+  "geofence_id": "list_perception_1769597724",
+  "ground_truth": {
+    "distance_between_pois_m": 40.2,
+    "bearing_a_to_b_deg": 165.7,
+    "bearing_b_to_a_deg": 345.7
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:55:24.767371",
+    "spawn_location": {
+      "lat": 50.90416544865934,
+      "lng": -1.404360294391466
+    }
+  }
+}
