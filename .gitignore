@@ -38,8 +38,6 @@ env/
 
 # Data and cache (large files)
 data/panoramas/
-data/*.db
-data/pano_metadata.json
 
 # Temporary files
 temp_images/
