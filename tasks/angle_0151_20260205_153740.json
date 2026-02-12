@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0151_20260205_153740",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of KFC Plymouth - Old Town Street from HSBC Plymouth.",
+  "spawn_pano_id": "QyoCVPd6e5p4f_GHfhoVkw",
+  "spawn_heading": 353.3,
+  "pois": [
+    {
+      "name": "HSBC Plymouth",
+      "type": "bank",
+      "lat": 50.3711906,
+      "lng": -4.138715599999999,
+      "address": "4 Old Town St, Plymouth PL1 1DD, UK",
+      "pano_id": "PCCq64XhdN1JrgT-On0lFA"
+    },
+    {
+      "name": "KFC Plymouth - Old Town Street",
+      "type": "fast_food_restaurant",
+      "lat": 50.3713069,
+      "lng": -4.138737,
+      "address": "10 Old Town St, Plymouth PL1 1DD, UK",
+      "pano_id": "HZxa4EaVTSdzkPofwoHW8g"
+    }
+  ],
+  "geofence_id": "list_perception_1770305860",
+  "ground_truth": {
+    "distance_between_pois_m": 13.0,
+    "bearing_a_to_b_deg": 353.3,
+    "bearing_b_to_a_deg": 173.3
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:37:40.457446",
+    "spawn_location": {
+      "lat": 50.37145537743192,
+      "lng": -4.139082924828556
+    }
+  }
+}

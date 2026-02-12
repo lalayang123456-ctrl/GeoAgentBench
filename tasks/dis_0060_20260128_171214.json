@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0060_20260128_171214",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between lululemon and Bremont Boutique Manchester in meters.",
+  "spawn_pano_id": "ehTHfJ5B1vvEmHnDBB1dww",
+  "spawn_heading": 35.7,
+  "pois": [
+    {
+      "name": "lululemon",
+      "type": "clothing_store",
+      "lat": 53.4825224,
+      "lng": -2.2452386,
+      "address": "7 St Anns Square, Manchester M2 7EF, UK",
+      "pano_id": "pbvedPnwoOsaNh9GxJEOWg"
+    },
+    {
+      "name": "Bremont Boutique Manchester",
+      "type": "store",
+      "lat": 53.4826093,
+      "lng": -2.2457480999999997,
+      "address": "Acresfield, 8 St Anns Square, Exchange St, Manchester M2 7HA, UK",
+      "pano_id": "kRIW1MeN5lnbmGyea5uo4Q"
+    }
+  ],
+  "geofence_id": "list_perception_1769591534",
+  "ground_truth": {
+    "distance_between_pois_m": 35.1,
+    "bearing_a_to_b_deg": 286.0,
+    "bearing_b_to_a_deg": 106.0
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T17:12:14.099436",
+    "spawn_location": {
+      "lat": 53.48237992856929,
+      "lng": -2.245410488631541
+    }
+  }
+}

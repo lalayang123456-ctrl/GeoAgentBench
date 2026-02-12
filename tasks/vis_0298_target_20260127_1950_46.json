@@ -1,0 +1,96 @@
+{
+  "task_id": "nav_0298_target_20260124_1221_8",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_122042",
+  "spawn_point": "EgZwBP252JXmNnmooJnbrw",
+  "spawn_heading": 287.1,
+  "description": "Walk straight along the tree-lined pedestrian street, passing the Apple Store on your right. Continue forward past the Tesla showroom on the right side. The Starbucks will be on your right, immediately after the Tesla store.",
+  "ground_truth": {
+    "target_name": "Starbucks",
+    "target_pano_id": "LwQpx_i7L5uqVnh_xRSF9Q",
+    "optimal_distance_meters": 116,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "LwQpx_i7L5uqVnh_xRSF9Q"
+  ],
+  "max_steps": 28,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "EgZwBP252JXmNnmooJnbrw",
+      "heading": 287.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "IkN52HPMIKp-fZ440tQKzA",
+      "heading": 287.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "VkIKAHSUMUUujhx9apDn7Q",
+      "heading": 287.1
+    },
+    {
+      "step_index": 3,
+      "pano_id": "dH0YOU3J60f_cEzOR6dD2w",
+      "heading": 287.1
+    },
+    {
+      "step_index": 4,
+      "pano_id": "8Bs6abCKJXYVNnv5wDGaug",
+      "heading": 286.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "IGWVZcSVzIfj6m1duHK78g",
+      "heading": 286.9
+    },
+    {
+      "step_index": 6,
+      "pano_id": "6tycBa6qxmqfpzBzL2iu1Q",
+      "heading": 286.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "2-C0snJA7bfoNEMFnFSxQw",
+      "heading": 286.2
+    },
+    {
+      "step_index": 8,
+      "pano_id": "7WbxtxvWgoBLRW82SiwYyQ",
+      "heading": 286.2
+    },
+    {
+      "step_index": 9,
+      "pano_id": "KC-WuaVTPe-ElCNBZa7_gA",
+      "heading": 287.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "RVR5QrjXrsg85Rr7RQm9rQ",
+      "heading": 288.8
+    },
+    {
+      "step_index": 11,
+      "pano_id": "ke7_Bok1aZo8YRN0KjB3ZQ",
+      "heading": 288.1
+    },
+    {
+      "step_index": 12,
+      "pano_id": "EKW-O-g8zRT-SghPQWJLIQ",
+      "heading": 287.5
+    },
+    {
+      "step_index": 13,
+      "pano_id": "LwQpx_i7L5uqVnh_xRSF9Q",
+      "heading": 287.5
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 116m -> Stop",
+  "agent_concise_description": "Walk straight along the tree-lined pedestrian street, passing the Apple Store on your right. Continue forward past the Tesla showroom on the right side. The Starbucks will be on your right, immediately after the Tesla store."
+}

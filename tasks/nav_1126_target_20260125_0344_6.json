@@ -1,0 +1,183 @@
+{
+  "task_id": "nav_1126_target_20260125_0344_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260125_034436",
+  "spawn_point": "vm19BeYg42zZEx-L4Uk0JQ",
+  "spawn_heading": 320.0,
+  "description": "Navigate to KFC. Head northwest for 24m. Turn right for 199m. Turn right for 65m. Turn right Restricted usage road Destination will be on the left for 19m. Total distance: approximately 307 m.",
+  "ground_truth": {
+    "target_name": "KFC",
+    "target_pano_id": "LSvVPMmMGDwuhu9GBjSMQw",
+    "optimal_distance_meters": 307,
+    "route_description": "right→right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "LSvVPMmMGDwuhu9GBjSMQw"
+  ],
+  "max_steps": 64,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "vm19BeYg42zZEx-L4Uk0JQ",
+      "heading": 320.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "WQooGzMTSgRSArg4d_3hAA",
+      "heading": 320.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "bi4AIec7kNgkgZl9vnsN_g",
+      "heading": 319.1
+    },
+    {
+      "step_index": 3,
+      "pano_id": "dqGOZ2Nm8wCqbA1eNQl4cw",
+      "heading": 11.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "RAgjTpa-ct0vIdtvC4qYCw",
+      "heading": 38.5
+    },
+    {
+      "step_index": 5,
+      "pano_id": "F4_c8-wjMNOExZWGGzJHqw",
+      "heading": 38.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "Q9QSDkJf1We9RI4o3yzsrg",
+      "heading": 38.5
+    },
+    {
+      "step_index": 7,
+      "pano_id": "wjfe233v6e6RTP6qe7ufmA",
+      "heading": 38.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "NeqXhgDpoO1INonEVLGgLg",
+      "heading": 38.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "u0HrEQcwJA2HzwjqDgOPXg",
+      "heading": 38.6
+    },
+    {
+      "step_index": 10,
+      "pano_id": "aMLMF25pKkbnD6OeCO0j3Q",
+      "heading": 38.1
+    },
+    {
+      "step_index": 11,
+      "pano_id": "vqK9Qqr3pRPc_ohkh8wrhw",
+      "heading": 38.0
+    },
+    {
+      "step_index": 12,
+      "pano_id": "ii5BP7_Qp0GAAY-qyEJGng",
+      "heading": 38.0
+    },
+    {
+      "step_index": 13,
+      "pano_id": "ff9vL6qc4HZbW31Z7Pg_rQ",
+      "heading": 34.9
+    },
+    {
+      "step_index": 14,
+      "pano_id": "v3yzBFTLQBTMyCWRVNvM-Q",
+      "heading": 35.0
+    },
+    {
+      "step_index": 15,
+      "pano_id": "R5jJ3iyEw5e9TsYGN4BPhg",
+      "heading": 35.3
+    },
+    {
+      "step_index": 16,
+      "pano_id": "HS0b0byE27MlCSjRDcGMUA",
+      "heading": 35.6
+    },
+    {
+      "step_index": 17,
+      "pano_id": "wCTPyMizYgIbV7iVNPBkyg",
+      "heading": 36.4
+    },
+    {
+      "step_index": 18,
+      "pano_id": "VKyUuBX-REQQI7FFQrkSWw",
+      "heading": 36.2
+    },
+    {
+      "step_index": 19,
+      "pano_id": "plVyw78Lrmq8ss3LZJ4-Kg",
+      "heading": 34.0
+    },
+    {
+      "step_index": 20,
+      "pano_id": "XpHZDdrmQsKqgp_pCPni_A",
+      "heading": 33.6
+    },
+    {
+      "step_index": 21,
+      "pano_id": "ZAlX6L0we-e7Mhlj3AqWsQ",
+      "heading": 32.7
+    },
+    {
+      "step_index": 22,
+      "pano_id": "H9jEc7uUFyPunILS21vSMw",
+      "heading": 32.7
+    },
+    {
+      "step_index": 23,
+      "pano_id": "AThj4vqFuKNXgvkPtPaGSg",
+      "heading": 32.7
+    },
+    {
+      "step_index": 24,
+      "pano_id": "jnrJ7MtwO3WHoiLIEbrkgg",
+      "heading": 348.8
+    },
+    {
+      "step_index": 25,
+      "pano_id": "zUV414u7P_0T7YvYrzqe7Q",
+      "heading": 124.6
+    },
+    {
+      "step_index": 26,
+      "pano_id": "5eaB23cJSud7rfZ6i2ZayA",
+      "heading": 124.6
+    },
+    {
+      "step_index": 27,
+      "pano_id": "YvF4hIAMYuZI455olPE19g",
+      "heading": 124.5
+    },
+    {
+      "step_index": 28,
+      "pano_id": "ord1drqch1SCnumT6p-img",
+      "heading": 124.5
+    },
+    {
+      "step_index": 29,
+      "pano_id": "rv3Tt0Oo7qTMna_k0okSEA",
+      "heading": 124.6
+    },
+    {
+      "step_index": 30,
+      "pano_id": "8Ai40WbwKhs7cB0z0hIn7g",
+      "heading": 124.5
+    },
+    {
+      "step_index": 31,
+      "pano_id": "LSvVPMmMGDwuhu9GBjSMQw",
+      "heading": 121.5
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

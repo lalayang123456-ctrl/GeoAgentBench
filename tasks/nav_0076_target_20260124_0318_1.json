@@ -1,0 +1,103 @@
+{
+  "task_id": "nav_0076_target_20260124_0318_1",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260124_031800",
+  "spawn_point": "cLfJl3_DoflclaYyHikl0Q",
+  "spawn_heading": 24.1,
+  "description": "Navigate to Pizza Hut. Head north์ พระราม 9 for 52m. Turn right toward แกรนด์ พระราม 9 for 10m. Turn left onto แกรนด์ พระราม 9 Destination will be on the right for 84m. Total distance: approximately 146 m.",
+  "ground_truth": {
+    "target_name": "Pizza Hut",
+    "target_pano_id": "Q9Ne0GPhUpgcfJAnHkn4Mg",
+    "optimal_distance_meters": 146,
+    "route_description": "right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Q9Ne0GPhUpgcfJAnHkn4Mg"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "cLfJl3_DoflclaYyHikl0Q",
+      "heading": 24.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "UUZ2VRdB1WDcjMyjjBUw4A",
+      "heading": 24.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "ZmDlDUex_qTG01rLqpw-nw",
+      "heading": 15.1
+    },
+    {
+      "step_index": 3,
+      "pano_id": "cbwxAkMXpTfv7-LgmugzWg",
+      "heading": 15.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "0cx-JJHgYTPysHr4vHqlHQ",
+      "heading": 18.1
+    },
+    {
+      "step_index": 5,
+      "pano_id": "7Yo8kBQbowTZLTUR-OKJ7w",
+      "heading": 37.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "cqurUB0EZQpIMyf5CrUHBw",
+      "heading": 142.5
+    },
+    {
+      "step_index": 7,
+      "pano_id": "qnvdoTNJEqqa_juVz-aa3g",
+      "heading": 14.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "rZveGJ8Ij99kKro1RZGtmQ",
+      "heading": 12.2
+    },
+    {
+      "step_index": 9,
+      "pano_id": "SJtz2JtJ-nirZp-nW9emgQ",
+      "heading": 12.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "U8a6vWpTLG_4I_ordlJiPw",
+      "heading": 12.2
+    },
+    {
+      "step_index": 11,
+      "pano_id": "jmCZQ1GGR5oxGrmwnmbfIQ",
+      "heading": 12.2
+    },
+    {
+      "step_index": 12,
+      "pano_id": "2YQbUhGa8zfUr4XiuUgWIA",
+      "heading": 12.8
+    },
+    {
+      "step_index": 13,
+      "pano_id": "uV3lHMo2yysG8ckBFIdslg",
+      "heading": 12.7
+    },
+    {
+      "step_index": 14,
+      "pano_id": "0C8v2MdmS0wAvf9fa9mkPQ",
+      "heading": 12.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "Q9Ne0GPhUpgcfJAnHkn4Mg",
+      "heading": 12.7
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

@@ -1,0 +1,118 @@
+{
+  "task_id": "nav_0181_target_20260124_1010_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_101012",
+  "spawn_point": "QR6HJ0JMgwtfB1QUS-oIxw",
+  "spawn_heading": 89.0,
+  "description": "Navigate to Miyaakiyomotodo Pharmacy. Head east/府道32号 for 68m. Turn right onto 河原町通/府道32号 Pass by ガスト 京都河原町店 (on the right) Destination will be on the right for 77m. Total distance: approximately 145 m.",
+  "ground_truth": {
+    "target_name": "Miyaakiyomotodo Pharmacy",
+    "target_pano_id": "Jhdulgt6slnGkWO2wC5DVg",
+    "optimal_distance_meters": 145,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Jhdulgt6slnGkWO2wC5DVg"
+  ],
+  "max_steps": 38,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "QR6HJ0JMgwtfB1QUS-oIxw",
+      "heading": 89.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "zgQnq6iJbDG1EK29MkNy-g",
+      "heading": 89.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "0K8egMuTTxzP3rhSt2mLPA",
+      "heading": 92.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "RSzJCj6BObLym4ViRU4omA",
+      "heading": 93.8
+    },
+    {
+      "step_index": 4,
+      "pano_id": "OJs9P8cNGIjYfoipi7Ccfg",
+      "heading": 91.5
+    },
+    {
+      "step_index": 5,
+      "pano_id": "7DNLlZbp6MSDCR0-3wIV5g",
+      "heading": 90.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "lzD-TxsR_mh2wWUmzeoNhQ",
+      "heading": 86.6
+    },
+    {
+      "step_index": 7,
+      "pano_id": "6SOClCMEP3jMnw3RtDoxmw",
+      "heading": 86.6
+    },
+    {
+      "step_index": 8,
+      "pano_id": "jf3M2GxzrPYbM1N-eWmssw",
+      "heading": 51.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "1uvtb3Ridcg_iWbiUmE6iA",
+      "heading": 177.2
+    },
+    {
+      "step_index": 10,
+      "pano_id": "wBjvjbUpAjXyIoZkBbfskA",
+      "heading": 178.4
+    },
+    {
+      "step_index": 11,
+      "pano_id": "5bBiM42UnM-veaW0ebAu1A",
+      "heading": 178.4
+    },
+    {
+      "step_index": 12,
+      "pano_id": "ZzYaLSwDd8GJH828cJfAhw",
+      "heading": 177.9
+    },
+    {
+      "step_index": 13,
+      "pano_id": "F5lT2zOasJRUIAryzwPDRQ",
+      "heading": 175.8
+    },
+    {
+      "step_index": 14,
+      "pano_id": "IlJx9u_Oy2LqYZSizVpA_g",
+      "heading": 175.8
+    },
+    {
+      "step_index": 15,
+      "pano_id": "mNmy_j8tNuCbHxklpzefZw",
+      "heading": 175.8
+    },
+    {
+      "step_index": 16,
+      "pano_id": "LZwwjcIXquMu9AFGozgSqw",
+      "heading": 175.8
+    },
+    {
+      "step_index": 17,
+      "pano_id": "4FYSvKxF6s15iD-grjvOfg",
+      "heading": 176.6
+    },
+    {
+      "step_index": 18,
+      "pano_id": "Jhdulgt6slnGkWO2wC5DVg",
+      "heading": 176.6
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

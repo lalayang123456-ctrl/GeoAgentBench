@@ -1,0 +1,36 @@
+{
+  "task_id": "nav_0079_target_20260124_0318_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260124_031800",
+  "spawn_point": "Bg93H1aSeR9KHFZqUm4nbw",
+  "spawn_heading": 10.6,
+  "description": "Head straight along the driveway. The destination, Starbucks, is located on the ground floor of the modern glass building to your right, identified by the large green 'STARBUCKS COFFEE' signage.",
+  "ground_truth": {
+    "target_name": "Starbucks The Ninth Tower",
+    "target_pano_id": "TS-XdLwpdx1AM6EcORvVXQ",
+    "optimal_distance_meters": 13,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "TS-XdLwpdx1AM6EcORvVXQ"
+  ],
+  "max_steps": 4,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Bg93H1aSeR9KHFZqUm4nbw",
+      "heading": 10.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "TS-XdLwpdx1AM6EcORvVXQ",
+      "heading": 10.6
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 20m -> Stop",
+  "agent_concise_description": "Head straight along the driveway. The destination, Starbucks, is located on the ground floor of the modern glass building to your right, identified by the large green 'STARBUCKS COFFEE' signage."
+}

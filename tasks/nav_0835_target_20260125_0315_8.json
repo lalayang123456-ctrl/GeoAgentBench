@@ -1,0 +1,58 @@
+{
+  "task_id": "nav_0835_target_20260125_0315_8",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260125_031453",
+  "spawn_point": "x_X9Q2pF6KDYo49j47zNGg",
+  "spawn_heading": 317.4,
+  "description": "Navigate to Passeig De Gracia - Barcelona. Head northwest for 56m. Total distance: approximately 56 m.",
+  "ground_truth": {
+    "target_name": "Passeig De Gracia - Barcelona",
+    "target_pano_id": "ddRIz_r-XH7Cl2RxpQZOzg",
+    "optimal_distance_meters": 56,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "ddRIz_r-XH7Cl2RxpQZOzg"
+  ],
+  "max_steps": 14,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "x_X9Q2pF6KDYo49j47zNGg",
+      "heading": 317.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "sFRAlrRjOkRLVAa85nXP0g",
+      "heading": 317.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "lZ1_rROnb9NqPFTzvlx2gA",
+      "heading": 317.3
+    },
+    {
+      "step_index": 3,
+      "pano_id": "U_EtuMwxhgBIChnvkpC_Tg",
+      "heading": 317.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "jgGhhS2rKVxLCEaONKqIJQ",
+      "heading": 317.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "dqW0nRLmvLhM_Ylr-XcuBQ",
+      "heading": 317.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "ddRIz_r-XH7Cl2RxpQZOzg",
+      "heading": 317.3
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

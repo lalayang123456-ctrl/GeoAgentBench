@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0057_20260128_171214",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between lululemon and HSBC Manchester in meters.",
+  "spawn_pano_id": "ehTHfJ5B1vvEmHnDBB1dww",
+  "spawn_heading": 35.7,
+  "pois": [
+    {
+      "name": "lululemon",
+      "type": "clothing_store",
+      "lat": 53.4825224,
+      "lng": -2.2452386,
+      "address": "7 St Anns Square, Manchester M2 7EF, UK",
+      "pano_id": "pbvedPnwoOsaNh9GxJEOWg"
+    },
+    {
+      "name": "HSBC Manchester",
+      "type": "bank",
+      "lat": 53.4826112,
+      "lng": -2.2457765999999997,
+      "address": "2-4 St Anns Square, Manchester M2 7HD, UK",
+      "pano_id": "kRIW1MeN5lnbmGyea5uo4Q"
+    }
+  ],
+  "geofence_id": "list_perception_1769591534",
+  "ground_truth": {
+    "distance_between_pois_m": 36.9,
+    "bearing_a_to_b_deg": 285.5,
+    "bearing_b_to_a_deg": 105.5
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T17:12:14.097212",
+    "spawn_location": {
+      "lat": 53.48237992856929,
+      "lng": -2.245410488631541
+    }
+  }
+}

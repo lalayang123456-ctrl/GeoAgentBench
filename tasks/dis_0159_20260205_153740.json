@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0159_20260205_153740",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between Costa Coffee and Foot Locker in meters.",
+  "spawn_pano_id": "QyoCVPd6e5p4f_GHfhoVkw",
+  "spawn_heading": 55.7,
+  "pois": [
+    {
+      "name": "Costa Coffee",
+      "type": "coffee_shop",
+      "lat": 50.372102999999996,
+      "lng": -4.137592,
+      "address": "Unit3 Drake Circus, SC, Plymouth PL1 1EA, UK",
+      "pano_id": "qjqELzsNnQZ7_wObkA6PGg"
+    },
+    {
+      "name": "Foot Locker",
+      "type": "shoe_store",
+      "lat": 50.3717632,
+      "lng": -4.1388972,
+      "address": "Suite 18A, 20 Old Town St, Plymouth PL1 1EA, UK",
+      "pano_id": "TKWbSc2OVvF_VcutbPClQQ"
+    }
+  ],
+  "geofence_id": "list_perception_1770305860",
+  "ground_truth": {
+    "distance_between_pois_m": 100.0,
+    "bearing_a_to_b_deg": 247.8,
+    "bearing_b_to_a_deg": 67.8
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:37:40.466167",
+    "spawn_location": {
+      "lat": 50.37145537743192,
+      "lng": -4.139082924828556
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "task_id": "nav_1150_target_20260125_0346_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260125_034626",
+  "spawn_point": "kJWsAO26X1EBH9i6caHgrA",
+  "spawn_heading": 182.2,
+  "description": "Exit the commercial lot near the RaceTrac gas station by turning right onto the main multi-lane road. Drive straight, passing under the overhead traffic signal structure. The destination is on the right side, marked by the 'Palm Lakes' monument sign.",
+  "ground_truth": {
+    "target_name": "BLUE HERON BLVD at PALM LAKES ESTA",
+    "target_pano_id": "b1Z6YZwFilZ26DoAUj5pGg",
+    "optimal_distance_meters": 168,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "b1Z6YZwFilZ26DoAUj5pGg"
+  ],
+  "max_steps": 44,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "kJWsAO26X1EBH9i6caHgrA",
+      "heading": 182.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "BTlOAAcEVGVYdRCAzLextQ",
+      "heading": 182.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "ePH3IQE0Oc5xSG9prDJwrQ",
+      "heading": 182.1
+    },
+    {
+      "step_index": 3,
+      "pano_id": "a_XpcZGSC1ZdSJii_5ojAA",
+      "heading": 181.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "2osjeT4948RJsMDlLjyIHw",
+      "heading": 180.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "Q0Kh3dZ2enwACM7OzPiyAA",
+      "heading": 178.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "DDpCRh9HREPLzPyXMhC3ng",
+      "heading": 137.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "D-FBmrk5VilhwxpuR7O47A",
+      "heading": 91.7
+    },
+    {
+      "step_index": 8,
+      "pano_id": "n6pqi2u1HjwNAqtJlHJx7A",
+      "heading": 91.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "pXjeKXl4m5Z7M39ZRrD4Ww",
+      "heading": 91.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "GAlLRFFRqvtgQcrnwCX2vQ",
+      "heading": 249.2
+    },
+    {
+      "step_index": 11,
+      "pano_id": "ctmZP_nu4iOCFAqDPx2tJQ",
+      "heading": 227.1
+    },
+    {
+      "step_index": 12,
+      "pano_id": "CL69U66sH1SJXbn1dMra3Q",
+      "heading": 215.2
+    },
+    {
+      "step_index": 13,
+      "pano_id": "fUfbmJpa6j7vrhK_kWUHQQ",
+      "heading": 273.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "VbK8U4lM3zkaD7TxGQVGlA",
+      "heading": 273.6
+    },
+    {
+      "step_index": 15,
+      "pano_id": "Vd7mrLJoWMDZEoXUTR232g",
+      "heading": 273.5
+    },
+    {
+      "step_index": 16,
+      "pano_id": "yqUZO02JY7RuS3T0DclutA",
+      "heading": 273.0
+    },
+    {
+      "step_index": 17,
+      "pano_id": "zxV5lU7IvXumQ8dNqf4EXQ",
+      "heading": 273.2
+    },
+    {
+      "step_index": 18,
+      "pano_id": "oW9djfmDBz7eQ88FYoEuFw",
+      "heading": 275.5
+    },
+    {
+      "step_index": 19,
+      "pano_id": "W5VjrQvi2stYH2KbyhuyCA",
+      "heading": 275.5
+    },
+    {
+      "step_index": 20,
+      "pano_id": "4c2nRLHB5mYoF-FlJPPCZw",
+      "heading": 275.4
+    },
+    {
+      "step_index": 21,
+      "pano_id": "b1Z6YZwFilZ26DoAUj5pGg",
+      "heading": 273.1
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Turn Right -> Head Straight -> Stop",
+  "agent_concise_description": "Exit the commercial lot near the RaceTrac gas station by turning right onto the main multi-lane road. Drive straight, passing under the overhead traffic signal structure. The destination is on the right side, marked by the 'Palm Lakes' monument sign."
+}

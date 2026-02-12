@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0148_20260127_142031",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your South (approx. 197\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "BtCSJ9I1ZiTqycSvtZCHRQ",
+  "spawn_heading": 197.30435178326016,
+  "target_building": {
+    "lat": 43.6559691,
+    "lng": -79.3791281,
+    "height": 46.09,
+    "floors": 13,
+    "ground_elevation": 91.70006561279297,
+    "roof_elevation": 137.78622,
+    "name": "buildings/ChIJMywI3zTL1IkRwjcX-QRsalU",
+    "date": "2021-09-25"
+  },
+  "geofence_id": "list_height_0148_20260127_142031",
+  "ground_truth": {
+    "height_meters": 46.09
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-27T14:20:31.242357",
+    "bearing_deg": 197.30435178326016,
+    "city": "Toronto, Canada"
+  }
+}

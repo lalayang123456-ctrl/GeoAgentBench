@@ -1,0 +1,56 @@
+{
+  "task_id": "nav_0933_target_20260125_0322_7",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_supermarket_20260125_032234",
+  "spawn_point": "AQuOGHC1dzWg2FZ4OWtKYA",
+  "spawn_heading": 89.8,
+  "description": "Travel straight along S Montezuma Ave, passing a large wooden building under construction on your right. Continue forward until you reach the intersection with Buckeye Rd, identified by a white house with red flowering bushes on the front-left corner.",
+  "ground_truth": {
+    "target_name": "Buckeye Rd & Montezuma St",
+    "target_pano_id": "6X6NQ-dA8Oqv1jyfVFVw9A",
+    "optimal_distance_meters": 66,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "6X6NQ-dA8Oqv1jyfVFVw9A"
+  ],
+  "max_steps": 12,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "AQuOGHC1dzWg2FZ4OWtKYA",
+      "heading": 89.8
+    },
+    {
+      "step_index": 1,
+      "pano_id": "YYTKVZRDaQpMBNd4q8xQGQ",
+      "heading": 89.8
+    },
+    {
+      "step_index": 2,
+      "pano_id": "yH5hOozrtRsDQN4YR0XgKQ",
+      "heading": 89.9
+    },
+    {
+      "step_index": 3,
+      "pano_id": "AZ68mNPAQ_O_cj0jU1hsZw",
+      "heading": 89.8
+    },
+    {
+      "step_index": 4,
+      "pano_id": "4m65RB8VxEMh77vV_wdadQ",
+      "heading": 89.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "6X6NQ-dA8Oqv1jyfVFVw9A",
+      "heading": 89.9
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 66m -> Stop",
+  "agent_concise_description": "Travel straight along S Montezuma Ave, passing a large wooden building under construction on your right. Continue forward until you reach the intersection with Buckeye Rd, identified by a white house with red flowering bushes on the front-left corner."
+}

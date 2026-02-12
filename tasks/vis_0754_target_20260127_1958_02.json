@@ -1,0 +1,161 @@
+{
+  "task_id": "nav_0754_target_20260124_1604_20",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260124_160317",
+  "spawn_point": "PGHNEeEZ17qJzSFYZG9h-w",
+  "spawn_heading": 43.7,
+  "description": "Follow the road, keeping left at the fork to pass the glass 'Mount One' building on your left. Continue as the road curves to the right around the playground. Stop on Wo Muk Road with the red brick Union Plaza building on your right.",
+  "ground_truth": {
+    "target_name": "Wo Muk Road; Near Union Plaza",
+    "target_pano_id": "ezpO-rhMv19sbEEQEW-pbg",
+    "optimal_distance_meters": 248,
+    "route_description": "left→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "ezpO-rhMv19sbEEQEW-pbg"
+  ],
+  "max_steps": 54,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "PGHNEeEZ17qJzSFYZG9h-w",
+      "heading": 43.7
+    },
+    {
+      "step_index": 1,
+      "pano_id": "ePC_JEIzIwraU9-tZIKkfw",
+      "heading": 43.7
+    },
+    {
+      "step_index": 2,
+      "pano_id": "YKO6oGA190Yvx9RoRZmVXQ",
+      "heading": 21.5
+    },
+    {
+      "step_index": 3,
+      "pano_id": "PWUkRBgH02KGKdxUf06qBw",
+      "heading": 3.6
+    },
+    {
+      "step_index": 4,
+      "pano_id": "YKaFETdr9D6CIKbMgZNIiQ",
+      "heading": 353.1
+    },
+    {
+      "step_index": 5,
+      "pano_id": "_MXAhAc8yLXiZ3W8gfiTGw",
+      "heading": 340.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "ix8nmmNEQepPAPcXjCPIuA",
+      "heading": 326.1
+    },
+    {
+      "step_index": 7,
+      "pano_id": "bkWYsfT-b8_7iAHgsvTbAA",
+      "heading": 322.6
+    },
+    {
+      "step_index": 8,
+      "pano_id": "Z1TYh7sc29nE_9_VsKt9RA",
+      "heading": 318.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "I6Hfw74eDkgAdBq5dxY9Bg",
+      "heading": 318.6
+    },
+    {
+      "step_index": 10,
+      "pano_id": "NH20Lc6PKkf-LOcoZz_PnA",
+      "heading": 318.5
+    },
+    {
+      "step_index": 11,
+      "pano_id": "KCf0dxcg7AKQG5-LIFj_VQ",
+      "heading": 323.7
+    },
+    {
+      "step_index": 12,
+      "pano_id": "Es1xoc3ddZvnfKvZzHMIvQ",
+      "heading": 324.4
+    },
+    {
+      "step_index": 13,
+      "pano_id": "Wub2rlM19EwuB2OJx5BWcA",
+      "heading": 325.1
+    },
+    {
+      "step_index": 14,
+      "pano_id": "5D7f_8WiWeaDZVK-E2tscg",
+      "heading": 340.3
+    },
+    {
+      "step_index": 15,
+      "pano_id": "med7MTRmBJJX5gjzVze_Lw",
+      "heading": 340.3
+    },
+    {
+      "step_index": 16,
+      "pano_id": "QTJ1BPE1CArMJGyzkQaLpw",
+      "heading": 340.4
+    },
+    {
+      "step_index": 17,
+      "pano_id": "6k1YZiHXk69gcGOb5u2VKQ",
+      "heading": 340.3
+    },
+    {
+      "step_index": 18,
+      "pano_id": "e3i10Prc3XwyAxU8P9Eu-A",
+      "heading": 27.8
+    },
+    {
+      "step_index": 19,
+      "pano_id": "KwQwINvz0O3LjONC16ZtJg",
+      "heading": 48.7
+    },
+    {
+      "step_index": 20,
+      "pano_id": "hcA4zciN4eNU4Hn9YhwPFg",
+      "heading": 43.2
+    },
+    {
+      "step_index": 21,
+      "pano_id": "YAO1jEU4Hw8VeeMNE45Z3w",
+      "heading": 43.2
+    },
+    {
+      "step_index": 22,
+      "pano_id": "U42Ts92qNjJdBmtfY3jcOw",
+      "heading": 43.2
+    },
+    {
+      "step_index": 23,
+      "pano_id": "t7hR6yy1WGSMH8nrFgbpkg",
+      "heading": 43.2
+    },
+    {
+      "step_index": 24,
+      "pano_id": "QuSSqOLSlrETkr2DyqwdEA",
+      "heading": 43.2
+    },
+    {
+      "step_index": 25,
+      "pano_id": "Ji-InoIemh9HFmdaht6cmg",
+      "heading": 43.2
+    },
+    {
+      "step_index": 26,
+      "pano_id": "ezpO-rhMv19sbEEQEW-pbg",
+      "heading": 43.2
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Keep Left [160m] -> Curve Right [90m] -> Stop",
+  "agent_concise_description": "Follow the road, keeping left at the fork to pass the glass 'Mount One' building on your left. Continue as the road curves to the right around the playground. Stop on Wo Muk Road with the red brick Union Plaza building on your right."
+}

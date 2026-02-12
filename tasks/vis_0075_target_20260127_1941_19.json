@@ -1,0 +1,31 @@
+{
+  "task_id": "nav_0075_target_20260124_0302_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_landmark_20260124_030152",
+  "spawn_point": "Pnpke2PqEATXu9NL_zFguA",
+  "spawn_heading": 0.0,
+  "description": "You have arrived at the destination coordinates. The view directly ahead shows a storefront labeled 'Ital Fragranze' at street number 115, located between a window with iron bars on the left and a large stone-framed doorway on the right.",
+  "ground_truth": {
+    "target_name": "Ufficio postale di Roma Camera Deputati",
+    "target_pano_id": "Pnpke2PqEATXu9NL_zFguA",
+    "optimal_distance_meters": 4,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Pnpke2PqEATXu9NL_zFguA"
+  ],
+  "max_steps": 2,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Pnpke2PqEATXu9NL_zFguA",
+      "heading": 0.0
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 4m -> Stop",
+  "agent_concise_description": "You have arrived at the destination coordinates. The view directly ahead shows a storefront labeled 'Ital Fragranze' at street number 115, located between a window with iron bars on the left and a large stone-framed doorway on the right."
+}

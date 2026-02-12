@@ -1,0 +1,91 @@
+{
+  "task_id": "nav_0426_target_20260124_1346_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_134514",
+  "spawn_point": "v-_7UXZJPzu41cD5Yol0yQ",
+  "spawn_heading": 304.6,
+  "description": "Head straight down the narrow street until you reach the intersection with traffic lights at Tokiwacho 3-chome. Turn left onto the wide main road. Continue straight past the CUOCA shop; the entrance to Kannai Station will be on your left.",
+  "ground_truth": {
+    "target_name": "Kannai Station",
+    "target_pano_id": "kt3buu-9qyWNB1cCbYjt7g",
+    "optimal_distance_meters": 101,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "kt3buu-9qyWNB1cCbYjt7g"
+  ],
+  "max_steps": 26,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "v-_7UXZJPzu41cD5Yol0yQ",
+      "heading": 304.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "_Q3UxMkYpYz3UCb_EZsZeQ",
+      "heading": 304.6
+    },
+    {
+      "step_index": 2,
+      "pano_id": "mWDqWqso_ibq_eOJTmbRNQ",
+      "heading": 304.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "T29hwHrV7hSLW8ah3Nuw9w",
+      "heading": 304.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "rOhy9kNT3JQDFQQE3Jmcnw",
+      "heading": 304.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "EbowMGKVFoUcgTfMlafYXg",
+      "heading": 212.9
+    },
+    {
+      "step_index": 6,
+      "pano_id": "7021Qe_lJS9kuquJtaHASA",
+      "heading": 212.9
+    },
+    {
+      "step_index": 7,
+      "pano_id": "pLbFRl2uYhV7o4rVvHBG4Q",
+      "heading": 212.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "8OeC1n7VYMfwlpQhQykOQQ",
+      "heading": 212.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "mvln60BMat8ceq_Vzu4a7Q",
+      "heading": 210.6
+    },
+    {
+      "step_index": 10,
+      "pano_id": "ZaCv2F75wpMN1fMXgtQTFA",
+      "heading": 210.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "-XpI_JlrO-IHwt_kXG4Hhw",
+      "heading": 210.7
+    },
+    {
+      "step_index": 12,
+      "pano_id": "kt3buu-9qyWNB1cCbYjt7g",
+      "heading": 165.2
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 37m -> Turn Left -> Head Straight 64m -> Stop",
+  "agent_concise_description": "Head straight down the narrow street until you reach the intersection with traffic lights at Tokiwacho 3-chome. Turn left onto the wide main road. Continue straight past the CUOCA shop; the entrance to Kannai Station will be on your left."
+}

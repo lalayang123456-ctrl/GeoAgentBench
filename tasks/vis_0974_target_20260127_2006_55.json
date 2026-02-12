@@ -1,0 +1,111 @@
+{
+  "task_id": "nav_0974_target_20260125_0327_12",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260125_032730",
+  "spawn_point": "aJRqRqH0W0EkvTmDY9MWEg",
+  "spawn_heading": 197.4,
+  "description": "Head straight along the road, passing a green car wash structure on your right. Turn right at the intersection with the modern glass building on the corner. Continue straight past the Burger King on your left to arrive at the Shell Express pumps.",
+  "ground_truth": {
+    "target_name": "Shell Express",
+    "target_pano_id": "f-rjRJBDtW3Erv5Yn9TM1g",
+    "optimal_distance_meters": 133,
+    "route_description": "left→straight→right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "f-rjRJBDtW3Erv5Yn9TM1g"
+  ],
+  "max_steps": 34,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "aJRqRqH0W0EkvTmDY9MWEg",
+      "heading": 197.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "aQcmccNyA1k4VGqUv8v80w",
+      "heading": 197.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "kQIfyFd8jYeJbjUGv89JlA",
+      "heading": 196.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "xfmqBae6VxzZmbhJRXPWhA",
+      "heading": 106.5
+    },
+    {
+      "step_index": 4,
+      "pano_id": "XOM2RmoAWQsauuRiOfMrQg",
+      "heading": 107.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "kYGR_RbyvkbcYvEGowBxHQ",
+      "heading": 108.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "m-c2vueubWM8RTUFPMfL_Q",
+      "heading": 108.2
+    },
+    {
+      "step_index": 7,
+      "pano_id": "xXyeIdqMQHP59ZEspKv0wg",
+      "heading": 108.2
+    },
+    {
+      "step_index": 8,
+      "pano_id": "EDrtKVgWKokrMwYeccqypQ",
+      "heading": 106.3
+    },
+    {
+      "step_index": 9,
+      "pano_id": "4fIDHrEDCfjUzmRALrMzAg",
+      "heading": 229.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "8LtaCThFLzTJr22ah5hf7Q",
+      "heading": 196.3
+    },
+    {
+      "step_index": 11,
+      "pano_id": "oRFkZwekHuJQQSEqd-TxEA",
+      "heading": 196.3
+    },
+    {
+      "step_index": 12,
+      "pano_id": "MxcUN_InblV76qPFAbm5qA",
+      "heading": 196.3
+    },
+    {
+      "step_index": 13,
+      "pano_id": "CZfMFBjHvImeJsVV_5qaQQ",
+      "heading": 196.3
+    },
+    {
+      "step_index": 14,
+      "pano_id": "fWyRWMzNuxv-mCkWC1Dftw",
+      "heading": 221.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "tJHmkEtlpuEcOZFn-B92Tw",
+      "heading": 243.7
+    },
+    {
+      "step_index": 16,
+      "pano_id": "f-rjRJBDtW3Erv5Yn9TM1g",
+      "heading": 238.8
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [67m] -> Turn Right -> Head Straight [44m] -> Stop",
+  "agent_concise_description": "Head straight along the road, passing a green car wash structure on your right. Turn right at the intersection with the modern glass building on the corner. Continue straight past the Burger King on your left to arrive at the Shell Express pumps."
+}

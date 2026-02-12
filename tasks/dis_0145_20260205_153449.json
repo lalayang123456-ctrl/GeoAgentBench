@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0145_20260205_153449",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between JD Sports and Holland & Barrett - Northampton in meters.",
+  "spawn_pano_id": "nqtnOS4F5gNMEG0x8e_OkQ",
+  "spawn_heading": 220.8,
+  "pois": [
+    {
+      "name": "JD Sports",
+      "type": "clothing_store",
+      "lat": 52.237975999999996,
+      "lng": -0.8943681,
+      "address": "Grosvenor Centre, 29 Newland, Northampton NN1 2EB, UK",
+      "pano_id": "WYKKcuTQ-hAkRqCyKHRHtQ"
+    },
+    {
+      "name": "Holland & Barrett - Northampton",
+      "type": "food_store",
+      "lat": 52.2383223,
+      "lng": -0.8940880999999999,
+      "address": "25 Abington St, Northampton NN1 2AN, UK",
+      "pano_id": "UwIvn0V8D7MVaevTaqR35A"
+    }
+  ],
+  "geofence_id": "list_perception_1770305689",
+  "ground_truth": {
+    "distance_between_pois_m": 43.0,
+    "bearing_a_to_b_deg": 26.3,
+    "bearing_b_to_a_deg": 206.3
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:34:49.104834",
+    "spawn_location": {
+      "lat": 52.23819027249049,
+      "lng": -0.8940665212573594
+    }
+  }
+}

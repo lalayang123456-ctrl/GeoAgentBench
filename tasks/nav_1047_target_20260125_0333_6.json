@@ -1,0 +1,113 @@
+{
+  "task_id": "nav_1047_target_20260125_0333_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_mcdonalds_20260125_033330",
+  "spawn_point": "tlOFMA_Egpejog2xonNlZA",
+  "spawn_heading": 276.0,
+  "description": "Navigate to McDonald's. Head west for 118m. Turn right for 27m. Turn right Destination will be on the left for 21m. Total distance: approximately 166 m.",
+  "ground_truth": {
+    "target_name": "McDonald's",
+    "target_pano_id": "j5Fz27psK99VQhoTFEWJQQ",
+    "optimal_distance_meters": 166,
+    "route_description": "right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "j5Fz27psK99VQhoTFEWJQQ"
+  ],
+  "max_steps": 36,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "tlOFMA_Egpejog2xonNlZA",
+      "heading": 276.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "T8Z_5NwG2ImKGxvWks0RLQ",
+      "heading": 276.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "VZDRqtzblQ4hoG94ozXbfQ",
+      "heading": 276.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "zyctQIodYgDJ3WbX9CeM_w",
+      "heading": 276.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "Dt79u5VJ3asZOYGE-1Mj0w",
+      "heading": 275.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "iR71T8tF6scmJmDQ7QWu-g",
+      "heading": 275.8
+    },
+    {
+      "step_index": 6,
+      "pano_id": "4Ki-01O5At19JWf0CckNcQ",
+      "heading": 275.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "Xrx16LpoUBypSZkj4cKyfA",
+      "heading": 276.1
+    },
+    {
+      "step_index": 8,
+      "pano_id": "2gprtmKzdj-g825nr48mzQ",
+      "heading": 277.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "t3M8aouJGNkM5aw-D4A_MQ",
+      "heading": 277.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "Q-sBMiW4JS1zcVLb4awAIQ",
+      "heading": 277.8
+    },
+    {
+      "step_index": 11,
+      "pano_id": "LKXa3t-dKOjo_Ax-Y7P8ZQ",
+      "heading": 278.2
+    },
+    {
+      "step_index": 12,
+      "pano_id": "N7bIfsGk2i2YKBAsDcEauw",
+      "heading": 278.2
+    },
+    {
+      "step_index": 13,
+      "pano_id": "uZjdwDe41w0dqmDh9WrTiA",
+      "heading": 273.9
+    },
+    {
+      "step_index": 14,
+      "pano_id": "LSgG_sgUJN_uD4hZ7TvXmw",
+      "heading": 354.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "_DbmPCvkGEAVtYucDzzm_Q",
+      "heading": 354.5
+    },
+    {
+      "step_index": 16,
+      "pano_id": "eY1NsoPiIOuJ-wzyGAvk8Q",
+      "heading": 354.4
+    },
+    {
+      "step_index": 17,
+      "pano_id": "j5Fz27psK99VQhoTFEWJQQ",
+      "heading": 354.5
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

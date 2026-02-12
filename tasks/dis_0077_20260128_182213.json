@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0077_20260128_182213",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between Apple Glasgow and Starbucks Coffee in meters.",
+  "spawn_pano_id": "1zwlgIABWy41lOEs3wRBbQ",
+  "spawn_heading": 240.6,
+  "pois": [
+    {
+      "name": "Apple Glasgow",
+      "type": "electronics_store",
+      "lat": 55.861465100000004,
+      "lng": -4.2540586,
+      "address": "147 Buchanan St, Glasgow G1 2JX, UK",
+      "pano_id": "TJnHvDqW9usOdG6_fj4DBw"
+    },
+    {
+      "name": "Starbucks Coffee",
+      "type": "coffee_shop",
+      "lat": 55.8614725,
+      "lng": -4.253541300000001,
+      "address": "136-140 Buchanan St, Glasgow G1 2JA, UK",
+      "pano_id": "TJnHvDqW9usOdG6_fj4DBw"
+    }
+  ],
+  "geofence_id": "list_perception_1769595733",
+  "ground_truth": {
+    "distance_between_pois_m": 32.3,
+    "bearing_a_to_b_deg": 88.5,
+    "bearing_b_to_a_deg": 268.5
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:22:13.987365",
+    "spawn_location": {
+      "lat": 55.86157913588999,
+      "lng": -4.25369766152167
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "task_id": "nav_0375_target_20260124_1325_10",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_132400",
+  "spawn_point": "vPUILEOCxXFkQEScptl0bw",
+  "spawn_heading": 180.9,
+  "description": "Navigate to McDonald's Changchun. Head south for 88m. Turn left for 13m. Total distance: approximately 101 m.",
+  "ground_truth": {
+    "target_name": "McDonald's Changchun",
+    "target_pano_id": "PCC5s5ys6xfvmG1x7esn5g",
+    "optimal_distance_meters": 101,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "PCC5s5ys6xfvmG1x7esn5g"
+  ],
+  "max_steps": 26,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "vPUILEOCxXFkQEScptl0bw",
+      "heading": 180.9
+    },
+    {
+      "step_index": 1,
+      "pano_id": "z135dZdWBXNg8q5txT3m0Q",
+      "heading": 180.9
+    },
+    {
+      "step_index": 2,
+      "pano_id": "fNooEWCsn9JPpl26N346tQ",
+      "heading": 180.9
+    },
+    {
+      "step_index": 3,
+      "pano_id": "wEU053Rjc5Rax5fvP4aHYQ",
+      "heading": 180.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "aTMhcS4zu9tdSkJ71fRkFg",
+      "heading": 180.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "tHmlyueEEQJCY9YbJG_z2w",
+      "heading": 180.9
+    },
+    {
+      "step_index": 6,
+      "pano_id": "o5FIMpK51vO4Jid1v4EOfA",
+      "heading": 180.9
+    },
+    {
+      "step_index": 7,
+      "pano_id": "1opam4kl8znQ1JA3uOGEhw",
+      "heading": 180.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "iT9C0CJ4c2bsnOvaQ0lc9w",
+      "heading": 180.9
+    },
+    {
+      "step_index": 9,
+      "pano_id": "dNMmjR-HdSZZOeix6ga3Ig",
+      "heading": 181.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "XeesyocJNpiizFNWKiIdWw",
+      "heading": 143.9
+    },
+    {
+      "step_index": 11,
+      "pano_id": "Xzb8myU4kyglhKKF9o8EzA",
+      "heading": 191.1
+    },
+    {
+      "step_index": 12,
+      "pano_id": "PCC5s5ys6xfvmG1x7esn5g",
+      "heading": 179.4
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

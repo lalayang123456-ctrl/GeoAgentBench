@@ -1,0 +1,166 @@
+{
+  "task_id": "nav_0637_target_20260124_1532_2",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_service_20260124_153137",
+  "spawn_point": "YEXo9anAzJRUpJxITMhBoQ",
+  "spawn_heading": 186.8,
+  "description": "Head straight along the street, passing a SPAR supermarket and Mercure Hotel on the right. Continue forward past the building with red and white geometric patterns on the left. The destination, Raiffeisen Stadtbank, is the large glass building located on the left corner at the intersection.",
+  "ground_truth": {
+    "target_name": "Raiffeisen Stadtbank - F.-W.-Raiffeisen-Platz",
+    "target_pano_id": "jySjyjff16PV2vm0gKTulg",
+    "optimal_distance_meters": 293,
+    "route_description": "straight→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "jySjyjff16PV2vm0gKTulg"
+  ],
+  "max_steps": 56,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "YEXo9anAzJRUpJxITMhBoQ",
+      "heading": 186.8
+    },
+    {
+      "step_index": 1,
+      "pano_id": "3NOjAXZR7HmybXQDxopQNg",
+      "heading": 186.8
+    },
+    {
+      "step_index": 2,
+      "pano_id": "Gegm2xu1da08huzGwHsHcA",
+      "heading": 193.9
+    },
+    {
+      "step_index": 3,
+      "pano_id": "JS9fbAW3YPUwArKa6dilpQ",
+      "heading": 197.2
+    },
+    {
+      "step_index": 4,
+      "pano_id": "2Py71z1AKVyY0p582NBiTw",
+      "heading": 200.0
+    },
+    {
+      "step_index": 5,
+      "pano_id": "vMA5Xddeawr090yaIvaR0Q",
+      "heading": 200.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "Q5uqkf55GrhFmWHwtT14Ng",
+      "heading": 201.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "jqerLTa3NH14nO-KQwTjiw",
+      "heading": 204.1
+    },
+    {
+      "step_index": 8,
+      "pano_id": "aBnr1dQ2h0iiswnzENMotw",
+      "heading": 204.1
+    },
+    {
+      "step_index": 9,
+      "pano_id": "mDm6tYubb5q1wBvzgVG1tg",
+      "heading": 210.2
+    },
+    {
+      "step_index": 10,
+      "pano_id": "nQH2NwtDjNC4hYIn7f8acQ",
+      "heading": 210.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "eb85boOdtdJ6hVTWX4rF9g",
+      "heading": 210.8
+    },
+    {
+      "step_index": 12,
+      "pano_id": "F-bRIKax2365Z4W1zgbdLA",
+      "heading": 210.8
+    },
+    {
+      "step_index": 13,
+      "pano_id": "xxrMmJWWFVU_8eV0CnouDw",
+      "heading": 210.7
+    },
+    {
+      "step_index": 14,
+      "pano_id": "1RxcaYzRsjdmu_lC9iuwmA",
+      "heading": 210.8
+    },
+    {
+      "step_index": 15,
+      "pano_id": "lUPYRbSzEcKn47y5JQJRUQ",
+      "heading": 210.7
+    },
+    {
+      "step_index": 16,
+      "pano_id": "VGBAjWpuOk7ko0TRFohjNQ",
+      "heading": 210.8
+    },
+    {
+      "step_index": 17,
+      "pano_id": "zgjJOhOAnd08yGP3y3_p8g",
+      "heading": 210.8
+    },
+    {
+      "step_index": 18,
+      "pano_id": "5qW29BlmTnnm0Ddqz1funw",
+      "heading": 210.8
+    },
+    {
+      "step_index": 19,
+      "pano_id": "IOZnCuZpjc2nNySFiD03qA",
+      "heading": 210.8
+    },
+    {
+      "step_index": 20,
+      "pano_id": "AqK1S_rESxUTQndZ7FOrxA",
+      "heading": 210.8
+    },
+    {
+      "step_index": 21,
+      "pano_id": "8ptGjSH7nPUYzLHiR616kg",
+      "heading": 211.2
+    },
+    {
+      "step_index": 22,
+      "pano_id": "5H31S3H3vd0mMw14y0l1Dg",
+      "heading": 211.7
+    },
+    {
+      "step_index": 23,
+      "pano_id": "-wkfv3r9zA5uNEYxXEtaxQ",
+      "heading": 211.1
+    },
+    {
+      "step_index": 24,
+      "pano_id": "1ALRBXS3okPFszEdu6vGFQ",
+      "heading": 209.6
+    },
+    {
+      "step_index": 25,
+      "pano_id": "IHSGZHuP7uAPZYA1LGsF4A",
+      "heading": 209.6
+    },
+    {
+      "step_index": 26,
+      "pano_id": "Ut5IqN4qOl_8iCpLRUpFpQ",
+      "heading": 209.6
+    },
+    {
+      "step_index": 27,
+      "pano_id": "jySjyjff16PV2vm0gKTulg",
+      "heading": 211.7
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 265m -> Stop",
+  "agent_concise_description": "Head straight along the street, passing a SPAR supermarket and Mercure Hotel on the right. Continue forward past the building with red and white geometric patterns on the left. The destination, Raiffeisen Stadtbank, is the large glass building located on the left corner at the intersection."
+}

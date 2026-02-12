@@ -1,0 +1,101 @@
+{
+  "task_id": "nav_0332_target_20260124_1244_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_gas_station_20260124_124245",
+  "spawn_point": "jl96R02_fD0ugUEI_3gh_g",
+  "spawn_heading": 269.3,
+  "description": "",
+  "ground_truth": {
+    "target_name": "The PRIDE of Chicago",
+    "target_pano_id": "F12YKJWH-4Vlourepyp6gQ",
+    "optimal_distance_meters": 170,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "F12YKJWH-4Vlourepyp6gQ"
+  ],
+  "max_steps": 30,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "jl96R02_fD0ugUEI_3gh_g",
+      "heading": 269.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "ZUKOGmGMQuuXEP0qFdi_Nw",
+      "heading": 269.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "XulignrZpp8zp4WB6ybj6w",
+      "heading": 268.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "s7ZONhatKjnkGNfrQ-W9qg",
+      "heading": 268.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "bNUJeO-LUIU9HMwbGIxAmQ",
+      "heading": 269.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "mLIqene689K2aPcs8tQStQ",
+      "heading": 271.1
+    },
+    {
+      "step_index": 6,
+      "pano_id": "IW4jBMVJxwv38terLLaJEQ",
+      "heading": 268.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "Bp6jP7auOC-eVOEitD4rwA",
+      "heading": 268.8
+    },
+    {
+      "step_index": 8,
+      "pano_id": "bf3u2DUXbr3WAFP8WzVnMA",
+      "heading": 268.8
+    },
+    {
+      "step_index": 9,
+      "pano_id": "riDulHyhuCLzR0vfckZWsQ",
+      "heading": 269.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "T8uDp6QjXyctrxuIrvgWPw",
+      "heading": 238.9
+    },
+    {
+      "step_index": 11,
+      "pano_id": "gSBp4WBZ5IGl45x93MEE_w",
+      "heading": 180.9
+    },
+    {
+      "step_index": 12,
+      "pano_id": "T2_V6sU2AodYAuKCPT6UbQ",
+      "heading": 180.2
+    },
+    {
+      "step_index": 13,
+      "pano_id": "d44dD5iHDHuJHiL5ZuDXFA",
+      "heading": 179.3
+    },
+    {
+      "step_index": 14,
+      "pano_id": "F12YKJWH-4Vlourepyp6gQ",
+      "heading": 179.3
+    }
+  ],
+  "agent_verification": "UNKNOWN",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "UNKNOWN",
+  "agent_concise_description": ""
+}

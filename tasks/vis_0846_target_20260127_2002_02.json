@@ -1,0 +1,56 @@
+{
+  "task_id": "nav_0846_target_20260125_0315_19",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260125_031453",
+  "spawn_point": "8jqdvYxD5tvuTKONucypbw",
+  "spawn_heading": 252.2,
+  "description": "Start at the intersection with the Institut Moisès Broggi on the right. Head straight down the tree-lined street, passing a red bus parked on the right side. Continue forward past the Buscaté cafe on the right.",
+  "ground_truth": {
+    "target_name": "Cinemateca",
+    "target_pano_id": "n10SSNGU9gZI38YTv_2jGg",
+    "optimal_distance_meters": 22,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "n10SSNGU9gZI38YTv_2jGg"
+  ],
+  "max_steps": 12,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "8jqdvYxD5tvuTKONucypbw",
+      "heading": 252.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "Of5kd6T-BOxyDXElNyn8hw",
+      "heading": 252.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "FD7-PElQtVA7LLLv_OK3lQ",
+      "heading": 136.3
+    },
+    {
+      "step_index": 3,
+      "pano_id": "F9_mx9-HHl2ov3wjAbW8ug",
+      "heading": 136.8
+    },
+    {
+      "step_index": 4,
+      "pano_id": "SRoDw28f5LGl04u-gNWiLQ",
+      "heading": 136.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "n10SSNGU9gZI38YTv_2jGg",
+      "heading": 135.2
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 100m -> Stop",
+  "agent_concise_description": "Start at the intersection with the Institut Moisès Broggi on the right. Head straight down the tree-lined street, passing a red bus parked on the right side. Continue forward past the Buscaté cafe on the right."
+}

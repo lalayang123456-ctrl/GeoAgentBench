@@ -1,0 +1,36 @@
+{
+  "task_id": "nav_0639_target_20260124_1532_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_service_20260124_153137",
+  "spawn_point": "aBnr1dQ2h0iiswnzENMotw",
+  "spawn_heading": 210.2,
+  "description": "Head straight along the street, crossing the pedestrian crosswalk. The destination, SPAR, is located immediately on the right, marked by a large red and white sign.",
+  "ground_truth": {
+    "target_name": "SPAR",
+    "target_pano_id": "mDm6tYubb5q1wBvzgVG1tg",
+    "optimal_distance_meters": 6,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "mDm6tYubb5q1wBvzgVG1tg"
+  ],
+  "max_steps": 4,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "aBnr1dQ2h0iiswnzENMotw",
+      "heading": 210.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "mDm6tYubb5q1wBvzgVG1tg",
+      "heading": 210.2
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 10m -> Stop",
+  "agent_concise_description": "Head straight along the street, crossing the pedestrian crosswalk. The destination, SPAR, is located immediately on the right, marked by a large red and white sign."
+}

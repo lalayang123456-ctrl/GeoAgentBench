@@ -1,0 +1,63 @@
+{
+  "task_id": "nav_0758_target_20260124_1604_24",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260124_160317",
+  "spawn_point": "dug1t4fansVNYqBZqYf72w",
+  "spawn_heading": 16.5,
+  "description": "Navigate to Bus stop on Wo Muk Road westbound at Union Plaza in Fanling. Head northwest for 59m. Total distance: approximately 59 m.",
+  "ground_truth": {
+    "target_name": "Bus stop on Wo Muk Road westbound at Union Plaza in Fanling",
+    "target_pano_id": "HdB7qZn2CFI50LFhCvKdpg",
+    "optimal_distance_meters": 59,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "HdB7qZn2CFI50LFhCvKdpg"
+  ],
+  "max_steps": 16,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "dug1t4fansVNYqBZqYf72w",
+      "heading": 16.5
+    },
+    {
+      "step_index": 1,
+      "pano_id": "SwKZBUryUVbRr4wz_ANBcA",
+      "heading": 16.5
+    },
+    {
+      "step_index": 2,
+      "pano_id": "V8xaUmBPpLRCH7Nm8y8Ztw",
+      "heading": 313.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "xw2ODkfgUbaK0DaJ3zk_3w",
+      "heading": 313.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "SG8PfWz2xYg-R3jeDj6bfQ",
+      "heading": 314.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "2K5s-39OCajI1GEGSGf1JA",
+      "heading": 314.8
+    },
+    {
+      "step_index": 6,
+      "pano_id": "i-JPJU6BnDrlQAMIKAnMYg",
+      "heading": 317.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "HdB7qZn2CFI50LFhCvKdpg",
+      "heading": 317.8
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

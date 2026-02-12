@@ -1,0 +1,63 @@
+{
+  "task_id": "nav_0885_target_20260125_0318_13",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260125_031803",
+  "spawn_point": "XnMTEgayHQ5qayhqPZG0ng",
+  "spawn_heading": 39.4,
+  "description": "Navigate to ATM Popular. Head northeast/PR-37 for 55m. Turn left for 50m. Turn left Destination will be on the left for 18m. Total distance: approximately 123 m.",
+  "ground_truth": {
+    "target_name": "ATM Popular",
+    "target_pano_id": "FoBgRfD4czdRhpbHMtBhZg",
+    "optimal_distance_meters": 123,
+    "route_description": "left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "FoBgRfD4czdRhpbHMtBhZg"
+  ],
+  "max_steps": 16,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "XnMTEgayHQ5qayhqPZG0ng",
+      "heading": 39.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "EGQ1issjmegsOFjA9TPKMQ",
+      "heading": 39.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "rFKe9fGVBxE1k1KiKb_Amw",
+      "heading": 39.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "OmizGjZxnFnOOydPla8uYw",
+      "heading": 39.3
+    },
+    {
+      "step_index": 4,
+      "pano_id": "H2XivCxe1JlJc2nzvy2Jxg",
+      "heading": 39.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "aVhKG9vcVLqRW-vLSSkdKg",
+      "heading": 39.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "YdebY3BdEjSEBX2jlNoEpA",
+      "heading": 41.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "FoBgRfD4czdRhpbHMtBhZg",
+      "heading": 42.2
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

@@ -1,0 +1,171 @@
+{
+  "task_id": "nav_0164_target_20260124_0936_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_restaurant_20260124_093541",
+  "spawn_point": "UnsB4b3eXrz3_1fF4dQG5A",
+  "spawn_heading": 18.0,
+  "description": "Head straight on the main road, passing under the bridge and the overhead gantry. Continue straight through the intersection, keeping the KFC on your left. The destination, Shell Ellis Park Auto, is on the right.",
+  "ground_truth": {
+    "target_name": "Shell Ellis Park Auto",
+    "target_pano_id": "8kxR2uYTNoe-j37kjb2CWA",
+    "optimal_distance_meters": 213,
+    "route_description": "left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "8kxR2uYTNoe-j37kjb2CWA"
+  ],
+  "max_steps": 58,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "UnsB4b3eXrz3_1fF4dQG5A",
+      "heading": 18.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "8J5UOrtBZhLTXPjjh7jFSg",
+      "heading": 18.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "Ps-GgN3wfxpBM2C4Jyhz8w",
+      "heading": 17.9
+    },
+    {
+      "step_index": 3,
+      "pano_id": "tLxrooeryIMBt_4el668rQ",
+      "heading": 18.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "TUtTfNgIAL274uea1aEy7Q",
+      "heading": 18.0
+    },
+    {
+      "step_index": 5,
+      "pano_id": "CKmSisgS-FwMqAYUWnFs4w",
+      "heading": 18.0
+    },
+    {
+      "step_index": 6,
+      "pano_id": "RMLVgQk-vqIFyRv7pY5_6g",
+      "heading": 18.0
+    },
+    {
+      "step_index": 7,
+      "pano_id": "e15mP5sYS-nfHiFHS4xibA",
+      "heading": 18.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "HUFB4IOKLCT7n9zrZut2ag",
+      "heading": 18.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "qwIV-sV_WeT744PYomfRBw",
+      "heading": 18.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "3yRmssrvMDkg0WZkgDvNgw",
+      "heading": 17.9
+    },
+    {
+      "step_index": 11,
+      "pano_id": "kJovw1jzqOB9PCOvSqTyVQ",
+      "heading": 18.0
+    },
+    {
+      "step_index": 12,
+      "pano_id": "kYZ3b0RLrUSUgGlJv35qqw",
+      "heading": 17.9
+    },
+    {
+      "step_index": 13,
+      "pano_id": "eYddWapzqo9R_i5ufOkkUQ",
+      "heading": 287.7
+    },
+    {
+      "step_index": 14,
+      "pano_id": "K8vlx2GyZMFhMI8ie12Y9A",
+      "heading": 287.6
+    },
+    {
+      "step_index": 15,
+      "pano_id": "0APGTq3BiMMTrK5XSm4M5w",
+      "heading": 287.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "kiUN4IBT8cuPkbNRZspJPQ",
+      "heading": 287.9
+    },
+    {
+      "step_index": 17,
+      "pano_id": "DeFISKZ22jP8hwBz_uGlKQ",
+      "heading": 288.7
+    },
+    {
+      "step_index": 18,
+      "pano_id": "lJSqU9cFfZFenka1V60QKQ",
+      "heading": 288.7
+    },
+    {
+      "step_index": 19,
+      "pano_id": "ugARuSht9_fSvPC6SpzsOA",
+      "heading": 288.7
+    },
+    {
+      "step_index": 20,
+      "pano_id": "sDwmhOOCtW3YVsrcxWz1yw",
+      "heading": 288.7
+    },
+    {
+      "step_index": 21,
+      "pano_id": "iEmiKNdX3skNf48CEAbdhQ",
+      "heading": 288.7
+    },
+    {
+      "step_index": 22,
+      "pano_id": "Bo9VnlUGMzt4_4HrsggSfQ",
+      "heading": 333.7
+    },
+    {
+      "step_index": 23,
+      "pano_id": "aZ2kq4LRRHI_YIC6Uvb7Kw",
+      "heading": 18.1
+    },
+    {
+      "step_index": 24,
+      "pano_id": "SsPW53mNmbJMcPCeNkl9WQ",
+      "heading": 18.0
+    },
+    {
+      "step_index": 25,
+      "pano_id": "g6wmTcbI5mDUtl17ihGT2Q",
+      "heading": 18.0
+    },
+    {
+      "step_index": 26,
+      "pano_id": "CLwNmvJWFgPLjoT9GO5u8w",
+      "heading": 18.0
+    },
+    {
+      "step_index": 27,
+      "pano_id": "xXo3RL1PbvJtqOiwnx-hMg",
+      "heading": 18.2
+    },
+    {
+      "step_index": 28,
+      "pano_id": "8kxR2uYTNoe-j37kjb2CWA",
+      "heading": 18.2
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [210m] -> Stop",
+  "agent_concise_description": "Head straight on the main road, passing under the bridge and the overhead gantry. Continue straight through the intersection, keeping the KFC on your left. The destination, Shell Ellis Park Auto, is on the right."
+}

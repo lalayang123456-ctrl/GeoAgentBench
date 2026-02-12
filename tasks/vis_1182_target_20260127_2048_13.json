@@ -1,0 +1,106 @@
+{
+  "task_id": "nav_1182_target_20260125_0352_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260125_035137",
+  "spawn_point": "r_ozwSoAmo--Rc0u069gQw",
+  "spawn_heading": 34.9,
+  "description": "Start with the YapıKredi and Akbank ATMs on your left and proceed straight along the tram tracks, heading towards the Hagia Sophia visible in the distance. Continue following the tram tracks as they curve slightly left and descend the hill, passing a stone wall on your right.",
+  "ground_truth": {
+    "target_name": "Bbva",
+    "target_pano_id": "cOCLASQPq0j87KJEho9V0g",
+    "optimal_distance_meters": 143,
+    "route_description": "right→straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "cOCLASQPq0j87KJEho9V0g"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "r_ozwSoAmo--Rc0u069gQw",
+      "heading": 34.9
+    },
+    {
+      "step_index": 1,
+      "pano_id": "ANB_XB0Ez0nOjACF16C6ZA",
+      "heading": 34.9
+    },
+    {
+      "step_index": 2,
+      "pano_id": "OFFYn5BUf4ub00ar38vElQ",
+      "heading": 53.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "8DUqR6WzshgSILf6nVXuWg",
+      "heading": 57.1
+    },
+    {
+      "step_index": 4,
+      "pano_id": "1HJsha-tMM5VhWoK21AacQ",
+      "heading": 57.2
+    },
+    {
+      "step_index": 5,
+      "pano_id": "5vKJrZExCUQ-Yf9Ed6piPw",
+      "heading": 18.9
+    },
+    {
+      "step_index": 6,
+      "pano_id": "3c8R_xG4AikomY6iqNK2dQ",
+      "heading": 334.6
+    },
+    {
+      "step_index": 7,
+      "pano_id": "OfOnCJq9dPK5S9Ug7UTZZA",
+      "heading": 109.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "VwkraLoWy-CaFqEzek2uFQ",
+      "heading": 81.2
+    },
+    {
+      "step_index": 9,
+      "pano_id": "NWcHMrkLTLK54gzDsClOTQ",
+      "heading": 65.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "QkwsotaN6BsjLjLMXsiZtQ",
+      "heading": 58.2
+    },
+    {
+      "step_index": 11,
+      "pano_id": "ucJinG4jL0cwPbDPldZr-A",
+      "heading": 54.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "orKTpWTls8UlnungNg7dkw",
+      "heading": 44.0
+    },
+    {
+      "step_index": 13,
+      "pano_id": "cxGv8f6gkzSr9FJhkRKSOg",
+      "heading": 22.9
+    },
+    {
+      "step_index": 14,
+      "pano_id": "nHq0n0B1G-gqnJUdobHhBA",
+      "heading": 15.8
+    },
+    {
+      "step_index": 15,
+      "pano_id": "cOCLASQPq0j87KJEho9V0g",
+      "heading": 20.8
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 140m",
+  "agent_concise_description": "Start with the YapıKredi and Akbank ATMs on your left and proceed straight along the tram tracks, heading towards the Hagia Sophia visible in the distance. Continue following the tram tracks as they curve slightly left and descend the hill, passing a stone wall on your right."
+}

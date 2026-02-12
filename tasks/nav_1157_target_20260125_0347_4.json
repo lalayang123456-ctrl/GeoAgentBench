@@ -1,0 +1,143 @@
+{
+  "task_id": "nav_1157_target_20260125_0347_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260125_034719",
+  "spawn_point": "J1BQHIJCieDTSrsp2C409w",
+  "spawn_heading": 174.1,
+  "description": "Navigate to Rua Mateus Leme, 477. Head south for 223m. Total distance: approximately 223 m.",
+  "ground_truth": {
+    "target_name": "Rua Mateus Leme, 477",
+    "target_pano_id": "qRk0Xl7UR4k0QAgST9m9Kw",
+    "optimal_distance_meters": 223,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "qRk0Xl7UR4k0QAgST9m9Kw"
+  ],
+  "max_steps": 48,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "J1BQHIJCieDTSrsp2C409w",
+      "heading": 174.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "rD925q3LNgFOt2_ai95kLg",
+      "heading": 174.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "_KzPPunAWsSMp2PHAR8stQ",
+      "heading": 176.3
+    },
+    {
+      "step_index": 3,
+      "pano_id": "9bK-idWtvVaTK70JHRSs7Q",
+      "heading": 175.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "D6iuwiBAMJZa5tA51n895g",
+      "heading": 173.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "EAl-2G0Oeqk2nW4bFmo9lw",
+      "heading": 173.4
+    },
+    {
+      "step_index": 6,
+      "pano_id": "f6slnB9AkTsHskfCOuADXA",
+      "heading": 173.5
+    },
+    {
+      "step_index": 7,
+      "pano_id": "Px5SFSg6y56zd2reheKkBw",
+      "heading": 173.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "IlUeeNnysYY2pRBK3M1Y5g",
+      "heading": 173.6
+    },
+    {
+      "step_index": 9,
+      "pano_id": "8D81V__8voGY--_QG2cABA",
+      "heading": 174.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "hjjFIbRVMW9b7uC62Ug91A",
+      "heading": 182.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "I_73JXi6khvzAxsMdvS6QQ",
+      "heading": 189.1
+    },
+    {
+      "step_index": 12,
+      "pano_id": "Eg6V3RquOlWNqur3anCJCw",
+      "heading": 191.4
+    },
+    {
+      "step_index": 13,
+      "pano_id": "ijVwGAK3gaA3_PXtvkzEPg",
+      "heading": 191.7
+    },
+    {
+      "step_index": 14,
+      "pano_id": "xLjD9DqtBSO7aWXVRyv6eA",
+      "heading": 191.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "peMQcFiPPiwpznR1NJixpg",
+      "heading": 191.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "LwkxQC9I4wXujZ5lWwP20A",
+      "heading": 191.7
+    },
+    {
+      "step_index": 17,
+      "pano_id": "-yC8kuEXrAprGvh3FUynLg",
+      "heading": 191.6
+    },
+    {
+      "step_index": 18,
+      "pano_id": "W4c12W2fSr3z4F4z2WVn9Q",
+      "heading": 191.7
+    },
+    {
+      "step_index": 19,
+      "pano_id": "snHMYLx-WiF4PYr8iRjjxg",
+      "heading": 191.6
+    },
+    {
+      "step_index": 20,
+      "pano_id": "c4gvYZCm0ca4vjH3K3SWLQ",
+      "heading": 191.3
+    },
+    {
+      "step_index": 21,
+      "pano_id": "O2n2cqKa5cgpfNYRLE3r9A",
+      "heading": 191.3
+    },
+    {
+      "step_index": 22,
+      "pano_id": "SLt8PD75JkmG4z0_DgmauA",
+      "heading": 191.3
+    },
+    {
+      "step_index": 23,
+      "pano_id": "qRk0Xl7UR4k0QAgST9m9Kw",
+      "heading": 191.3
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

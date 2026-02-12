@@ -1,0 +1,53 @@
+{
+  "task_id": "nav_0433_target_20260124_1346_11",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_134514",
+  "spawn_point": "DPzdIqcFVm54zmKhq7mNnA",
+  "spawn_heading": 211.6,
+  "description": "Navigate to 尾上町（バス）. Head southwest・3・5号横浜鎌倉線/鎌倉街道/関内大通り/県道21号 for 35m. Total distance: approximately 35 m.",
+  "ground_truth": {
+    "target_name": "尾上町（バス）",
+    "target_pano_id": "mfQaEXZaN-KYBBjsf419mw",
+    "optimal_distance_meters": 35,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "mfQaEXZaN-KYBBjsf419mw"
+  ],
+  "max_steps": 12,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "DPzdIqcFVm54zmKhq7mNnA",
+      "heading": 211.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "Lx5Z35zyj_eEJ9PEZLtCvg",
+      "heading": 211.6
+    },
+    {
+      "step_index": 2,
+      "pano_id": "K02cAp788ju2dQ1n3d8tdA",
+      "heading": 211.6
+    },
+    {
+      "step_index": 3,
+      "pano_id": "J-_VEQFarIyGL2UYmkCcFw",
+      "heading": 212.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "dmShWYA0DhyvOty3r9dBVw",
+      "heading": 211.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "mfQaEXZaN-KYBBjsf419mw",
+      "heading": 211.9
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

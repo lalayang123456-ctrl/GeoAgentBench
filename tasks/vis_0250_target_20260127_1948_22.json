@@ -1,0 +1,126 @@
+{
+  "task_id": "nav_0250_target_20260124_1203_14",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_120119",
+  "spawn_point": "Gv3nZ86GVfwL3u6ms5I5Sg",
+  "spawn_heading": 343.0,
+  "description": "Head north along the main road, passing the large brick Inouye Eye Hospital on the left. Turn left at the Hijiribashi intersection. Continue straight down the street, passing Starbucks on the left and Hidakaya on the right, then stop on the path.",
+  "ground_truth": {
+    "target_name": "Lawson Ochanomizu Saint Clair Shop",
+    "target_pano_id": "T9_SA2THN6ObLkRvLUlyxA",
+    "optimal_distance_meters": 197,
+    "route_description": "left→left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "T9_SA2THN6ObLkRvLUlyxA"
+  ],
+  "max_steps": 40,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Gv3nZ86GVfwL3u6ms5I5Sg",
+      "heading": 343.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "V2ZoTJKifV1wPcyIKQZZCw",
+      "heading": 343.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "luqCHGsRC40OnWGsXPYk6w",
+      "heading": 343.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "j1PRaI3g842n33J0XpnM9w",
+      "heading": 343.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "Z-qZOFR4kOHX3TJQNRptYw",
+      "heading": 342.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "nCSsUpuf2jqBnZcV6S4N9A",
+      "heading": 341.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "hMMP7HafJCX0z3xxnNWu0w",
+      "heading": 341.3
+    },
+    {
+      "step_index": 7,
+      "pano_id": "iBlmjczQN_IdjtFdjFFoQw",
+      "heading": 341.2
+    },
+    {
+      "step_index": 8,
+      "pano_id": "AgPM5kZO4XOagcDxeiptSw",
+      "heading": 343.8
+    },
+    {
+      "step_index": 9,
+      "pano_id": "33GSXbuO0Hi03djrJWzZCw",
+      "heading": 12.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "-cDZaeOh-LRMoEFXo1nRJg",
+      "heading": 279.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "kEz53LxEJQDw3O-rFKReDw",
+      "heading": 284.3
+    },
+    {
+      "step_index": 12,
+      "pano_id": "tss7GzVttXFeUwmSLe6CZA",
+      "heading": 283.9
+    },
+    {
+      "step_index": 13,
+      "pano_id": "0o0WtPksY9DF_jx3kxKEWw",
+      "heading": 282.3
+    },
+    {
+      "step_index": 14,
+      "pano_id": "Heskm1LsHl4EwR5l7JDaHA",
+      "heading": 282.2
+    },
+    {
+      "step_index": 15,
+      "pano_id": "mNHoNBGKVUFT12HL659edw",
+      "heading": 282.2
+    },
+    {
+      "step_index": 16,
+      "pano_id": "Pa8wwywIskLyjNKsYFpkjw",
+      "heading": 282.2
+    },
+    {
+      "step_index": 17,
+      "pano_id": "9xfMD5ssBDnJiTTxMgqQIQ",
+      "heading": 228.1
+    },
+    {
+      "step_index": 18,
+      "pano_id": "F2UI45gBRGcZllwhOFWmJQ",
+      "heading": 202.4
+    },
+    {
+      "step_index": 19,
+      "pano_id": "T9_SA2THN6ObLkRvLUlyxA",
+      "heading": 202.4
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 100m -> Turn Left -> Head Straight 100m -> Stop",
+  "agent_concise_description": "Head north along the main road, passing the large brick Inouye Eye Hospital on the left. Turn left at the Hijiribashi intersection. Continue straight down the street, passing Starbucks on the left and Hidakaya on the right, then stop on the path."
+}

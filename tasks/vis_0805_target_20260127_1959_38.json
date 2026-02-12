@@ -1,0 +1,111 @@
+{
+  "task_id": "nav_0805_target_20260125_0311_2",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_gas_station_20260125_031103",
+  "spawn_point": "2janHRZGs77ysgPjeKBZbQ",
+  "spawn_heading": 82.3,
+  "description": "Head straight along the road, keeping the park and playground on your left and the brick buildings on your right. Continue past the yellow diamond sign and the 'LENTO' road markings. Stop at the intersection near the red corner building.",
+  "ground_truth": {
+    "target_name": "Intergas",
+    "target_pano_id": "jsi0BfctA6T3y8_VivDr0w",
+    "optimal_distance_meters": 146,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "jsi0BfctA6T3y8_VivDr0w"
+  ],
+  "max_steps": 34,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "2janHRZGs77ysgPjeKBZbQ",
+      "heading": 82.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "DHJxZTUN6QEzygRWPmpM0w",
+      "heading": 82.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "Pf54q6vtvgJ-DM5UjP5WPw",
+      "heading": 82.3
+    },
+    {
+      "step_index": 3,
+      "pano_id": "NRpippsXoAGK5J67YQhhIg",
+      "heading": 82.2
+    },
+    {
+      "step_index": 4,
+      "pano_id": "8_y0UOciP5Y5eLU4yn_zew",
+      "heading": 82.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "uJp2kp-6P-mjSCL8J-GfXg",
+      "heading": 82.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "ykzovXZTKCYnWFXKn9dqhQ",
+      "heading": 82.3
+    },
+    {
+      "step_index": 7,
+      "pano_id": "A7bz3r2Q1G3gkYQFsG6jhA",
+      "heading": 82.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "qEKi18mv4R4ZZ2IldPRCig",
+      "heading": 82.3
+    },
+    {
+      "step_index": 9,
+      "pano_id": "I7-t1Vfh70UEHcnh1VsEUg",
+      "heading": 82.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "IybdDuI_qKpBSM3NWsOKAA",
+      "heading": 82.3
+    },
+    {
+      "step_index": 11,
+      "pano_id": "ufuk6rxWSGMM08r9XT-TtQ",
+      "heading": 82.3
+    },
+    {
+      "step_index": 12,
+      "pano_id": "ivmCinDOU4fre7-l62FvTw",
+      "heading": 82.3
+    },
+    {
+      "step_index": 13,
+      "pano_id": "5Y2kNF-X6XjgikqD2vMwFw",
+      "heading": 108.0
+    },
+    {
+      "step_index": 14,
+      "pano_id": "DMcubGDxhLpL0TmnY6umsw",
+      "heading": 59.5
+    },
+    {
+      "step_index": 15,
+      "pano_id": "A7sdkDbu7yS0UqdMkwWOSw",
+      "heading": 82.8
+    },
+    {
+      "step_index": 16,
+      "pano_id": "jsi0BfctA6T3y8_VivDr0w",
+      "heading": 82.9
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 146m -> Stop",
+  "agent_concise_description": "Head straight along the road, keeping the park and playground on your left and the brick buildings on your right. Continue past the yellow diamond sign and the 'LENTO' road markings. Stop at the intersection near the red corner building."
+}

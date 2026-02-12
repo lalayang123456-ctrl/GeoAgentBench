@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0087_20260128_183602",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between Gymshark and Levi's\u00ae London Regent Street in meters.",
+  "spawn_pano_id": "jKld27CbJ87uCk4Bk5xQzw",
+  "spawn_heading": 170.9,
+  "pois": [
+    {
+      "name": "Gymshark",
+      "type": "clothing_store",
+      "lat": 51.5119032,
+      "lng": -0.1398565,
+      "address": "165 Regent St., London W1S 3BE, UK",
+      "pano_id": "_znKjYS3qgQZowp3noHR7w"
+    },
+    {
+      "name": "Levi's\u00ae London Regent Street",
+      "type": "clothing_store",
+      "lat": 51.5123752,
+      "lng": -0.1396812,
+      "address": "176 Regent St., London W1B 5TJ, UK",
+      "pano_id": "ThsofjRbj3-WRpLJY7Nd8Q"
+    }
+  ],
+  "geofence_id": "list_perception_1769596562",
+  "ground_truth": {
+    "distance_between_pois_m": 53.9,
+    "bearing_a_to_b_deg": 13.0,
+    "bearing_b_to_a_deg": 193.0
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:36:02.115125",
+    "spawn_location": {
+      "lat": 51.51242972511474,
+      "lng": -0.1399921069180271
+    }
+  }
+}

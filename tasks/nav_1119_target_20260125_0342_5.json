@@ -1,0 +1,123 @@
+{
+  "task_id": "nav_1119_target_20260125_0342_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_landmark_20260125_034241",
+  "spawn_point": "tDVjEB2Layy3DMHphUaZGA",
+  "spawn_heading": 18.3,
+  "description": "Navigate to HDFC Bank. Head north(on the left in 130m) for 178m. Total distance: approximately 178 m.",
+  "ground_truth": {
+    "target_name": "HDFC Bank",
+    "target_pano_id": "Zcc94jFOv6fa45qLdFtiLA",
+    "optimal_distance_meters": 178,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Zcc94jFOv6fa45qLdFtiLA"
+  ],
+  "max_steps": 40,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "tDVjEB2Layy3DMHphUaZGA",
+      "heading": 18.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "KwHHpf0RDWFKDOajxeFtlQ",
+      "heading": 18.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "8fI9eKO7SIbj99r-8JrGyA",
+      "heading": 18.3
+    },
+    {
+      "step_index": 3,
+      "pano_id": "NbDTlpJO6PyDY9oSp--r8A",
+      "heading": 18.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "LBKDEaCr_w5xLOvSSmGvPw",
+      "heading": 18.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "IxnZGgeamt0vbLWOZ1Mu8w",
+      "heading": 26.8
+    },
+    {
+      "step_index": 6,
+      "pano_id": "52h4cbFnMC79oSvBNXd3-Q",
+      "heading": 21.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "FM3JObCaM-lwx5ct8F7lKQ",
+      "heading": 21.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "dFBUnpJkv3_sqkFQH7JWSA",
+      "heading": 21.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "64CMyfYq7t3ilDJR9i6Qwg",
+      "heading": 21.5
+    },
+    {
+      "step_index": 10,
+      "pano_id": "LlGhIlAH2xYDikgSEbCGqA",
+      "heading": 21.5
+    },
+    {
+      "step_index": 11,
+      "pano_id": "raq3VT-7CNdXZGP4QiqKuw",
+      "heading": 21.5
+    },
+    {
+      "step_index": 12,
+      "pano_id": "0D6Aiz2EfIm57LOjrz4Glg",
+      "heading": 21.5
+    },
+    {
+      "step_index": 13,
+      "pano_id": "8K36JP_ij67-MkV8Mevanw",
+      "heading": 21.5
+    },
+    {
+      "step_index": 14,
+      "pano_id": "TQSdJ_7UDy8n6Fnmgt9DYA",
+      "heading": 21.3
+    },
+    {
+      "step_index": 15,
+      "pano_id": "tec2J_qQjFGZUSWWKWo7wA",
+      "heading": 21.0
+    },
+    {
+      "step_index": 16,
+      "pano_id": "oz4ESm1CDho_l-Qoxi1_Sw",
+      "heading": 21.0
+    },
+    {
+      "step_index": 17,
+      "pano_id": "MH0cbyi9oGjk8ppfCyMb9w",
+      "heading": 21.1
+    },
+    {
+      "step_index": 18,
+      "pano_id": "lnYxQrcmKGBhvhglQxuayw",
+      "heading": 21.0
+    },
+    {
+      "step_index": 19,
+      "pano_id": "Zcc94jFOv6fa45qLdFtiLA",
+      "heading": 21.1
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

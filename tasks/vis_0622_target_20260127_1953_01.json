@@ -1,0 +1,61 @@
+{
+  "task_id": "nav_0622_target_20260124_1523_8",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_152236",
+  "spawn_point": "Tzu462mnodlLjEIY2sdYvA",
+  "spawn_heading": 275.2,
+  "description": "Proceed straight down the road, keeping the KFC building on your left and the 'möbel märki' building with red flags on your right. Continue forward until you reach the 'Hofwisen' bus stop located on the sidewalk to your right.",
+  "ground_truth": {
+    "target_name": "Volketswil, Hofwisen",
+    "target_pano_id": "eKrfMO4tU7T77UCDndN4rA",
+    "optimal_distance_meters": 56,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "eKrfMO4tU7T77UCDndN4rA"
+  ],
+  "max_steps": 14,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Tzu462mnodlLjEIY2sdYvA",
+      "heading": 275.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "t2Rv5C-6IckajlvNPEjMhg",
+      "heading": 275.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "sayWEbvsop0l74w_XtWPzg",
+      "heading": 275.5
+    },
+    {
+      "step_index": 3,
+      "pano_id": "htEJZqTiSKVEhFzdrlk3ww",
+      "heading": 275.5
+    },
+    {
+      "step_index": 4,
+      "pano_id": "5jheGnwWn8TvWqDHZaibsQ",
+      "heading": 275.6
+    },
+    {
+      "step_index": 5,
+      "pano_id": "16X6_RRotB04MFZ45j6tbw",
+      "heading": 275.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "eKrfMO4tU7T77UCDndN4rA",
+      "heading": 275.6
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 56m -> Stop",
+  "agent_concise_description": "Proceed straight down the road, keeping the KFC building on your left and the 'möbel märki' building with red flags on your right. Continue forward until you reach the 'Hofwisen' bus stop located on the sidewalk to your right."
+}

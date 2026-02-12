@@ -1,0 +1,128 @@
+{
+  "task_id": "nav_0169_target_20260124_0943_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_094323",
+  "spawn_point": "uz3uNIzqMRGhZCtRAFblqg",
+  "spawn_heading": 319.3,
+  "description": "Navigate to Starbucks. Head northwest for 160m. Total distance: approximately 160 m.",
+  "ground_truth": {
+    "target_name": "Starbucks",
+    "target_pano_id": "ynloBLT-XnfWoFYdDO_VAA",
+    "optimal_distance_meters": 160,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "ynloBLT-XnfWoFYdDO_VAA"
+  ],
+  "max_steps": 42,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "uz3uNIzqMRGhZCtRAFblqg",
+      "heading": 319.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "5uqGE26L7COM84goAh6rRA",
+      "heading": 319.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "YbPu2hTQm_t31kncm5imRQ",
+      "heading": 319.3
+    },
+    {
+      "step_index": 3,
+      "pano_id": "5r-W7unoUSStPIW_bMiaHQ",
+      "heading": 319.3
+    },
+    {
+      "step_index": 4,
+      "pano_id": "NXBL5zDP09nBjp4aAwKVyA",
+      "heading": 319.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "yddnXLEpyH0lMPtIOnXNDg",
+      "heading": 319.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "3TgwkY3bTXF6kxNHRDBxrw",
+      "heading": 319.3
+    },
+    {
+      "step_index": 7,
+      "pano_id": "LDCULdg_gJ3rSnEz8yV9LQ",
+      "heading": 319.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "IiqqL9Itebu73zIgIjbHoA",
+      "heading": 319.3
+    },
+    {
+      "step_index": 9,
+      "pano_id": "5F6uzBLNKhtOdXN3MroZIg",
+      "heading": 319.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "MYaFK13dtGSZMeQfDPvj8g",
+      "heading": 319.0
+    },
+    {
+      "step_index": 11,
+      "pano_id": "L8riiPy50iuzpQZL9JHgnQ",
+      "heading": 318.3
+    },
+    {
+      "step_index": 12,
+      "pano_id": "g2uxG90dQaCwgpPEYny2Ug",
+      "heading": 318.3
+    },
+    {
+      "step_index": 13,
+      "pano_id": "tWIGLvDuFPLyAtVh-VPPvA",
+      "heading": 318.3
+    },
+    {
+      "step_index": 14,
+      "pano_id": "Owq5TXsnmooZslLJqPbmwQ",
+      "heading": 318.3
+    },
+    {
+      "step_index": 15,
+      "pano_id": "1CswiFexsQLFmDrWKm9lpA",
+      "heading": 318.3
+    },
+    {
+      "step_index": 16,
+      "pano_id": "dcnQYP6EKFIbt9tpHbPt1g",
+      "heading": 318.3
+    },
+    {
+      "step_index": 17,
+      "pano_id": "4BqOb2RF0vkCeJOaP0Xnpg",
+      "heading": 318.3
+    },
+    {
+      "step_index": 18,
+      "pano_id": "p-BeYtCYi-q1CalERgWZrA",
+      "heading": 318.3
+    },
+    {
+      "step_index": 19,
+      "pano_id": "vJYrT-xnZ-Rm-wtl1An0Jg",
+      "heading": 318.3
+    },
+    {
+      "step_index": 20,
+      "pano_id": "ynloBLT-XnfWoFYdDO_VAA",
+      "heading": 318.3
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

@@ -1,0 +1,83 @@
+{
+  "task_id": "nav_0097_target_20260124_0340_13",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_034002",
+  "spawn_point": "G8S0WGzG-vjMtXAxCgoMsQ",
+  "spawn_heading": 290.7,
+  "description": "Navigate to k kiosk. Head west for 47m. Turn right for 68m. At the roundabout, take the 3rd exit for 43m. Turn left to stay for 13m. Turn right toward 44/Rue des Terreaux/Route 9 Take the stairs for 49m. Turn right toward 44/Rue des Terreaux/Route 9 Take the stairs for 81m. Turn right onto 44/Rue des Terreaux/Route 9 Continue to follow Rue des Terreaux/Route 9 Destination will be on the right for 26m. Total distance: approximately 327 m.",
+  "ground_truth": {
+    "target_name": "k kiosk",
+    "target_pano_id": "H1aLDG6OLvk_k6-3Umbiiw",
+    "optimal_distance_meters": 327,
+    "route_description": "right→left→right→right→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "H1aLDG6OLvk_k6-3Umbiiw"
+  ],
+  "max_steps": 24,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "G8S0WGzG-vjMtXAxCgoMsQ",
+      "heading": 290.7
+    },
+    {
+      "step_index": 1,
+      "pano_id": "-o7JIlT2vapSjSQ4dy-W2Q",
+      "heading": 290.7
+    },
+    {
+      "step_index": 2,
+      "pano_id": "GJGsQgY8keMyJEI4UKnYHw",
+      "heading": 290.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "6G2MCDwFMWQ3ArUT_3LfTA",
+      "heading": 290.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "xSTIuOGKqUI4k3S-LwkPxA",
+      "heading": 290.7
+    },
+    {
+      "step_index": 5,
+      "pano_id": "Qjpl-ttNWCL2cW3PVTbpVQ",
+      "heading": 290.8
+    },
+    {
+      "step_index": 6,
+      "pano_id": "nlHbxfc_ZYcWhN-N42nPVg",
+      "heading": 19.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "-7-EVvQuTVvd4IVDVSxvog",
+      "heading": 21.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "5ZOjjs1TNB0xCS18N8OI3w",
+      "heading": 21.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "CjJeYkR9_6BDypSDL4IPVg",
+      "heading": 14.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "VG9ss8gaETJqqHDfkxdnSg",
+      "heading": 19.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "H1aLDG6OLvk_k6-3Umbiiw",
+      "heading": 18.7
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

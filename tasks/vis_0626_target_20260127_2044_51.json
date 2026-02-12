@@ -1,0 +1,111 @@
+{
+  "task_id": "nav_0626_target_20260124_1527_3",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_gas_station_20260124_152602",
+  "spawn_point": "oZcq_l9BPSgmG23mJ0evhg",
+  "spawn_heading": 299.2,
+  "description": "Head straight on the main road, passing Public Storage on the right. Cross the intersection with South Van Ness Avenue, passing the target Chevron gas station on the left. Continue straight down the street, keeping the red bus lane on your right.",
+  "ground_truth": {
+    "target_name": "Chevron",
+    "target_pano_id": "1Z7GvYzGuqryloNU_DTfoA",
+    "optimal_distance_meters": 227,
+    "route_description": "right→right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "1Z7GvYzGuqryloNU_DTfoA"
+  ],
+  "max_steps": 34,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "oZcq_l9BPSgmG23mJ0evhg",
+      "heading": 299.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "VIzsZAaYKfw3XQZPouwYww",
+      "heading": 299.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "TgVfygw7vO1QgG_ratwySw",
+      "heading": 293.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "BJLXvN24z19wtiKakf9Cgg",
+      "heading": 291.6
+    },
+    {
+      "step_index": 4,
+      "pano_id": "Zzj8m0BVuG8um10FgNMg5Q",
+      "heading": 280.6
+    },
+    {
+      "step_index": 5,
+      "pano_id": "l1MzjbrIq6C2Qjoxwt1cWg",
+      "heading": 270.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "oQP3BQKdVQC4mGEbV5Wnjg",
+      "heading": 278.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "6Yr5Yvm8EmID-IuOa1Tlog",
+      "heading": 345.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "bw2h78VAaQl4nodgpJtIEQ",
+      "heading": 345.2
+    },
+    {
+      "step_index": 9,
+      "pano_id": "4r5tU_wrEKVI6j6pcweyag",
+      "heading": 305.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "QSBNrFAALbGTxYNfqO1Wag",
+      "heading": 297.0
+    },
+    {
+      "step_index": 11,
+      "pano_id": "9EeMB5qh-FEJiGZFRhA3VA",
+      "heading": 254.5
+    },
+    {
+      "step_index": 12,
+      "pano_id": "2ac5FeFeFqNap_Wu8R2XxQ",
+      "heading": 208.7
+    },
+    {
+      "step_index": 13,
+      "pano_id": "iOFd_ogv4HLB1yKohbZsLw",
+      "heading": 208.2
+    },
+    {
+      "step_index": 14,
+      "pano_id": "jVOE20BLFplPpne4Quj_pw",
+      "heading": 212.4
+    },
+    {
+      "step_index": 15,
+      "pano_id": "y9OW3pEWQvbYpBpgvLdf2w",
+      "heading": 203.0
+    },
+    {
+      "step_index": 16,
+      "pano_id": "1Z7GvYzGuqryloNU_DTfoA",
+      "heading": 204.9
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [227m]",
+  "agent_concise_description": "Head straight on the main road, passing Public Storage on the right. Cross the intersection with South Van Ness Avenue, passing the target Chevron gas station on the left. Continue straight down the street, keeping the red bus lane on your right."
+}

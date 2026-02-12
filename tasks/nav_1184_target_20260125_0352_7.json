@@ -1,0 +1,83 @@
+{
+  "task_id": "nav_1184_target_20260125_0352_7",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260125_035137",
+  "spawn_point": "EH6Z8ceMPR_sHCJJr6MyHQ",
+  "spawn_heading": 217.3,
+  "description": "Navigate to Burger King. Head southwest for 87m. Slight left for 32m. Total distance: approximately 119 m.",
+  "ground_truth": {
+    "target_name": "Burger King",
+    "target_pano_id": "cOCLASQPq0j87KJEho9V0g",
+    "optimal_distance_meters": 119,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "cOCLASQPq0j87KJEho9V0g"
+  ],
+  "max_steps": 24,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "EH6Z8ceMPR_sHCJJr6MyHQ",
+      "heading": 217.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "SQQDjrhNm66KSEeXtVGJuw",
+      "heading": 217.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "j4Lhlbl78PMui4rvj9ow9g",
+      "heading": 206.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "XWGlJ_ujJswJt9H05Y8EHA",
+      "heading": 204.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "yVz2du2iNYqlcOACZ5-2jQ",
+      "heading": 204.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "A-Ej2Q1H3DSteInuqu_vUQ",
+      "heading": 204.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "cUJp1-FjVzEF2FAppFW4PQ",
+      "heading": 206.5
+    },
+    {
+      "step_index": 7,
+      "pano_id": "NWth1mLyFl9jU191YsXYGw",
+      "heading": 223.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "TpAjLoPtwONQBgAT0jP9xw",
+      "heading": 231.4
+    },
+    {
+      "step_index": 9,
+      "pano_id": "0ldYiG4HnqNHowVhnTLYag",
+      "heading": 212.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "Nm-I2QBAj6qQxnSUO8h4Nw",
+      "heading": 195.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "cOCLASQPq0j87KJEho9V0g",
+      "heading": 201.0
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

@@ -1,0 +1,38 @@
+{
+  "task_id": "nav_0894_target_20260125_0318_22",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260125_031803",
+  "spawn_point": "OmizGjZxnFnOOydPla8uYw",
+  "spawn_heading": 219.3,
+  "description": "Navigate to Ave. De Diego Despues Lado Opuesto Calle Estrella. Head southwest/PR-37 for 22m. Total distance: approximately 22 m.",
+  "ground_truth": {
+    "target_name": "Ave. De Diego Despues Lado Opuesto Calle Estrella",
+    "target_pano_id": "EGQ1issjmegsOFjA9TPKMQ",
+    "optimal_distance_meters": 22,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "EGQ1issjmegsOFjA9TPKMQ"
+  ],
+  "max_steps": 6,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "OmizGjZxnFnOOydPla8uYw",
+      "heading": 219.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "rFKe9fGVBxE1k1KiKb_Amw",
+      "heading": 219.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "EGQ1issjmegsOFjA9TPKMQ",
+      "heading": 219.4
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

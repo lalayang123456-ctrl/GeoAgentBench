@@ -1,0 +1,118 @@
+{
+  "task_id": "nav_0121_target_20260124_0402_7",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_mcdonalds_20260124_040149",
+  "spawn_point": "_xFRjmRBTzL-H4FJbnBMiA",
+  "spawn_heading": 30.7,
+  "description": "Navigate to Emarat - Ameen. Head northeast/D92 for 183m. Sharp left for 17m. Turn right Destination will be on the left for 25m. Total distance: approximately 225 m.",
+  "ground_truth": {
+    "target_name": "Emarat - Ameen",
+    "target_pano_id": "4535CoKDHpRhWF1dvn5vxg",
+    "optimal_distance_meters": 225,
+    "route_description": "left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "4535CoKDHpRhWF1dvn5vxg"
+  ],
+  "max_steps": 38,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "_xFRjmRBTzL-H4FJbnBMiA",
+      "heading": 30.7
+    },
+    {
+      "step_index": 1,
+      "pano_id": "JZkoTvyO-TmkB3y-ROjQYA",
+      "heading": 30.7
+    },
+    {
+      "step_index": 2,
+      "pano_id": "SgwYL5tsLEfCTQgg9XhxYA",
+      "heading": 30.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "W72K7T7SVnNg2bECGEzJJA",
+      "heading": 30.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "abaOfbvglU3g9fFVBSWUkA",
+      "heading": 30.6
+    },
+    {
+      "step_index": 5,
+      "pano_id": "egmu2Dh9dNGIg0pX1BLJHg",
+      "heading": 30.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "dsynll8qbrb-ksKBrvwmFg",
+      "heading": 32.3
+    },
+    {
+      "step_index": 7,
+      "pano_id": "aqoXvXdL7k9bKXMqoPAQ4g",
+      "heading": 32.4
+    },
+    {
+      "step_index": 8,
+      "pano_id": "Ej-3ZlL2PyUtwuSL3w9Ulw",
+      "heading": 30.9
+    },
+    {
+      "step_index": 9,
+      "pano_id": "mquXkV3UHxXRxMmCPfBICw",
+      "heading": 31.4
+    },
+    {
+      "step_index": 10,
+      "pano_id": "o5TW-nZKM3LYTNH2tlsvjA",
+      "heading": 30.8
+    },
+    {
+      "step_index": 11,
+      "pano_id": "2Hzgr8bf62iuOzECL1P_dg",
+      "heading": 30.7
+    },
+    {
+      "step_index": 12,
+      "pano_id": "wFfaMJg5VFyu5pN7Cc-s-Q",
+      "heading": 30.7
+    },
+    {
+      "step_index": 13,
+      "pano_id": "P6iVgnXAI_pV7fEVvqKNrQ",
+      "heading": 30.8
+    },
+    {
+      "step_index": 14,
+      "pano_id": "EqRZoHdeY3mIiMThBtwjZw",
+      "heading": 30.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "r3txulP7VZ7OEp2TbO1yTg",
+      "heading": 30.7
+    },
+    {
+      "step_index": 16,
+      "pano_id": "m1XhA_JqT-iBfobBjbTRLw",
+      "heading": 30.6
+    },
+    {
+      "step_index": 17,
+      "pano_id": "i6Us44iG-V8NMhTymka68g",
+      "heading": 30.6
+    },
+    {
+      "step_index": 18,
+      "pano_id": "4535CoKDHpRhWF1dvn5vxg",
+      "heading": 30.7
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

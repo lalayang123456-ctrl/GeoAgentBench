@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0141_20260127_141446",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your East (approx. 109\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "2qqjKVuuR-3a4AUC8YoR4Q",
+  "spawn_heading": 109.95249717941539,
+  "target_building": {
+    "lat": 40.4253849,
+    "lng": -3.6973363999999997,
+    "height": 22.8,
+    "floors": 6,
+    "ground_elevation": 658.3074340820312,
+    "roof_elevation": 681.1094,
+    "name": "buildings/ChIJMXQgMI8oQg0RlWbQFfbY-H0",
+    "date": "2021-11-10"
+  },
+  "geofence_id": "list_height_0141_20260127_141446",
+  "ground_truth": {
+    "height_meters": 22.8
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-27T14:14:46.749658",
+    "bearing_deg": 109.95249717941539,
+    "city": "Madrid, Spain"
+  }
+}

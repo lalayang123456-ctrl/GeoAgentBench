@@ -1,0 +1,66 @@
+{
+  "task_id": "nav_0338_target_20260124_1244_12",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_gas_station_20260124_124245",
+  "spawn_point": "jl96R02_fD0ugUEI_3gh_g",
+  "spawn_heading": 269.3,
+  "description": "Head straight along the road towards the intersection with traffic lights. Proceed straight through the intersection, passing the Subway restaurant visible on the left corner. Continue forward down the street.",
+  "ground_truth": {
+    "target_name": "Subway",
+    "target_pano_id": "bZYdYuQYeP6SQp2P81a4xg",
+    "optimal_distance_meters": 69,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "bZYdYuQYeP6SQp2P81a4xg"
+  ],
+  "max_steps": 16,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "jl96R02_fD0ugUEI_3gh_g",
+      "heading": 269.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "ZUKOGmGMQuuXEP0qFdi_Nw",
+      "heading": 269.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "XulignrZpp8zp4WB6ybj6w",
+      "heading": 268.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "s7ZONhatKjnkGNfrQ-W9qg",
+      "heading": 268.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "bNUJeO-LUIU9HMwbGIxAmQ",
+      "heading": 269.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "5X6pYZwHmuhOJ6PhQJzCXw",
+      "heading": 179.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "2br2dYcCxwQFe2vizukJOQ",
+      "heading": 179.3
+    },
+    {
+      "step_index": 7,
+      "pano_id": "bZYdYuQYeP6SQp2P81a4xg",
+      "heading": 180.0
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 70m",
+  "agent_concise_description": "Head straight along the road towards the intersection with traffic lights. Proceed straight through the intersection, passing the Subway restaurant visible on the left corner. Continue forward down the street."
+}

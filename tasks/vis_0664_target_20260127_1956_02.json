@@ -1,0 +1,136 @@
+{
+  "task_id": "nav_0664_target_20260124_1538_20",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260124_153627",
+  "spawn_point": "PMfA8TSlisKsAr7pJD1cPA",
+  "spawn_heading": 258.2,
+  "description": "Head south on Bristo Place, passing the green Napiers shop on your right. At the fork with the church, bear slight right onto Forrest Road. Continue straight past the Subway on the right; the destination is the dark wooden shopfront on the right, just before the Post Office.",
+  "ground_truth": {
+    "target_name": "Thomas J Walls Coffee",
+    "target_pano_id": "yjdFF1CV5HizOTeMIu5p3A",
+    "optimal_distance_meters": 161,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "yjdFF1CV5HizOTeMIu5p3A"
+  ],
+  "max_steps": 44,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "PMfA8TSlisKsAr7pJD1cPA",
+      "heading": 258.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "AljGRGiSWfuLShPw3nx_-w",
+      "heading": 258.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "zqez83watkmNMrmYgtFQOQ",
+      "heading": 324.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "ow6FhJKSNQLTdR4824NFKg",
+      "heading": 311.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "NrYYX5jOkcNqYfJ5hc-KAQ",
+      "heading": 311.7
+    },
+    {
+      "step_index": 5,
+      "pano_id": "2D0F_S-wZPiuHj2GLMfTUQ",
+      "heading": 311.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "iKBwTB7bpDyfTg6HYWP_3w",
+      "heading": 311.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "Jgn7Bk8E37p3L0AjDIMmug",
+      "heading": 311.6
+    },
+    {
+      "step_index": 8,
+      "pano_id": "vT8dHvo4-6DuAyTfkQb_6g",
+      "heading": 311.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "WxS8jOJtZs_Z66evuDszDA",
+      "heading": 310.9
+    },
+    {
+      "step_index": 10,
+      "pano_id": "Y8Q__Yu3WViNTAaiy6AN1A",
+      "heading": 310.9
+    },
+    {
+      "step_index": 11,
+      "pano_id": "o8EQMULFoZCE8b9HlEystQ",
+      "heading": 310.8
+    },
+    {
+      "step_index": 12,
+      "pano_id": "Cfog-JEpMtmHzsoX7d9ePw",
+      "heading": 304.8
+    },
+    {
+      "step_index": 13,
+      "pano_id": "HqQZGyJTSSrgcZxIkizsng",
+      "heading": 265.5
+    },
+    {
+      "step_index": 14,
+      "pano_id": "yJC4rsTP6nC0gAQXJOdQjg",
+      "heading": 218.8
+    },
+    {
+      "step_index": 15,
+      "pano_id": "7hcaGESf6j57hmD2lg49vQ",
+      "heading": 200.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "Eh8fzANZpkxpCo76WFmoJw",
+      "heading": 186.5
+    },
+    {
+      "step_index": 17,
+      "pano_id": "bgGSux8T2wkoZsFwYGhX7g",
+      "heading": 186.5
+    },
+    {
+      "step_index": 18,
+      "pano_id": "5u9hL_6hgGF4EcKvYrH_Vg",
+      "heading": 186.5
+    },
+    {
+      "step_index": 19,
+      "pano_id": "SLgiov83A49tj8MS17d1wQ",
+      "heading": 186.4
+    },
+    {
+      "step_index": 20,
+      "pano_id": "2Q_HIVYSgU9foxbiRdy-7g",
+      "heading": 186.1
+    },
+    {
+      "step_index": 21,
+      "pano_id": "yjdFF1CV5HizOTeMIu5p3A",
+      "heading": 186.1
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [100m] -> Slight Right [60m] -> Stop",
+  "agent_concise_description": "Head south on Bristo Place, passing the green Napiers shop on your right. At the fork with the church, bear slight right onto Forrest Road. Continue straight past the Subway on the right; the destination is the dark wooden shopfront on the right, just before the Post Office."
+}

@@ -1,0 +1,103 @@
+{
+  "task_id": "nav_0866_target_20260125_0317_18",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260125_031632",
+  "spawn_point": "4xOgihkdB3Aym3FUVifKXQ",
+  "spawn_heading": 138.4,
+  "description": "Navigate to Droguerias Smart 5. Head southeast for 119m. Turn left for 23m. Total distance: approximately 142 m.",
+  "ground_truth": {
+    "target_name": "Droguerias Smart 5",
+    "target_pano_id": "Ua3m7chP5ba84QfUh7du-A",
+    "optimal_distance_meters": 142,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Ua3m7chP5ba84QfUh7du-A"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "4xOgihkdB3Aym3FUVifKXQ",
+      "heading": 138.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "YxVl0C0itQr7cIQymGkKMA",
+      "heading": 138.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "UR4-3E5Vh8Wy0KiYO_h4GA",
+      "heading": 138.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "6jhP_sOZbIFaZ2j9m5-P4g",
+      "heading": 138.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "-QTjIqI8xqcQRQb1oy5hlQ",
+      "heading": 138.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "Oe7L5xCldPvtYxV4bveHcQ",
+      "heading": 138.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "RIDkK78P9WHztkjB-hKYxA",
+      "heading": 139.0
+    },
+    {
+      "step_index": 7,
+      "pano_id": "wBd-eHCN_JJznnptCEeKvQ",
+      "heading": 139.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "anr1fuGwYQIPBI36usxILQ",
+      "heading": 138.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "ZGR_q5zgrNdwWyC6htnGjw",
+      "heading": 138.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "3M7rPa7_-Nx3tsFzwrydPQ",
+      "heading": 136.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "p4pQItOy5__tISfnvsohMg",
+      "heading": 136.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "am-QPo7B7Q49hRAojmWAcA",
+      "heading": 137.7
+    },
+    {
+      "step_index": 13,
+      "pano_id": "EoiXnlvYQd9FG_OeYJDnTw",
+      "heading": 18.0
+    },
+    {
+      "step_index": 14,
+      "pano_id": "bGbMO3_nH4JG-6um2CIDlw",
+      "heading": 44.4
+    },
+    {
+      "step_index": 15,
+      "pano_id": "Ua3m7chP5ba84QfUh7du-A",
+      "heading": 44.5
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

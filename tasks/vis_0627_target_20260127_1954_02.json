@@ -1,0 +1,191 @@
+{
+  "task_id": "nav_0627_target_20260124_1527_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_gas_station_20260124_152602",
+  "spawn_point": "ajp1ucOJUSPibRcgrIlcIw",
+  "spawn_heading": 263.2,
+  "description": "Exit the parking area and turn right onto South Van Ness Avenue. Drive straight for several blocks, passing the 'Public Storage' building and 'Health Care is a Right' mural on the right, and 'Enterprise Rent-A-Car' on the left. Stop at the intersection with Otis Street.",
+  "ground_truth": {
+    "target_name": "Otis St & 12th St",
+    "target_pano_id": "4ceOojU7IF8uI5BqKYyr4w",
+    "optimal_distance_meters": 333,
+    "route_description": "right→left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "4ceOojU7IF8uI5BqKYyr4w"
+  ],
+  "max_steps": 66,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "ajp1ucOJUSPibRcgrIlcIw",
+      "heading": 263.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "DWTLTtWB7oQ2CeFUtGF2LA",
+      "heading": 263.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "6cFAOeVdgEfXISHb54Pacw",
+      "heading": 294.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "ZsHLipJ5LuToOPQGlI9PRg",
+      "heading": 16.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "5Obip8ZT5HQEUdMfz0fWPA",
+      "heading": 16.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "qGC3lTX_f2nhe4uHJNOi4A",
+      "heading": 17.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "h3XeZ3Ars1GbJ2Z5PZs1jA",
+      "heading": 17.9
+    },
+    {
+      "step_index": 7,
+      "pano_id": "1sT2NjcUlsart4wzECS5KQ",
+      "heading": 18.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "7Wz33PyN_9q8sTWHFDNaRw",
+      "heading": 19.4
+    },
+    {
+      "step_index": 9,
+      "pano_id": "0zb-b6cH1p0JVw-QotVgvw",
+      "heading": 19.8
+    },
+    {
+      "step_index": 10,
+      "pano_id": "ifWZUq_x475KWhnzj42jCw",
+      "heading": 20.9
+    },
+    {
+      "step_index": 11,
+      "pano_id": "a1Xv5X-lh8PR-rib1pD53Q",
+      "heading": 21.4
+    },
+    {
+      "step_index": 12,
+      "pano_id": "ELh6fl_OtoVgmlBz08IBGg",
+      "heading": 22.5
+    },
+    {
+      "step_index": 13,
+      "pano_id": "9i5jJb-gKmief1bJBtHWgQ",
+      "heading": 22.5
+    },
+    {
+      "step_index": 14,
+      "pano_id": "pKllGRJ4QwWWjCc4xWi0eQ",
+      "heading": 24.9
+    },
+    {
+      "step_index": 15,
+      "pano_id": "k3z9fUraF2EL8Ct9ltemsA",
+      "heading": 23.3
+    },
+    {
+      "step_index": 16,
+      "pano_id": "1Z7GvYzGuqryloNU_DTfoA",
+      "heading": 24.9
+    },
+    {
+      "step_index": 17,
+      "pano_id": "y9OW3pEWQvbYpBpgvLdf2w",
+      "heading": 24.9
+    },
+    {
+      "step_index": 18,
+      "pano_id": "jVOE20BLFplPpne4Quj_pw",
+      "heading": 23.0
+    },
+    {
+      "step_index": 19,
+      "pano_id": "iOFd_ogv4HLB1yKohbZsLw",
+      "heading": 32.4
+    },
+    {
+      "step_index": 20,
+      "pano_id": "2ac5FeFeFqNap_Wu8R2XxQ",
+      "heading": 28.2
+    },
+    {
+      "step_index": 21,
+      "pano_id": "9EeMB5qh-FEJiGZFRhA3VA",
+      "heading": 28.7
+    },
+    {
+      "step_index": 22,
+      "pano_id": "Yq2lgqR_mlWJukDKEh6qJg",
+      "heading": 29.2
+    },
+    {
+      "step_index": 23,
+      "pano_id": "_Za53Q9TT6Stb_oQ0r4XCg",
+      "heading": 30.1
+    },
+    {
+      "step_index": 24,
+      "pano_id": "tqJE55rtCWLn7chwvCDVuw",
+      "heading": 30.6
+    },
+    {
+      "step_index": 25,
+      "pano_id": "B8I2-vXJns6qgms7UP39sg",
+      "heading": 33.3
+    },
+    {
+      "step_index": 26,
+      "pano_id": "hfG3WFGi8tIzUU6PswvdYw",
+      "heading": 346.8
+    },
+    {
+      "step_index": 27,
+      "pano_id": "XhkmfvXY-T5U5RhyhlWM8Q",
+      "heading": 346.7
+    },
+    {
+      "step_index": 28,
+      "pano_id": "V0zX3fmrw9pGuQxNYzoKmw",
+      "heading": 346.7
+    },
+    {
+      "step_index": 29,
+      "pano_id": "vQHliut3_3djhWkHYp4D1A",
+      "heading": 216.9
+    },
+    {
+      "step_index": 30,
+      "pano_id": "DdSDdGNxv75YLW4pia2uBA",
+      "heading": 225.6
+    },
+    {
+      "step_index": 31,
+      "pano_id": "UQAQESJc9jQcBQRKBBU4rg",
+      "heading": 225.9
+    },
+    {
+      "step_index": 32,
+      "pano_id": "4ceOojU7IF8uI5BqKYyr4w",
+      "heading": 225.9
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Turn Right -> Head Straight 230m -> Stop",
+  "agent_concise_description": "Exit the parking area and turn right onto South Van Ness Avenue. Drive straight for several blocks, passing the 'Public Storage' building and 'Health Care is a Right' mural on the right, and 'Enterprise Rent-A-Car' on the left. Stop at the intersection with Otis Street."
+}

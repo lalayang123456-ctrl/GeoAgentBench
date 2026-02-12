@@ -1,0 +1,41 @@
+{
+  "task_id": "nav_0753_target_20260124_1604_19",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260124_160317",
+  "spawn_point": "Mx_YHo0_XcORa5vlKhN9Ng",
+  "spawn_heading": 223.2,
+  "description": "Proceed straight down the road, keeping the red brick building and trees on your left. Continue forward until you are adjacent to the Wellcome supermarket entrance on the left.",
+  "ground_truth": {
+    "target_name": "Wo Muk Road; Near Union Plaza",
+    "target_pano_id": "ezpO-rhMv19sbEEQEW-pbg",
+    "optimal_distance_meters": 26,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "ezpO-rhMv19sbEEQEW-pbg"
+  ],
+  "max_steps": 6,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Mx_YHo0_XcORa5vlKhN9Ng",
+      "heading": 223.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "1a2ySUSK_kbUefH-ql08mg",
+      "heading": 223.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "ezpO-rhMv19sbEEQEW-pbg",
+      "heading": 223.2
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 26m -> Stop",
+  "agent_concise_description": "Proceed straight down the road, keeping the red brick building and trees on your left. Continue forward until you are adjacent to the Wellcome supermarket entrance on the left."
+}

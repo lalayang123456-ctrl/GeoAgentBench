@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0123_20260205_152532",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Greggs from Subway.",
+  "spawn_pano_id": "g3A3cUhgLhk-WTMZpcPeyQ",
+  "spawn_heading": 108.3,
+  "pois": [
+    {
+      "name": "Subway",
+      "type": "sandwich_shop",
+      "lat": 50.8233216,
+      "lng": -0.14117849999999998,
+      "address": "146 North Street, Ground Floor And Basement, Brighton and Hove, Brighton BN1 1RE, UK",
+      "pano_id": "W1NjzkNCoNgCQaVRBvOX5Q"
+    },
+    {
+      "name": "Greggs",
+      "type": "bakery",
+      "lat": 50.8232444,
+      "lng": -0.14080969999999998,
+      "address": "150 North St, Brighton and Hove, Brighton BN1 1RE, UK",
+      "pano_id": "yHtnRC1Yg47jSd_GP9YzrA"
+    }
+  ],
+  "geofence_id": "list_perception_1770305132",
+  "ground_truth": {
+    "distance_between_pois_m": 27.3,
+    "bearing_a_to_b_deg": 108.3,
+    "bearing_b_to_a_deg": 288.3
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:25:32.919880",
+    "spawn_location": {
+      "lat": 50.82314713127226,
+      "lng": -0.1411436335902977
+    }
+  }
+}

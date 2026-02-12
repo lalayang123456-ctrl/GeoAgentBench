@@ -1,0 +1,31 @@
+{
+  "task_id": "nav_0764_target_20260124_1604_30",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260124_160317",
+  "spawn_point": "ezpO-rhMv19sbEEQEW-pbg",
+  "spawn_heading": 0.0,
+  "description": "You have arrived at Wo Muk Road. The destination is located on the sidewalk next to a low stone wall and a row of trees, outside the Union Plaza residential complex.",
+  "ground_truth": {
+    "target_name": "Wo Muk Road; outside Tower 3; Union Plaza",
+    "target_pano_id": "ezpO-rhMv19sbEEQEW-pbg",
+    "optimal_distance_meters": 1,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "ezpO-rhMv19sbEEQEW-pbg"
+  ],
+  "max_steps": 2,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "ezpO-rhMv19sbEEQEW-pbg",
+      "heading": 0.0
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 1m -> Stop",
+  "agent_concise_description": "You have arrived at Wo Muk Road. The destination is located on the sidewalk next to a low stone wall and a row of trees, outside the Union Plaza residential complex."
+}

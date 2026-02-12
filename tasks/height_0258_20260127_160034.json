@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0258_20260127_160034",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your East (approx. 69\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "rRajYGbzNfvIoeP3XjkMUA",
+  "spawn_heading": 69.54437892280407,
+  "target_building": {
+    "lat": 49.278102999999994,
+    "lng": -123.135484,
+    "height": 80.26,
+    "floors": 22,
+    "ground_elevation": 9.831348419189453,
+    "roof_elevation": 90.08808,
+    "name": "buildings/ChIJmSeP0dJzhlQR-vCix2UD9xg",
+    "date": "2021-07-27"
+  },
+  "geofence_id": "list_height_0258_20260127_160034",
+  "ground_truth": {
+    "height_meters": 80.26
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-27T16:00:34.512416",
+    "bearing_deg": 69.54437892280407,
+    "city": "Vancouver, Canada"
+  }
+}

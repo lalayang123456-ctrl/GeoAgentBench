@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0089_20260128_183602",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Hackett London - Regent Street from Gymshark.",
+  "spawn_pano_id": "jKld27CbJ87uCk4Bk5xQzw",
+  "spawn_heading": 328.9,
+  "pois": [
+    {
+      "name": "Gymshark",
+      "type": "clothing_store",
+      "lat": 51.5119032,
+      "lng": -0.1398565,
+      "address": "165 Regent St., London W1S 3BE, UK",
+      "pano_id": "_znKjYS3qgQZowp3noHR7w"
+    },
+    {
+      "name": "Hackett London - Regent Street",
+      "type": "clothing_store",
+      "lat": 51.5127591,
+      "lng": -0.1406877,
+      "address": "193-197 Regent St., London W1B 4LY, UK",
+      "pano_id": "Zx4rWRpCTjESa3GotmhLZQ"
+    }
+  ],
+  "geofence_id": "list_perception_1769596562",
+  "ground_truth": {
+    "distance_between_pois_m": 111.2,
+    "bearing_a_to_b_deg": 328.9,
+    "bearing_b_to_a_deg": 148.9
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:36:02.116218",
+    "spawn_location": {
+      "lat": 51.51242972511474,
+      "lng": -0.1399921069180271
+    }
+  }
+}

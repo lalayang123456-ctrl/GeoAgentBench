@@ -1,0 +1,143 @@
+{
+  "task_id": "nav_0068_target_20260124_0253_2",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_service_20260124_025245",
+  "spawn_point": "Cjm_-Cu9ruMiJCByaYn3ZA",
+  "spawn_heading": 16.1,
+  "description": "Navigate to Ibn Sina University Hospital. Head north for 279m. Sharp left for 83m. Total distance: approximately 362 m.",
+  "ground_truth": {
+    "target_name": "Ibn Sina University Hospital",
+    "target_pano_id": "sEg5BuqDYKJnZNJKm6NdTQ",
+    "optimal_distance_meters": 362,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "sEg5BuqDYKJnZNJKm6NdTQ"
+  ],
+  "max_steps": 48,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Cjm_-Cu9ruMiJCByaYn3ZA",
+      "heading": 16.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "O7M9QLkmlpbQBFfi4fdc5Q",
+      "heading": 16.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "QkKh8cQ6W512D5TCnHW49A",
+      "heading": 16.1
+    },
+    {
+      "step_index": 3,
+      "pano_id": "DMpE8TW30moTZTcr9lloHQ",
+      "heading": 15.5
+    },
+    {
+      "step_index": 4,
+      "pano_id": "Doe2zik7MmOCajcqrPHmEQ",
+      "heading": 15.2
+    },
+    {
+      "step_index": 5,
+      "pano_id": "qMXxCiQdXLAflLMzETcCqg",
+      "heading": 12.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "HOaPdh4nyThvnNv6b7KeGw",
+      "heading": 9.0
+    },
+    {
+      "step_index": 7,
+      "pano_id": "VMSomiyM_eXxFm6ekGbNiQ",
+      "heading": 6.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "7UotCLIdJAzm7SHhF13fGA",
+      "heading": 4.8
+    },
+    {
+      "step_index": 9,
+      "pano_id": "Q3GfvLG7hr1kzzpxwlfO8g",
+      "heading": 359.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "DMdpN7NUMofUllZwuutf5w",
+      "heading": 357.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "EmDHTUiJI4zewOnmWViPsg",
+      "heading": 357.7
+    },
+    {
+      "step_index": 12,
+      "pano_id": "nRGXYUCSUuvbYp0Yl4Iw0A",
+      "heading": 357.7
+    },
+    {
+      "step_index": 13,
+      "pano_id": "zGw9KC5fxIFhjfai8uq4Yw",
+      "heading": 357.7
+    },
+    {
+      "step_index": 14,
+      "pano_id": "C6Py1dwud8evB7C6dPJXUg",
+      "heading": 357.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "ZLVVUE-Y44QHGP6tgbkbfQ",
+      "heading": 357.7
+    },
+    {
+      "step_index": 16,
+      "pano_id": "xAlEk6nQRHvGkNzVgFr23A",
+      "heading": 357.7
+    },
+    {
+      "step_index": 17,
+      "pano_id": "sn8gmV_WPUll4HCdL8_dlg",
+      "heading": 357.7
+    },
+    {
+      "step_index": 18,
+      "pano_id": "nlvga470KthW_AE_Q51dPQ",
+      "heading": 357.2
+    },
+    {
+      "step_index": 19,
+      "pano_id": "M58M8QpOmiREN0cC-tVSzw",
+      "heading": 233.5
+    },
+    {
+      "step_index": 20,
+      "pano_id": "Xqh6tOWqt1GEMR3r-acdJw",
+      "heading": 264.8
+    },
+    {
+      "step_index": 21,
+      "pano_id": "qd642FTXFohtrUIeTf5VzA",
+      "heading": 264.8
+    },
+    {
+      "step_index": 22,
+      "pano_id": "mVsolOV_yGHT0-060CPXEw",
+      "heading": 264.8
+    },
+    {
+      "step_index": 23,
+      "pano_id": "sEg5BuqDYKJnZNJKm6NdTQ",
+      "heading": 264.8
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

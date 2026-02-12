@@ -1,0 +1,46 @@
+{
+  "task_id": "nav_0495_target_20260124_1414_13",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_141318",
+  "spawn_point": "8fjlH7-E--K8HLETSuGfsw",
+  "spawn_heading": 271.5,
+  "description": "Start at the intersection of Gage Avenue and Compton Avenue. Proceed straight through the intersection, passing a recycling center on the left. Continue straight along the road, ending near a bus stop bench alongside a long metal fence.",
+  "ground_truth": {
+    "target_name": "Gage / Compton",
+    "target_pano_id": "v5cfRnErrJVoC5fAw9vpZQ",
+    "optimal_distance_meters": 17,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "v5cfRnErrJVoC5fAw9vpZQ"
+  ],
+  "max_steps": 8,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "8fjlH7-E--K8HLETSuGfsw",
+      "heading": 271.5
+    },
+    {
+      "step_index": 1,
+      "pano_id": "XttHaKFygl4Op2_7DqOnYg",
+      "heading": 271.5
+    },
+    {
+      "step_index": 2,
+      "pano_id": "vXZyitM1Ep-QDVplqGuIWw",
+      "heading": 270.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "v5cfRnErrJVoC5fAw9vpZQ",
+      "heading": 270.3
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [50m] -> Stop",
+  "agent_concise_description": "Start at the intersection of Gage Avenue and Compton Avenue. Proceed straight through the intersection, passing a recycling center on the left. Continue straight along the road, ending near a bus stop bench alongside a long metal fence."
+}

@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0049_20260128_163350",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between EE and Five Guys Burgers and Fries Sheffield The Moor in meters.",
+  "spawn_pano_id": "aEX2pyhSVVim0sF_pYhkQA",
+  "spawn_heading": 197.0,
+  "pois": [
+    {
+      "name": "EE",
+      "type": "telecommunications_service_provider",
+      "lat": 53.3769396,
+      "lng": -1.472518,
+      "address": "31-35 The Moor, Sheffield City Centre, Sheffield S1 4PF, UK",
+      "pano_id": "lpq6rk2lvHOWFUKOCnthWg"
+    },
+    {
+      "name": "Five Guys Burgers and Fries Sheffield The Moor",
+      "type": "hamburger_restaurant",
+      "lat": 53.377613999999994,
+      "lng": -1.4718509,
+      "address": "3 The Moor, Sheffield City Centre, Sheffield S1 4PF, UK",
+      "pano_id": "GX0IbSgdylWLZCZZxsGo_g"
+    }
+  ],
+  "geofence_id": "list_perception_1769589230",
+  "ground_truth": {
+    "distance_between_pois_m": 87.1,
+    "bearing_a_to_b_deg": 30.5,
+    "bearing_b_to_a_deg": 210.5
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T16:33:50.220489",
+    "spawn_location": {
+      "lat": 53.37746954036457,
+      "lng": -1.472246707679393
+    }
+  }
+}

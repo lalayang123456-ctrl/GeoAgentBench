@@ -1,0 +1,126 @@
+{
+  "task_id": "nav_0157_target_20260124_0933_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_supermarket_20260124_093258",
+  "spawn_point": "vG3EBp60RTVmSjBolfLaAg",
+  "spawn_heading": 235.2,
+  "description": "Head straight along the tiled pedestrian path, passing a white building with balconies on the right. Cross the intersection and continue forward on the tree-lined asphalt street. The destination, Starbucks Coffee, will be clearly visible on the right side.",
+  "ground_truth": {
+    "target_name": "Starbucks",
+    "target_pano_id": "-3dfWArc5AMhuj6XOvJ_Pw",
+    "optimal_distance_meters": 180,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "-3dfWArc5AMhuj6XOvJ_Pw"
+  ],
+  "max_steps": 40,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "vG3EBp60RTVmSjBolfLaAg",
+      "heading": 235.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "vPKfAXza_Pc4xwYV8bi0ew",
+      "heading": 235.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "3JieLumQ_oFibFpoHc5bSw",
+      "heading": 235.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "3uaS1POUGufUaaaJlu9gfA",
+      "heading": 235.2
+    },
+    {
+      "step_index": 4,
+      "pano_id": "EPbuVy_72nOzsKbm9mZ_iw",
+      "heading": 235.2
+    },
+    {
+      "step_index": 5,
+      "pano_id": "gCQ4Igsz_nYaaSe8qC63RA",
+      "heading": 235.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "V14h4tEd4T4a22EBf6WPVQ",
+      "heading": 233.1
+    },
+    {
+      "step_index": 7,
+      "pano_id": "hbOvyKy9QAzJ2HZHPWq-2Q",
+      "heading": 235.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "lG7XGABQYtlK36MFu5yIhQ",
+      "heading": 232.3
+    },
+    {
+      "step_index": 9,
+      "pano_id": "Z9c-8eJoui7r1272c5NZKQ",
+      "heading": 238.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "dJVpAwqh5IEFm2RHu9QIQg",
+      "heading": 237.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "1wLCv5aA_MYmOBr_JfGW8A",
+      "heading": 236.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "UZH_Slm-RtB31z_-OS8amg",
+      "heading": 236.6
+    },
+    {
+      "step_index": 13,
+      "pano_id": "Ov1oG5rJXBwgUg8K1u2-xQ",
+      "heading": 236.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "Tf79v1FWiQZm-5lvCPYSuQ",
+      "heading": 236.6
+    },
+    {
+      "step_index": 15,
+      "pano_id": "lni3O61_8VpgiizwWKpFTw",
+      "heading": 236.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "oQ3PowpM41AcffNYBvb_Sg",
+      "heading": 236.5
+    },
+    {
+      "step_index": 17,
+      "pano_id": "eBMGRmcpBaWBF7B9YMmBPA",
+      "heading": 236.5
+    },
+    {
+      "step_index": 18,
+      "pano_id": "ZkFnaU373v3KwSucNjLUcQ",
+      "heading": 237.2
+    },
+    {
+      "step_index": 19,
+      "pano_id": "-3dfWArc5AMhuj6XOvJ_Pw",
+      "heading": 237.3
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 180m -> Stop",
+  "agent_concise_description": "Head straight along the tiled pedestrian path, passing a white building with balconies on the right. Cross the intersection and continue forward on the tree-lined asphalt street. The destination, Starbucks Coffee, will be clearly visible on the right side."
+}

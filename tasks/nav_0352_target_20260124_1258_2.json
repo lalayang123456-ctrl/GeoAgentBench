@@ -1,0 +1,103 @@
+{
+  "task_id": "nav_0352_target_20260124_1258_2",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_restaurant_20260124_125753",
+  "spawn_point": "hOzflTF-Gm3mzTJq6zIYSw",
+  "spawn_heading": 40.8,
+  "description": "Navigate to Versão Brasileira. Head northeast for 397m. Turn right for 269m. Turn right for 213m. Turn right for 10m. Turn left for 105m. Turn right Destination will be on the left for 167m. Total distance: approximately 1.2 km.",
+  "ground_truth": {
+    "target_name": "Versão Brasileira",
+    "target_pano_id": "aRQt7DVR1PnJKJGDk0c1pQ",
+    "optimal_distance_meters": 1161,
+    "route_description": "right→right→right→left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "aRQt7DVR1PnJKJGDk0c1pQ"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "hOzflTF-Gm3mzTJq6zIYSw",
+      "heading": 40.8
+    },
+    {
+      "step_index": 1,
+      "pano_id": "tbC9gaZIhB5ZlI2Ahkgwqg",
+      "heading": 40.8
+    },
+    {
+      "step_index": 2,
+      "pano_id": "u-KAPFCS3zfHCaBYyJUlPw",
+      "heading": 56.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "Po0kAC9RFMxng6YXtMFxiA",
+      "heading": 69.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "ifsFnsnExUy1YXzsimfQdg",
+      "heading": 72.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "9HhjscGaUmJAuwoOBjx3Ig",
+      "heading": 87.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "aBrHlWUYEnGEA-LOK9AKLg",
+      "heading": 98.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "VU4a3iWhmVl0Odd-Nucphw",
+      "heading": 99.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "LUlmY780MQmIQKkdPh_OQQ",
+      "heading": 99.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "aJ1WlTx3fv_6YR39lPX6Aw",
+      "heading": 99.1
+    },
+    {
+      "step_index": 10,
+      "pano_id": "tgjFnG8PvMFnCyDOdCyOuw",
+      "heading": 99.0
+    },
+    {
+      "step_index": 11,
+      "pano_id": "qw4sDuCPI0eP16guvjd5ag",
+      "heading": 99.0
+    },
+    {
+      "step_index": 12,
+      "pano_id": "B8zHs8dA-xR6Fr570nCTwg",
+      "heading": 99.0
+    },
+    {
+      "step_index": 13,
+      "pano_id": "e6NoN8uAO-mFISNBfsufHg",
+      "heading": 100.8
+    },
+    {
+      "step_index": 14,
+      "pano_id": "0f49r0S7x49RTA2bDDcnBg",
+      "heading": 106.5
+    },
+    {
+      "step_index": 15,
+      "pano_id": "aRQt7DVR1PnJKJGDk0c1pQ",
+      "heading": 107.0
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0104_20260128_185524",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Barclays Bank from NatWest Southampton City.",
+  "spawn_pano_id": "jaHI8nalKXBzDdi73yskOg",
+  "spawn_heading": 315.9,
+  "pois": [
+    {
+      "name": "NatWest Southampton City",
+      "type": "bank",
+      "lat": 50.90469710000001,
+      "lng": -1.4039853999999998,
+      "address": "68 Above Bar St, Southampton SO14 7DS, UK",
+      "pano_id": "rDcWtOvT3dSuyWAxI3Y_bg"
+    },
+    {
+      "name": "Barclays Bank",
+      "type": "bank",
+      "lat": 50.9047682,
+      "lng": -1.4040945999999999,
+      "address": "70 Above Bar St, Southampton SO14 7DS, UK",
+      "pano_id": "0HB84FRUNUFcPQPqEUiieQ"
+    }
+  ],
+  "geofence_id": "list_perception_1769597724",
+  "ground_truth": {
+    "distance_between_pois_m": 11.0,
+    "bearing_a_to_b_deg": 315.9,
+    "bearing_b_to_a_deg": 135.9
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:55:24.765981",
+    "spawn_location": {
+      "lat": 50.90416544865934,
+      "lng": -1.404360294391466
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "nav_1078_target_20260125_0336_7",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_supermarket_20260125_033549",
+  "spawn_point": "B_HpAT1QuFJXcO0tkOxAxQ",
+  "spawn_heading": 0.0,
+  "description": "Navigate to MUFG Bank Kobe. Head south/明石町筋 for 1m. Total distance: approximately 1 m.",
+  "ground_truth": {
+    "target_name": "MUFG Bank Kobe",
+    "target_pano_id": "B_HpAT1QuFJXcO0tkOxAxQ",
+    "optimal_distance_meters": 1,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "B_HpAT1QuFJXcO0tkOxAxQ"
+  ],
+  "max_steps": 2,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "B_HpAT1QuFJXcO0tkOxAxQ",
+      "heading": 0.0
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

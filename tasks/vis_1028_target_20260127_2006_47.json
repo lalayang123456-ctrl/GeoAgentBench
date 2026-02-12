@@ -1,0 +1,111 @@
+{
+  "task_id": "nav_1028_target_20260125_0332_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_transit_20260125_033221",
+  "spawn_point": "OEOdT1gqMAvau3P2tkoHXg",
+  "spawn_heading": 184.1,
+  "description": "Head towards the roundabout featuring a white tower monument. Turn right at the roundabout to exit onto the tree-lined street marked 'Perintis Kemerdekaan'. Continue straight along the road with green bike lanes until the path ends.",
+  "ground_truth": {
+    "target_name": "Perintis Kemerdekaan",
+    "target_pano_id": "_Nocdr2ozdOv_oYm_wwdTA",
+    "optimal_distance_meters": 149,
+    "route_description": "right→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "_Nocdr2ozdOv_oYm_wwdTA"
+  ],
+  "max_steps": 34,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "OEOdT1gqMAvau3P2tkoHXg",
+      "heading": 184.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "tLmM1ClyU-YwHBNsMU7UUA",
+      "heading": 184.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "9bh2KAHEbBLpyl-lAG3OXA",
+      "heading": 184.1
+    },
+    {
+      "step_index": 3,
+      "pano_id": "WRMZJRWuhakTMso9huooaw",
+      "heading": 184.1
+    },
+    {
+      "step_index": 4,
+      "pano_id": "zREIryfpaixDr54hIHwRsA",
+      "heading": 184.1
+    },
+    {
+      "step_index": 5,
+      "pano_id": "95MNjnc-CBzN6sFPWn7skQ",
+      "heading": 222.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "loMBsgTv7u4zCLOhlXFUtg",
+      "heading": 228.0
+    },
+    {
+      "step_index": 7,
+      "pano_id": "qwHqJqwjS4iY882--bNg3g",
+      "heading": 230.1
+    },
+    {
+      "step_index": 8,
+      "pano_id": "a_uQ_gQCLyiJsfIrR03fAg",
+      "heading": 269.4
+    },
+    {
+      "step_index": 9,
+      "pano_id": "aXneB9Iylg8XIPFEfD8b5Q",
+      "heading": 269.4
+    },
+    {
+      "step_index": 10,
+      "pano_id": "BN-_3Rj119w0cJ2cr4FI1A",
+      "heading": 267.3
+    },
+    {
+      "step_index": 11,
+      "pano_id": "tafMGqIyNQ0OwrTTFEgNyA",
+      "heading": 266.4
+    },
+    {
+      "step_index": 12,
+      "pano_id": "yWeqs68LdHkGNVwW5Svkgw",
+      "heading": 262.2
+    },
+    {
+      "step_index": 13,
+      "pano_id": "amlHvW9afuGg21PXO6Wc6A",
+      "heading": 259.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "w7ggwLfVxa6wbQNTXzQ4ig",
+      "heading": 254.4
+    },
+    {
+      "step_index": 15,
+      "pano_id": "PRhIR6_p40R5xLI4mG6pGQ",
+      "heading": 251.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "_Nocdr2ozdOv_oYm_wwdTA",
+      "heading": 247.5
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [40m] -> Turn Right at Roundabout -> Head Straight [90m] -> Stop",
+  "agent_concise_description": "Head towards the roundabout featuring a white tower monument. Turn right at the roundabout to exit onto the tree-lined street marked 'Perintis Kemerdekaan'. Continue straight along the road with green bike lanes until the path ends."
+}

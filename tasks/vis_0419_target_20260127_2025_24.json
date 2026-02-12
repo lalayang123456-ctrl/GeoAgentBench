@@ -1,0 +1,121 @@
+{
+  "task_id": "nav_0419_target_20260124_1342_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_service_20260124_134127",
+  "spawn_point": "2C45SHkPTNg-DS2rs0vWiQ",
+  "spawn_heading": 114.6,
+  "description": "Turn left onto the narrow brick street (Nes) and walk straight for approximately 110m, passing the Rho Hotel parking entrance. At the end of the street, turn right at the square to enter Damstraat. The destination, Chipsy King, will be clearly visible on the right side.",
+  "ground_truth": {
+    "target_name": "Chipsy King Damstraat",
+    "target_pano_id": "_Qm2sYCdFEZidTB3uZiAog",
+    "optimal_distance_meters": 152,
+    "route_description": "left→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "_Qm2sYCdFEZidTB3uZiAog"
+  ],
+  "max_steps": 38,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "2C45SHkPTNg-DS2rs0vWiQ",
+      "heading": 114.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "-1zHERLe8kiYP78RLbhlVQ",
+      "heading": 114.6
+    },
+    {
+      "step_index": 2,
+      "pano_id": "FLIH9AR8CFMiq9kV9Mdgfg",
+      "heading": 101.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "tFgasrtEcRM1NMhf-NBzuw",
+      "heading": 9.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "1Sbb0TOQRu9f-_jviVYdUg",
+      "heading": 9.0
+    },
+    {
+      "step_index": 5,
+      "pano_id": "nbYdLxJuHdob1uWEwXd5Rg",
+      "heading": 9.0
+    },
+    {
+      "step_index": 6,
+      "pano_id": "pbRfkO9IMtuKCQ4FH9tQMg",
+      "heading": 12.1
+    },
+    {
+      "step_index": 7,
+      "pano_id": "rREhzXDKITjbPVE_fo_1GA",
+      "heading": 10.8
+    },
+    {
+      "step_index": 8,
+      "pano_id": "-E0wbFVNTr_DzNTlTL-D4g",
+      "heading": 11.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "7esnjZ1tIaggg5bhHG3CwA",
+      "heading": 11.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "lNUX-l_iV37DRUFb8T1VMg",
+      "heading": 10.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "EIeZGicjl1fhRI1GBJ-3lA",
+      "heading": 18.1
+    },
+    {
+      "step_index": 12,
+      "pano_id": "SKUqUfbu_QfeAlx9NI1Smg",
+      "heading": 19.1
+    },
+    {
+      "step_index": 13,
+      "pano_id": "Jw49JVSFAawZ9ikk98wR9A",
+      "heading": 19.1
+    },
+    {
+      "step_index": 14,
+      "pano_id": "IViNndyHw_4IfjttbLAmXg",
+      "heading": 12.0
+    },
+    {
+      "step_index": 15,
+      "pano_id": "OMHRY779-0Nbg34lM4uoKA",
+      "heading": 122.4
+    },
+    {
+      "step_index": 16,
+      "pano_id": "iH3uO2dVY5a0HmUd8frimg",
+      "heading": 121.3
+    },
+    {
+      "step_index": 17,
+      "pano_id": "gvHlpB1A_E8rDjZtyfUI-A",
+      "heading": 121.4
+    },
+    {
+      "step_index": 18,
+      "pano_id": "_Qm2sYCdFEZidTB3uZiAog",
+      "heading": 118.3
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Turn Left -> Head Straight 110m -> Turn Right -> Head Straight 30m -> Stop",
+  "agent_concise_description": "Turn left onto the narrow brick street (Nes) and walk straight for approximately 110m, passing the Rho Hotel parking entrance. At the end of the street, turn right at the square to enter Damstraat. The destination, Chipsy King, will be clearly visible on the right side."
+}

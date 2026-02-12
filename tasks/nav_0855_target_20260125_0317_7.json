@@ -1,0 +1,53 @@
+{
+  "task_id": "nav_0855_target_20260125_0317_7",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260125_031632",
+  "spawn_point": "D8gAoALLec5VcnzsBFQN_A",
+  "spawn_heading": 55.1,
+  "description": "Navigate to AREPERIA CASA ARTE. Head northeast for 53m. Total distance: approximately 53 m.",
+  "ground_truth": {
+    "target_name": "AREPERIA CASA ARTE",
+    "target_pano_id": "SBO27GHfMxhbX3vcLB-Pow",
+    "optimal_distance_meters": 53,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "SBO27GHfMxhbX3vcLB-Pow"
+  ],
+  "max_steps": 12,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "D8gAoALLec5VcnzsBFQN_A",
+      "heading": 55.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "r6VFhsq_15_yLuGMEgLlgw",
+      "heading": 55.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "Q9zIm3_mW0niFUBPBwDWQA",
+      "heading": 55.1
+    },
+    {
+      "step_index": 3,
+      "pano_id": "swlQbXSHSbgoLMAYA_8BBA",
+      "heading": 49.5
+    },
+    {
+      "step_index": 4,
+      "pano_id": "3mybu8nJeCW9IInX5uPShw",
+      "heading": 44.5
+    },
+    {
+      "step_index": 5,
+      "pano_id": "SBO27GHfMxhbX3vcLB-Pow",
+      "heading": 44.5
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

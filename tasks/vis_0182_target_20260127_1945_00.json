@@ -1,0 +1,66 @@
+{
+  "task_id": "nav_0182_target_20260124_1010_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_101012",
+  "spawn_point": "f3dMo_gAgZEJARQVYE2pdA",
+  "spawn_heading": 356.7,
+  "description": "Head straight along the street, flanked by covered sidewalks on both sides. Continue forward, keeping the prominent 'ROUND1' building on your left and the 'BAL' building on your right. Stop on the street near the 'ROUND1' entrance.",
+  "ground_truth": {
+    "target_name": "Miyaakiyomotodo Pharmacy",
+    "target_pano_id": "Jhdulgt6slnGkWO2wC5DVg",
+    "optimal_distance_meters": 59,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Jhdulgt6slnGkWO2wC5DVg"
+  ],
+  "max_steps": 16,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "f3dMo_gAgZEJARQVYE2pdA",
+      "heading": 356.7
+    },
+    {
+      "step_index": 1,
+      "pano_id": "vX_tYmCQYGOrnDLxXjB0Qg",
+      "heading": 356.7
+    },
+    {
+      "step_index": 2,
+      "pano_id": "N2zK6lrs7bT07Jv6lPYwIw",
+      "heading": 356.5
+    },
+    {
+      "step_index": 3,
+      "pano_id": "UvCqF5mKO_g7IdRtxpPUog",
+      "heading": 356.5
+    },
+    {
+      "step_index": 4,
+      "pano_id": "BFtv4i5uvjRcd2dRExOXsw",
+      "heading": 356.5
+    },
+    {
+      "step_index": 5,
+      "pano_id": "YbmaRAujKXRY5XmfP6mMWA",
+      "heading": 356.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "rjdhgeKDH5izOPdOorf2ag",
+      "heading": 356.5
+    },
+    {
+      "step_index": 7,
+      "pano_id": "Jhdulgt6slnGkWO2wC5DVg",
+      "heading": 356.5
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 59m -> Stop",
+  "agent_concise_description": "Head straight along the street, flanked by covered sidewalks on both sides. Continue forward, keeping the prominent 'ROUND1' building on your left and the 'BAL' building on your right. Stop on the street near the 'ROUND1' entrance."
+}

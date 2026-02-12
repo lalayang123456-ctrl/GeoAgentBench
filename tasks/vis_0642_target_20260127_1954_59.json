@@ -1,0 +1,246 @@
+{
+  "task_id": "nav_0642_target_20260124_1532_7",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_service_20260124_153137",
+  "spawn_point": "8kTYVGjOSvro8qensWYrjw",
+  "spawn_heading": 269.0,
+  "description": "Proceed straight along the narrow street, passing a fenced sports court and a distinctive red-and-white building on the left. At the T-intersection facing the Mercure Hotel, turn right. Continue forward for a short distance; the Schlangen-Apotheke will be on your left.",
+  "ground_truth": {
+    "target_name": "Schlangen-Apotheke",
+    "target_pano_id": "Gegm2xu1da08huzGwHsHcA",
+    "optimal_distance_meters": 300,
+    "route_description": "left→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Gegm2xu1da08huzGwHsHcA"
+  ],
+  "max_steps": 88,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "8kTYVGjOSvro8qensWYrjw",
+      "heading": 269.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "pS2MuSZHELMcP4tfAiBapA",
+      "heading": 269.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "CXCuj5x-ARoIU5Jkj2emqw",
+      "heading": 206.3
+    },
+    {
+      "step_index": 3,
+      "pano_id": "-m0KEdVqpQZx8i-6I7K7nA",
+      "heading": 197.1
+    },
+    {
+      "step_index": 4,
+      "pano_id": "VluZvJ_OmrjZfuSCUFgxEQ",
+      "heading": 192.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "lg6mv-npFRX3drndarV2GA",
+      "heading": 191.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "FeBPuYJuDaCRh2ikEi96-g",
+      "heading": 193.2
+    },
+    {
+      "step_index": 7,
+      "pano_id": "az-QFKopNve3-dvY0DBqnA",
+      "heading": 195.1
+    },
+    {
+      "step_index": 8,
+      "pano_id": "03j1dy-eC-lotD9bLEvDMQ",
+      "heading": 299.1
+    },
+    {
+      "step_index": 9,
+      "pano_id": "pn1ohH5kwQhp7rGVDD1BeA",
+      "heading": 295.9
+    },
+    {
+      "step_index": 10,
+      "pano_id": "38a7v5JmkXI8lY80qxcP5g",
+      "heading": 299.2
+    },
+    {
+      "step_index": 11,
+      "pano_id": "tmD_skDQObbFWZs3DfVbtg",
+      "heading": 300.3
+    },
+    {
+      "step_index": 12,
+      "pano_id": "I32sKBKAckGZOhZtsI3w5w",
+      "heading": 300.6
+    },
+    {
+      "step_index": 13,
+      "pano_id": "RiHCU5V1WWYbpDzjeyqkaQ",
+      "heading": 300.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "GjoVm0ZaiLy4EUH0r3EkBg",
+      "heading": 300.5
+    },
+    {
+      "step_index": 15,
+      "pano_id": "xZs1AhcA2oj-zl9W5OIybg",
+      "heading": 300.3
+    },
+    {
+      "step_index": 16,
+      "pano_id": "ZbnGTJgU8xrixASiEks_aQ",
+      "heading": 300.3
+    },
+    {
+      "step_index": 17,
+      "pano_id": "QJlE4DzKSKK6BsNVAV_M_A",
+      "heading": 300.3
+    },
+    {
+      "step_index": 18,
+      "pano_id": "JLt94v6oPm7pTsJ-46W9Dg",
+      "heading": 300.3
+    },
+    {
+      "step_index": 19,
+      "pano_id": "KiuGqP6OExCQTlQ9ED-ypw",
+      "heading": 300.3
+    },
+    {
+      "step_index": 20,
+      "pano_id": "al2o5d-NiCnMRQh0o-1PNA",
+      "heading": 300.3
+    },
+    {
+      "step_index": 21,
+      "pano_id": "h3n_1OhGqbnUVrPMaXzdkw",
+      "heading": 300.3
+    },
+    {
+      "step_index": 22,
+      "pano_id": "-wkfv3r9zA5uNEYxXEtaxQ",
+      "heading": 274.9
+    },
+    {
+      "step_index": 23,
+      "pano_id": "5H31S3H3vd0mMw14y0l1Dg",
+      "heading": 31.1
+    },
+    {
+      "step_index": 24,
+      "pano_id": "8ptGjSH7nPUYzLHiR616kg",
+      "heading": 31.7
+    },
+    {
+      "step_index": 25,
+      "pano_id": "AqK1S_rESxUTQndZ7FOrxA",
+      "heading": 31.2
+    },
+    {
+      "step_index": 26,
+      "pano_id": "IOZnCuZpjc2nNySFiD03qA",
+      "heading": 30.8
+    },
+    {
+      "step_index": 27,
+      "pano_id": "5qW29BlmTnnm0Ddqz1funw",
+      "heading": 30.8
+    },
+    {
+      "step_index": 28,
+      "pano_id": "zgjJOhOAnd08yGP3y3_p8g",
+      "heading": 30.8
+    },
+    {
+      "step_index": 29,
+      "pano_id": "VGBAjWpuOk7ko0TRFohjNQ",
+      "heading": 30.8
+    },
+    {
+      "step_index": 30,
+      "pano_id": "lUPYRbSzEcKn47y5JQJRUQ",
+      "heading": 30.8
+    },
+    {
+      "step_index": 31,
+      "pano_id": "1RxcaYzRsjdmu_lC9iuwmA",
+      "heading": 30.7
+    },
+    {
+      "step_index": 32,
+      "pano_id": "xxrMmJWWFVU_8eV0CnouDw",
+      "heading": 30.8
+    },
+    {
+      "step_index": 33,
+      "pano_id": "F-bRIKax2365Z4W1zgbdLA",
+      "heading": 30.7
+    },
+    {
+      "step_index": 34,
+      "pano_id": "eb85boOdtdJ6hVTWX4rF9g",
+      "heading": 30.8
+    },
+    {
+      "step_index": 35,
+      "pano_id": "nQH2NwtDjNC4hYIn7f8acQ",
+      "heading": 30.8
+    },
+    {
+      "step_index": 36,
+      "pano_id": "mDm6tYubb5q1wBvzgVG1tg",
+      "heading": 30.7
+    },
+    {
+      "step_index": 37,
+      "pano_id": "aBnr1dQ2h0iiswnzENMotw",
+      "heading": 30.2
+    },
+    {
+      "step_index": 38,
+      "pano_id": "jqerLTa3NH14nO-KQwTjiw",
+      "heading": 24.1
+    },
+    {
+      "step_index": 39,
+      "pano_id": "Q5uqkf55GrhFmWHwtT14Ng",
+      "heading": 24.1
+    },
+    {
+      "step_index": 40,
+      "pano_id": "vMA5Xddeawr090yaIvaR0Q",
+      "heading": 21.4
+    },
+    {
+      "step_index": 41,
+      "pano_id": "2Py71z1AKVyY0p582NBiTw",
+      "heading": 20.5
+    },
+    {
+      "step_index": 42,
+      "pano_id": "JS9fbAW3YPUwArKa6dilpQ",
+      "heading": 20.0
+    },
+    {
+      "step_index": 43,
+      "pano_id": "Gegm2xu1da08huzGwHsHcA",
+      "heading": 17.2
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [235m] -> Turn Right -> Head Straight [65m] -> Stop",
+  "agent_concise_description": "Proceed straight along the narrow street, passing a fenced sports court and a distinctive red-and-white building on the left. At the T-intersection facing the Mercure Hotel, turn right. Continue forward for a short distance; the Schlangen-Apotheke will be on your left."
+}

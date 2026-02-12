@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Replay - VLN Benchmark</title>
+    <meta name="description" content="Replay and analyze agent evaluation sessions">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Agent Replay</h1>
+            <div class="header-info">
+                <span id="session-info">Session: -</span>
+                <span id="agent-info">Agent: -</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Left Panel: Map -->
+            <div style="flex: 0.4; display: flex; flex-direction: column; min-height: 0;">
+                <div id="map" style="flex: 1; min-height: 300px;"></div>
+            </div>
+
+            <!-- Right Panel: Replay View -->
+            <div style="flex: 0.6; display: flex; flex-direction: column;">
+                <!-- Static Image Display -->
+                <div class="panorama-container" style="flex: 1; position: relative; background: var(--bg-tertiary);">
+                    <img id="panorama-image" src="" alt="Agent View"
+                        style="width: 100%; height: 100%; object-fit: contain; display: none;">
+                    <div id="image-placeholder"
+                        style="display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-muted);">
+                        Select a session to view replay
+                    </div>
+                    <div class="panorama-overlay">
+                        <span id="step-display">Step: 0/0</span>
+                    </div>
+                </div>
+
+                <!-- Replay Controls -->
+                <div style="padding: 1rem; background: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+                    <div class="replay-controls" style="margin-bottom: 1rem;">
+                        <button class="btn btn-secondary" id="prev-btn" style="width: auto; padding: 0.5rem 1rem;">◀
+                            Prev</button>
+                        <button class="btn btn-primary" id="play-btn" style="width: auto; padding: 0.5rem 1rem;">▶
+                            Play</button>
+                        <button class="btn btn-secondary" id="next-btn" style="width: auto; padding: 0.5rem 1rem;">Next
+                            ▶</button>
+                        <input type="range" class="replay-slider" id="step-slider" min="0" max="0" value="0">
+                    </div>
+
+                    <!-- Step Details -->
+                    <div id="step-details"
+                        style="background: var(--bg-tertiary); padding: 1rem; border-radius: var(--radius-md); font-size: 0.875rem;">
+                        <div style="color: var(--text-muted);">Select a session to view replay</div>
+                    </div>
+
+                    <!-- Task Details & Available Moves Row -->
+                    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                        <!-- Task Details -->
+                        <div
+                            style="flex: 1; background: var(--bg-tertiary); padding: 1rem; border-radius: var(--radius-md);">
+                            <div
+                                style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 0.5rem;">
+                                Task Description
+                            </div>
+                            <div id="task-description"
+                                style="font-size: 0.875rem; line-height: 1.5; color: var(--text-primary);">
+                                -
+                            </div>
+                        </div>
+
+                        <!-- Available Moves -->
+                        <div
+                            style="flex: 1; background: var(--bg-tertiary); padding: 1rem; border-radius: var(--radius-md);">
+                            <div
+                                style="font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 0.5rem;">
+                                Available Moves
+                            </div>
+                            <div id="available-moves"
+                                style="display: flex; flex-direction: column; gap: 0.5rem; height: 200px; overflow-y: auto;">
+                                -
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar: Session List -->
+            <aside class="sidebar" style="overflow: hidden;">
+                <div class="sidebar-section"
+                    style="flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden;">
+                    <h2>Sessions</h2>
+
+                    <!-- Filters -->
+                    <div style="margin-bottom: 1rem; flex-shrink: 0;">
+                        <input type="text" id="session-filter" class="answer-input"
+                            placeholder="Filter by agent or task..." style="margin-bottom: 0.5rem;">
+                    </div>
+
+                    <!-- Session List -->
+                    <div class="moves-list" id="session-list" style="flex: 1; min-height: 0; overflow-y: auto;">
+                        <div style="color: var(--text-muted); text-align: center; padding: 1rem;">
+                            Loading sessions...
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Session Summary -->
+                <div class="sidebar-section" id="session-summary" style="display: none;">
+                    <h2>Summary</h2>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-value" id="summary-steps">-</div>
+                            <div class="stat-label">Steps</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="summary-time">-</div>
+                            <div class="stat-label">Time</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <div style="font-size: 0.75rem; color: var(--text-muted);">Status</div>
+                        <div id="summary-status" style="font-weight: 500;">-</div>
+                    </div>
+                    <div style="margin-top: 0.5rem;">
+                        <div style="font-size: 0.75rem; color: var(--text-muted);">Target Reached</div>
+                        <div id="summary-target" style="font-weight: 500;">-</div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <script src="/js/api_client.js"></script>
+    <script src="/js/map_view.js"></script>
+    <script>
+        // State
+        let mapView = null;
+        let currentLog = [];
+        let currentStep = 0;
+        let isPlaying = false;
+        let playInterval = null;
+        let allSessions = [];
+
+        // DOM Elements
+        const sessionList = document.getElementById('session-list');
+        const sessionFilter = document.getElementById('session-filter');
+        const stepSlider = document.getElementById('step-slider');
+        const stepDisplay = document.getElementById('step-display');
+        const stepDetails = document.getElementById('step-details');
+        const prevBtn = document.getElementById('prev-btn');
+        const playBtn = document.getElementById('play-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const sessionSummary = document.getElementById('session-summary');
+
+        // Initialize
+        async function init() {
+            // Initialize map viewer
+            mapView = new MapView('map');
+
+            // Event listeners
+            prevBtn.addEventListener('click', () => goToStep(currentStep - 1));
+            nextBtn.addEventListener('click', () => goToStep(currentStep + 1));
+            playBtn.addEventListener('click', togglePlay);
+            stepSlider.addEventListener('input', (e) => goToStep(parseInt(e.target.value)));
+            sessionFilter.addEventListener('input', filterSessions);
+
+            // Load sessions
+            await loadSessions();
+        }
+
+        async function loadSessions() {
+            sessionList.innerHTML = '<div style="text-align: center; padding: 1rem;">Loading sessions...</div>';
+
+            try {
+                const response = await apiClient.getSessions();
+                allSessions = response.sessions;
+                renderSessionList(allSessions);
+            } catch (error) {
+                console.error('Error loading sessions:', error);
+                sessionList.innerHTML = `
+                    <div style="color: var(--status-error); text-align: center; padding: 1rem;">
+                        <div>Failed to load sessions</div>
+                        <div style="font-size: 0.75rem;">${error.message}</div>
+                    </div>
+                `;
+            }
+        }
+
+        function renderSessionList(sessions) {
+            if (sessions.length === 0) {
+                sessionList.innerHTML = `
+                    <div style="color: var(--text-muted); text-align: center; padding: 2rem;">
+                        <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📁</div>
+                        <div>No sessions found</div>
+                        <div style="font-size: 0.75rem; margin-top: 0.5rem;">
+                            Complete an evaluation to see sessions here
+                        </div>
+                    </div>
+                `;
+                return;
+            }
+
+            sessionList.innerHTML = '';
+            sessions.forEach(session => {
+                const item = document.createElement('div');
+                item.className = 'move-option'; // Reusing style class
+                item.style.cursor = 'pointer';
+                item.style.display = 'block';
+                item.onclick = () => loadSession(session.session_id);
+
+                // Format time
+                let timeStr = session.start_time || '-';
+                try {
+                    const date = new Date(session.start_time);
+                    if (!isNaN(date)) {
+                        timeStr = date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+                    }
+                } catch (e) { }
+
+                item.innerHTML = `
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 0.25rem;">
+                        <span style="font-weight: 600;">${session.session_id.substring(0, 8)}...</span>
+                        <span style="font-size: 0.75rem; color: var(--text-muted);">${timeStr}</span>
+                    </div>
+                    <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.25rem;">
+                        Task: ${session.task_id || 'Unknown'}
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; font-size: 0.75rem;">
+                        <span class="status-badge status-${session.status}">${session.status}</span>
+                        <span>${session.mode}</span>
+                        <span>${session.total_steps} steps</span>
+                    </div>
+                `;
+                sessionList.appendChild(item);
+            });
+        }
+
+        function filterSessions() {
+            const query = sessionFilter.value.toLowerCase();
+            const filtered = allSessions.filter(s =>
+                (s.session_id && s.session_id.toLowerCase().includes(query)) ||
+                (s.task_id && s.task_id.toLowerCase().includes(query)) ||
+                (s.agent_id && s.agent_id.toLowerCase().includes(query))
+            );
+            renderSessionList(filtered);
+        }
+
+        async function loadSession(sessionId) {
+            try {
+                // Show loading state
+                stepDetails.innerHTML = '<div style="text-align: center;">Loading session log...</div>';
+
+                // Fetch log
+                const response = await apiClient.getSessionLog(sessionId);
+                currentLog = response.entries;
+
+                // Reset state
+                currentStep = 0;
+                isPlaying = false;
+                if (playInterval) clearInterval(playInterval);
+                playBtn.textContent = '▶ Play';
+
+                // Update slider
+                stepSlider.max = currentLog.length - 1;
+                stepSlider.value = 0;
+
+                // Update header info
+                document.getElementById('session-info').textContent = `Session: ${sessionId}`;
+                const startParams = currentLog.find(e => e.event === 'session_start');
+                if (startParams) {
+                    document.getElementById('agent-info').textContent = `Agent: ${startParams.agent_id} (${startParams.mode})`;
+
+                    // Update task description from API (preferred) or log (fallback)
+                    const taskId = startParams.task_id;
+                    if (taskId) {
+                        try {
+                            const taskData = await apiClient.getTask(taskId);
+                            if (taskData && taskData.description) {
+                                document.getElementById('task-description').textContent = taskData.description;
+                            } else {
+                                document.getElementById('task-description').textContent = startParams.task_description || '-';
+                            }
+                        } catch (e) {
+                            console.warn('Failed to fetch task details:', e);
+                            document.getElementById('task-description').textContent = startParams.task_description || '-';
+                        }
+                    } else {
+                        document.getElementById('task-description').textContent = startParams.task_description || '-';
+                    }
+                }
+
+                // Update summary sidebar
+                updateSessionSummary(sessionId, currentLog);
+
+                // Extract trajectory points from log entries
+                const trajectoryPoints = [];
+                for (const entry of currentLog) {
+                    const state = entry.state || entry.initial_state;
+                    if (state && state.lat != null && state.lng != null) {
+                        // Avoid duplicate consecutive points
+                        const lastPoint = trajectoryPoints[trajectoryPoints.length - 1];
+                        if (!lastPoint || lastPoint[0] !== state.lat || lastPoint[1] !== state.lng) {
+                            trajectoryPoints.push([state.lat, state.lng]);
+                        }
+                    }
+                }
+
+                // Draw full trajectory on map
+                mapView.clearMarkers();
+                mapView.clearTrajectory();
+
+                if (trajectoryPoints.length > 0) {
+                    // Draw trajectory line
+                    mapView.setTrajectory(trajectoryPoints);
+
+                    // Add start marker (green)
+                    const startPoint = trajectoryPoints[0];
+                    mapView.addMarker(startPoint[0], startPoint[1], 'Start Point', 'spawn');
+
+                    // Add end marker (red) if different from start
+                    if (trajectoryPoints.length > 1) {
+                        const endPoint = trajectoryPoints[trajectoryPoints.length - 1];
+                        mapView.addMarker(endPoint[0], endPoint[1], 'End Point', 'target');
+                    }
+
+                    // Fit map to show entire trajectory
+                    mapView.fitBounds();
+                }
+
+                // Show first step
+                goToStep(0);
+
+            } catch (error) {
+                console.error('Error loading session log:', error);
+                stepDetails.innerHTML = `<div style="color: var(--status-error);">Error loading log: ${error.message}</div>`;
+            }
+        }
+
+        function updateSessionSummary(sessionId, entries) {
+            sessionSummary.style.display = 'block';
+
+            const endEvent = entries.find(e => e.event === 'session_end');
+            const summary = allSessions.find(s => s.session_id === sessionId);
+
+            if (endEvent) {
+                document.getElementById('summary-steps').textContent = endEvent.total_steps;
+                document.getElementById('summary-time').textContent = endEvent.elapsed_time ? `${endEvent.elapsed_time.toFixed(1)}s` : '-';
+                document.getElementById('summary-status').textContent = endEvent.status;
+                const targetText = endEvent.reached_target === true ? 'Yes' : (endEvent.reached_target === false ? 'No' : '-');
+                document.getElementById('summary-target').textContent = targetText;
+            } else if (summary) {
+                document.getElementById('summary-steps').textContent = summary.total_steps;
+                document.getElementById('summary-time').textContent = '-';
+                document.getElementById('summary-status').textContent = summary.status || 'running';
+                document.getElementById('summary-target').textContent = '-';
+            }
+        }
+
+        function goToStep(step) {
+            if (!currentLog || currentLog.length === 0) return;
+
+            // Clamp step
+            step = Math.max(0, Math.min(step, currentLog.length - 1));
+
+            currentStep = step;
+            stepSlider.value = step;
+            stepDisplay.textContent = `Step: ${step + 1}/${currentLog.length}`;
+
+            // Find the state for this step (or previous step)
+            // Some log entries might be just info, not state updates
+            const stepEntry = currentLog[step];
+
+            // Update views
+            if (stepEntry) {
+                // Update static image if image path exists
+                const panoramaImage = document.getElementById('panorama-image');
+                const imagePlaceholder = document.getElementById('image-placeholder');
+
+                if (stepEntry.image_path) {
+                    panoramaImage.src = '/' + stepEntry.image_path;
+                    panoramaImage.style.display = 'block';
+                    imagePlaceholder.style.display = 'none';
+                } else {
+                    panoramaImage.style.display = 'none';
+                    imagePlaceholder.style.display = 'flex';
+                    imagePlaceholder.textContent = 'No image available for this step';
+                }
+
+                // Update map marker
+                const state = stepEntry.state || (stepEntry.initial_state);
+                if (state) {
+                    mapView.updateAgentMarker(state.lat, state.lng, state.heading);
+                    mapView.setCenter(state.lat, state.lng);
+                }
+
+                // Update text details
+                updateStepDetails(stepEntry);
+
+                // Update available moves
+                updateAvailableMoves(stepEntry.available_moves);
+            }
+        }
+
+        function updateAvailableMoves(moves) {
+            const container = document.getElementById('available-moves');
+            if (!moves || moves.length === 0) {
+                container.innerHTML = '<div style="color: var(--text-muted); font-size: 0.875rem;">No moves available</div>';
+                return;
+            }
+
+            container.innerHTML = moves.map(move => `
+                <div style="display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem; background: var(--bg-secondary); border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+                    <div style="display: flex; align-items: center; justify-content: center; width: 1.5rem; height: 1.5rem; background: var(--accent-gradient); border-radius: var(--radius-sm); font-weight: 600; font-size: 0.75rem;">${move.id}</div>
+                    <div style="flex: 1;">
+                        <div style="font-weight: 500; font-size: 0.875rem; color: var(--text-primary);">${move.direction}</div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted);">${move.distance}m • ${move.heading.toFixed(1)}°</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function updateStepDetails(entry) {
+            let html = `<div style="margin-bottom: 0.5rem; font-weight: 600; color: var(--primary-color);">${entry.event.toUpperCase()}</div>`;
+
+            html += `<div style="font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.5rem;">${entry.timestamp}</div>`;
+
+            if (entry.event === 'action' && entry.action) {
+                html += `<div><strong>Action:</strong> ${entry.action.type}`;
+                if (entry.action.direction) html += ` - ${entry.action.direction}`;
+                if (entry.action.heading) html += ` (Heading: ${entry.action.heading}°)`;
+                html += '</div>';
+
+                if (entry.action.answer) {
+                    html += `<div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-secondary); border-radius: var(--radius-sm); border-left: 3px solid var(--accent-color);"><strong>Answer:</strong> <span style="font-style: italic;">${entry.action.answer}</span></div>`;
+                }
+                if (entry.reason) {
+                    html += `<div style="margin-top: 0.5rem; padding: 0.5rem; background: var(--bg-secondary); border-radius: var(--radius-sm); border-left: 3px solid var(--accent-color);"><strong>Reason:</strong> <span style="font-style: italic;">${entry.reason}</span></div>`;
+                }
+            }
+
+            if (entry.event === 'session_start') {
+                html += `<div><strong>Task:</strong> ${entry.task_id}</div>`;
+                html += `<div><strong>Mode:</strong> ${entry.mode}</div>`;
+            }
+
+            if (entry.event === 'session_end') {
+                html += `<div><strong>Reason:</strong> ${entry.done_reason}</div>`;
+                if (entry.agent_answer) {
+                    html += `<div><strong>Answer:</strong> ${entry.agent_answer}</div>`;
+                }
+            }
+
+            const state = entry.state || entry.initial_state;
+            if (state) {
+                html += `<div style="margin-top: 0.5rem; border-top: 1px solid var(--border-color); padding-top: 0.5rem;">`;
+                html += `<div><strong>Pano ID:</strong> <span style="font-family: monospace; font-size: 0.9em;">${state.pano_id}</span></div>`;
+                html += `<div><strong>Heading:</strong> ${state.heading.toFixed(1)}°</div>`;
+                html += `</div>`;
+            }
+
+            if (entry.available_moves) {
+                html += `<div style="margin-top: 0.5rem;"><strong>Available moves:</strong> ${entry.available_moves.length}</div>`;
+            }
+
+            stepDetails.innerHTML = html;
+        }
+
+        function togglePlay() {
+            if (!currentLog || currentLog.length === 0) return;
+
+            isPlaying = !isPlaying;
+            playBtn.textContent = isPlaying ? '⏸ Pause' : '▶ Play';
+
+            if (isPlaying) {
+                playInterval = setInterval(() => {
+                    if (currentStep < currentLog.length - 1) {
+                        goToStep(currentStep + 1);
+                    } else {
+                        // Stop at end
+                        isPlaying = false;
+                        playBtn.textContent = '▶ Play';
+                        clearInterval(playInterval);
+                    }
+                }, 1000);
+            } else {
+                if (playInterval) {
+                    clearInterval(playInterval);
+                }
+            }
+        }
+
+        // Start
+        init();
+    </script>
+</body>
+
+</html>

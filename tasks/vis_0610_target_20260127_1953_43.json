@@ -1,0 +1,66 @@
+{
+  "task_id": "nav_0610_target_20260124_1510_20",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260124_150900",
+  "spawn_point": "1xHt6u5M-wDL3lRJSSz5Ng",
+  "spawn_heading": 164.1,
+  "description": "Head straight along the main road, passing the Kobando Group building on the left and a construction site on the right. Continue until you reach the intersection with the traffic light labeled 'Funacho' (舟丁). The destination is the bus stop located on the left side, immediately after passing the traffic light.",
+  "ground_truth": {
+    "target_name": "舟丁（バス）",
+    "target_pano_id": "Isqrnmng_2-U3guX2M-UNg",
+    "optimal_distance_meters": 50,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Isqrnmng_2-U3guX2M-UNg"
+  ],
+  "max_steps": 16,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "1xHt6u5M-wDL3lRJSSz5Ng",
+      "heading": 164.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "bGdw7wmVAO-NbYZ6hBpyzQ",
+      "heading": 164.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "pdyJvoiqzjrcyu8Nu5iaMA",
+      "heading": 159.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "ncxPTygihCi0_X_JbYk_rw",
+      "heading": 159.6
+    },
+    {
+      "step_index": 4,
+      "pano_id": "e31DP92ku371I1tYY0a_gw",
+      "heading": 162.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "8EOheZxISSgzwWbbVEkTVQ",
+      "heading": 163.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "7fr3Ba6qJ55WNQO8jD3EsQ",
+      "heading": 163.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "Isqrnmng_2-U3guX2M-UNg",
+      "heading": 163.8
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 150m -> Stop",
+  "agent_concise_description": "Head straight along the main road, passing the Kobando Group building on the left and a construction site on the right. Continue until you reach the intersection with the traffic light labeled 'Funacho' (舟丁). The destination is the bus stop located on the left side, immediately after passing the traffic light."
+}

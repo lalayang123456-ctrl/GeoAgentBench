@@ -1,0 +1,141 @@
+{
+  "task_id": "nav_0476_target_20260124_1400_3",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_135941",
+  "spawn_point": "jaz3cNtYdBxh4I62WspTiA",
+  "spawn_heading": 140.0,
+  "description": "Head straight along the main road, keeping the canal on the left and the large white Central Plaza Shopping Center on the right. Continue forward past the parking structure entrances without turning. The destination is located on the right within the shopping center complex.",
+  "ground_truth": {
+    "target_name": "KFC",
+    "target_pano_id": "EA_vlTwLJA546X3_HNSuPg",
+    "optimal_distance_meters": 247,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "EA_vlTwLJA546X3_HNSuPg"
+  ],
+  "max_steps": 46,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "jaz3cNtYdBxh4I62WspTiA",
+      "heading": 140.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "a6HgSds9-e1-kZo_Tc124w",
+      "heading": 140.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "dENwjl6jBWncVjZWHZKVdQ",
+      "heading": 139.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "04GXzWnnWoGOi6PmFPhjzg",
+      "heading": 139.8
+    },
+    {
+      "step_index": 4,
+      "pano_id": "sK8EZ-qSSPRy1jeSbvTMHQ",
+      "heading": 139.0
+    },
+    {
+      "step_index": 5,
+      "pano_id": "VJZJg0ItGDT6REuR6nhNFg",
+      "heading": 137.4
+    },
+    {
+      "step_index": 6,
+      "pano_id": "Ns0hlod9Lr4uOMdTfB7-wg",
+      "heading": 135.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "OO1NKwQ_q8Q0Na38FNo9_A",
+      "heading": 133.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "0vLD66ql5iubIphfVWl09Q",
+      "heading": 131.1
+    },
+    {
+      "step_index": 9,
+      "pano_id": "TIrP6NKGF_SWzRaMxXEWAg",
+      "heading": 125.8
+    },
+    {
+      "step_index": 10,
+      "pano_id": "Y_KZ1FvLExbYrGLRuuLXWw",
+      "heading": 123.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "Aq4dckIYH-2UEOb8i1TDKg",
+      "heading": 123.5
+    },
+    {
+      "step_index": 12,
+      "pano_id": "WCe31NVV3lFoeSIcjJOQbA",
+      "heading": 123.5
+    },
+    {
+      "step_index": 13,
+      "pano_id": "KX0xdLFbVUKQWdG7KrZQvQ",
+      "heading": 122.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "rLxMC_1vNfzODsyNE2PxSw",
+      "heading": 116.9
+    },
+    {
+      "step_index": 15,
+      "pano_id": "QVxD20OoIw0ummzq4CSvdg",
+      "heading": 119.7
+    },
+    {
+      "step_index": 16,
+      "pano_id": "0cKCT9OeYjh6NXkFZOSkyA",
+      "heading": 119.6
+    },
+    {
+      "step_index": 17,
+      "pano_id": "53WOU5TpJXThv8r_N2PG6A",
+      "heading": 117.5
+    },
+    {
+      "step_index": 18,
+      "pano_id": "AqByk8Xc560dS5eRexmeUA",
+      "heading": 116.8
+    },
+    {
+      "step_index": 19,
+      "pano_id": "n3jyc1NVnpnGXKcTKhISbQ",
+      "heading": 116.1
+    },
+    {
+      "step_index": 20,
+      "pano_id": "IkcpgWCA-r-p9g-k-N_nMw",
+      "heading": 118.2
+    },
+    {
+      "step_index": 21,
+      "pano_id": "T43uzCx1bmE5LyljT8muaw",
+      "heading": 119.8
+    },
+    {
+      "step_index": 22,
+      "pano_id": "EA_vlTwLJA546X3_HNSuPg",
+      "heading": 123.8
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [247m] -> Stop",
+  "agent_concise_description": "Head straight along the main road, keeping the canal on the left and the large white Central Plaza Shopping Center on the right. Continue forward past the parking structure entrances without turning. The destination is located on the right within the shopping center complex."
+}

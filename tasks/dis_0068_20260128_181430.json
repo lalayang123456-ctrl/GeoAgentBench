@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0068_20260128_181430",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between HSBC Glasgow and Frasers in meters.",
+  "spawn_pano_id": "u6eOSoOjP_TAU2jrNOUHXg",
+  "spawn_heading": 177.3,
+  "pois": [
+    {
+      "name": "HSBC Glasgow",
+      "type": "bank",
+      "lat": 55.858287,
+      "lng": -4.2546359,
+      "address": "2 Buchanan St, Glasgow G1 3LB, UK",
+      "pano_id": "uAoKTVNLDsc_6iTGcHLDRw"
+    },
+    {
+      "name": "Frasers",
+      "type": "clothing_store",
+      "lat": 55.858677,
+      "lng": -4.25504,
+      "address": "45 Buchanan St, Glasgow G1 3HL, UK",
+      "pano_id": "I1lJNqr89G5UC7vQ8npSAg"
+    }
+  ],
+  "geofence_id": "list_perception_1769595270",
+  "ground_truth": {
+    "distance_between_pois_m": 50.2,
+    "bearing_a_to_b_deg": 329.8,
+    "bearing_b_to_a_deg": 149.8
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:14:30.922105",
+    "spawn_location": {
+      "lat": 55.85891527945222,
+      "lng": -4.254688581917088
+    }
+  }
+}

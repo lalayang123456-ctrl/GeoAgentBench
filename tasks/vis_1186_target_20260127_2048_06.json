@@ -1,0 +1,116 @@
+{
+  "task_id": "nav_1186_target_20260125_0352_9",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260125_035137",
+  "spawn_point": "0jS_b_1btRxngus7NeOMBA",
+  "spawn_heading": 102.2,
+  "description": "Follow the tram tracks straight, passing the Walled Obelisk on your left and heading towards the Hagia Sophia visible in the distance. Continue along the cobblestone street past the park area. The path ends on the main road.",
+  "ground_truth": {
+    "target_name": "Burger King",
+    "target_pano_id": "cOCLASQPq0j87KJEho9V0g",
+    "optimal_distance_meters": 164,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "cOCLASQPq0j87KJEho9V0g"
+  ],
+  "max_steps": 36,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "0jS_b_1btRxngus7NeOMBA",
+      "heading": 102.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "oy_-NUm8ic152iKplDIKoQ",
+      "heading": 102.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "DY7YXMpbW34JVxSbXqEIew",
+      "heading": 102.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "n7pph38hgNZXnmrwPKetVQ",
+      "heading": 101.2
+    },
+    {
+      "step_index": 4,
+      "pano_id": "Oom04GKL8t-IXzpafDvkvQ",
+      "heading": 100.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "7bN8SMkOo7SiX8YlE1MsCQ",
+      "heading": 99.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "dr5qAeiVApz7kavh1LbFyA",
+      "heading": 99.0
+    },
+    {
+      "step_index": 7,
+      "pano_id": "O-Cx2TmwBzU3B1V3heJZLg",
+      "heading": 99.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "vPQ4bmT2g7_YaqIXCEO6Ng",
+      "heading": 100.3
+    },
+    {
+      "step_index": 9,
+      "pano_id": "9MVimszk-EzRCc6onvwLrA",
+      "heading": 93.2
+    },
+    {
+      "step_index": 10,
+      "pano_id": "olLlej3Css3DjC4qPGjjDQ",
+      "heading": 87.4
+    },
+    {
+      "step_index": 11,
+      "pano_id": "6C0cDDcj6O49Zwd3QbEWrg",
+      "heading": 77.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "0kj4mK2w5aaU7BqQy3Fdew",
+      "heading": 67.4
+    },
+    {
+      "step_index": 13,
+      "pano_id": "Y8RqyUqIJg47a13fLPPg5w",
+      "heading": 55.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "-gh-p2USCcI5aeXjL1jXXQ",
+      "heading": 45.5
+    },
+    {
+      "step_index": 15,
+      "pano_id": "-DMJfyyzYkH5rJ3-ahFmEw",
+      "heading": 40.9
+    },
+    {
+      "step_index": 16,
+      "pano_id": "nHq0n0B1G-gqnJUdobHhBA",
+      "heading": 32.5
+    },
+    {
+      "step_index": 17,
+      "pano_id": "cOCLASQPq0j87KJEho9V0g",
+      "heading": 20.8
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 164m -> Stop",
+  "agent_concise_description": "Follow the tram tracks straight, passing the Walled Obelisk on your left and heading towards the Hagia Sophia visible in the distance. Continue along the cobblestone street past the park area. The path ends on the main road."
+}

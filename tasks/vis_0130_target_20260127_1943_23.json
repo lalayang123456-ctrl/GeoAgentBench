@@ -1,0 +1,111 @@
+{
+  "task_id": "nav_0130_target_20260124_0402_16",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_mcdonalds_20260124_040149",
+  "spawn_point": "T7vIINUyfLhXJ0XkqWAxBw",
+  "spawn_heading": 210.9,
+  "description": "Proceed straight along the main road. Pass the Emarat gas station on the right side. The McDonald's destination is located immediately after the gas station, also on the right.",
+  "ground_truth": {
+    "target_name": "McDonald's",
+    "target_pano_id": "m1XhA_JqT-iBfobBjbTRLw",
+    "optimal_distance_meters": 139,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "m1XhA_JqT-iBfobBjbTRLw"
+  ],
+  "max_steps": 34,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "T7vIINUyfLhXJ0XkqWAxBw",
+      "heading": 210.9
+    },
+    {
+      "step_index": 1,
+      "pano_id": "7XddY5_S4RIb7K68a5Jpng",
+      "heading": 210.9
+    },
+    {
+      "step_index": 2,
+      "pano_id": "Zpecg5MixwQi-R3jnzynXA",
+      "heading": 210.9
+    },
+    {
+      "step_index": 3,
+      "pano_id": "e6SlPbxwjtgh_DLiL36aig",
+      "heading": 210.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "4rUa6d3DhmIzlLNGtHTxxA",
+      "heading": 210.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "UxvLG3bnujkQwguHX_3ZEQ",
+      "heading": 210.9
+    },
+    {
+      "step_index": 6,
+      "pano_id": "uL-1_Y0xdih3KutbeSflfw",
+      "heading": 211.6
+    },
+    {
+      "step_index": 7,
+      "pano_id": "7uQ-OOCEnikbeHW5UmcZ2Q",
+      "heading": 211.8
+    },
+    {
+      "step_index": 8,
+      "pano_id": "rux_t3TLa66DewI67xVByg",
+      "heading": 211.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "LbgtA3gpXaAluuh6uvn-rA",
+      "heading": 211.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "mCwMwyF2zkZJe33wA96kvA",
+      "heading": 211.0
+    },
+    {
+      "step_index": 11,
+      "pano_id": "cEN2IMAeBeg69xpz1kYc6A",
+      "heading": 210.9
+    },
+    {
+      "step_index": 12,
+      "pano_id": "pBhT657fT_uDnftBY_36Ow",
+      "heading": 209.5
+    },
+    {
+      "step_index": 13,
+      "pano_id": "xycb1Ol5liwm-RI3GMvsxg",
+      "heading": 209.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "4535CoKDHpRhWF1dvn5vxg",
+      "heading": 210.4
+    },
+    {
+      "step_index": 15,
+      "pano_id": "i6Us44iG-V8NMhTymka68g",
+      "heading": 210.7
+    },
+    {
+      "step_index": 16,
+      "pano_id": "m1XhA_JqT-iBfobBjbTRLw",
+      "heading": 210.6
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 140m -> Stop",
+  "agent_concise_description": "Proceed straight along the main road. Pass the Emarat gas station on the right side. The McDonald's destination is located immediately after the gas station, also on the right."
+}

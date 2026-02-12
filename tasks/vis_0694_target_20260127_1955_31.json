@@ -1,0 +1,91 @@
+{
+  "task_id": "nav_0694_target_20260124_1552_8",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260124_155105",
+  "spawn_point": "CHIzt4kMfwrbKWJYASge7g",
+  "spawn_heading": 342.8,
+  "description": "Head straight along the tree-lined road with the central bike lane markings towards the roundabout. Enter the traffic circle and take the second exit to continue forward past The Domain building. The destination, Jumbo Jumbo Cafe, is visible on the left side of the street.",
+  "ground_truth": {
+    "target_name": "Jumbo Jumbo Cafe College Park",
+    "target_pano_id": "VfH79vLALIAcizXUkm53oQ",
+    "optimal_distance_meters": 131,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "VfH79vLALIAcizXUkm53oQ"
+  ],
+  "max_steps": 26,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "CHIzt4kMfwrbKWJYASge7g",
+      "heading": 342.8
+    },
+    {
+      "step_index": 1,
+      "pano_id": "Ne6AQu3pwUDMxfKffb0BQA",
+      "heading": 342.8
+    },
+    {
+      "step_index": 2,
+      "pano_id": "IPqcrFJa5CFCi1_0apq0Ww",
+      "heading": 342.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "8ruGkvjQl3paGsPXbl31fg",
+      "heading": 342.8
+    },
+    {
+      "step_index": 4,
+      "pano_id": "m_SQ0quQqWJ8nDvc4Dt__A",
+      "heading": 342.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "E4HFi34oB6CKafqnN4Z5Xw",
+      "heading": 342.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "Z1vclSHPhLSCzuHQt0JvBg",
+      "heading": 342.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "Zch6F8031tuwRj1h0imOaA",
+      "heading": 325.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "p7FaWZ0_-IP5f5FqaGq3lA",
+      "heading": 258.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "uED3BTGlMw_LBhY7xV7-ZA",
+      "heading": 301.9
+    },
+    {
+      "step_index": 10,
+      "pano_id": "Jnuet09s_QS8k0q5Q5gQPg",
+      "heading": 278.1
+    },
+    {
+      "step_index": 11,
+      "pano_id": "sj1mr1Fvtz68-m2cQBqZiQ",
+      "heading": 262.8
+    },
+    {
+      "step_index": 12,
+      "pano_id": "VfH79vLALIAcizXUkm53oQ",
+      "heading": 262.8
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 76m -> Roundabout 2nd Exit -> Head Straight 55m -> Stop",
+  "agent_concise_description": "Head straight along the tree-lined road with the central bike lane markings towards the roundabout. Enter the traffic circle and take the second exit to continue forward past The Domain building. The destination, Jumbo Jumbo Cafe, is visible on the left side of the street."
+}

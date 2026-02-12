@@ -1,0 +1,103 @@
+{
+  "task_id": "nav_0269_target_20260124_1216_3",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_service_20260124_121407",
+  "spawn_point": "wpSPvGfMcMFGSY_13rXXhw",
+  "spawn_heading": 107.9,
+  "description": "Navigate to Conde Duque Milenium Medical Center. Head east for 64m. Turn left for 80m. Total distance: approximately 144 m.",
+  "ground_truth": {
+    "target_name": "Conde Duque Milenium Medical Center",
+    "target_pano_id": "-KEEyegXUmz3S9-7wpZ2Hg",
+    "optimal_distance_meters": 144,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "-KEEyegXUmz3S9-7wpZ2Hg"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "wpSPvGfMcMFGSY_13rXXhw",
+      "heading": 107.9
+    },
+    {
+      "step_index": 1,
+      "pano_id": "N0hM4gVF9s1YzJM94mWNUA",
+      "heading": 107.9
+    },
+    {
+      "step_index": 2,
+      "pano_id": "icL36EdDXnX3AiXlyXutng",
+      "heading": 108.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "7YvlhF93xwxPnVmRi1o3KQ",
+      "heading": 108.3
+    },
+    {
+      "step_index": 4,
+      "pano_id": "RpK8nwT3ZtHLHM8YYWQAbA",
+      "heading": 108.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "-nZeA1alih8jxSK_7Zr6qg",
+      "heading": 108.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "zOwJENMRX-mlOTn_lLNmNg",
+      "heading": 108.2
+    },
+    {
+      "step_index": 7,
+      "pano_id": "GCJmeu29kp-e71JXesyRDw",
+      "heading": 57.4
+    },
+    {
+      "step_index": 8,
+      "pano_id": "Bd6h6HkRHvqmYafgiAd1CA",
+      "heading": 29.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "_P-kA_dcdeLNU6rJduqIQw",
+      "heading": 28.9
+    },
+    {
+      "step_index": 10,
+      "pano_id": "ciwQ1g8kUcF1cwg-TUY8Rw",
+      "heading": 27.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "FG6o12qqbUJUz0-IIhO4QQ",
+      "heading": 27.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "IsxTBwy6VAe466Dq1a6bdQ",
+      "heading": 27.7
+    },
+    {
+      "step_index": 13,
+      "pano_id": "_8cRYlcoP77EccGpEBzRIA",
+      "heading": 27.7
+    },
+    {
+      "step_index": 14,
+      "pano_id": "6lp7tapxEfzgeXkW6ysHMA",
+      "heading": 27.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "-KEEyegXUmz3S9-7wpZ2Hg",
+      "heading": 27.7
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

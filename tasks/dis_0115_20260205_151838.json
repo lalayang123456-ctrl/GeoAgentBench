@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0115_20260205_151838",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between Caff\u00e8 Nero and HSBC Derby in meters.",
+  "spawn_pano_id": "y-C6NZXUvIrA6AxkmGGtSw",
+  "spawn_heading": 332.6,
+  "pois": [
+    {
+      "name": "Caff\u00e8 Nero",
+      "type": "coffee_shop",
+      "lat": 52.922020599999996,
+      "lng": -1.4770714,
+      "address": "19-23 Corn Mkt, Derby DE1 1QH, UK",
+      "pano_id": "lPG_IB45WSZ5jxSTPgv5SA"
+    },
+    {
+      "name": "HSBC Derby",
+      "type": "bank",
+      "lat": 52.9216066,
+      "lng": -1.476354,
+      "address": "Derbyshire, 1 St Peters St, Derby DE1 2AE, UK",
+      "pano_id": "lXpQ6oXLxcxNwNdh-CtV-A"
+    }
+  ],
+  "geofence_id": "list_perception_1770304718",
+  "ground_truth": {
+    "distance_between_pois_m": 66.6,
+    "bearing_a_to_b_deg": 133.7,
+    "bearing_b_to_a_deg": 313.7
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:18:38.646563",
+    "spawn_location": {
+      "lat": 52.92179556202957,
+      "lng": -1.476877998619045
+    }
+  }
+}

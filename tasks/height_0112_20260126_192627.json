@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0112_20260126_192627",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your South (approx. 175\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "SsH7BSLtg0gpS0tAgdMP6w",
+  "spawn_heading": 175.2244585528373,
+  "target_building": {
+    "lat": 48.130893799999996,
+    "lng": 11.587429,
+    "height": 32.76,
+    "floors": 9,
+    "ground_elevation": 508.0959777832031,
+    "roof_elevation": 540.8519,
+    "name": "buildings/ChIJrVL6w3zfnUcR6_UXCyEvT3w",
+    "date": "2022-07-19"
+  },
+  "geofence_id": "list_height_0112_20260126_192627",
+  "ground_truth": {
+    "height_meters": 32.76
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-26T19:26:27.689186",
+    "bearing_deg": 175.2244585528373,
+    "city": "Munich, Germany"
+  }
+}

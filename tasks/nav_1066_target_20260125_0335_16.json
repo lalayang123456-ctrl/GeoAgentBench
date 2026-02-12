@@ -1,0 +1,103 @@
+{
+  "task_id": "nav_1066_target_20260125_0335_16",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_transit_20260125_033510",
+  "spawn_point": "CWLtbSzCF-cyF6W1doDN7Q",
+  "spawn_heading": 268.3,
+  "description": "Navigate to Kavaflar Otobüs Durağı. Head west for 137m. Total distance: approximately 137 m.",
+  "ground_truth": {
+    "target_name": "Kavaflar Otobüs Durağı",
+    "target_pano_id": "Le6ZFJrqiNZj2GkSwIqzRg",
+    "optimal_distance_meters": 137,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Le6ZFJrqiNZj2GkSwIqzRg"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "CWLtbSzCF-cyF6W1doDN7Q",
+      "heading": 268.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "kXrTjw3-Mkbw-oMYiw-9cQ",
+      "heading": 268.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "uwJoCKVuWaDh0xMBRKEO6g",
+      "heading": 267.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "xKnZmFoEIw4lJJqI9D07qg",
+      "heading": 266.8
+    },
+    {
+      "step_index": 4,
+      "pano_id": "KlEGGGUVmRPLQnwHVWnRtw",
+      "heading": 266.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "UPtbekoQ9q1sbEk7zh0DPQ",
+      "heading": 270.0
+    },
+    {
+      "step_index": 6,
+      "pano_id": "_vfhw978XZrc08BTulmJiQ",
+      "heading": 269.9
+    },
+    {
+      "step_index": 7,
+      "pano_id": "3NVWGHhfx14cLCWvv7hm0g",
+      "heading": 269.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "nKmGHaJWj6B_2BrMBeoqmg",
+      "heading": 269.9
+    },
+    {
+      "step_index": 9,
+      "pano_id": "bsiNeQbmFCcniuNHe7cwDA",
+      "heading": 269.9
+    },
+    {
+      "step_index": 10,
+      "pano_id": "XdcZSontdQHs8TbIhUGQyQ",
+      "heading": 269.9
+    },
+    {
+      "step_index": 11,
+      "pano_id": "U1-MI_gv6l6GRfXdyQYCtw",
+      "heading": 269.9
+    },
+    {
+      "step_index": 12,
+      "pano_id": "LT7T_SdRUK2DUfeFz_Gh7w",
+      "heading": 269.9
+    },
+    {
+      "step_index": 13,
+      "pano_id": "JEcF8N2m4GcfZ-HolZhyHw",
+      "heading": 269.9
+    },
+    {
+      "step_index": 14,
+      "pano_id": "2OIZzHoEs_aDtOhoVJsEfA",
+      "heading": 269.9
+    },
+    {
+      "step_index": 15,
+      "pano_id": "Le6ZFJrqiNZj2GkSwIqzRg",
+      "heading": 269.9
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

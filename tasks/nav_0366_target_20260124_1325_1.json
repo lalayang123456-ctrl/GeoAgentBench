@@ -1,0 +1,108 @@
+{
+  "task_id": "nav_0366_target_20260124_1325_1",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_132400",
+  "spawn_point": "usKKRgv6YZXsEQEhslz52g",
+  "spawn_heading": 180.6,
+  "description": "Navigate to Burger King. Head south for 24m. Turn left for 99m. Total distance: approximately 123 m.",
+  "ground_truth": {
+    "target_name": "Burger King",
+    "target_pano_id": "01HOEwmJPH6tByVsc_sfCA",
+    "optimal_distance_meters": 123,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "01HOEwmJPH6tByVsc_sfCA"
+  ],
+  "max_steps": 34,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "usKKRgv6YZXsEQEhslz52g",
+      "heading": 180.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "oAsxAi0qhPhZzrSKoL2tLQ",
+      "heading": 180.6
+    },
+    {
+      "step_index": 2,
+      "pano_id": "XjJoeykJsUkV7SpoLxPLWA",
+      "heading": 180.9
+    },
+    {
+      "step_index": 3,
+      "pano_id": "vNU2fIsuuNofz5VwPVVCxA",
+      "heading": 183.3
+    },
+    {
+      "step_index": 4,
+      "pano_id": "pz6GFO2sri6GrpGg1TGaXg",
+      "heading": 183.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "LgRUDJie7owttuDMT4PDUQ",
+      "heading": 76.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "S9wdBjvTmZadvCov3dHK6A",
+      "heading": 90.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "GLXV4wgaRLIjPQ7KFe8U9w",
+      "heading": 91.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "k385EQNeSSRtNbyvSTreRA",
+      "heading": 91.9
+    },
+    {
+      "step_index": 9,
+      "pano_id": "u7dQI9M3UZxxKg5mDi3GWQ",
+      "heading": 91.9
+    },
+    {
+      "step_index": 10,
+      "pano_id": "XeesyocJNpiizFNWKiIdWw",
+      "heading": 91.8
+    },
+    {
+      "step_index": 11,
+      "pano_id": "12AR69gjEr6l3VhdDbnNQw",
+      "heading": 91.1
+    },
+    {
+      "step_index": 12,
+      "pano_id": "y0hXlscY2-U6STzhmoZe8w",
+      "heading": 91.1
+    },
+    {
+      "step_index": 13,
+      "pano_id": "h_Nq66yyG75-12zCNiFoZA",
+      "heading": 91.1
+    },
+    {
+      "step_index": 14,
+      "pano_id": "CKYXzdp5TImzD1j-iNq0Iw",
+      "heading": 91.0
+    },
+    {
+      "step_index": 15,
+      "pano_id": "f4kitBdUAIkBxBOGT9-Bmg",
+      "heading": 91.1
+    },
+    {
+      "step_index": 16,
+      "pano_id": "01HOEwmJPH6tByVsc_sfCA",
+      "heading": 91.1
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0106_20260128_185524",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Sports Direct from NatWest Southampton City.",
+  "spawn_pano_id": "jaHI8nalKXBzDdi73yskOg",
+  "spawn_heading": 178.9,
+  "pois": [
+    {
+      "name": "NatWest Southampton City",
+      "type": "bank",
+      "lat": 50.90469710000001,
+      "lng": -1.4039853999999998,
+      "address": "68 Above Bar St, Southampton SO14 7DS, UK",
+      "pano_id": "rDcWtOvT3dSuyWAxI3Y_bg"
+    },
+    {
+      "name": "Sports Direct",
+      "type": "clothing_store",
+      "lat": 50.9039989,
+      "lng": -1.4039643,
+      "address": "40-50 Above Bar St, Southampton SO14 7DW, UK",
+      "pano_id": "yzlU46xm8gHFw1wq6QHEcA"
+    }
+  ],
+  "geofence_id": "list_perception_1769597724",
+  "ground_truth": {
+    "distance_between_pois_m": 77.7,
+    "bearing_a_to_b_deg": 178.9,
+    "bearing_b_to_a_deg": 358.9
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:55:24.767875",
+    "spawn_location": {
+      "lat": 50.90416544865934,
+      "lng": -1.404360294391466
+    }
+  }
+}

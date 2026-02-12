@@ -1,0 +1,106 @@
+{
+  "task_id": "nav_0815_target_20260125_0313_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_supermarket_20260125_031324",
+  "spawn_point": "65CinKXHnaXe1w6swL0vgA",
+  "spawn_heading": 298.4,
+  "description": "Head straight along the street, keeping the large brick building, One Park Place, on your left. Continue forward through the intersection where a vertical green 'Phoenicia' sign marks the corner on the left. The destination is on the left side of the street.",
+  "ground_truth": {
+    "target_name": "Phoenicia Specialty Foods",
+    "target_pano_id": "EGo04CWy8nd3wvAtJU6WzA",
+    "optimal_distance_meters": 150,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "EGo04CWy8nd3wvAtJU6WzA"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "65CinKXHnaXe1w6swL0vgA",
+      "heading": 298.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "c61JrarbfM0HJNXG6zaqIQ",
+      "heading": 298.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "NQCvyBsd3TX_xqk63HHlsw",
+      "heading": 303.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "WOOsLlvC0LoUyCg6kBe3_Q",
+      "heading": 303.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "1R4QfHo9huHCHTQlSgjz9Q",
+      "heading": 304.2
+    },
+    {
+      "step_index": 5,
+      "pano_id": "NKsLWJxagNexU6jesT-1CQ",
+      "heading": 304.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "FggOC8HUislU6Vg13pHLwQ",
+      "heading": 304.2
+    },
+    {
+      "step_index": 7,
+      "pano_id": "EQaT_je7jS_nTztzLLtGtw",
+      "heading": 304.2
+    },
+    {
+      "step_index": 8,
+      "pano_id": "T_sG60l8-cZJcsd_gY0cgg",
+      "heading": 304.2
+    },
+    {
+      "step_index": 9,
+      "pano_id": "dA0NycQJ2-xVgbbhRlhAnQ",
+      "heading": 304.2
+    },
+    {
+      "step_index": 10,
+      "pano_id": "4YCWPBNUUvv-0aNhEuiJ4g",
+      "heading": 304.8
+    },
+    {
+      "step_index": 11,
+      "pano_id": "aeuD4ykOD8tubmnnV8eCLA",
+      "heading": 282.5
+    },
+    {
+      "step_index": 12,
+      "pano_id": "n2rHCcdruXN9Hp9RjBt3BQ",
+      "heading": 214.6
+    },
+    {
+      "step_index": 13,
+      "pano_id": "D64En4EN0sIgFa-Xs75sdw",
+      "heading": 214.2
+    },
+    {
+      "step_index": 14,
+      "pano_id": "k9rSaffjS6oNsVlP3PYzyw",
+      "heading": 215.1
+    },
+    {
+      "step_index": 15,
+      "pano_id": "EGo04CWy8nd3wvAtJU6WzA",
+      "heading": 216.4
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 150m -> Stop",
+  "agent_concise_description": "Head straight along the street, keeping the large brick building, One Park Place, on your left. Continue forward through the intersection where a vertical green 'Phoenicia' sign marks the corner on the left. The destination is on the left side of the street."
+}

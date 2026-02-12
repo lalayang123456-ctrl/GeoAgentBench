@@ -1,0 +1,41 @@
+{
+  "task_id": "nav_0660_target_20260124_1538_16",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260124_153627",
+  "spawn_point": "AljGRGiSWfuLShPw3nx_-w",
+  "spawn_heading": 324.0,
+  "description": "Head straight along the road, keeping the stone building with scaffolding on your left. Continue straight through the traffic light intersection. The Edinburgh Herbal Dispensary will be on your left, identifiable by its green storefront with 'HERBALISTS' written in gold.",
+  "ground_truth": {
+    "target_name": "Edinburgh Herbal Dispensary",
+    "target_pano_id": "ow6FhJKSNQLTdR4824NFKg",
+    "optimal_distance_meters": 12.0,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "ow6FhJKSNQLTdR4824NFKg"
+  ],
+  "max_steps": 6,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "AljGRGiSWfuLShPw3nx_-w",
+      "heading": 324.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "zqez83watkmNMrmYgtFQOQ",
+      "heading": 324.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "ow6FhJKSNQLTdR4824NFKg",
+      "heading": 311.7
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 50m -> Stop",
+  "agent_concise_description": "Head straight along the road, keeping the stone building with scaffolding on your left. Continue straight through the traffic light intersection. The Edinburgh Herbal Dispensary will be on your left, identifiable by its green storefront with 'HERBALISTS' written in gold."
+}

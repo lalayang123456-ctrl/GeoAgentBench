@@ -1,0 +1,86 @@
+{
+  "task_id": "nav_0444_target_20260124_1346_22",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_134514",
+  "spawn_point": "49wJC-_C_oQiwLlnxS7-iA",
+  "spawn_heading": 304.7,
+  "description": "Proceed down the narrow street, passing the TM-43 Building on your right. At the T-intersection, turn left onto the wide main road lined with trees. Continue straight for a short distance, passing a bus stop on the left, and stop near the APA Hotel.",
+  "ground_truth": {
+    "target_name": "尾上町（バス）",
+    "target_pano_id": "Vx7vqLa7VxkuBigVrxrm5A",
+    "optimal_distance_meters": 87,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Vx7vqLa7VxkuBigVrxrm5A"
+  ],
+  "max_steps": 24,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "49wJC-_C_oQiwLlnxS7-iA",
+      "heading": 304.7
+    },
+    {
+      "step_index": 1,
+      "pano_id": "2KjsRvVM6KMjgjYm7srSRQ",
+      "heading": 304.7
+    },
+    {
+      "step_index": 2,
+      "pano_id": "v-_7UXZJPzu41cD5Yol0yQ",
+      "heading": 304.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "_Q3UxMkYpYz3UCb_EZsZeQ",
+      "heading": 304.6
+    },
+    {
+      "step_index": 4,
+      "pano_id": "mWDqWqso_ibq_eOJTmbRNQ",
+      "heading": 304.7
+    },
+    {
+      "step_index": 5,
+      "pano_id": "T29hwHrV7hSLW8ah3Nuw9w",
+      "heading": 304.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "rOhy9kNT3JQDFQQE3Jmcnw",
+      "heading": 304.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "Fe_nZziPWvr1gDlJI2LGUA",
+      "heading": 31.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "r4RXRccwycEPMcPJRrI2Nw",
+      "heading": 31.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "1elZ26s6CvNoCr5CCLQyJA",
+      "heading": 31.6
+    },
+    {
+      "step_index": 10,
+      "pano_id": "mzf0r2tmyPk4AlX_LMhRUA",
+      "heading": 31.5
+    },
+    {
+      "step_index": 11,
+      "pano_id": "Vx7vqLa7VxkuBigVrxrm5A",
+      "heading": 131.8
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 64m -> Turn Left -> Head Straight 23m -> Stop",
+  "agent_concise_description": "Proceed down the narrow street, passing the TM-43 Building on your right. At the T-intersection, turn left onto the wide main road lined with trees. Continue straight for a short distance, passing a bus stop on the left, and stop near the APA Hotel."
+}

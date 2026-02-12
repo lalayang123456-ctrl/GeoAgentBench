@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0136_20260205_153449",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between HSBC Northampton and Barclays Bank in meters.",
+  "spawn_pano_id": "nqtnOS4F5gNMEG0x8e_OkQ",
+  "spawn_heading": 195.5,
+  "pois": [
+    {
+      "name": "HSBC Northampton",
+      "type": "bank",
+      "lat": 52.2380577,
+      "lng": -0.8941266999999999,
+      "address": "22 Abington St, Northampton NN1 2AJ, UK",
+      "pano_id": "edfQN7MyRdIzZc92lx__Ig"
+    },
+    {
+      "name": "Barclays Bank",
+      "type": "bank",
+      "lat": 52.238262999999996,
+      "lng": -0.8941467999999999,
+      "address": "19 Abington St, Northampton NN1 2AN, UK",
+      "pano_id": "nqtnOS4F5gNMEG0x8e_OkQ"
+    }
+  ],
+  "geofence_id": "list_perception_1770305689",
+  "ground_truth": {
+    "distance_between_pois_m": 22.9,
+    "bearing_a_to_b_deg": 356.6,
+    "bearing_b_to_a_deg": 176.6
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:34:49.097690",
+    "spawn_location": {
+      "lat": 52.23819027249049,
+      "lng": -0.8940665212573594
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "task_id": "nav_1008_target_20260125_0330_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260125_033012",
+  "spawn_point": "l66J2z1hVFWaPiVnuleaOQ",
+  "spawn_heading": 87.3,
+  "description": "Head straight through the parking lot lane, keeping the strip mall on your right. Pass 'Bok a Bok' and 'Berta's Salvadoran Kitchen'. Stop at 'La Costeñita', located on the right just before the 'Combat Arts Academy'.",
+  "ground_truth": {
+    "target_name": "La Costeñita Grocery",
+    "target_pano_id": "fX_fPoi_7-sbvObX241wUQ",
+    "optimal_distance_meters": 43,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "fX_fPoi_7-sbvObX241wUQ"
+  ],
+  "max_steps": 10,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "l66J2z1hVFWaPiVnuleaOQ",
+      "heading": 87.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "ZXAJg4zMO-MVMqhDzC1D_g",
+      "heading": 87.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "VHJdtDay7aWwjjFcfbFi-Q",
+      "heading": 87.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "3dX0wlqmXpyzaht4PW2r_g",
+      "heading": 87.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "fX_fPoi_7-sbvObX241wUQ",
+      "heading": 87.4
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 45m -> Stop",
+  "agent_concise_description": "Head straight through the parking lot lane, keeping the strip mall on your right. Pass 'Bok a Bok' and 'Berta's Salvadoran Kitchen'. Stop at 'La Costeñita', located on the right just before the 'Combat Arts Academy'."
+}

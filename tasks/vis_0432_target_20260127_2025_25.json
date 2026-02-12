@@ -1,0 +1,106 @@
+{
+  "task_id": "nav_0432_target_20260124_1346_10",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_134514",
+  "spawn_point": "6AusLZrI6mc3wp1v2J-ZHw",
+  "spawn_heading": 33.4,
+  "description": "Head straight through the intersection, keeping the List Sotheby's building on your left. Continue down the tree-lined avenue, passing a subway entrance on the left side. The destination is the bus stop located on the left sidewalk.",
+  "ground_truth": {
+    "target_name": "尾上町（バス）",
+    "target_pano_id": "mfQaEXZaN-KYBBjsf419mw",
+    "optimal_distance_meters": 127,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "mfQaEXZaN-KYBBjsf419mw"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "6AusLZrI6mc3wp1v2J-ZHw",
+      "heading": 33.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "eKG-mtIK7viIVbZftuKVJw",
+      "heading": 33.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "5hrwCejfyTmXa85ApJ4W5A",
+      "heading": 33.5
+    },
+    {
+      "step_index": 3,
+      "pano_id": "VOSJlm0O2g0KAh4QMBkx9Q",
+      "heading": 32.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "gyX8DEWKX3SPDCX7cGyZNg",
+      "heading": 32.0
+    },
+    {
+      "step_index": 5,
+      "pano_id": "RgWKAstPNPYwM5g8nSE5fg",
+      "heading": 32.0
+    },
+    {
+      "step_index": 6,
+      "pano_id": "bfIli-xHSc_ZOin-1pMo3A",
+      "heading": 32.0
+    },
+    {
+      "step_index": 7,
+      "pano_id": "zA4JoY-aKrwrjwpv-GJgsA",
+      "heading": 32.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "xzf66b55Ryr-SpJ41jFNBQ",
+      "heading": 33.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "Ry4DjpiUEKRAJ2FIh3tIXw",
+      "heading": 33.6
+    },
+    {
+      "step_index": 10,
+      "pano_id": "O3rOFoO1FRyPRTOzPD__0g",
+      "heading": 32.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "tAaIRQAIw66HtmiD__rrRw",
+      "heading": 33.4
+    },
+    {
+      "step_index": 12,
+      "pano_id": "xzPJwsIHP-i3egSPHTNnZw",
+      "heading": 31.3
+    },
+    {
+      "step_index": 13,
+      "pano_id": "SzJxPGg90pZhiTEF3ppytA",
+      "heading": 31.3
+    },
+    {
+      "step_index": 14,
+      "pano_id": "OtlpMsj4Jx3yk0UO13McdA",
+      "heading": 31.5
+    },
+    {
+      "step_index": 15,
+      "pano_id": "mfQaEXZaN-KYBBjsf419mw",
+      "heading": 31.8
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [127m] -> Stop",
+  "agent_concise_description": "Head straight through the intersection, keeping the List Sotheby's building on your left. Continue down the tree-lined avenue, passing a subway entrance on the left side. The destination is the bus stop located on the left sidewalk."
+}

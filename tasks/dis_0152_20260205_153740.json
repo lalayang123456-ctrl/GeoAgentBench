@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0152_20260205_153740",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between HSBC Plymouth and Costa Coffee in meters.",
+  "spawn_pano_id": "QyoCVPd6e5p4f_GHfhoVkw",
+  "spawn_heading": 138.5,
+  "pois": [
+    {
+      "name": "HSBC Plymouth",
+      "type": "bank",
+      "lat": 50.3711906,
+      "lng": -4.138715599999999,
+      "address": "4 Old Town St, Plymouth PL1 1DD, UK",
+      "pano_id": "PCCq64XhdN1JrgT-On0lFA"
+    },
+    {
+      "name": "Costa Coffee",
+      "type": "coffee_shop",
+      "lat": 50.372102999999996,
+      "lng": -4.137592,
+      "address": "Unit3 Drake Circus, SC, Plymouth PL1 1EA, UK",
+      "pano_id": "qjqELzsNnQZ7_wObkA6PGg"
+    }
+  ],
+  "geofence_id": "list_perception_1770305860",
+  "ground_truth": {
+    "distance_between_pois_m": 129.0,
+    "bearing_a_to_b_deg": 38.1,
+    "bearing_b_to_a_deg": 218.1
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:37:40.458961",
+    "spawn_location": {
+      "lat": 50.37145537743192,
+      "lng": -4.139082924828556
+    }
+  }
+}

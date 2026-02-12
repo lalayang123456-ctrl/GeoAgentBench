@@ -1,0 +1,133 @@
+{
+  "task_id": "nav_0083_target_20260124_0318_8",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260124_031800",
+  "spawn_point": "TS-XdLwpdx1AM6EcORvVXQ",
+  "spawn_heading": 190.6,
+  "description": "Navigate to Starbucks U Place. Head south์ พระราม 9 for 212m. Total distance: approximately 212 m.",
+  "ground_truth": {
+    "target_name": "Starbucks U Place",
+    "target_pano_id": "U8a6vWpTLG_4I_ordlJiPw",
+    "optimal_distance_meters": 212,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "U8a6vWpTLG_4I_ordlJiPw"
+  ],
+  "max_steps": 44,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "TS-XdLwpdx1AM6EcORvVXQ",
+      "heading": 190.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "Bg93H1aSeR9KHFZqUm4nbw",
+      "heading": 190.6
+    },
+    {
+      "step_index": 2,
+      "pano_id": "63QBO3aIcK0WYWU0cG3R5A",
+      "heading": 192.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "yXLmQh-9f8T9mtC4wosnmA",
+      "heading": 192.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "hMDmeWWUNYncEE-kFiTo5w",
+      "heading": 192.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "cfixncGF8Qd_35KancLAyw",
+      "heading": 192.4
+    },
+    {
+      "step_index": 6,
+      "pano_id": "zRfMAKO79ah_wj6FSi8Jtw",
+      "heading": 192.3
+    },
+    {
+      "step_index": 7,
+      "pano_id": "HUYadW6FctJ-9AvMZDlTmg",
+      "heading": 192.4
+    },
+    {
+      "step_index": 8,
+      "pano_id": "YF_rMUJsVf5DPRRbET984A",
+      "heading": 192.4
+    },
+    {
+      "step_index": 9,
+      "pano_id": "rmo5asmtCaQoBAoWa1IMxA",
+      "heading": 192.4
+    },
+    {
+      "step_index": 10,
+      "pano_id": "wj5kjg4OCxppUldvTSpkJQ",
+      "heading": 192.3
+    },
+    {
+      "step_index": 11,
+      "pano_id": "WsC-EXQM-xU5JitnERD44A",
+      "heading": 192.4
+    },
+    {
+      "step_index": 12,
+      "pano_id": "xFnUHIUGNmBMjdiRA42WpA",
+      "heading": 192.2
+    },
+    {
+      "step_index": 13,
+      "pano_id": "rh3u_vihyUViILMABXn1QA",
+      "heading": 192.8
+    },
+    {
+      "step_index": 14,
+      "pano_id": "x0LdaI_seIYqxHDMFRSNZg",
+      "heading": 192.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "4lLYgaALaqFx5M326iJZaQ",
+      "heading": 192.7
+    },
+    {
+      "step_index": 16,
+      "pano_id": "Q9Ne0GPhUpgcfJAnHkn4Mg",
+      "heading": 192.6
+    },
+    {
+      "step_index": 17,
+      "pano_id": "0C8v2MdmS0wAvf9fa9mkPQ",
+      "heading": 192.7
+    },
+    {
+      "step_index": 18,
+      "pano_id": "uV3lHMo2yysG8ckBFIdslg",
+      "heading": 192.7
+    },
+    {
+      "step_index": 19,
+      "pano_id": "2YQbUhGa8zfUr4XiuUgWIA",
+      "heading": 192.7
+    },
+    {
+      "step_index": 20,
+      "pano_id": "jmCZQ1GGR5oxGrmwnmbfIQ",
+      "heading": 192.8
+    },
+    {
+      "step_index": 21,
+      "pano_id": "U8a6vWpTLG_4I_ordlJiPw",
+      "heading": 192.2
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

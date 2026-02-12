@@ -1,0 +1,51 @@
+{
+  "task_id": "nav_0889_target_20260125_0318_17",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260125_031803",
+  "spawn_point": "x4qNtLYSg-0pPwJ5fxha0Q",
+  "spawn_heading": 277.1,
+  "description": "Head straight along the street, passing the orange Bebo's building on your left. Cross the intersection with the red and white corner building and stop near the wall of books on the left.",
+  "ground_truth": {
+    "target_name": "calle Loiza esquina calle Del Parque",
+    "target_pano_id": "l5uYLa3YK4OSd6rsd-jM6A",
+    "optimal_distance_meters": 35,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "l5uYLa3YK4OSd6rsd-jM6A"
+  ],
+  "max_steps": 10,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "x4qNtLYSg-0pPwJ5fxha0Q",
+      "heading": 277.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "qYf692Mqegn7PHhn1UlzMw",
+      "heading": 277.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "l9bE772iqzW9JxTF021z3A",
+      "heading": 277.1
+    },
+    {
+      "step_index": 3,
+      "pano_id": "lx_91jRo8n8np13ka14Prg",
+      "heading": 277.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "l5uYLa3YK4OSd6rsd-jM6A",
+      "heading": 277.4
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 35m -> Stop",
+  "agent_concise_description": "Head straight along the street, passing the orange Bebo's building on your left. Cross the intersection with the red and white corner building and stop near the wall of books on the left."
+}

@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0117_20260205_151838",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of HSBC Derby from Primark.",
+  "spawn_pano_id": "y-C6NZXUvIrA6AxkmGGtSw",
+  "spawn_heading": 171.9,
+  "pois": [
+    {
+      "name": "Primark",
+      "type": "clothing_store",
+      "lat": 52.922042999999995,
+      "lng": -1.4764568,
+      "address": "28-31 Corn Mkt, Derby DE1 2DG, UK",
+      "pano_id": "SYk2mvD4qVuF8LT7dae8dA"
+    },
+    {
+      "name": "HSBC Derby",
+      "type": "bank",
+      "lat": 52.9216066,
+      "lng": -1.476354,
+      "address": "Derbyshire, 1 St Peters St, Derby DE1 2AE, UK",
+      "pano_id": "lXpQ6oXLxcxNwNdh-CtV-A"
+    }
+  ],
+  "geofence_id": "list_perception_1770304718",
+  "ground_truth": {
+    "distance_between_pois_m": 49.0,
+    "bearing_a_to_b_deg": 171.9,
+    "bearing_b_to_a_deg": 351.9
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:18:38.649590",
+    "spawn_location": {
+      "lat": 52.92179556202957,
+      "lng": -1.476877998619045
+    }
+  }
+}

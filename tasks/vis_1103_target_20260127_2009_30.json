@@ -1,0 +1,126 @@
+{
+  "task_id": "nav_1103_target_20260125_0340_10",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_transit_20260125_034029",
+  "spawn_point": "m6XUoGURMmDvLKIZoXEyWg",
+  "spawn_heading": 119.1,
+  "description": "Walk straight down the pedestrian street towards the large Bourse building with columns. At the square in front of the Bourse, turn left onto the main boulevard. The destination, Le Grand Café, will be on the right, marked by a red facade and Stella Artois awnings.",
+  "ground_truth": {
+    "target_name": "Le Grand Café",
+    "target_pano_id": "0fKWXaIrfWounE4XgCTBvg",
+    "optimal_distance_meters": 180,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "0fKWXaIrfWounE4XgCTBvg"
+  ],
+  "max_steps": 40,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "m6XUoGURMmDvLKIZoXEyWg",
+      "heading": 119.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "8_bxTk86y4Nw9MLiSC5ELA",
+      "heading": 119.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "iREBcixrkp0Z8wWpli0V8Q",
+      "heading": 119.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "4ieTDY7X-s4n1ubQvFHMvQ",
+      "heading": 119.1
+    },
+    {
+      "step_index": 4,
+      "pano_id": "fTwkTOrLp19SsYfc-9LAbQ",
+      "heading": 119.1
+    },
+    {
+      "step_index": 5,
+      "pano_id": "8p-Cfe7IcffSgFWcgZj_pQ",
+      "heading": 119.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "EroAdKfGQUYkwVt2Hnjaug",
+      "heading": 123.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "kRCWNIFe6O_-_thswJctFA",
+      "heading": 123.8
+    },
+    {
+      "step_index": 8,
+      "pano_id": "drReCZ1nSe0jgCzUnIJb-A",
+      "heading": 125.1
+    },
+    {
+      "step_index": 9,
+      "pano_id": "NfgwrWOQxWdBatREUnFhYA",
+      "heading": 124.8
+    },
+    {
+      "step_index": 10,
+      "pano_id": "60n3np6gij6iS2UzCFQcag",
+      "heading": 123.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "dMsJszTB8fk4PZm9gWBcJQ",
+      "heading": 62.3
+    },
+    {
+      "step_index": 12,
+      "pano_id": "QROdbQEj9oF7IC-v3WVVig",
+      "heading": 51.0
+    },
+    {
+      "step_index": 13,
+      "pano_id": "aDZye8irXktJeYiB7jQkVg",
+      "heading": 73.7
+    },
+    {
+      "step_index": 14,
+      "pano_id": "sF7HPgWJMrgusYNGh1TtFA",
+      "heading": 3.4
+    },
+    {
+      "step_index": 15,
+      "pano_id": "vBueBNN-sBiBMSBBkb6zIw",
+      "heading": 151.4
+    },
+    {
+      "step_index": 16,
+      "pano_id": "krRNwvX4-lZp6CFCIryC_g",
+      "heading": 139.1
+    },
+    {
+      "step_index": 17,
+      "pano_id": "C7hWi-lwkdBGPVjgZ9SfIw",
+      "heading": 110.8
+    },
+    {
+      "step_index": 18,
+      "pano_id": "kZnBg_SwxocVY_5oJcXkag",
+      "heading": 36.0
+    },
+    {
+      "step_index": 19,
+      "pano_id": "0fKWXaIrfWounE4XgCTBvg",
+      "heading": 32.6
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [130m] -> Turn Left -> Head Straight [40m] -> Stop",
+  "agent_concise_description": "Walk straight down the pedestrian street towards the large Bourse building with columns. At the square in front of the Bourse, turn left onto the main boulevard. The destination, Le Grand Café, will be on the right, marked by a red facade and Stella Artois awnings."
+}

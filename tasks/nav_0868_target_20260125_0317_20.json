@@ -1,0 +1,78 @@
+{
+  "task_id": "nav_0868_target_20260125_0317_20",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260125_031632",
+  "spawn_point": "qRjeRSMmiuDxAPv6347MYQ",
+  "spawn_heading": 54.0,
+  "description": "Navigate to Droguería San Ignacio - Sabaneta. Head northeast for 98m. Total distance: approximately 98 m.",
+  "ground_truth": {
+    "target_name": "Droguería San Ignacio - Sabaneta",
+    "target_pano_id": "uNZPAXSg6TuJGIOQzqXdfw",
+    "optimal_distance_meters": 98,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "uNZPAXSg6TuJGIOQzqXdfw"
+  ],
+  "max_steps": 22,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "qRjeRSMmiuDxAPv6347MYQ",
+      "heading": 54.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "3gaa-uUMTIM1gPMhcBRIIA",
+      "heading": 54.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "GIhED8SbMN8-xr-73vBbzQ",
+      "heading": 54.5
+    },
+    {
+      "step_index": 3,
+      "pano_id": "D8gAoALLec5VcnzsBFQN_A",
+      "heading": 55.1
+    },
+    {
+      "step_index": 4,
+      "pano_id": "r6VFhsq_15_yLuGMEgLlgw",
+      "heading": 55.1
+    },
+    {
+      "step_index": 5,
+      "pano_id": "Q9zIm3_mW0niFUBPBwDWQA",
+      "heading": 55.1
+    },
+    {
+      "step_index": 6,
+      "pano_id": "swlQbXSHSbgoLMAYA_8BBA",
+      "heading": 49.5
+    },
+    {
+      "step_index": 7,
+      "pano_id": "3mybu8nJeCW9IInX5uPShw",
+      "heading": 44.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "SBO27GHfMxhbX3vcLB-Pow",
+      "heading": 44.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "s8k0MspADF6SBmlF2mkOCQ",
+      "heading": 44.5
+    },
+    {
+      "step_index": 10,
+      "pano_id": "uNZPAXSg6TuJGIOQzqXdfw",
+      "heading": 44.5
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

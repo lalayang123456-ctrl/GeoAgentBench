@@ -1,0 +1,168 @@
+{
+  "task_id": "nav_0937_target_20260125_0322_11",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_supermarket_20260125_032234",
+  "spawn_point": "ET-jeuH5R-aUDN0GJlPjag",
+  "spawn_heading": 80.2,
+  "description": "Navigate to Buckeye Rd & 4th Av. Head east for 310m. Total distance: approximately 310 m.",
+  "ground_truth": {
+    "target_name": "Buckeye Rd & 4th Av",
+    "target_pano_id": "4m65RB8VxEMh77vV_wdadQ",
+    "optimal_distance_meters": 310,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "4m65RB8VxEMh77vV_wdadQ"
+  ],
+  "max_steps": 58,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "ET-jeuH5R-aUDN0GJlPjag",
+      "heading": 80.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "mjJlBnEVVUX9J_tv5poCww",
+      "heading": 80.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "IkZdhhoKSA5LvC8XHjDhTQ",
+      "heading": 75.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "YbJDU3ERYu9ef48bd2QtHg",
+      "heading": 74.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "9g42-Qw4stOLWhq6DUbFyQ",
+      "heading": 75.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "FrqhBpMey95-NwPnOfwmFQ",
+      "heading": 76.1
+    },
+    {
+      "step_index": 6,
+      "pano_id": "9KUSkx6k3nNdQZpGQJYpdw",
+      "heading": 76.6
+    },
+    {
+      "step_index": 7,
+      "pano_id": "pNk90LAgD8F-zLimFz-wNw",
+      "heading": 79.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "I83p86jNdxpuMh0YEMFdGA",
+      "heading": 81.1
+    },
+    {
+      "step_index": 9,
+      "pano_id": "PVUr1Hm-cVkyugntCoz9jg",
+      "heading": 83.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "GFH7XQRVnTg1QTPoIXgMdg",
+      "heading": 85.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "1pIVRDnsN-56VpkD2oPjuw",
+      "heading": 88.4
+    },
+    {
+      "step_index": 12,
+      "pano_id": "Nh1BE3GzKxyUUOzEYav01g",
+      "heading": 89.3
+    },
+    {
+      "step_index": 13,
+      "pano_id": "P9_alLAnMD1wnxrQ0T_sjA",
+      "heading": 89.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "x1wGV6fyBQ3c7mvvtfMCNw",
+      "heading": 89.8
+    },
+    {
+      "step_index": 15,
+      "pano_id": "tUVEqkGVr-M_UNYh6fzHag",
+      "heading": 108.4
+    },
+    {
+      "step_index": 16,
+      "pano_id": "LO-kuk7QABj4WLrWDyZvWQ",
+      "heading": 56.4
+    },
+    {
+      "step_index": 17,
+      "pano_id": "Ex8b3zdDV0vdbGVvR-Y8Hg",
+      "heading": 89.9
+    },
+    {
+      "step_index": 18,
+      "pano_id": "Fe-gaVd0-cqCgmcVbLa9wg",
+      "heading": 89.9
+    },
+    {
+      "step_index": 19,
+      "pano_id": "hH4YO-aO5jJPmVxbOkXpXg",
+      "heading": 89.8
+    },
+    {
+      "step_index": 20,
+      "pano_id": "1QvPu00kbiKxqebx3BcO9A",
+      "heading": 89.9
+    },
+    {
+      "step_index": 21,
+      "pano_id": "ThPFhCOQs5uqV49lt9WTlA",
+      "heading": 89.8
+    },
+    {
+      "step_index": 22,
+      "pano_id": "XV4V8InKhy_Ze_DIF1o10g",
+      "heading": 89.8
+    },
+    {
+      "step_index": 23,
+      "pano_id": "9zVh4w8WXKN8HVAMGVWMqg",
+      "heading": 89.8
+    },
+    {
+      "step_index": 24,
+      "pano_id": "AQuOGHC1dzWg2FZ4OWtKYA",
+      "heading": 89.8
+    },
+    {
+      "step_index": 25,
+      "pano_id": "YYTKVZRDaQpMBNd4q8xQGQ",
+      "heading": 89.8
+    },
+    {
+      "step_index": 26,
+      "pano_id": "yH5hOozrtRsDQN4YR0XgKQ",
+      "heading": 89.9
+    },
+    {
+      "step_index": 27,
+      "pano_id": "AZ68mNPAQ_O_cj0jU1hsZw",
+      "heading": 89.8
+    },
+    {
+      "step_index": 28,
+      "pano_id": "4m65RB8VxEMh77vV_wdadQ",
+      "heading": 89.8
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

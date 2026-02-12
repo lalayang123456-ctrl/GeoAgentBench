@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0111_20260128_185524",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Sports Direct from River Island.",
+  "spawn_pano_id": "jaHI8nalKXBzDdi73yskOg",
+  "spawn_heading": 192.4,
+  "pois": [
+    {
+      "name": "River Island",
+      "type": "clothing_store",
+      "lat": 50.904346399999994,
+      "lng": -1.4038435,
+      "address": "56-58 Above Bar St, Southampton SO14 7DS, UK",
+      "pano_id": "k3JiBcRQszwIRE-WYWs9Pg"
+    },
+    {
+      "name": "Sports Direct",
+      "type": "clothing_store",
+      "lat": 50.9039989,
+      "lng": -1.4039643,
+      "address": "40-50 Above Bar St, Southampton SO14 7DW, UK",
+      "pano_id": "yzlU46xm8gHFw1wq6QHEcA"
+    }
+  ],
+  "geofence_id": "list_perception_1769597724",
+  "ground_truth": {
+    "distance_between_pois_m": 39.6,
+    "bearing_a_to_b_deg": 192.4,
+    "bearing_b_to_a_deg": 12.4
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:55:24.770583",
+    "spawn_location": {
+      "lat": 50.90416544865934,
+      "lng": -1.404360294391466
+    }
+  }
+}

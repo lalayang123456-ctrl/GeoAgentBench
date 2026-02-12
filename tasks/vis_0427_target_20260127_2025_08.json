@@ -1,0 +1,121 @@
+{
+  "task_id": "nav_0427_target_20260124_1346_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_134514",
+  "spawn_point": "DPzdIqcFVm54zmKhq7mNnA",
+  "spawn_heading": 211.6,
+  "description": "Head straight down the tree-lined street, passing a 7-Eleven on the right and an AEON store on the left. Continue forward through the intersection past the Kiara real estate office. The entrance to Kannai Station will be on your left immediately after the intersection.",
+  "ground_truth": {
+    "target_name": "Kannai Station",
+    "target_pano_id": "kt3buu-9qyWNB1cCbYjt7g",
+    "optimal_distance_meters": 154,
+    "route_description": "left→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "kt3buu-9qyWNB1cCbYjt7g"
+  ],
+  "max_steps": 38,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "DPzdIqcFVm54zmKhq7mNnA",
+      "heading": 211.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "Lx5Z35zyj_eEJ9PEZLtCvg",
+      "heading": 211.6
+    },
+    {
+      "step_index": 2,
+      "pano_id": "K02cAp788ju2dQ1n3d8tdA",
+      "heading": 211.6
+    },
+    {
+      "step_index": 3,
+      "pano_id": "_429DuFmsfBoESnJzW7-mw",
+      "heading": 128.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "7UvpTsTfPFTDc4lLmD4-CA",
+      "heading": 197.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "WCFDU35BRvQ4Oulkzojf6g",
+      "heading": 211.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "mzf0r2tmyPk4AlX_LMhRUA",
+      "heading": 211.9
+    },
+    {
+      "step_index": 7,
+      "pano_id": "1elZ26s6CvNoCr5CCLQyJA",
+      "heading": 211.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "r4RXRccwycEPMcPJRrI2Nw",
+      "heading": 211.6
+    },
+    {
+      "step_index": 9,
+      "pano_id": "Fe_nZziPWvr1gDlJI2LGUA",
+      "heading": 211.5
+    },
+    {
+      "step_index": 10,
+      "pano_id": "rOhy9kNT3JQDFQQE3Jmcnw",
+      "heading": 211.5
+    },
+    {
+      "step_index": 11,
+      "pano_id": "EbowMGKVFoUcgTfMlafYXg",
+      "heading": 212.9
+    },
+    {
+      "step_index": 12,
+      "pano_id": "7021Qe_lJS9kuquJtaHASA",
+      "heading": 212.9
+    },
+    {
+      "step_index": 13,
+      "pano_id": "pLbFRl2uYhV7o4rVvHBG4Q",
+      "heading": 212.9
+    },
+    {
+      "step_index": 14,
+      "pano_id": "8OeC1n7VYMfwlpQhQykOQQ",
+      "heading": 212.0
+    },
+    {
+      "step_index": 15,
+      "pano_id": "mvln60BMat8ceq_Vzu4a7Q",
+      "heading": 210.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "ZaCv2F75wpMN1fMXgtQTFA",
+      "heading": 210.7
+    },
+    {
+      "step_index": 17,
+      "pano_id": "-XpI_JlrO-IHwt_kXG4Hhw",
+      "heading": 210.7
+    },
+    {
+      "step_index": 18,
+      "pano_id": "kt3buu-9qyWNB1cCbYjt7g",
+      "heading": 165.2
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 150m -> Stop",
+  "agent_concise_description": "Head straight down the tree-lined street, passing a 7-Eleven on the right and an AEON store on the left. Continue forward through the intersection past the Kiara real estate office. The entrance to Kannai Station will be on your left immediately after the intersection."
+}

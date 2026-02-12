@@ -1,0 +1,96 @@
+{
+  "task_id": "nav_0524_target_20260124_1425_3",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_142413",
+  "spawn_point": "3cZOlRL6BeOBPIKwjCtd6Q",
+  "spawn_heading": 147.0,
+  "description": "Turn left onto the service road and proceed straight, crossing the intersection. Continue past Cash America Pawn and Dutch Bros Coffee on the left. Finally, turn left into the Burger King parking lot.",
+  "ground_truth": {
+    "target_name": "Burger King",
+    "target_pano_id": "s1h7wDA-tbDan8CoFkAAlQ",
+    "optimal_distance_meters": 175,
+    "route_description": "left→left→left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "s1h7wDA-tbDan8CoFkAAlQ"
+  ],
+  "max_steps": 28,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "3cZOlRL6BeOBPIKwjCtd6Q",
+      "heading": 147.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "ZYZ7c8CsI_ge9yyrewuHyQ",
+      "heading": 147.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "PXdgjiomAAKhOPTPgS0QSA",
+      "heading": 90.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "RiJ9WTdvDpiJt5GZaB9UMg",
+      "heading": 80.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "y_jCVjZl6GjqZ52OAKu3GA",
+      "heading": 86.5
+    },
+    {
+      "step_index": 5,
+      "pano_id": "vGlJDkSHoWK_rtxK4HXWWA",
+      "heading": 94.0
+    },
+    {
+      "step_index": 6,
+      "pano_id": "dq_hbIjLMnUzwo6YfV5-ew",
+      "heading": 85.2
+    },
+    {
+      "step_index": 7,
+      "pano_id": "bNp5cmCxfSXsraE_nbzJSw",
+      "heading": 70.8
+    },
+    {
+      "step_index": 8,
+      "pano_id": "5jCChLFn7-S7cdipt39quQ",
+      "heading": 352.3
+    },
+    {
+      "step_index": 9,
+      "pano_id": "D9RzcG2W_0Bvwpx1tPHz_Q",
+      "heading": 6.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "7iSyL63FDUhSwcVi51YwJA",
+      "heading": 359.5
+    },
+    {
+      "step_index": 11,
+      "pano_id": "69CNyWQLsLpyEkeVNpxr8Q",
+      "heading": 358.5
+    },
+    {
+      "step_index": 12,
+      "pano_id": "y8hY-19VqnaOFgrJVWdgbg",
+      "heading": 52.4
+    },
+    {
+      "step_index": 13,
+      "pano_id": "s1h7wDA-tbDan8CoFkAAlQ",
+      "heading": 61.4
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Turn Left -> Head Straight [150m] -> Turn Left",
+  "agent_concise_description": "Turn left onto the service road and proceed straight, crossing the intersection. Continue past Cash America Pawn and Dutch Bros Coffee on the left. Finally, turn left into the Burger King parking lot."
+}

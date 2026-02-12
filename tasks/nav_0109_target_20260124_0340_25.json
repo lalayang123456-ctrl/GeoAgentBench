@@ -1,0 +1,88 @@
+{
+  "task_id": "nav_0109_target_20260124_0340_25",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_034002",
+  "spawn_point": "P-G7qrPo9u_eOPjE56m1BA",
+  "spawn_heading": 108.0,
+  "description": "Navigate to Banque Alternative Suisse SA. Head west for 10m. Total distance: approximately 10 m.",
+  "ground_truth": {
+    "target_name": "Banque Alternative Suisse SA",
+    "target_pano_id": "uX9_aRZUjw2AbeE9xVH9IQ",
+    "optimal_distance_meters": 10,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "uX9_aRZUjw2AbeE9xVH9IQ"
+  ],
+  "max_steps": 26,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "P-G7qrPo9u_eOPjE56m1BA",
+      "heading": 108.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "C5H9DAHg-njsygY8ExkC_Q",
+      "heading": 108.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "Ik3ODFMyw3YuilJoAKvbcg",
+      "heading": 108.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "1WisMhFGFZFE0peFzR_Qbg",
+      "heading": 107.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "3pYdYDa1ZQ1ZMbHHV3tyvA",
+      "heading": 107.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "62ViG28dM8RqsoYbk0EHlw",
+      "heading": 78.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "a13ooouZN_KLRyy74Wi22w",
+      "heading": 199.3
+    },
+    {
+      "step_index": 7,
+      "pano_id": "jiNR7MWIcupVnLAKJPZaFA",
+      "heading": 199.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "iQZNgRfkhju9qej63g7i0A",
+      "heading": 199.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "MB0SWgE3QCwZsuKHOl78Bw",
+      "heading": 286.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "0Erq4tbTRSfC6BkCSvsWhw",
+      "heading": 286.3
+    },
+    {
+      "step_index": 11,
+      "pano_id": "s0qiTvtgVN9aWJ66EBUQjA",
+      "heading": 286.3
+    },
+    {
+      "step_index": 12,
+      "pano_id": "uX9_aRZUjw2AbeE9xVH9IQ",
+      "heading": 286.3
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

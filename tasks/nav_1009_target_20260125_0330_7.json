@@ -1,0 +1,28 @@
+{
+  "task_id": "nav_1009_target_20260125_0330_7",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260125_033012",
+  "spawn_point": "Gm90Hxwgfm94UunoL-uzog",
+  "spawn_heading": 0.0,
+  "description": "Navigate to Balkan Market. Head west for 46m. Turn left for 49m. Turn left for 50m. Turn left for 13m. Total distance: approximately 158 m.",
+  "ground_truth": {
+    "target_name": "Balkan Market",
+    "target_pano_id": "Gm90Hxwgfm94UunoL-uzog",
+    "optimal_distance_meters": 158,
+    "route_description": "left→left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Gm90Hxwgfm94UunoL-uzog"
+  ],
+  "max_steps": 2,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Gm90Hxwgfm94UunoL-uzog",
+      "heading": 0.0
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

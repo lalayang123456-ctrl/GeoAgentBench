@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLN Benchmark Platform</title>
+    <meta name="description" content="Vision-Language Navigation Benchmark for testing LLM/VLM navigation capabilities">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <h1>VLN Benchmark Platform</h1>
+            <div class="header-info">
+                <span>Vision-Language Navigation Benchmark</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content" style="justify-content: center; align-items: center;">
+            <div style="text-align: center; max-width: 800px; padding: 2rem;">
+                <h2
+                    style="font-size: 2rem; margin-bottom: 1rem; background: linear-gradient(135deg, #6366f1, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                    Welcome to VLN Benchmark
+                </h2>
+                <p style="color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.8;">
+                    A platform for evaluating Vision-Language Navigation capabilities of LLM/VLM agents.
+                    Choose an option below to get started.
+                </p>
+
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem;">
+                    <a href="/human_eval.html" class="card-link"
+                        style="display: block; padding: 2rem; background: var(--bg-tertiary); border-radius: var(--radius-lg); border: 1px solid var(--border-color); transition: all 0.3s ease; text-decoration: none;">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">🧑‍💻</div>
+                        <h3 style="color: var(--text-primary); margin-bottom: 0.5rem;">Human Evaluation</h3>
+                        <p style="color: var(--text-muted); font-size: 0.875rem;">Complete navigation tasks manually</p>
+                    </a>
+
+                    <a href="/agent_replay.html" class="card-link"
+                        style="display: block; padding: 2rem; background: var(--bg-tertiary); border-radius: var(--radius-lg); border: 1px solid var(--border-color); transition: all 0.3s ease; text-decoration: none;">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">📊</div>
+                        <h3 style="color: var(--text-primary); margin-bottom: 0.5rem;">Agent Replay</h3>
+                        <p style="color: var(--text-muted); font-size: 0.875rem;">Review agent evaluation logs</p>
+                    </a>
+
+                    <a href="#" class="card-link" id="preload-btn"
+                        style="display: block; padding: 2rem; background: var(--bg-tertiary); border-radius: var(--radius-lg); border: 1px solid var(--border-color); transition: all 0.3s ease; text-decoration: none;">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem;">📥</div>
+                        <h3 style="color: var(--text-primary); margin-bottom: 0.5rem;">Preload Data</h3>
+                        <p style="color: var(--text-muted); font-size: 0.875rem;">Download panorama images</p>
+                    </a>
+                </div>
+
+                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                    <h4 style="color: var(--text-secondary); margin-bottom: 1rem;">Quick Links</h4>
+                    <div style="display: flex; gap: 1rem; justify-content: center;">
+                        <a href="/docs"
+                            style="padding: 0.5rem 1rem; background: var(--bg-tertiary); border-radius: var(--radius-md); color: var(--text-secondary);">API
+                            Docs</a>
+                        <a href="/api/tasks"
+                            style="padding: 0.5rem 1rem; background: var(--bg-tertiary); border-radius: var(--radius-md); color: var(--text-secondary);">Task
+                            List</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Preload Modal -->
+    <div class="modal" id="preload-modal">
+        <div class="modal-content" style="max-width: 600px;">
+            <h2 style="margin-bottom: 1rem;">📥 Preload Panorama Data</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+                Download panorama images for tasks before running evaluations.
+            </p>
+
+            <!-- Task List -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: var(--text-muted); font-size: 0.75rem; margin-bottom: 0.75rem;">SELECT TASKS</h4>
+                <div id="preload-task-list" style="max-height: 200px; overflow-y: auto;">
+                    <div style="color: var(--text-muted); text-align: center; padding: 1rem;">Loading tasks...</div>
+                </div>
+            </div>
+
+            <!-- Zoom Level -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: var(--text-muted); font-size: 0.75rem; margin-bottom: 0.75rem;">ZOOM LEVEL</h4>
+                <select id="zoom-level"
+                    style="width: 100%; padding: 0.75rem; background: var(--bg-tertiary); border: 1px solid var(--border-color); border-radius: var(--radius-md); color: var(--text-primary);">
+                    <option value="1">Zoom 1 (1024×512) - Fast</option>
+                    <option value="2" selected>Zoom 2 (2048×1024) - Development</option>
+                    <option value="3">Zoom 3 (4096×2048) - Benchmark</option>
+                    <option value="4">Zoom 4 (8192×4096) - High Quality</option>
+                </select>
+            </div>
+
+            <!-- Progress -->
+            <div id="preload-progress" style="display: none; margin-bottom: 1.5rem;">
+                <h4 style="color: var(--text-muted); font-size: 0.75rem; margin-bottom: 0.75rem;">PROGRESS</h4>
+                <div style="background: var(--bg-tertiary); border-radius: var(--radius-md); overflow: hidden;">
+                    <div id="progress-bar"
+                        style="height: 8px; background: var(--accent-gradient); width: 0%; transition: width 0.3s;">
+                    </div>
+                </div>
+                <div id="progress-text" style="color: var(--text-secondary); font-size: 0.875rem; margin-top: 0.5rem;">
+                    0%</div>
+            </div>
+
+            <!-- Buttons -->
+            <div style="display: flex; gap: 1rem;">
+                <button class="btn btn-secondary" id="close-modal-btn" style="flex: 1;">Cancel</button>
+                <button class="btn btn-primary" id="preload-selected-btn" style="flex: 1;">Preload Selected</button>
+                <button class="btn btn-primary" id="preload-all-btn" style="flex: 1;">Preload All</button>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .card-link:hover {
+            border-color: var(--accent-primary) !important;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px var(--shadow-color);
+        }
+
+        .task-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .task-checkbox:hover {
+            border-color: var(--accent-primary);
+        }
+
+        .task-checkbox input {
+            width: 18px;
+            height: 18px;
+            accent-color: var(--accent-primary);
+        }
+
+        .task-checkbox .task-info {
+            flex: 1;
+        }
+
+        .task-checkbox .task-name {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .task-checkbox .task-panos {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+        }
+
+        .task-checkbox .task-status {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: var(--radius-sm);
+        }
+
+        .task-checkbox .status-ready {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--success);
+        }
+
+        .task-checkbox .status-pending {
+            background: rgba(245, 158, 11, 0.2);
+            color: var(--warning);
+        }
+    </style>
+
+    <script>
+        const preloadModal = document.getElementById('preload-modal');
+        const preloadBtn = document.getElementById('preload-btn');
+        const closeModalBtn = document.getElementById('close-modal-btn');
+        const preloadSelectedBtn = document.getElementById('preload-selected-btn');
+        const preloadAllBtn = document.getElementById('preload-all-btn');
+        const taskList = document.getElementById('preload-task-list');
+        const progressDiv = document.getElementById('preload-progress');
+        const progressBar = document.getElementById('progress-bar');
+        const progressText = document.getElementById('progress-text');
+        const zoomSelect = document.getElementById('zoom-level');
+
+        let geofences = [];
+
+        // Open modal
+        preloadBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            preloadModal.classList.add('active');
+            loadGeofences();
+        });
+
+        // Close modal
+        closeModalBtn.addEventListener('click', () => {
+            preloadModal.classList.remove('active');
+        });
+
+        preloadModal.addEventListener('click', (e) => {
+            if (e.target === preloadModal) {
+                preloadModal.classList.remove('active');
+            }
+        });
+
+        // Load geofences
+        async function loadGeofences() {
+            try {
+                const response = await fetch('/api/geofences');
+                const data = await response.json();
+                geofences = data.geofences;
+                renderGeofenceList();
+            } catch (error) {
+                taskList.innerHTML = `<div style="color: var(--error);">Error loading geofences: ${error.message}</div>`;
+            }
+        }
+
+        function renderGeofenceList() {
+            taskList.innerHTML = '';
+            if (geofences.length === 0) {
+                taskList.innerHTML = `<div style="color: var(--text-muted); text-align: center; padding: 1rem;">No geofences found. Generate tasks first.</div>`;
+                return;
+            }
+
+            geofences.forEach(gf => {
+                const div = document.createElement('label');
+                div.className = 'task-checkbox';
+                div.innerHTML = `
+                    <input type="checkbox" value="${gf.name}">
+                    <div class="task-info">
+                        <div class="task-name">${gf.name}</div>
+                        <div class="task-panos">${gf.pano_count} panoramas</div>
+                    </div>
+                    <span class="task-status status-pending">Pending</span>
+                `;
+                taskList.appendChild(div);
+            });
+        }
+
+        // Preload selected
+        preloadSelectedBtn.addEventListener('click', async () => {
+            const checkboxes = taskList.querySelectorAll('input[type="checkbox"]:checked');
+            const selectedNames = Array.from(checkboxes).map(cb => cb.value);
+
+            if (selectedNames.length === 0) {
+                alert('Please select at least one geofence');
+                return;
+            }
+
+            await preloadGeofences(selectedNames);
+        });
+
+        // Preload all
+        preloadAllBtn.addEventListener('click', async () => {
+            const allNames = geofences.map(t => t.name);
+            await preloadGeofences(allNames);
+        });
+
+        async function preloadGeofences(names) {
+            const zoomLevel = parseInt(zoomSelect.value);
+
+            progressDiv.style.display = 'block';
+            preloadSelectedBtn.disabled = true;
+            preloadAllBtn.disabled = true;
+
+            let completed = 0;
+            const total = names.length;
+
+            for (const name of names) {
+                try {
+                    // Start preload
+                    await fetch(`/api/geofences/${name}/preload`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ zoom_level: zoomLevel })
+                    });
+
+                    // Poll for status
+                    await pollPreloadStatus(name);
+
+                    // Update status in UI
+                    const checkbox = taskList.querySelector(`input[value="${name}"]`);
+                    if (checkbox) {
+                        const statusSpan = checkbox.parentElement.querySelector('.task-status');
+                        statusSpan.className = 'task-status status-ready';
+                        statusSpan.textContent = 'Ready';
+                    }
+
+                } catch (error) {
+                    console.error(`Error preloading ${name}:`, error);
+                }
+
+                completed++;
+                const percent = Math.round((completed / total) * 100);
+                progressBar.style.width = percent + '%';
+                progressText.textContent = `${completed}/${total} geofences (${percent}%)`;
+            }
+
+            preloadSelectedBtn.disabled = false;
+            preloadAllBtn.disabled = false;
+            progressText.textContent = 'Complete! All panoramas downloaded.';
+        }
+
+        async function pollPreloadStatus(name) {
+            return new Promise((resolve) => {
+                const interval = setInterval(async () => {
+                    try {
+                        const response = await fetch(`/api/geofences/${name}/preload/status`);
+                        const data = await response.json();
+
+                        if (data.status === 'completed' || data.status === 'failed' || data.status === 'not_started') {
+                            clearInterval(interval);
+                            resolve();
+                        } else {
+                            // Optional: update detail progress for current item if we want
+                        }
+                    } catch (error) {
+                        clearInterval(interval);
+                        resolve();
+                    }
+                }, 5000);
+
+                // Timeout after 10 minutes (downloads can be large)
+                setTimeout(() => {
+                    clearInterval(interval);
+                    resolve();
+                }, 600000);
+            });
+        }
+    </script>
+</body>
+
+</html>

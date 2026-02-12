@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0083_20260128_183602",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between Calvin Klein Jeans and Gymshark in meters.",
+  "spawn_pano_id": "jKld27CbJ87uCk4Bk5xQzw",
+  "spawn_heading": 166.7,
+  "pois": [
+    {
+      "name": "Calvin Klein Jeans",
+      "type": "clothing_store",
+      "lat": 51.5121524,
+      "lng": -0.1398868,
+      "address": "170 Regent St., London W1B 5TQ, UK",
+      "pano_id": "DTdIi6S9SOcBEOvc7zxrdQ"
+    },
+    {
+      "name": "Gymshark",
+      "type": "clothing_store",
+      "lat": 51.5119032,
+      "lng": -0.1398565,
+      "address": "165 Regent St., London W1S 3BE, UK",
+      "pano_id": "_znKjYS3qgQZowp3noHR7w"
+    }
+  ],
+  "geofence_id": "list_perception_1769596562",
+  "ground_truth": {
+    "distance_between_pois_m": 27.8,
+    "bearing_a_to_b_deg": 175.7,
+    "bearing_b_to_a_deg": 355.7
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:36:02.111409",
+    "spawn_location": {
+      "lat": 51.51242972511474,
+      "lng": -0.1399921069180271
+    }
+  }
+}

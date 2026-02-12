@@ -1,0 +1,36 @@
+{
+  "task_id": "nav_0354_target_20260124_1258_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_restaurant_20260124_125753",
+  "spawn_point": "iZ_fTT4TxsmY2gVP-iIA7w",
+  "spawn_heading": 311.7,
+  "description": "The destination, Banco do Brasil, is located on the right side of the street, identified by a prominent yellow sign on a white building. It is situated directly across the street from the red 'RedeBrasil' store.",
+  "ground_truth": {
+    "target_name": "Banco do Brasil",
+    "target_pano_id": "CB1lbOQ-yXJYl7UIDAvcLg",
+    "optimal_distance_meters": 9.3,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "CB1lbOQ-yXJYl7UIDAvcLg"
+  ],
+  "max_steps": 4,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "iZ_fTT4TxsmY2gVP-iIA7w",
+      "heading": 311.7
+    },
+    {
+      "step_index": 1,
+      "pano_id": "CB1lbOQ-yXJYl7UIDAvcLg",
+      "heading": 311.7
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 10m -> Stop",
+  "agent_concise_description": "The destination, Banco do Brasil, is located on the right side of the street, identified by a prominent yellow sign on a white building. It is situated directly across the street from the red 'RedeBrasil' store."
+}

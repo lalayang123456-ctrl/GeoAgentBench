@@ -1,0 +1,71 @@
+{
+  "task_id": "nav_0442_target_20260124_1346_20",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_134514",
+  "spawn_point": "DPzdIqcFVm54zmKhq7mNnA",
+  "spawn_heading": 211.6,
+  "description": "Head straight along the tree-lined main road, passing the APA Hotel on your left. Continue past the 'My Basket' store on the left side. The destination is the Onoe-cho bus stop, located on the left sidewalk, marked by a glass shelter and 'Bus Stop' painted on the road.",
+  "ground_truth": {
+    "target_name": "尾上町（バス）",
+    "target_pano_id": "r4RXRccwycEPMcPJRrI2Nw",
+    "optimal_distance_meters": 76,
+    "route_description": "left→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "r4RXRccwycEPMcPJRrI2Nw"
+  ],
+  "max_steps": 18,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "DPzdIqcFVm54zmKhq7mNnA",
+      "heading": 211.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "Lx5Z35zyj_eEJ9PEZLtCvg",
+      "heading": 211.6
+    },
+    {
+      "step_index": 2,
+      "pano_id": "K02cAp788ju2dQ1n3d8tdA",
+      "heading": 211.6
+    },
+    {
+      "step_index": 3,
+      "pano_id": "_429DuFmsfBoESnJzW7-mw",
+      "heading": 128.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "7UvpTsTfPFTDc4lLmD4-CA",
+      "heading": 197.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "WCFDU35BRvQ4Oulkzojf6g",
+      "heading": 211.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "mzf0r2tmyPk4AlX_LMhRUA",
+      "heading": 211.9
+    },
+    {
+      "step_index": 7,
+      "pano_id": "1elZ26s6CvNoCr5CCLQyJA",
+      "heading": 211.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "r4RXRccwycEPMcPJRrI2Nw",
+      "heading": 211.6
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 76m -> Stop",
+  "agent_concise_description": "Head straight along the tree-lined main road, passing the APA Hotel on your left. Continue past the 'My Basket' store on the left side. The destination is the Onoe-cho bus stop, located on the left sidewalk, marked by a glass shelter and 'Bus Stop' painted on the road."
+}

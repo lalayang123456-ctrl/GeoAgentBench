@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0082_20260126_190234",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your North-East (approx. 47\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "VaGTZpRLLHiehwxTGY18OA",
+  "spawn_heading": 47.73324927156739,
+  "target_building": {
+    "lat": 41.8688941,
+    "lng": -87.63888039999999,
+    "height": 26.97,
+    "floors": 7,
+    "ground_elevation": 179.6474151611328,
+    "roof_elevation": 206.62093,
+    "name": "buildings/ChIJhdkH0-wsDogRcD2gOdmMdbA",
+    "date": "2021-06-10"
+  },
+  "geofence_id": "list_height_0082_20260126_190234",
+  "ground_truth": {
+    "height_meters": 26.97
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-26T19:02:34.510420",
+    "bearing_deg": 47.73324927156739,
+    "city": "Chicago, USA"
+  }
+}

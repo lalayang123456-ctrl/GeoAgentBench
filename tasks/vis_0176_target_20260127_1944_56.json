@@ -1,0 +1,86 @@
+{
+  "task_id": "nav_0176_target_20260124_0953_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_landmark_20260124_095326",
+  "spawn_point": "nxgSXiJtstRNEPntXpMgKQ",
+  "spawn_heading": 259.5,
+  "description": "Head straight down the narrow street, passing 'WINS' and 'GYOZA-BAR' on your right. Cross the intersection past the 'Katsuya' restaurant and continue forward towards the large 'Cocono Susukino' building. The FamilyMart is located on the left corner at the next intersection.",
+  "ground_truth": {
+    "target_name": "FamilyMart",
+    "target_pano_id": "LTjIvg3plbtzx_t73iFiPA",
+    "optimal_distance_meters": 94,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "LTjIvg3plbtzx_t73iFiPA"
+  ],
+  "max_steps": 24,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "nxgSXiJtstRNEPntXpMgKQ",
+      "heading": 259.5
+    },
+    {
+      "step_index": 1,
+      "pano_id": "qav6BICgCZSbgzLvbo5tuA",
+      "heading": 259.5
+    },
+    {
+      "step_index": 2,
+      "pano_id": "FnACkLDLvS2qR7m2LhkTCw",
+      "heading": 259.5
+    },
+    {
+      "step_index": 3,
+      "pano_id": "pQeXRw68zfRq0lpq6wX2GA",
+      "heading": 259.5
+    },
+    {
+      "step_index": 4,
+      "pano_id": "LUt5df31i_PMyQtfIOcGHw",
+      "heading": 259.5
+    },
+    {
+      "step_index": 5,
+      "pano_id": "3XLakhGFnqlo3hOOWjvcew",
+      "heading": 259.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "bKGt4mAxHMLpRcHyLHB9zQ",
+      "heading": 259.5
+    },
+    {
+      "step_index": 7,
+      "pano_id": "XtbYGPfMKGQ0QY3lBXU7MA",
+      "heading": 259.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "I2Ua5HRxwrag6vNYhtcfjA",
+      "heading": 290.1
+    },
+    {
+      "step_index": 9,
+      "pano_id": "-PojLbX2K8vQYtzZlvAHsg",
+      "heading": 169.8
+    },
+    {
+      "step_index": 10,
+      "pano_id": "vVcZ0MVVRYhAN7pGtRPgvg",
+      "heading": 170.0
+    },
+    {
+      "step_index": 11,
+      "pano_id": "LTjIvg3plbtzx_t73iFiPA",
+      "heading": 170.1
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 94m -> Stop",
+  "agent_concise_description": "Head straight down the narrow street, passing 'WINS' and 'GYOZA-BAR' on your right. Cross the intersection past the 'Katsuya' restaurant and continue forward towards the large 'Cocono Susukino' building. The FamilyMart is located on the left corner at the next intersection."
+}

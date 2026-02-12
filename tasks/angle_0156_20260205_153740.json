@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0156_20260205_153740",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Vodafone from KFC Plymouth - Old Town Street.",
+  "spawn_pano_id": "QyoCVPd6e5p4f_GHfhoVkw",
+  "spawn_heading": 309.2,
+  "pois": [
+    {
+      "name": "KFC Plymouth - Old Town Street",
+      "type": "fast_food_restaurant",
+      "lat": 50.3713069,
+      "lng": -4.138737,
+      "address": "10 Old Town St, Plymouth PL1 1DD, UK",
+      "pano_id": "HZxa4EaVTSdzkPofwoHW8g"
+    },
+    {
+      "name": "Vodafone",
+      "type": "cell_phone_store",
+      "lat": 50.371623799999995,
+      "lng": -4.1393461,
+      "address": "2-6 New George St, Plymouth PL1 1RL, UK",
+      "pano_id": "zdnbGHrJXkcgHGSpIBNE1g"
+    }
+  ],
+  "geofence_id": "list_perception_1770305860",
+  "ground_truth": {
+    "distance_between_pois_m": 55.7,
+    "bearing_a_to_b_deg": 309.2,
+    "bearing_b_to_a_deg": 129.2
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:37:40.463288",
+    "spawn_location": {
+      "lat": 50.37145537743192,
+      "lng": -4.139082924828556
+    }
+  }
+}

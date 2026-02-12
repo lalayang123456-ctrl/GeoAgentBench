@@ -1,0 +1,113 @@
+{
+  "task_id": "nav_1077_target_20260125_0336_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_supermarket_20260125_033549",
+  "spawn_point": "GqL8IREYXPqU6HLDc-cVoQ",
+  "spawn_heading": 180.7,
+  "description": "Navigate to Meidi-Ya. Head south/明石町筋 for 74m. Turn right for 14m. Continue for 54m. Head Destination will be on the right for 0m. Total distance: approximately 142 m.",
+  "ground_truth": {
+    "target_name": "Meidi-Ya",
+    "target_pano_id": "qLej7pIzPazP5_FPEFjzBg",
+    "optimal_distance_meters": 142,
+    "route_description": "right→straight→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "qLej7pIzPazP5_FPEFjzBg"
+  ],
+  "max_steps": 36,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "GqL8IREYXPqU6HLDc-cVoQ",
+      "heading": 180.7
+    },
+    {
+      "step_index": 1,
+      "pano_id": "6xwNbqBb7ArBr_osc9dvZA",
+      "heading": 180.7
+    },
+    {
+      "step_index": 2,
+      "pano_id": "B_HpAT1QuFJXcO0tkOxAxQ",
+      "heading": 182.6
+    },
+    {
+      "step_index": 3,
+      "pano_id": "Z2nf__DstaOeugiqpsJdMA",
+      "heading": 182.6
+    },
+    {
+      "step_index": 4,
+      "pano_id": "JxoSpS0Ggb9a2jT7yr_yuw",
+      "heading": 182.5
+    },
+    {
+      "step_index": 5,
+      "pano_id": "kNUqPkeOfXv4mjzSi2iMIg",
+      "heading": 182.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "jlV_ir__QWyo49TMccGu9g",
+      "heading": 182.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "omPVNv7Md27OO3lSHDz6NA",
+      "heading": 181.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "X8j0mxjSGft39iA_QZ2Dzw",
+      "heading": 181.8
+    },
+    {
+      "step_index": 9,
+      "pano_id": "E1zLA7d79PondM1r_4W10Q",
+      "heading": 183.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "Bx4-Mqq4FG9N3aKIJ9Ai5Q",
+      "heading": 183.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "_1j11CDCwUzBPZeBOzcEVA",
+      "heading": 185.2
+    },
+    {
+      "step_index": 12,
+      "pano_id": "_IUmse5rsqIELIF0icoV6g",
+      "heading": 185.6
+    },
+    {
+      "step_index": 13,
+      "pano_id": "Jm66Ra2j5yR5p-6i663k4g",
+      "heading": 184.5
+    },
+    {
+      "step_index": 14,
+      "pano_id": "6-bijpm7uGS25Rxq3JAtGg",
+      "heading": 278.9
+    },
+    {
+      "step_index": 15,
+      "pano_id": "p4iF0ovSyBc9ZKOE5BxRdg",
+      "heading": 266.4
+    },
+    {
+      "step_index": 16,
+      "pano_id": "qGZoJdK0sZAS9mluBbBxRg",
+      "heading": 264.2
+    },
+    {
+      "step_index": 17,
+      "pano_id": "qLej7pIzPazP5_FPEFjzBg",
+      "heading": 263.8
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

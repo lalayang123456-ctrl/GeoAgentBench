@@ -1,0 +1,146 @@
+{
+  "task_id": "nav_0067_target_20260124_0253_1",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_service_20260124_025245",
+  "spawn_point": "Lrz6IWT3LYo5KrzVbu44sg",
+  "spawn_heading": 185.1,
+  "description": "Head straight along the internal road, passing the security booth and the white tent structure on your left. At the exit gate, turn left onto the tree-lined street. Continue straight down the road, keeping the stone wall on your left.",
+  "ground_truth": {
+    "target_name": "Ibn Sina University Hospital",
+    "target_pano_id": "sEg5BuqDYKJnZNJKm6NdTQ",
+    "optimal_distance_meters": 487,
+    "route_description": "left→left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "sEg5BuqDYKJnZNJKm6NdTQ"
+  ],
+  "max_steps": 48,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Lrz6IWT3LYo5KrzVbu44sg",
+      "heading": 185.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "DJ97WffHEFLLVYrJUEYgGA",
+      "heading": 185.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "ejmOAX6xMzzWK3W8FwyZJg",
+      "heading": 185.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "r8V7JH-N1Z-2wn8BgFeS3g",
+      "heading": 185.1
+    },
+    {
+      "step_index": 4,
+      "pano_id": "O6P9e9hbs3VDlE2321ekxQ",
+      "heading": 185.1
+    },
+    {
+      "step_index": 5,
+      "pano_id": "BT7-ANBMHeM7f5FRtHzFDA",
+      "heading": 184.8
+    },
+    {
+      "step_index": 6,
+      "pano_id": "e6GFZ8FaUHaKpLptwuSUjA",
+      "heading": 184.2
+    },
+    {
+      "step_index": 7,
+      "pano_id": "DYmZLNERGqfYCyfIScOTXg",
+      "heading": 184.2
+    },
+    {
+      "step_index": 8,
+      "pano_id": "GVR7uqv7GCxCpTozG4Illw",
+      "heading": 184.2
+    },
+    {
+      "step_index": 9,
+      "pano_id": "BQL8WVGPf1Ee6lmOuMGOLg",
+      "heading": 184.2
+    },
+    {
+      "step_index": 10,
+      "pano_id": "vrkRIsyoRyodBRZFGXvFWQ",
+      "heading": 184.2
+    },
+    {
+      "step_index": 11,
+      "pano_id": "QsRTlnrsm8eboEEKroeZMg",
+      "heading": 169.5
+    },
+    {
+      "step_index": 12,
+      "pano_id": "wPKxyZOVcZf9FEBDcT4_SQ",
+      "heading": 84.4
+    },
+    {
+      "step_index": 13,
+      "pano_id": "1sqBxm75emZ47yqxij5tdw",
+      "heading": 84.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "U_I9s5MJ7kM7HDza82yMSQ",
+      "heading": 84.4
+    },
+    {
+      "step_index": 15,
+      "pano_id": "8U9EpQ8IdOloRtCXqoW0Rw",
+      "heading": 84.4
+    },
+    {
+      "step_index": 16,
+      "pano_id": "XH6g_S2OolY_O0jDsYHxOQ",
+      "heading": 84.4
+    },
+    {
+      "step_index": 17,
+      "pano_id": "jq6Vh3PPChs0gfjOoq-fIA",
+      "heading": 84.5
+    },
+    {
+      "step_index": 18,
+      "pano_id": "RDd4NnQdGaVnTV1gxd0aFw",
+      "heading": 84.4
+    },
+    {
+      "step_index": 19,
+      "pano_id": "GMJ8dZwDewaU1P7r_ezjWw",
+      "heading": 84.4
+    },
+    {
+      "step_index": 20,
+      "pano_id": "c3C6ryBV5JmWXB_SAw5RTg",
+      "heading": 84.4
+    },
+    {
+      "step_index": 21,
+      "pano_id": "CVJkhi1M4P_ktM4AW2m7Nw",
+      "heading": 84.4
+    },
+    {
+      "step_index": 22,
+      "pano_id": "gkZsWHi6gyWzTKKTIFR1NA",
+      "heading": 84.5
+    },
+    {
+      "step_index": 23,
+      "pano_id": "sEg5BuqDYKJnZNJKm6NdTQ",
+      "heading": 84.8
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [124m] -> Turn Left -> Head Straight [173m]",
+  "agent_concise_description": "Head straight along the internal road, passing the security booth and the white tent structure on your left. At the exit gate, turn left onto the tree-lined street. Continue straight down the road, keeping the stone wall on your left."
+}

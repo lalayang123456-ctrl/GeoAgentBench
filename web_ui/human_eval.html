@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Evaluation - VLN Benchmark</title>
+    <meta name="description" content="Human evaluation interface for VLN Benchmark">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Three.js for panorama rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Leaflet for map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Human Evaluation</h1>
+            <div class="header-info">
+                <span id="player-info">Player: -</span>
+                <span id="progress-info">Progress: 0/0</span>
+                <span id="task-info">Task: -</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Panorama Viewer -->
+            <div class="panorama-container">
+                <div id="panorama-viewer"></div>
+                <div class="panorama-overlay">
+                    <div id="view-info-display" style="font-size: 0.9rem; line-height: 1.6;">
+                        <div style="font-weight: 600; margin-bottom: 0.25rem;">Current View:</div>
+                        <div id="heading-display">Heading: 0°N</div>
+                        <div id="pitch-display">Pitch: 0°</div>
+                        <div id="fov-display">FOV: 75°</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Task Description -->
+                <div class="sidebar-section">
+                    <h2>Task Description</h2>
+                    <div class="task-description" id="task-description">
+                        Select a task to begin evaluation.
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="sidebar-section">
+                    <h2>Statistics</h2>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-value" id="step-count">0</div>
+                            <div class="stat-label">Steps</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="time-elapsed">0:00</div>
+                            <div class="stat-label">Time</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Available Moves -->
+                <div class="sidebar-section" style="flex: 1; display: flex; flex-direction: column;">
+                    <h2>Available Moves</h2>
+                    <div class="moves-list" id="moves-list">
+                        <div style="color: var(--text-muted); text-align: center; padding: 1rem;">
+                            No moves available
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Answer Section -->
+                <div class="answer-section">
+                    <textarea class="answer-input" id="answer-input" placeholder="Enter your answer (optional)..."
+                        rows="2"></textarea>
+                    <div class="control-buttons">
+                        <button class="btn btn-danger" id="stop-btn" disabled>Stop & Submit</button>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Task Selection Modal -->
+    <div class="modal" id="task-modal">
+        <div class="modal-content">
+            <h2>Select a Task</h2>
+            <p>Choose a task to begin your evaluation session.</p>
+
+            <div style="margin-bottom: 1rem;">
+                <input type="text" id="player-id-input" class="answer-input" placeholder="Enter your Player ID..."
+                    style="margin-bottom: 0;">
+            </div>
+
+            <div class="task-list" id="task-list">
+                <div style="color: var(--text-muted); text-align: center; padding: 1rem;">
+                    Loading tasks...
+                </div>
+            </div>
+
+            <div style="margin-top: 1.5rem;">
+                <button class="btn btn-primary" id="start-btn" style="width: 100%;" disabled>Start Evaluation</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay hidden" id="loading-overlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading panorama...</div>
+    </div>
+
+    <script src="/js/api_client.js"></script>
+    <script src="/js/panorama_viewer.js"></script>
+    <script src="/js/map_view.js"></script>
+    <script>
+        // State
+        let currentSession = null;
+        let panoramaViewer = null;
+        let selectedTaskId = null;
+        let startTime = null;
+        let timerInterval = null;
+
+        // DOM Elements
+        const taskModal = document.getElementById('task-modal');
+        const taskList = document.getElementById('task-list');
+        const playerIdInput = document.getElementById('player-id-input');
+        const startBtn = document.getElementById('start-btn');
+        const stopBtn = document.getElementById('stop-btn');
+        const movesList = document.getElementById('moves-list');
+        const taskDescription = document.getElementById('task-description');
+        const stepCount = document.getElementById('step-count');
+        const timeElapsed = document.getElementById('time-elapsed');
+        const answerInput = document.getElementById('answer-input');
+        const loadingOverlay = document.getElementById('loading-overlay');
+
+        // Initialize
+        async function init() {
+            // Initialize panorama viewer
+            panoramaViewer = new PanoramaViewer('panorama-viewer');
+
+            // Register view change callback to update moves
+            panoramaViewer.setOnViewChange((viewState) => {
+                if (currentSession && currentSession.currentObservation) {
+                    updateMovesForHeading(currentSession.currentObservation, viewState.heading);
+                }
+            });
+
+            // Load tasks
+            await loadTasks();
+
+            // Show task selection modal
+            taskModal.classList.add('active');
+
+            // Event listeners
+            startBtn.addEventListener('click', startSession);
+            stopBtn.addEventListener('click', stopSession);
+
+            // Keyboard shortcuts for moves
+            document.addEventListener('keydown', (e) => {
+                if (currentSession && e.key >= '1' && e.key <= '9') {
+                    const moveId = parseInt(e.key);
+                    executeMove(moveId);
+                }
+            });
+        }
+
+        async function loadTasks() {
+            try {
+                const response = await apiClient.getTasks();
+                taskList.innerHTML = '';
+
+                response.tasks.forEach(task => {
+                    const item = document.createElement('div');
+                    item.className = 'task-item';
+                    item.innerHTML = `
+                        <div>
+                            <div style="font-weight: 500;">${task.task_id}</div>
+                            <div style="font-size: 0.75rem; color: var(--text-muted);">${task.description.substring(0, 50)}...</div>
+                        </div>
+                    `;
+                    item.addEventListener('click', () => selectTask(task.task_id, item));
+                    taskList.appendChild(item);
+                });
+            } catch (error) {
+                taskList.innerHTML = `<div style="color: var(--error);">Error loading tasks: ${error.message}</div>`;
+            }
+        }
+
+        function selectTask(taskId, element) {
+            // Deselect previous
+            document.querySelectorAll('.task-item').forEach(el => el.classList.remove('selected'));
+            // Select new
+            element.classList.add('selected');
+            selectedTaskId = taskId;
+
+            // Enable start button if player ID is entered
+            updateStartButton();
+        }
+
+        function updateStartButton() {
+            startBtn.disabled = !selectedTaskId || !playerIdInput.value.trim();
+        }
+
+        playerIdInput.addEventListener('input', updateStartButton);
+
+        async function startSession() {
+            if (!selectedTaskId || !playerIdInput.value.trim()) return;
+
+            showLoading(true);
+
+            try {
+                const response = await apiClient.createSession(
+                    playerIdInput.value.trim(),
+                    selectedTaskId,
+                    'human'
+                );
+
+                currentSession = {
+                    sessionId: response.session_id,
+                    taskId: selectedTaskId,
+                    playerId: playerIdInput.value.trim()
+                };
+
+                // Hide modal
+                taskModal.classList.remove('active');
+
+                // Update UI
+                document.getElementById('player-info').textContent = `Player: ${currentSession.playerId}`;
+                document.getElementById('task-info').textContent = `Task: ${currentSession.taskId}`;
+
+                // Enable controls
+                stopBtn.disabled = false;
+
+                // Start timer
+                startTime = Date.now();
+                timerInterval = setInterval(updateTimer, 1000);
+
+                // Update observation
+                updateObservation(response.observation);
+
+            } catch (error) {
+                alert(`Error starting session: ${error.message}`);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        // ===== Helper Functions =====
+
+        function formatHeadingCompass(heading) {
+            heading = ((heading % 360) + 360) % 360;
+
+            const directions = [
+                [0, "N"], [45, "NE"], [90, "E"], [135, "SE"],
+                [180, "S"], [225, "SW"], [270, "W"], [315, "NW"], [360, "N"]
+            ];
+
+            for (let i = 0; i < directions.length - 1; i++) {
+                const [deg1, dir1] = directions[i];
+                const [deg2, dir2] = directions[i + 1];
+
+                if (deg1 <= heading && heading < deg2) {
+                    if (Math.abs(heading - deg1) <= Math.abs(heading - deg2)) {
+                        return `${Math.round(heading)}°${dir1}`;
+                    } else {
+                        return `${Math.round(heading)}°${dir2}`;
+                    }
+                }
+            }
+
+            return `${Math.round(heading)}°N`;
+        }
+
+        function formatPitch(pitch) {
+            if (pitch > 0) {
+                return `${Math.round(pitch)}°UP`;
+            } else if (pitch < 0) {
+                return `${Math.round(Math.abs(pitch))}°DOWN`;
+            } else {
+                return "0°";
+            }
+        }
+
+        function calculateRelativeDirection(angle) {
+            angle = ((angle % 360) + 360) % 360;
+
+            // Define threshold for cardinal directions (e.g. +/- 10 degrees)
+            const threshold = 10;
+
+            if (angle <= threshold || angle >= 360 - threshold) return "front";
+            if (angle >= 90 - threshold && angle <= 90 + threshold) return "right";
+            if (angle >= 180 - threshold && angle <= 180 + threshold) return "back";
+            if (angle >= 270 - threshold && angle <= 270 + threshold) return "left";
+
+            if (angle > threshold && angle < 90 - threshold) {
+                return `front-right ${Math.round(angle)}°`;
+            } else if (angle > 90 + threshold && angle < 180 - threshold) {
+                const offset = angle - 90;
+                return `right-back ${Math.round(offset)}°`;
+            } else if (angle > 180 + threshold && angle < 270 - threshold) {
+                const offset = 270 - angle;
+                return `left-back ${Math.round(offset)}°`;
+            } else {
+                const offset = 360 - angle;
+                return `front-left ${Math.round(offset)}°`;
+            }
+        }
+
+        function updateMovesForHeading(observation, currentHeading) {
+            if (!observation.available_moves || observation.available_moves.length === 0) return;
+
+            // Recalculate relative directions based on current viewing heading
+            const updatedMoves = observation.available_moves.map(move => {
+                // Use absolute_heading if available, otherwise keep original direction
+                if (move.absolute_heading !== undefined && !isNaN(move.absolute_heading)) {
+                    // Calculate new relative angle
+                    const relativeAngle = ((move.absolute_heading - currentHeading + 360) % 360);
+                    const direction = calculateRelativeDirection(relativeAngle);
+
+                    return {
+                        ...move,
+                        direction: direction
+                    };
+                } else {
+                    // Fallback: keep original direction if no absolute heading
+                    console.warn('Move missing absolute_heading:', move);
+                    return move;
+                }
+            });
+
+            // Re-render moves list
+            renderMovesList(updatedMoves);
+        }
+
+        function renderMovesList(moves) {
+            movesList.innerHTML = '';
+            moves.forEach(move => {
+                const btn = document.createElement('button');
+                btn.className = 'move-button';
+                btn.innerHTML = `
+                    <div class="move-id">${move.id}</div>
+                    <div class="move-info">
+                        <div class="move-direction">${move.direction}</div>
+                        ${move.distance ? `<div class="move-distance">${move.distance.toFixed(1)}m</div>` : ''}
+                    </div>
+                `;
+                btn.addEventListener('click', () => executeMove(move.id));
+                movesList.appendChild(btn);
+            });
+        }
+
+        function updateObservation(observation) {
+            // Store observation for later use
+            if (currentSession) {
+                currentSession.currentObservation = observation;
+
+                // Store absolute headings if not already present
+                if (observation.available_moves) {
+                    console.log('[updateObservation] Processing moves:', observation.available_moves);
+                    observation.available_moves.forEach(move => {
+                        // Backend provides absolute heading
+                        if (move.heading !== undefined) {
+                            move.absolute_heading = move.heading;
+                            console.log(`[updateObservation] Move ${move.id}: heading=${move.heading}, direction=${move.direction}`);
+                        } else {
+                            console.warn(`[updateObservation] Move ${move.id} missing heading!`, move);
+                        }
+                    });
+                }
+            }
+
+            // Update task description
+            taskDescription.textContent = observation.task_description;
+
+            // Set center heading for coordinate conversion (must be before setView)
+            const centerHeading = observation.center_heading || 0;
+            panoramaViewer.setCenterHeading(centerHeading);
+            console.log(`[updateObservation] centerHeading=${centerHeading}`);
+
+            // Load panorama - prefer full panorama for 360° interactive view
+            // panorama_url = full equirectangular for human 360° viewing
+            // current_image = perspective view (for agents)
+            if (observation.panorama_url) {
+                // Human mode: load full 360° panorama for interactive viewing
+                panoramaViewer.loadImage(observation.panorama_url);
+            } else if (observation.current_image) {
+                // Fallback to perspective image
+                panoramaViewer.loadImage(observation.current_image);
+            }
+
+            // Set view to match agent's current heading (in true north coordinates)
+            if (observation.heading !== undefined && observation.pitch !== undefined) {
+                console.log(`[updateObservation] Setting view to heading=${observation.heading}, pitch=${observation.pitch}`);
+                panoramaViewer.setView(observation.heading, observation.pitch);
+            }
+
+            const viewState = panoramaViewer.getViewState();
+            console.log('[updateObservation] Current view state:', viewState);
+            updateMovesForHeading(observation, viewState.heading);
+        }
+
+        async function executeMove(moveId) {
+            if (!currentSession) return;
+
+            showLoading(true);
+
+            try {
+                const response = await apiClient.executeAction(currentSession.sessionId, {
+                    type: 'move',
+                    move_id: moveId
+                });
+
+                if (response.success) {
+                    // Update step count
+                    const currentSteps = parseInt(stepCount.textContent) + 1;
+                    stepCount.textContent = currentSteps;
+
+                    // Update observation
+                    if (response.observation) {
+                        updateObservation(response.observation);
+                    }
+
+                    // Check if done
+                    if (response.done) {
+                        endSession(response.done_reason);
+                    }
+                } else {
+                    console.error('Move failed:', response.error);
+                }
+            } catch (error) {
+                console.error('Error executing move:', error);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        async function stopSession() {
+            if (!currentSession) return;
+
+            showLoading(true);
+
+            try {
+                const response = await apiClient.executeAction(currentSession.sessionId, {
+                    type: 'stop',
+                    answer: answerInput.value.trim()
+                });
+
+                endSession('stopped');
+
+            } catch (error) {
+                console.error('Error stopping session:', error);
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function endSession(reason) {
+            // Stop timer
+            if (timerInterval) {
+                clearInterval(timerInterval);
+            }
+
+            // Disable controls
+            stopBtn.disabled = true;
+            movesList.innerHTML = `<div style="color: var(--text-muted); text-align: center; padding: 1rem;">Session ended: ${reason}</div>`;
+
+            // Show completion message
+            alert(`Evaluation complete!\nReason: ${reason}\nSteps: ${stepCount.textContent}\nTime: ${timeElapsed.textContent}`);
+
+            // Reset for next task
+            currentSession = null;
+            taskModal.classList.add('active');
+        }
+
+        function updateTimer() {
+            if (!startTime) return;
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            const minutes = Math.floor(elapsed / 60);
+            const seconds = elapsed % 60;
+            timeElapsed.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        }
+
+        function showLoading(show) {
+            loadingOverlay.classList.toggle('hidden', !show);
+        }
+
+        // Start
+        init();
+    </script>
+</body>
+
+</html>

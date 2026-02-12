@@ -1,0 +1,118 @@
+{
+  "task_id": "nav_0190_target_20260124_1117_2",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_landmark_20260124_111649",
+  "spawn_point": "scxJI8xMOha2-U5nDmJTlQ",
+  "spawn_heading": 181.4,
+  "description": "Navigate to Franklin Park. Head south for 71m. Turn left for 45m. Slight right for 40m. Turn left Take the stairs for 18m. Total distance: approximately 174 m.",
+  "ground_truth": {
+    "target_name": "Franklin Park",
+    "target_pano_id": "0vfePR3MqI9klxSX4JI15A",
+    "optimal_distance_meters": 174,
+    "route_description": "left→right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "0vfePR3MqI9klxSX4JI15A"
+  ],
+  "max_steps": 38,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "scxJI8xMOha2-U5nDmJTlQ",
+      "heading": 181.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "z2cSMcjSb2Ry2lCg5rGv-g",
+      "heading": 181.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "FVXNVzxVNwbq9EIxwRZEAQ",
+      "heading": 181.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "UJMHSVLeOpUSDBhvdglqKA",
+      "heading": 181.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "7Bp3kaUVZdQRpQtK9CF4PQ",
+      "heading": 181.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "ohafgrgrsforUDavTrGQUw",
+      "heading": 181.0
+    },
+    {
+      "step_index": 6,
+      "pano_id": "-bOpUuCe8z35fXoSdfdrdQ",
+      "heading": 219.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "f5ThXWYdqOzKYUQm8WK6qg",
+      "heading": 180.4
+    },
+    {
+      "step_index": 8,
+      "pano_id": "c2M-xkOLModBottZq1iNgg",
+      "heading": 71.6
+    },
+    {
+      "step_index": 9,
+      "pano_id": "9nO91z-ykQA3-yoFWqLhLg",
+      "heading": 359.9
+    },
+    {
+      "step_index": 10,
+      "pano_id": "-NZw39uNEGIKyuZlkxyleQ",
+      "heading": 74.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "MSJz2fiyJz9EMtLS1PoMwA",
+      "heading": 89.1
+    },
+    {
+      "step_index": 12,
+      "pano_id": "_UtqQLH1eEnOJMLe86fSIQ",
+      "heading": 89.1
+    },
+    {
+      "step_index": 13,
+      "pano_id": "19KokFqfEuhxb7K_sWFx7g",
+      "heading": 89.1
+    },
+    {
+      "step_index": 14,
+      "pano_id": "lm27K2_VvAqXeCUNLcnH1Q",
+      "heading": 89.1
+    },
+    {
+      "step_index": 15,
+      "pano_id": "Th3LCK9Wj4KKNeMLdiauNQ",
+      "heading": 89.1
+    },
+    {
+      "step_index": 16,
+      "pano_id": "6awUUwbLbW94gXEMzCSPhQ",
+      "heading": 89.1
+    },
+    {
+      "step_index": 17,
+      "pano_id": "rts9Tav7emF1UGZGgjo6Lg",
+      "heading": 89.6
+    },
+    {
+      "step_index": 18,
+      "pano_id": "0vfePR3MqI9klxSX4JI15A",
+      "heading": 90.4
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

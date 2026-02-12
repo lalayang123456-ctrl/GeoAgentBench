@@ -1,0 +1,166 @@
+{
+  "task_id": "nav_0618_target_20260124_1523_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_152236",
+  "spawn_point": "IR-ZFx9VAE1d4ehqbwqmQw",
+  "spawn_heading": 108.9,
+  "description": "Head straight along the main road, passing the KFC on the right and the large 'INSIDE' building on the left. Continue forward past the 'Bauarena' building on the right side, staying on the main road through the commercial district.",
+  "ground_truth": {
+    "target_name": "Volketswil, Hofwisen",
+    "target_pano_id": "LIWu8xgAk8yOKWenepDdNg",
+    "optimal_distance_meters": 258,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "LIWu8xgAk8yOKWenepDdNg"
+  ],
+  "max_steps": 56,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "IR-ZFx9VAE1d4ehqbwqmQw",
+      "heading": 108.9
+    },
+    {
+      "step_index": 1,
+      "pano_id": "2YGDE3RI-NyYd2ozjUEh5g",
+      "heading": 108.9
+    },
+    {
+      "step_index": 2,
+      "pano_id": "f1LkhnnkyXj7SG4JIq7tBA",
+      "heading": 103.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "MVTFEJRw6k-017HhPDF_MA",
+      "heading": 103.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "lk8X27JiNTwGNP5rycgMxQ",
+      "heading": 103.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "kuZBDyAfuujH2SVGGslHVw",
+      "heading": 103.4
+    },
+    {
+      "step_index": 6,
+      "pano_id": "Ns4aNp2aoQt1lIAwHtHPeg",
+      "heading": 103.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "R0m1psdMSo2lcCYVrsQVnA",
+      "heading": 103.4
+    },
+    {
+      "step_index": 8,
+      "pano_id": "lw36AAP1ZhUCegi_plJ1dg",
+      "heading": 103.4
+    },
+    {
+      "step_index": 9,
+      "pano_id": "MQ9GJa4spAiHzMmyqEbDqg",
+      "heading": 103.4
+    },
+    {
+      "step_index": 10,
+      "pano_id": "LfhUFW_ER1a1BZXCDVBfdA",
+      "heading": 99.8
+    },
+    {
+      "step_index": 11,
+      "pano_id": "DcL0Py-Y7gUNTCawqcWQBg",
+      "heading": 100.9
+    },
+    {
+      "step_index": 12,
+      "pano_id": "dZ_EgfkczJADKzAEDyTuWQ",
+      "heading": 100.9
+    },
+    {
+      "step_index": 13,
+      "pano_id": "fywyk3gAMrwTYX4c47VWOg",
+      "heading": 98.1
+    },
+    {
+      "step_index": 14,
+      "pano_id": "qrCsXx-_zRlwBAcgCHDxHw",
+      "heading": 97.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "6sbsHSriB_bu6hen67NZrQ",
+      "heading": 97.8
+    },
+    {
+      "step_index": 16,
+      "pano_id": "CJAsa9Y8mYZlc1WCkJbbsQ",
+      "heading": 97.8
+    },
+    {
+      "step_index": 17,
+      "pano_id": "hzFoKuSeimstU68bn4JYkw",
+      "heading": 97.4
+    },
+    {
+      "step_index": 18,
+      "pano_id": "HzATPHx_iDVi2605497hDw",
+      "heading": 97.2
+    },
+    {
+      "step_index": 19,
+      "pano_id": "zRqeVrt6hToGcRBZ8DOapQ",
+      "heading": 97.1
+    },
+    {
+      "step_index": 20,
+      "pano_id": "g9A4Cv78BdPX8p4gKT6ShQ",
+      "heading": 97.1
+    },
+    {
+      "step_index": 21,
+      "pano_id": "wHcg1pCYr65NzNYLEysfkA",
+      "heading": 97.1
+    },
+    {
+      "step_index": 22,
+      "pano_id": "H4PkStlvm8naEeDHl4paQQ",
+      "heading": 97.1
+    },
+    {
+      "step_index": 23,
+      "pano_id": "N5jJvvh1uT6Fx1fdB0NpuQ",
+      "heading": 97.2
+    },
+    {
+      "step_index": 24,
+      "pano_id": "dpwY5ALS4w0fc4TtyK9Iyw",
+      "heading": 120.1
+    },
+    {
+      "step_index": 25,
+      "pano_id": "vbTyco9ThJumDDCHpKJmbA",
+      "heading": 98.4
+    },
+    {
+      "step_index": 26,
+      "pano_id": "ZxRcfSDI-DITtDEyuqFcvw",
+      "heading": 95.5
+    },
+    {
+      "step_index": 27,
+      "pano_id": "LIWu8xgAk8yOKWenepDdNg",
+      "heading": 97.3
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 250m",
+  "agent_concise_description": "Head straight along the main road, passing the KFC on the right and the large 'INSIDE' building on the left. Continue forward past the 'Bauarena' building on the right side, staying on the main road through the commercial district."
+}

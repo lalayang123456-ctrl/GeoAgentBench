@@ -1,0 +1,93 @@
+{
+  "task_id": "nav_1030_target_20260125_0332_7",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_transit_20260125_033221",
+  "spawn_point": "eSij9_t6Ae4f2sSeuhLYpg",
+  "spawn_heading": 7.5,
+  "description": "Navigate to Perintis Kemerdekaan Bandung. Head north for 100m. Total distance: approximately 100 m.",
+  "ground_truth": {
+    "target_name": "Perintis Kemerdekaan Bandung",
+    "target_pano_id": "t2tkYGM_m7EtnMXg8Wd0jA",
+    "optimal_distance_meters": 100,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "t2tkYGM_m7EtnMXg8Wd0jA"
+  ],
+  "max_steps": 28,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "eSij9_t6Ae4f2sSeuhLYpg",
+      "heading": 7.5
+    },
+    {
+      "step_index": 1,
+      "pano_id": "9PHT9Z-3KrzWQWvc4Um5FQ",
+      "heading": 7.5
+    },
+    {
+      "step_index": 2,
+      "pano_id": "ErppnkaeuoKpYjBBZwEbUg",
+      "heading": 7.5
+    },
+    {
+      "step_index": 3,
+      "pano_id": "LUIQnkTxOkQ93kSY8SmOYA",
+      "heading": 11.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "2_3cR5-B_FkObr0VByqhIQ",
+      "heading": 19.1
+    },
+    {
+      "step_index": 5,
+      "pano_id": "cwmFEb3oO0DWf9wqKMdrHQ",
+      "heading": 33.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "9fbatalzectqhW7SvEn3yA",
+      "heading": 41.9
+    },
+    {
+      "step_index": 7,
+      "pano_id": "iKJ0RblgjAfrdg2wFqK2OQ",
+      "heading": 63.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "dbK19-wQk0yJJfUr-umIUQ",
+      "heading": 63.4
+    },
+    {
+      "step_index": 9,
+      "pano_id": "B-cSgiGdUhZBDBKpcVgwBw",
+      "heading": 63.1
+    },
+    {
+      "step_index": 10,
+      "pano_id": "-pzP9WqZFIcIxzSXinnsMQ",
+      "heading": 65.2
+    },
+    {
+      "step_index": 11,
+      "pano_id": "WwVQkccIanaKSpf9C4mbeQ",
+      "heading": 65.1
+    },
+    {
+      "step_index": 12,
+      "pano_id": "_Nocdr2ozdOv_oYm_wwdTA",
+      "heading": 66.8
+    },
+    {
+      "step_index": 13,
+      "pano_id": "t2tkYGM_m7EtnMXg8Wd0jA",
+      "heading": 313.0
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

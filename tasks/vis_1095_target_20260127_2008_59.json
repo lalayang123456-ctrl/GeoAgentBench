@@ -1,0 +1,91 @@
+{
+  "task_id": "nav_1095_target_20260125_0340_2",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_transit_20260125_034029",
+  "spawn_point": "HhtREBcdCio7fASqJzqxog",
+  "spawn_heading": 212.5,
+  "description": "Walk straight along the pedestrian avenue, passing the construction scaffolding on your right. Continue ahead, keeping the large classical Bourse building on your left and passing the Marriott and McDonald's on your right. The route ends at the square near the Metro entrance.",
+  "ground_truth": {
+    "target_name": "Bourse",
+    "target_pano_id": "PZ9QraVx9AkwHZrfzSpSEQ",
+    "optimal_distance_meters": 104,
+    "route_description": "right→straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "PZ9QraVx9AkwHZrfzSpSEQ"
+  ],
+  "max_steps": 26,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "HhtREBcdCio7fASqJzqxog",
+      "heading": 212.5
+    },
+    {
+      "step_index": 1,
+      "pano_id": "-hL8hzJ_KXqPeEMRHJ0c9g",
+      "heading": 212.5
+    },
+    {
+      "step_index": 2,
+      "pano_id": "IObtTZxxDcETII7PInD5iA",
+      "heading": 212.6
+    },
+    {
+      "step_index": 3,
+      "pano_id": "m4FHT7OZonr8iD3wI8ueTg",
+      "heading": 238.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "6rNKYlhvHy3M9XLCdJSRJQ",
+      "heading": 249.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "r8aS4Ek3x6ZGSDingm4YnA",
+      "heading": 216.1
+    },
+    {
+      "step_index": 6,
+      "pano_id": "b9y0PdVO6z-5KfSU4RrFJQ",
+      "heading": 224.0
+    },
+    {
+      "step_index": 7,
+      "pano_id": "sF7HPgWJMrgusYNGh1TtFA",
+      "heading": 252.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "aDZye8irXktJeYiB7jQkVg",
+      "heading": 183.4
+    },
+    {
+      "step_index": 9,
+      "pano_id": "QROdbQEj9oF7IC-v3WVVig",
+      "heading": 253.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "dMsJszTB8fk4PZm9gWBcJQ",
+      "heading": 231.0
+    },
+    {
+      "step_index": 11,
+      "pano_id": "60n3np6gij6iS2UzCFQcag",
+      "heading": 242.3
+    },
+    {
+      "step_index": 12,
+      "pano_id": "PZ9QraVx9AkwHZrfzSpSEQ",
+      "heading": 174.2
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [100m] -> Stop",
+  "agent_concise_description": "Walk straight along the pedestrian avenue, passing the construction scaffolding on your right. Continue ahead, keeping the large classical Bourse building on your left and passing the Marriott and McDonald's on your right. The route ends at the square near the Metro entrance."
+}

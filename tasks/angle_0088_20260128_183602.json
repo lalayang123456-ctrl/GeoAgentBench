@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0088_20260128_183602",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of lululemon from Gymshark.",
+  "spawn_pano_id": "jKld27CbJ87uCk4Bk5xQzw",
+  "spawn_heading": 327.2,
+  "pois": [
+    {
+      "name": "Gymshark",
+      "type": "clothing_store",
+      "lat": 51.5119032,
+      "lng": -0.1398565,
+      "address": "165 Regent St., London W1S 3BE, UK",
+      "pano_id": "_znKjYS3qgQZowp3noHR7w"
+    },
+    {
+      "name": "lululemon",
+      "type": "clothing_store",
+      "lat": 51.51233980000001,
+      "lng": -0.1403092,
+      "address": "179 Regent St., London W1B 4JQ, UK",
+      "pano_id": "ft7grcVGi6rKShJurYHr5w"
+    }
+  ],
+  "geofence_id": "list_perception_1769596562",
+  "ground_truth": {
+    "distance_between_pois_m": 57.8,
+    "bearing_a_to_b_deg": 327.2,
+    "bearing_b_to_a_deg": 147.2
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:36:02.116218",
+    "spawn_location": {
+      "lat": 51.51242972511474,
+      "lng": -0.1399921069180271
+    }
+  }
+}

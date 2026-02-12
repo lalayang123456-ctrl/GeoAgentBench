@@ -1,0 +1,143 @@
+{
+  "task_id": "nav_0527_target_20260124_1425_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_142413",
+  "spawn_point": "Mi2pUYgPIVySLJM43hcLrQ",
+  "spawn_heading": 89.3,
+  "description": "Navigate to City National Bank & Trust. Head east/W I-240 Service Road for 13m. Turn left for 65m. Turn right for 12m. Turn left for 53m. Turn right Destination will be on the left for 17m. Total distance: approximately 160 m.",
+  "ground_truth": {
+    "target_name": "City National Bank & Trust",
+    "target_pano_id": "uAaEuKutXkrXXuiUD6-Lgw",
+    "optimal_distance_meters": 160,
+    "route_description": "left→right→left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "uAaEuKutXkrXXuiUD6-Lgw"
+  ],
+  "max_steps": 48,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Mi2pUYgPIVySLJM43hcLrQ",
+      "heading": 89.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "u4dh_cyrK8MhBGTa8yz4fw",
+      "heading": 89.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "ZYZ7c8CsI_ge9yyrewuHyQ",
+      "heading": 89.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "PXdgjiomAAKhOPTPgS0QSA",
+      "heading": 90.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "RiJ9WTdvDpiJt5GZaB9UMg",
+      "heading": 80.7
+    },
+    {
+      "step_index": 5,
+      "pano_id": "y_jCVjZl6GjqZ52OAKu3GA",
+      "heading": 86.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "vGlJDkSHoWK_rtxK4HXWWA",
+      "heading": 94.0
+    },
+    {
+      "step_index": 7,
+      "pano_id": "dq_hbIjLMnUzwo6YfV5-ew",
+      "heading": 85.2
+    },
+    {
+      "step_index": 8,
+      "pano_id": "bNp5cmCxfSXsraE_nbzJSw",
+      "heading": 70.8
+    },
+    {
+      "step_index": 9,
+      "pano_id": "5jCChLFn7-S7cdipt39quQ",
+      "heading": 352.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "D9RzcG2W_0Bvwpx1tPHz_Q",
+      "heading": 6.3
+    },
+    {
+      "step_index": 11,
+      "pano_id": "7iSyL63FDUhSwcVi51YwJA",
+      "heading": 359.5
+    },
+    {
+      "step_index": 12,
+      "pano_id": "69CNyWQLsLpyEkeVNpxr8Q",
+      "heading": 358.5
+    },
+    {
+      "step_index": 13,
+      "pano_id": "SBDs_cPlf9opyLEgK044DA",
+      "heading": 0.2
+    },
+    {
+      "step_index": 14,
+      "pano_id": "f0IsFqv7cg7tC5AKD9lFUA",
+      "heading": 3.0
+    },
+    {
+      "step_index": 15,
+      "pano_id": "3yO13IryIdahNAgQx7TCpg",
+      "heading": 356.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "uABLhGhdL9Bsv8arf5Ozfg",
+      "heading": 3.8
+    },
+    {
+      "step_index": 17,
+      "pano_id": "RAuqRpo3TFPHZ5YMKFIHWw",
+      "heading": 358.0
+    },
+    {
+      "step_index": 18,
+      "pano_id": "NqKAOrzv-BmD32esLtN8_A",
+      "heading": 0.9
+    },
+    {
+      "step_index": 19,
+      "pano_id": "FcuoH22vNybrHCKKmJv-fQ",
+      "heading": 356.7
+    },
+    {
+      "step_index": 20,
+      "pano_id": "hBVkFkNAoTt_VJq09lPGbw",
+      "heading": 283.2
+    },
+    {
+      "step_index": 21,
+      "pano_id": "ZrS4-CRaiIyMXD_rfO4-WQ",
+      "heading": 270.8
+    },
+    {
+      "step_index": 22,
+      "pano_id": "jqhsOHuMa9A_eqIehu4i8A",
+      "heading": 269.8
+    },
+    {
+      "step_index": 23,
+      "pano_id": "uAaEuKutXkrXXuiUD6-Lgw",
+      "heading": 269.6
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

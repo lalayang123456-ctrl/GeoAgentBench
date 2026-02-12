@@ -1,0 +1,131 @@
+{
+  "task_id": "nav_0629_target_20260124_1527_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_gas_station_20260124_152602",
+  "spawn_point": "oZcq_l9BPSgmG23mJ0evhg",
+  "spawn_heading": 299.2,
+  "description": "Head straight past the Public Storage on the right and cross the intersection with South Van Ness Avenue. Continue straight, passing the 'Health Care is a Right' mural on the right, then bear left at the fork to enter Otis Street.",
+  "ground_truth": {
+    "target_name": "Otis St & 12th St",
+    "target_pano_id": "4ceOojU7IF8uI5BqKYyr4w",
+    "optimal_distance_meters": 215,
+    "route_description": "right→right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "4ceOojU7IF8uI5BqKYyr4w"
+  ],
+  "max_steps": 42,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "oZcq_l9BPSgmG23mJ0evhg",
+      "heading": 299.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "VIzsZAaYKfw3XQZPouwYww",
+      "heading": 299.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "TgVfygw7vO1QgG_ratwySw",
+      "heading": 293.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "BJLXvN24z19wtiKakf9Cgg",
+      "heading": 291.6
+    },
+    {
+      "step_index": 4,
+      "pano_id": "Zzj8m0BVuG8um10FgNMg5Q",
+      "heading": 280.6
+    },
+    {
+      "step_index": 5,
+      "pano_id": "l1MzjbrIq6C2Qjoxwt1cWg",
+      "heading": 270.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "oQP3BQKdVQC4mGEbV5Wnjg",
+      "heading": 278.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "6Yr5Yvm8EmID-IuOa1Tlog",
+      "heading": 345.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "bw2h78VAaQl4nodgpJtIEQ",
+      "heading": 345.2
+    },
+    {
+      "step_index": 9,
+      "pano_id": "vOiLfctlxBEqXP-XT3-hMw",
+      "heading": 345.1
+    },
+    {
+      "step_index": 10,
+      "pano_id": "iEX1v8bYw5mIs0Lfoph1NQ",
+      "heading": 345.0
+    },
+    {
+      "step_index": 11,
+      "pano_id": "gb4B52GA0MiBrRMe7UnKSQ",
+      "heading": 346.4
+    },
+    {
+      "step_index": 12,
+      "pano_id": "x2RHsNHRbatOsNAIM-9bbA",
+      "heading": 345.0
+    },
+    {
+      "step_index": 13,
+      "pano_id": "-iKJCPYNDUL_zMNEEoK6EA",
+      "heading": 14.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "bQWk-nakNj6msg69PNdbrw",
+      "heading": 345.2
+    },
+    {
+      "step_index": 15,
+      "pano_id": "0ekNyJDbarOEr__3m3yFTQ",
+      "heading": 333.2
+    },
+    {
+      "step_index": 16,
+      "pano_id": "V0zX3fmrw9pGuQxNYzoKmw",
+      "heading": 235.3
+    },
+    {
+      "step_index": 17,
+      "pano_id": "vQHliut3_3djhWkHYp4D1A",
+      "heading": 216.9
+    },
+    {
+      "step_index": 18,
+      "pano_id": "DdSDdGNxv75YLW4pia2uBA",
+      "heading": 225.6
+    },
+    {
+      "step_index": 19,
+      "pano_id": "UQAQESJc9jQcBQRKBBU4rg",
+      "heading": 225.9
+    },
+    {
+      "step_index": 20,
+      "pano_id": "4ceOojU7IF8uI5BqKYyr4w",
+      "heading": 225.9
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [150m] -> Bear Left [70m] -> Stop",
+  "agent_concise_description": "Head straight past the Public Storage on the right and cross the intersection with South Van Ness Avenue. Continue straight, passing the 'Health Care is a Right' mural on the right, then bear left at the fork to enter Otis Street."
+}

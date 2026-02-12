@@ -1,0 +1,171 @@
+{
+  "task_id": "nav_1015_target_20260125_0331_1",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_transit_20260125_033123",
+  "spawn_point": "7zxeYxBYqvUTBos0q6x-Bg",
+  "spawn_heading": 341.8,
+  "description": "Follow the elevated ramp as it curves gently to the right towards the tall blue glass towers of the MOKO mall. Continue straight ahead to enter the covered Mong Kok East Station Public Transport Interchange. The destination is reached inside the bus terminus.",
+  "ground_truth": {
+    "target_name": "Mong Kok East",
+    "target_pano_id": "o5nuvnZytDDXrIXPzcMdnQ",
+    "optimal_distance_meters": 245,
+    "route_description": "right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "o5nuvnZytDDXrIXPzcMdnQ"
+  ],
+  "max_steps": 58,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "7zxeYxBYqvUTBos0q6x-Bg",
+      "heading": 341.8
+    },
+    {
+      "step_index": 1,
+      "pano_id": "yfXbOa9yd46OH3mG9WgeVA",
+      "heading": 341.8
+    },
+    {
+      "step_index": 2,
+      "pano_id": "mtOW43JAxZGohvViQeuAGg",
+      "heading": 334.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "axxP-Q1mFJBcQ1JHp-Bt2g",
+      "heading": 171.5
+    },
+    {
+      "step_index": 4,
+      "pano_id": "Oq2UFsA0BaYiGRS6mILawQ",
+      "heading": 191.6
+    },
+    {
+      "step_index": 5,
+      "pano_id": "i4hB-tjUDFmcvYhy_RwKZw",
+      "heading": 241.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "p6BpDAxEiAfB-MKdkEGomQ",
+      "heading": 298.2
+    },
+    {
+      "step_index": 7,
+      "pano_id": "xddyzXzhNKnZf6UjeID1pw",
+      "heading": 320.6
+    },
+    {
+      "step_index": 8,
+      "pano_id": "Si6OPi3avZyyY4CqEpZnvw",
+      "heading": 346.6
+    },
+    {
+      "step_index": 9,
+      "pano_id": "0_bpVMBgBVRrSzHKZeFeww",
+      "heading": 349.6
+    },
+    {
+      "step_index": 10,
+      "pano_id": "oBGxQtYyKZ1Yel6vJ34z1w",
+      "heading": 349.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "ST_lntIpv6lRhETcwxQD2A",
+      "heading": 349.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "6EkqjXSRzpkDr6Pk9nN77A",
+      "heading": 349.6
+    },
+    {
+      "step_index": 13,
+      "pano_id": "v4bkMmTexOvgBamnv8Nyew",
+      "heading": 349.7
+    },
+    {
+      "step_index": 14,
+      "pano_id": "yEyjb8tRsLXHDS-AQTF-Ig",
+      "heading": 349.6
+    },
+    {
+      "step_index": 15,
+      "pano_id": "V7VP_pPIKKZ6i8nm3u0ilA",
+      "heading": 349.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "zGbpgHtB97ug2HXh8UTxbA",
+      "heading": 349.6
+    },
+    {
+      "step_index": 17,
+      "pano_id": "P9myAhF7Om7UokCG3YMXwg",
+      "heading": 349.7
+    },
+    {
+      "step_index": 18,
+      "pano_id": "GhSKM716hpX5eDDEyqSm4Q",
+      "heading": 349.7
+    },
+    {
+      "step_index": 19,
+      "pano_id": "L-LdRbLdrxzz-_CNlOrbYA",
+      "heading": 349.6
+    },
+    {
+      "step_index": 20,
+      "pano_id": "mjgvlpmP5VXkVWpxIIcpFg",
+      "heading": 350.8
+    },
+    {
+      "step_index": 21,
+      "pano_id": "yeT0AsIyAcYnOZMphr5L3w",
+      "heading": 351.6
+    },
+    {
+      "step_index": 22,
+      "pano_id": "-8rprE3s0znRqew5IgYC3w",
+      "heading": 22.4
+    },
+    {
+      "step_index": 23,
+      "pano_id": "XwnhGXRASYG7-KX6Ul21yw",
+      "heading": 62.6
+    },
+    {
+      "step_index": 24,
+      "pano_id": "Xwx9NV4K7gyPsgyd8vF5EQ",
+      "heading": 100.1
+    },
+    {
+      "step_index": 25,
+      "pano_id": "mIgR5ErOe9jMAcc-RvUuEg",
+      "heading": 102.7
+    },
+    {
+      "step_index": 26,
+      "pano_id": "gyeLD91PJg-8MxMSdCRGlg",
+      "heading": 101.8
+    },
+    {
+      "step_index": 27,
+      "pano_id": "A4GrDo6CqeuDg3CSwIhHDg",
+      "heading": 127.9
+    },
+    {
+      "step_index": 28,
+      "pano_id": "o5nuvnZytDDXrIXPzcMdnQ",
+      "heading": 181.1
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 245m -> Stop",
+  "agent_concise_description": "Follow the elevated ramp as it curves gently to the right towards the tall blue glass towers of the MOKO mall. Continue straight ahead to enter the covered Mong Kok East Station Public Transport Interchange. The destination is reached inside the bus terminus."
+}

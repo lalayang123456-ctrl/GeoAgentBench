@@ -1,0 +1,93 @@
+{
+  "task_id": "nav_0247_target_20260124_1203_11",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_120119",
+  "spawn_point": "Gv3nZ86GVfwL3u6ms5I5Sg",
+  "spawn_heading": 343.0,
+  "description": "Navigate to Starbucks Coffee - Ochanomizu Saint Clair. Head north/都道403号 toward 淡路坂/茗渓通り Pass by Inouye Eye Hospital (on the left in 29m) for 97m. Turn left at 聖橋（交差点） for 26m. Total distance: approximately 123 m.",
+  "ground_truth": {
+    "target_name": "Starbucks Coffee - Ochanomizu Saint Clair",
+    "target_pano_id": "0o0WtPksY9DF_jx3kxKEWw",
+    "optimal_distance_meters": 123,
+    "route_description": "left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "0o0WtPksY9DF_jx3kxKEWw"
+  ],
+  "max_steps": 28,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Gv3nZ86GVfwL3u6ms5I5Sg",
+      "heading": 343.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "V2ZoTJKifV1wPcyIKQZZCw",
+      "heading": 343.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "luqCHGsRC40OnWGsXPYk6w",
+      "heading": 343.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "j1PRaI3g842n33J0XpnM9w",
+      "heading": 343.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "Z-qZOFR4kOHX3TJQNRptYw",
+      "heading": 342.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "nCSsUpuf2jqBnZcV6S4N9A",
+      "heading": 341.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "hMMP7HafJCX0z3xxnNWu0w",
+      "heading": 341.3
+    },
+    {
+      "step_index": 7,
+      "pano_id": "iBlmjczQN_IdjtFdjFFoQw",
+      "heading": 341.2
+    },
+    {
+      "step_index": 8,
+      "pano_id": "AgPM5kZO4XOagcDxeiptSw",
+      "heading": 343.8
+    },
+    {
+      "step_index": 9,
+      "pano_id": "33GSXbuO0Hi03djrJWzZCw",
+      "heading": 12.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "-cDZaeOh-LRMoEFXo1nRJg",
+      "heading": 279.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "kEz53LxEJQDw3O-rFKReDw",
+      "heading": 284.3
+    },
+    {
+      "step_index": 12,
+      "pano_id": "tss7GzVttXFeUwmSLe6CZA",
+      "heading": 283.9
+    },
+    {
+      "step_index": 13,
+      "pano_id": "0o0WtPksY9DF_jx3kxKEWw",
+      "heading": 282.3
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

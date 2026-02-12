@@ -1,0 +1,78 @@
+{
+  "task_id": "nav_0158_target_20260124_0933_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_supermarket_20260124_093258",
+  "spawn_point": "O2R1cLRBXKMt6ePN886gUw",
+  "spawn_heading": 334.2,
+  "description": "Navigate to Starbucks. Head northwest for 33m. Turn right for 62m. Total distance: approximately 95 m.",
+  "ground_truth": {
+    "target_name": "Starbucks",
+    "target_pano_id": "-3dfWArc5AMhuj6XOvJ_Pw",
+    "optimal_distance_meters": 95,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "-3dfWArc5AMhuj6XOvJ_Pw"
+  ],
+  "max_steps": 22,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "O2R1cLRBXKMt6ePN886gUw",
+      "heading": 334.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "lKqGxT24lNy8oW17GmfZnQ",
+      "heading": 334.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "Kp6YuDGKmubT2RgSrPx8NQ",
+      "heading": 334.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "WymImS6uPmnCtsIYk-iJhg",
+      "heading": 337.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "wEklMWQFlS3rjyc9G3m9cg",
+      "heading": 340.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "oxGZgRecTDY0Pi3KZapCfw",
+      "heading": 57.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "b1E22Ssf2EXm7J51gAQOMw",
+      "heading": 57.2
+    },
+    {
+      "step_index": 7,
+      "pano_id": "_auyCbdwVnRCoWVJcPh7pQ",
+      "heading": 57.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "38u7THwVnQJR2_UsPT9sag",
+      "heading": 57.3
+    },
+    {
+      "step_index": 9,
+      "pano_id": "7leX4IG_oRDhcEy-ZRqA9w",
+      "heading": 57.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "-3dfWArc5AMhuj6XOvJ_Pw",
+      "heading": 57.2
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

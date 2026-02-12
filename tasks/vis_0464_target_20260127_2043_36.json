@@ -1,0 +1,281 @@
+{
+  "task_id": "nav_0464_target_20260124_1353_12",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260124_135109",
+  "spawn_point": "BbYMHlRx7jHuNIFv8tce7Q",
+  "spawn_heading": 182.4,
+  "description": "Navigate straight through the narrow residential alley until it ends at a T-intersection with a main road. Turn left onto the main commercial street, passing the red 'Toko Mutiara Jaya' shop on the corner. Continue straight along this road for approximately 300 meters, passing a blue-domed mosque and 'Prima Freshmart' on the left, before stopping near 'Apotek Keluarga Lima' on the right.",
+  "ground_truth": {
+    "target_name": "Apotek Bhayangkari",
+    "target_pano_id": "GZ9r5WWccRRE5BcF9ghVLA",
+    "optimal_distance_meters": 398,
+    "route_description": "straight→left→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "GZ9r5WWccRRE5BcF9ghVLA"
+  ],
+  "max_steps": 102,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "BbYMHlRx7jHuNIFv8tce7Q",
+      "heading": 182.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "hL-i57BSmjKJaPT8P9VC8g",
+      "heading": 182.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "PyVVmPXMgY1n9CKxHK9RJg",
+      "heading": 182.3
+    },
+    {
+      "step_index": 3,
+      "pano_id": "Qcyd_OI7t-fagUurAnYeoQ",
+      "heading": 182.2
+    },
+    {
+      "step_index": 4,
+      "pano_id": "gGF9zxDeEeE_oMEYyB7P5Q",
+      "heading": 180.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "6zwlYkLoAzX_38fqW9b80Q",
+      "heading": 185.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "i6gjzhLjzUK-lKBpNa39dg",
+      "heading": 187.0
+    },
+    {
+      "step_index": 7,
+      "pano_id": "WAN47Vn084RuGaJe5Cv7OA",
+      "heading": 187.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "ms1qfOLTy1fWEbwsMqSU7g",
+      "heading": 187.1
+    },
+    {
+      "step_index": 9,
+      "pano_id": "3MfpP9fFNlxHnNTEf9beoA",
+      "heading": 188.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "4WY0OIzvKquvR3pDCtjtiQ",
+      "heading": 90.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "H7A2WaeF3AxPHlEXhBjpWA",
+      "heading": 90.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "zUs52-ayYEVcqtNh-zZlSQ",
+      "heading": 90.6
+    },
+    {
+      "step_index": 13,
+      "pano_id": "I80VKqQc7H-tSZ4xwFLAeA",
+      "heading": 90.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "xpD0VQnQ0PVa3MyMyu0t4w",
+      "heading": 90.6
+    },
+    {
+      "step_index": 15,
+      "pano_id": "9_d-FOgMeLL-PuX6nmDT-A",
+      "heading": 90.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "RkE7W7rfuhfErAJ0P2rX5A",
+      "heading": 90.6
+    },
+    {
+      "step_index": 17,
+      "pano_id": "DqwXnZq6axD66MtKYg05TA",
+      "heading": 90.6
+    },
+    {
+      "step_index": 18,
+      "pano_id": "bf3BONKhgGyCMU6m30-qYg",
+      "heading": 90.6
+    },
+    {
+      "step_index": 19,
+      "pano_id": "UOyQUFRu_ELPie_Yk1NPqA",
+      "heading": 90.7
+    },
+    {
+      "step_index": 20,
+      "pano_id": "4fX9WQpGePNhEc4__pkirA",
+      "heading": 94.7
+    },
+    {
+      "step_index": 21,
+      "pano_id": "tpw2sps1ubMYN-62Rkyirg",
+      "heading": 95.5
+    },
+    {
+      "step_index": 22,
+      "pano_id": "ZMyebOzzMHkueJuiK6Ak7w",
+      "heading": 90.9
+    },
+    {
+      "step_index": 23,
+      "pano_id": "2CLszPaFY2y8QMNjyJdzLw",
+      "heading": 90.7
+    },
+    {
+      "step_index": 24,
+      "pano_id": "jbCdBtt3grPCyle56KT-gg",
+      "heading": 90.6
+    },
+    {
+      "step_index": 25,
+      "pano_id": "W3mwvhQPd_o0ZCkIlROpEQ",
+      "heading": 90.0
+    },
+    {
+      "step_index": 26,
+      "pano_id": "9nNSA_D6ofMCYqjK56QECQ",
+      "heading": 89.9
+    },
+    {
+      "step_index": 27,
+      "pano_id": "c6oXWhksU2EA3w0gCWPPlQ",
+      "heading": 89.0
+    },
+    {
+      "step_index": 28,
+      "pano_id": "f-vJPgewF2ijphlbOCe9Zg",
+      "heading": 89.0
+    },
+    {
+      "step_index": 29,
+      "pano_id": "ieqCVuWZ9tpAKFd3oiTDuA",
+      "heading": 89.0
+    },
+    {
+      "step_index": 30,
+      "pano_id": "wgPM2aXeRO8nQpj3r9G0HQ",
+      "heading": 91.7
+    },
+    {
+      "step_index": 31,
+      "pano_id": "xBBZxZ_WPMdBiE7eqFdCNA",
+      "heading": 91.9
+    },
+    {
+      "step_index": 32,
+      "pano_id": "lFWPJW_YyU-Eoe5MGrcFHQ",
+      "heading": 91.9
+    },
+    {
+      "step_index": 33,
+      "pano_id": "VzSV0Ih4h3s4RTNo2KDjnQ",
+      "heading": 91.9
+    },
+    {
+      "step_index": 34,
+      "pano_id": "yP3ln16TGYZt7kokD6sbCA",
+      "heading": 91.9
+    },
+    {
+      "step_index": 35,
+      "pano_id": "yCCV96q5udG2u57u56CIUA",
+      "heading": 137.0
+    },
+    {
+      "step_index": 36,
+      "pano_id": "Nj4iTt7DnEzGF1pWrbhq6w",
+      "heading": 180.9
+    },
+    {
+      "step_index": 37,
+      "pano_id": "4nrE_Rgs6QZnDMwavPWQQw",
+      "heading": 180.7
+    },
+    {
+      "step_index": 38,
+      "pano_id": "wTvNYjYv9g2G7eNBwenTeg",
+      "heading": 180.1
+    },
+    {
+      "step_index": 39,
+      "pano_id": "VMdk74xn5IWzapR4fa49Nw",
+      "heading": 180.8
+    },
+    {
+      "step_index": 40,
+      "pano_id": "67pd15mCR9_5f3g-zT_AWQ",
+      "heading": 181.2
+    },
+    {
+      "step_index": 41,
+      "pano_id": "AOBPwtUd27_2Oa8Ux120qQ",
+      "heading": 181.2
+    },
+    {
+      "step_index": 42,
+      "pano_id": "RkLkx2jA00ZRGfoFM0t6EA",
+      "heading": 181.8
+    },
+    {
+      "step_index": 43,
+      "pano_id": "5iZr6KNNpBxI26ooVDs4KQ",
+      "heading": 182.3
+    },
+    {
+      "step_index": 44,
+      "pano_id": "EmaT0r7GuEUwLO0cGA4j2Q",
+      "heading": 182.0
+    },
+    {
+      "step_index": 45,
+      "pano_id": "mMMyRCFEJ0MzjeUKUHfHTA",
+      "heading": 181.2
+    },
+    {
+      "step_index": 46,
+      "pano_id": "jdMDfY9uBfIe8XBilVhn5g",
+      "heading": 181.2
+    },
+    {
+      "step_index": 47,
+      "pano_id": "Vtao9RxVQf9bvN4mE2ut-Q",
+      "heading": 181.3
+    },
+    {
+      "step_index": 48,
+      "pano_id": "wdX3JCmIZ-aIIrQm4HcixA",
+      "heading": 182.7
+    },
+    {
+      "step_index": 49,
+      "pano_id": "gn2w5_apgn7zPd2LNnd0Cw",
+      "heading": 182.5
+    },
+    {
+      "step_index": 50,
+      "pano_id": "GZ9r5WWccRRE5BcF9ghVLA",
+      "heading": 181.7
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [80m] -> Turn Left -> Head Straight [320m] -> Stop",
+  "agent_concise_description": "Navigate straight through the narrow residential alley until it ends at a T-intersection with a main road. Turn left onto the main commercial street, passing the red 'Toko Mutiara Jaya' shop on the corner. Continue straight along this road for approximately 300 meters, passing a blue-domed mosque and 'Prima Freshmart' on the left, before stopping near 'Apotek Keluarga Lima' on the right."
+}

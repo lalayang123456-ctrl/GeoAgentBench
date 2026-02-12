@@ -1,0 +1,33 @@
+{
+  "task_id": "nav_0339_target_20260124_1244_13",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_gas_station_20260124_124245",
+  "spawn_point": "BHt4t9zI8WswUKm4IprM4g",
+  "spawn_heading": 177.6,
+  "description": "Navigate to Sweet Bean. Head south for 28m. Turn right for 24m. Total distance: approximately 52 m.",
+  "ground_truth": {
+    "target_name": "Sweet Bean",
+    "target_pano_id": "dpQdZT_LmYSKElK0C7RpLQ",
+    "optimal_distance_meters": 52,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "dpQdZT_LmYSKElK0C7RpLQ"
+  ],
+  "max_steps": 4,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "BHt4t9zI8WswUKm4IprM4g",
+      "heading": 177.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "dpQdZT_LmYSKElK0C7RpLQ",
+      "heading": 177.6
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

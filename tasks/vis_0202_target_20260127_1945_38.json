@@ -1,0 +1,101 @@
+{
+  "task_id": "nav_0202_target_20260124_1121_2",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_transit_20260124_112018",
+  "spawn_point": "EQ7M51EyvsXhdo6Af3dE0A",
+  "spawn_heading": 65.3,
+  "description": "Head straight along the road, passing under the Westin pedestrian bridge. Continue straight through the intersection, keeping the Westin Harbour Castle Conference Centre on the left. Proceed forward past the blue mural and construction barriers on the right.",
+  "ground_truth": {
+    "target_name": "Bay St at Harbour St South Side - Ferry Docks Terminal",
+    "target_pano_id": "TfMZDQjBGz5Ajx6Y3R55rA",
+    "optimal_distance_meters": 163,
+    "route_description": "right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "TfMZDQjBGz5Ajx6Y3R55rA"
+  ],
+  "max_steps": 30,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "EQ7M51EyvsXhdo6Af3dE0A",
+      "heading": 65.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "5oUlit5BPRt0FLZMBKVc4Q",
+      "heading": 65.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "gw_BxOL5sR1JfrKDV9-wKw",
+      "heading": 65.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "ATHfZSgBV7NCVNEZ3ntQkQ",
+      "heading": 66.1
+    },
+    {
+      "step_index": 4,
+      "pano_id": "S-RMY2tgupqP3tazP_Mi6A",
+      "heading": 67.7
+    },
+    {
+      "step_index": 5,
+      "pano_id": "RwlGU3WVSD-mPc6rV3Vx5Q",
+      "heading": 59.1
+    },
+    {
+      "step_index": 6,
+      "pano_id": "oro3RTZVp_lfeSa2xodThw",
+      "heading": 31.9
+    },
+    {
+      "step_index": 7,
+      "pano_id": "ae32gWNp7xSgtRci77d_3g",
+      "heading": 33.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "rYAPb9c9Jy-FFm2Fy-SPxg",
+      "heading": 67.4
+    },
+    {
+      "step_index": 9,
+      "pano_id": "1PSg8zJiY_xPX32Eru25RA",
+      "heading": 358.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "qwnDksOngqXm2EqgRHMQRA",
+      "heading": 334.1
+    },
+    {
+      "step_index": 11,
+      "pano_id": "nDpyYEYUdnT2fPejfNZ14w",
+      "heading": 334.2
+    },
+    {
+      "step_index": 12,
+      "pano_id": "LFY3OX5lG4JSMx2AEqj6TQ",
+      "heading": 334.2
+    },
+    {
+      "step_index": 13,
+      "pano_id": "qpd-9DkQLU_7EzVp0QGrBw",
+      "heading": 334.0
+    },
+    {
+      "step_index": 14,
+      "pano_id": "TfMZDQjBGz5Ajx6Y3R55rA",
+      "heading": 334.1
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [160m] -> Stop",
+  "agent_concise_description": "Head straight along the road, passing under the Westin pedestrian bridge. Continue straight through the intersection, keeping the Westin Harbour Castle Conference Centre on the left. Proceed forward past the blue mural and construction barriers on the right."
+}

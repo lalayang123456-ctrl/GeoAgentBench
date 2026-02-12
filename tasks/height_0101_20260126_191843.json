@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0101_20260126_191843",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your North-West (approx. 323\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "ahmrZmmZKzraMc2_BnIooQ",
+  "spawn_heading": 323.2457958419672,
+  "target_building": {
+    "lat": 41.398729599999996,
+    "lng": 2.1801236,
+    "height": 35.19,
+    "floors": 10,
+    "ground_elevation": 15.48463726043701,
+    "roof_elevation": 50.671665,
+    "name": "buildings/ChIJjeLwyOCipBIRRRVwN8GoVBE",
+    "date": "2020-07-21"
+  },
+  "geofence_id": "list_height_0101_20260126_191843",
+  "ground_truth": {
+    "height_meters": 35.19
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-26T19:18:43.018845",
+    "bearing_deg": 323.2457958419672,
+    "city": "Barcelona, Spain"
+  }
+}

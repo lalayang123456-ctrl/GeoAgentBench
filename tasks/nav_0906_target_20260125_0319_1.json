@@ -1,0 +1,193 @@
+{
+  "task_id": "nav_0906_target_20260125_0319_1",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260125_031931",
+  "spawn_point": "Iw8cUxJCcFCEexUbddoSug",
+  "spawn_heading": 320.0,
+  "description": "Navigate to Burger King Menara Hap Seng 2. Head northwest for 267m. Turn left for 82m. Total distance: approximately 349 m.",
+  "ground_truth": {
+    "target_name": "Burger King Menara Hap Seng 2",
+    "target_pano_id": "bLFKdEPdLncoUudFpmxZAQ",
+    "optimal_distance_meters": 349,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "bLFKdEPdLncoUudFpmxZAQ"
+  ],
+  "max_steps": 68,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "Iw8cUxJCcFCEexUbddoSug",
+      "heading": 320.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "ffxnlltW07jV27XgGZFhqA",
+      "heading": 320.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "RLzAFCltKdCZQQZkcO8WFQ",
+      "heading": 318.5
+    },
+    {
+      "step_index": 3,
+      "pano_id": "47mcdio9ZHS7rAkMGE-lCQ",
+      "heading": 316.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "PwIBIAwh9txUlfM_HL3aNw",
+      "heading": 316.7
+    },
+    {
+      "step_index": 5,
+      "pano_id": "wlx6O3aW9UE_YuJHY053jg",
+      "heading": 308.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "vV_Yn8DY45aY4yP0vL-7pQ",
+      "heading": 307.1
+    },
+    {
+      "step_index": 7,
+      "pano_id": "J9lJZgt3JCf1KQK3vtUkdQ",
+      "heading": 303.6
+    },
+    {
+      "step_index": 8,
+      "pano_id": "CJRq2BN1jQWZrorlikOvcw",
+      "heading": 297.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "rmeIJIWcPieXV6KWzC-zjA",
+      "heading": 297.4
+    },
+    {
+      "step_index": 10,
+      "pano_id": "acCLjcj3bR9-tE9cfSR5dw",
+      "heading": 294.0
+    },
+    {
+      "step_index": 11,
+      "pano_id": "fVrHkjbkU4TChIDwzyVslw",
+      "heading": 292.9
+    },
+    {
+      "step_index": 12,
+      "pano_id": "naIwIPnYornqPXC1F35jGw",
+      "heading": 291.4
+    },
+    {
+      "step_index": 13,
+      "pano_id": "o1CdjdQkb77F9dk9yoHF-Q",
+      "heading": 291.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "cvtS5RQdSz_GMB3jKz9YLw",
+      "heading": 294.1
+    },
+    {
+      "step_index": 15,
+      "pano_id": "2GCNL-comMB0pye_QYyidQ",
+      "heading": 294.5
+    },
+    {
+      "step_index": 16,
+      "pano_id": "j6G5Kl2YYTeRoS3qC9WymA",
+      "heading": 298.7
+    },
+    {
+      "step_index": 17,
+      "pano_id": "LA6telp4VxEOkyaVxlOhkw",
+      "heading": 298.7
+    },
+    {
+      "step_index": 18,
+      "pano_id": "HI5kRXyht8kRQr6oQN6ugA",
+      "heading": 290.4
+    },
+    {
+      "step_index": 19,
+      "pano_id": "yIq8PSTLvITt4XTUKEH4ig",
+      "heading": 296.9
+    },
+    {
+      "step_index": 20,
+      "pano_id": "HjQVHEkH8QiBb7mo9cdlcQ",
+      "heading": 300.3
+    },
+    {
+      "step_index": 21,
+      "pano_id": "76pCTIDVQFoa7wxtO0HkeA",
+      "heading": 306.2
+    },
+    {
+      "step_index": 22,
+      "pano_id": "rMiJ4f6rdY5fZlkYs_vJGg",
+      "heading": 300.2
+    },
+    {
+      "step_index": 23,
+      "pano_id": "N9Dm_U_VLYgXpekny77lPA",
+      "heading": 288.4
+    },
+    {
+      "step_index": 24,
+      "pano_id": "ekIssdo_OYSH35Zp2ciyCA",
+      "heading": 302.3
+    },
+    {
+      "step_index": 25,
+      "pano_id": "VeTahWM8nafI1yzhrzi0dA",
+      "heading": 275.8
+    },
+    {
+      "step_index": 26,
+      "pano_id": "iDu6HmcDlf0SP_D5RYey7A",
+      "heading": 255.8
+    },
+    {
+      "step_index": 27,
+      "pano_id": "0rKRhpvgMRqnE7EPeZjnOg",
+      "heading": 214.3
+    },
+    {
+      "step_index": 28,
+      "pano_id": "bqrgzYF7iDTLNqtb8t-Y6Q",
+      "heading": 209.4
+    },
+    {
+      "step_index": 29,
+      "pano_id": "93VtLOdF6DfftTcM3OhdEA",
+      "heading": 208.6
+    },
+    {
+      "step_index": 30,
+      "pano_id": "TYYAQ1Oe5YVp8RfsHMLpWQ",
+      "heading": 217.4
+    },
+    {
+      "step_index": 31,
+      "pano_id": "x66mSCpXEP4Pi4hSWEcuTQ",
+      "heading": 210.6
+    },
+    {
+      "step_index": 32,
+      "pano_id": "TgD1IkGUjq3_0wfM9A0rzQ",
+      "heading": 202.4
+    },
+    {
+      "step_index": 33,
+      "pano_id": "bLFKdEPdLncoUudFpmxZAQ",
+      "heading": 212.8
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

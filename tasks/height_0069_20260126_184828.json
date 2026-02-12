@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0069_20260126_184828",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your North-East (approx. 46\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "xuI7z2H26Y52qPjpjzF_nA",
+  "spawn_heading": 46.04572256867874,
+  "target_building": {
+    "lat": 48.846127499999994,
+    "lng": 2.3313777,
+    "height": 23.4,
+    "floors": 6,
+    "ground_elevation": 42.62011337280273,
+    "roof_elevation": 66.02309,
+    "name": "buildings/ChIJKxMB5M9x5kcRyQDvHyytMOM",
+    "date": "2019-07-25"
+  },
+  "geofence_id": "list_height_0069_20260126_184828",
+  "ground_truth": {
+    "height_meters": 23.4
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-26T18:48:28.367845",
+    "bearing_deg": 46.04572256867874,
+    "city": "Paris, France"
+  }
+}

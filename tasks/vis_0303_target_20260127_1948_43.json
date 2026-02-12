@@ -1,0 +1,31 @@
+{
+  "task_id": "nav_0303_target_20260124_1228_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_122652",
+  "spawn_point": "FowdTuKJKxhVBQEksOQNtQ",
+  "spawn_heading": 0.0,
+  "description": "Walk forward a short distance to reach the bus stop on the left, located directly in front of the Fitness First and Barclays bank. The destination is marked by a bus stop pole on the sidewalk and yellow 'BUS STOP' markings on the road.",
+  "ground_truth": {
+    "target_name": "Fenchurch Street Station (Stop V)",
+    "target_pano_id": "FowdTuKJKxhVBQEksOQNtQ",
+    "optimal_distance_meters": 7,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "FowdTuKJKxhVBQEksOQNtQ"
+  ],
+  "max_steps": 2,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "FowdTuKJKxhVBQEksOQNtQ",
+      "heading": 0.0
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 7m -> Stop",
+  "agent_concise_description": "Walk forward a short distance to reach the bus stop on the left, located directly in front of the Fitness First and Barclays bank. The destination is marked by a bus stop pole on the sidewalk and yellow 'BUS STOP' markings on the road."
+}

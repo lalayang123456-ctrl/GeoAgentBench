@@ -1,0 +1,166 @@
+{
+  "task_id": "nav_1202_target_20260125_0353_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_restaurant_20260125_035347",
+  "spawn_point": "kcSAREfB6AU1LMD_f5Bcug",
+  "spawn_heading": 185.8,
+  "description": "Head straight down the narrow street until you reach the T-intersection with the main road. Turn right and proceed straight, passing a 7-Eleven on the right. Continue forward under the yellow pedestrian bridge.",
+  "ground_truth": {
+    "target_name": "Fukushima 6-chome",
+    "target_pano_id": "qYHPYXG8HKrObS2O5PL9ew",
+    "optimal_distance_meters": 261,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "qYHPYXG8HKrObS2O5PL9ew"
+  ],
+  "max_steps": 56,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "kcSAREfB6AU1LMD_f5Bcug",
+      "heading": 185.8
+    },
+    {
+      "step_index": 1,
+      "pano_id": "zDn2PJhF7OgQwt9_y1DxLg",
+      "heading": 185.8
+    },
+    {
+      "step_index": 2,
+      "pano_id": "8ThnP3LbI5IiJk83IEzqwA",
+      "heading": 185.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "SU-W9B3Tnqc9tVO2W3LJ7Q",
+      "heading": 185.8
+    },
+    {
+      "step_index": 4,
+      "pano_id": "_Ogb2v6qmf7B8Ew-qePRnQ",
+      "heading": 185.7
+    },
+    {
+      "step_index": 5,
+      "pano_id": "ug6Sx3V4Yc41C2HBG8G88Q",
+      "heading": 196.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "pHAMn7FZ5PZu3TTnbJb5hg",
+      "heading": 269.1
+    },
+    {
+      "step_index": 7,
+      "pano_id": "jy2JUVhqRzveWjV9zgm6DA",
+      "heading": 269.1
+    },
+    {
+      "step_index": 8,
+      "pano_id": "1rbGmWnWFMUgQ3j8hAfFpA",
+      "heading": 269.1
+    },
+    {
+      "step_index": 9,
+      "pano_id": "96ycWRLASOTVaVRYlRiaVA",
+      "heading": 269.0
+    },
+    {
+      "step_index": 10,
+      "pano_id": "YYFpqo9uw7GeqEeyhPy-1A",
+      "heading": 180.8
+    },
+    {
+      "step_index": 11,
+      "pano_id": "Q2TE3AwKnqxh_aAXgC4Kbg",
+      "heading": 180.8
+    },
+    {
+      "step_index": 12,
+      "pano_id": "SdTtCRBPJ1U6PwpZwnfX-Q",
+      "heading": 180.9
+    },
+    {
+      "step_index": 13,
+      "pano_id": "wK6B6UZ_iCPqVHnvfy4Hlg",
+      "heading": 180.8
+    },
+    {
+      "step_index": 14,
+      "pano_id": "bSda4iWQTeFP5Zu27vAf7g",
+      "heading": 180.8
+    },
+    {
+      "step_index": 15,
+      "pano_id": "k8jEIi_FhfpydVJl9SdTnA",
+      "heading": 180.8
+    },
+    {
+      "step_index": 16,
+      "pano_id": "WTocMP78ti0uhNGPlMpwlQ",
+      "heading": 180.8
+    },
+    {
+      "step_index": 17,
+      "pano_id": "fbyvHtEZp7tOVCTDDSjS9g",
+      "heading": 179.7
+    },
+    {
+      "step_index": 18,
+      "pano_id": "Daw8qj9V0v0ofrIkfMqLYg",
+      "heading": 275.4
+    },
+    {
+      "step_index": 19,
+      "pano_id": "FjZdY8ZELgJqIQsTSieeZQ",
+      "heading": 275.1
+    },
+    {
+      "step_index": 20,
+      "pano_id": "r7yS1ZkVx8WimRORkCRcrA",
+      "heading": 275.2
+    },
+    {
+      "step_index": 21,
+      "pano_id": "1y2MgxJw8fqvMOitPqj04w",
+      "heading": 275.2
+    },
+    {
+      "step_index": 22,
+      "pano_id": "npShS7MQg59jMGwm_gUGZg",
+      "heading": 275.2
+    },
+    {
+      "step_index": 23,
+      "pano_id": "Xugtf32ltgie0Uzf0Blndg",
+      "heading": 275.7
+    },
+    {
+      "step_index": 24,
+      "pano_id": "F_XteQ9a_ciZF6oCBzxjyA",
+      "heading": 276.1
+    },
+    {
+      "step_index": 25,
+      "pano_id": "WU4E7J1ZxbQx6Oxdn3nW4g",
+      "heading": 276.3
+    },
+    {
+      "step_index": 26,
+      "pano_id": "tosFPn605VzzRr4F_r8bow",
+      "heading": 276.4
+    },
+    {
+      "step_index": 27,
+      "pano_id": "qYHPYXG8HKrObS2O5PL9ew",
+      "heading": 275.8
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 150m -> Turn Right -> Head Straight 110m -> Stop",
+  "agent_concise_description": "Head straight down the narrow street until you reach the T-intersection with the main road. Turn right and proceed straight, passing a 7-Eleven on the right. Continue forward under the yellow pedestrian bridge."
+}

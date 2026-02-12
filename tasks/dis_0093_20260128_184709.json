@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0093_20260128_184709",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between HSBC Leeds and NatWest Leeds City Office in meters.",
+  "spawn_pano_id": "fgYxXJdDfRmIlxlgbaEjDA",
+  "spawn_heading": 307.0,
+  "pois": [
+    {
+      "name": "HSBC Leeds",
+      "type": "bank",
+      "lat": 53.797950799999995,
+      "lng": -1.5472466,
+      "address": "33 Park Row, West Yorkshire, Leeds LS1 1LD, UK",
+      "pano_id": "hIngN_Hczp_DN_uMHi2zFA"
+    },
+    {
+      "name": "NatWest Leeds City Office",
+      "type": "bank",
+      "lat": 53.79797490000001,
+      "lng": -1.5467754999999999,
+      "address": "8 Park Row, Leeds LS1 5HD, UK",
+      "pano_id": "hIngN_Hczp_DN_uMHi2zFA"
+    }
+  ],
+  "geofence_id": "list_perception_1769597229",
+  "ground_truth": {
+    "distance_between_pois_m": 31.1,
+    "bearing_a_to_b_deg": 85.0,
+    "bearing_b_to_a_deg": 265.0
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:47:09.913888",
+    "spawn_location": {
+      "lat": 53.79787970969716,
+      "lng": -1.547086983768763
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "task_id": "nav_0558_target_20260124_1433_22",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260124_143129",
+  "spawn_point": "YLJAXyNn6fDfkaUu57VZVQ",
+  "spawn_heading": 254.5,
+  "description": "Head straight along the street, passing the building with the slanted glass roof and Hotel JAL City on your right. Continue forward until you see the yellow 'Reganet Cute' storefront on your left. The destination is this building on the left, marked by a subway entrance.",
+  "ground_truth": {
+    "target_name": "西鉄 赤坂ビル",
+    "target_pano_id": "xe_gS_He3Z7TUf8fbYrLiw",
+    "optimal_distance_meters": 99,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "xe_gS_He3Z7TUf8fbYrLiw"
+  ],
+  "max_steps": 16,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "YLJAXyNn6fDfkaUu57VZVQ",
+      "heading": 254.5
+    },
+    {
+      "step_index": 1,
+      "pano_id": "hrmRmoLkc0AbD8oMjfFPGg",
+      "heading": 254.5
+    },
+    {
+      "step_index": 2,
+      "pano_id": "9Wo1gUpvKzwgxki8Er8uKg",
+      "heading": 254.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "yCqt4IuYVRvLr3-nWICzTw",
+      "heading": 254.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "SdNnUBKSPiuc-gDyZ3oZJQ",
+      "heading": 254.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "5DW97UOagixJEPvanZe0gw",
+      "heading": 253.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "bfAhItNdV4pL2H2WxlGIaQ",
+      "heading": 253.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "xe_gS_He3Z7TUf8fbYrLiw",
+      "heading": 254.1
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 84m -> Stop",
+  "agent_concise_description": "Head straight along the street, passing the building with the slanted glass roof and Hotel JAL City on your right. Continue forward until you see the yellow 'Reganet Cute' storefront on your left. The destination is this building on the left, marked by a subway entrance."
+}

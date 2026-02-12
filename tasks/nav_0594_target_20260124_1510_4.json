@@ -1,0 +1,123 @@
+{
+  "task_id": "nav_0594_target_20260124_1510_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260124_150900",
+  "spawn_point": "GI4mM-Ss3ZE98qtqQ3yL7g",
+  "spawn_heading": 202.3,
+  "description": "Navigate to Lawson Sendai Kawaramachi Station. Head north for 40m. Turn left for 39m. Turn right for 102m. Total distance: approximately 181 m.",
+  "ground_truth": {
+    "target_name": "Lawson Sendai Kawaramachi Station",
+    "target_pano_id": "74lo_UP0HkSeCtpFvAOoCg",
+    "optimal_distance_meters": 181,
+    "route_description": "left→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "74lo_UP0HkSeCtpFvAOoCg"
+  ],
+  "max_steps": 40,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "GI4mM-Ss3ZE98qtqQ3yL7g",
+      "heading": 202.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "OCfwGV1T0VMPyAJAYHM8Sw",
+      "heading": 202.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "M42UULpr6PqfcdFCRrE6Vg",
+      "heading": 191.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "-WebGTeSVvLmI0mwMiVghQ",
+      "heading": 341.2
+    },
+    {
+      "step_index": 4,
+      "pano_id": "1PgUN_PRbIa1BMsvrEWOFw",
+      "heading": 343.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "gnrcq0hbiQoI1hnMn5J3qA",
+      "heading": 343.9
+    },
+    {
+      "step_index": 6,
+      "pano_id": "r4nqBGWqu8oOiGFcPY75hQ",
+      "heading": 343.9
+    },
+    {
+      "step_index": 7,
+      "pano_id": "p6xQkVg8hUdcFXHeEck-jg",
+      "heading": 344.0
+    },
+    {
+      "step_index": 8,
+      "pano_id": "bKCBSSUpa_8V1B-1rryz1Q",
+      "heading": 343.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "QPD7UP8Jnt9P2XCHwGemZg",
+      "heading": 342.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "BXKvNgrut-pqeMTpDSRHMg",
+      "heading": 342.1
+    },
+    {
+      "step_index": 11,
+      "pano_id": "ug6W2FR4d4bVIDLae23yJA",
+      "heading": 343.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "oJC3UDZNCm3ecldtJjpGLw",
+      "heading": 343.7
+    },
+    {
+      "step_index": 13,
+      "pano_id": "0E1RpWSk73OCOgvnLixY1w",
+      "heading": 343.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "kXgVAWHVekBEptj1vcV-pw",
+      "heading": 343.6
+    },
+    {
+      "step_index": 15,
+      "pano_id": "e9r1Ro_y_njMkWvJei9W9Q",
+      "heading": 343.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "FQIW5rIFXbC6D1wRJFggaw",
+      "heading": 343.6
+    },
+    {
+      "step_index": 17,
+      "pano_id": "pyfeUQDT8M7a9VcTgSyczw",
+      "heading": 343.6
+    },
+    {
+      "step_index": 18,
+      "pano_id": "eZI43WWpKJMQZwZXcD97AQ",
+      "heading": 343.7
+    },
+    {
+      "step_index": 19,
+      "pano_id": "74lo_UP0HkSeCtpFvAOoCg",
+      "heading": 343.7
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

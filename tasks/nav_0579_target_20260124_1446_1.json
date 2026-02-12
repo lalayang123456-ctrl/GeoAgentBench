@@ -1,0 +1,78 @@
+{
+  "task_id": "nav_0579_target_20260124_1446_1",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_landmark_20260124_144525",
+  "spawn_point": "ZwcL0GC6B7ktEhuxYf_6qQ",
+  "spawn_heading": 100.2,
+  "description": "Navigate to Franklin Square. Head east for 11m. Slight right for 93m. Total distance: approximately 104 m.",
+  "ground_truth": {
+    "target_name": "Franklin Square",
+    "target_pano_id": "F08NyX81a5_TqQNkaE10OQ",
+    "optimal_distance_meters": 104,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "F08NyX81a5_TqQNkaE10OQ"
+  ],
+  "max_steps": 22,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "ZwcL0GC6B7ktEhuxYf_6qQ",
+      "heading": 100.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "g6QgCYfXFswZCChwQifyQA",
+      "heading": 100.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "0hlARFMYPAgP8Ez_HrzW9Q",
+      "heading": 139.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "20r3FhWWSu1HTw63gN-lfw",
+      "heading": 144.5
+    },
+    {
+      "step_index": 4,
+      "pano_id": "lG5nnsep1cK-TavSrrS-kQ",
+      "heading": 144.6
+    },
+    {
+      "step_index": 5,
+      "pano_id": "5yWGLXvw9_jcAB9VaUncrg",
+      "heading": 144.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "7Y3AeDFYbuC5bCsq2Jr7Ew",
+      "heading": 144.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "G6mdgkW_C5w64qw-2RFrkg",
+      "heading": 144.7
+    },
+    {
+      "step_index": 8,
+      "pano_id": "ASa6EzbrPMeirlJXunGtdQ",
+      "heading": 144.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "V7-xwzLxTp3sld3bqZJM1g",
+      "heading": 144.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "F08NyX81a5_TqQNkaE10OQ",
+      "heading": 149.9
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

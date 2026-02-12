@@ -1,0 +1,106 @@
+{
+  "task_id": "nav_0538_target_20260124_1433_2",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260124_143129",
+  "spawn_point": "eow9G7r7SmPRtpdqcwZ3Lg",
+  "spawn_heading": 255.0,
+  "description": "Proceed straight down the tree-lined street, passing the Hotel JAL City on the right. Continue forward past a subway entrance on the left and stop at the large intersection with the curved glass building on the left corner.",
+  "ground_truth": {
+    "target_name": "Akasaka Station",
+    "target_pano_id": "oVqsjIaOu1oymGvXZuHODw",
+    "optimal_distance_meters": 169,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "oVqsjIaOu1oymGvXZuHODw"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "eow9G7r7SmPRtpdqcwZ3Lg",
+      "heading": 255.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "MdkrftB4LbYnbRr-HJ7kyA",
+      "heading": 255.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "C5w9fDpeFsx6XL16mKnj6w",
+      "heading": 254.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "YLJAXyNn6fDfkaUu57VZVQ",
+      "heading": 254.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "hrmRmoLkc0AbD8oMjfFPGg",
+      "heading": 254.5
+    },
+    {
+      "step_index": 5,
+      "pano_id": "9Wo1gUpvKzwgxki8Er8uKg",
+      "heading": 254.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "yCqt4IuYVRvLr3-nWICzTw",
+      "heading": 254.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "SdNnUBKSPiuc-gDyZ3oZJQ",
+      "heading": 254.4
+    },
+    {
+      "step_index": 8,
+      "pano_id": "5DW97UOagixJEPvanZe0gw",
+      "heading": 253.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "bfAhItNdV4pL2H2WxlGIaQ",
+      "heading": 253.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "xe_gS_He3Z7TUf8fbYrLiw",
+      "heading": 254.1
+    },
+    {
+      "step_index": 11,
+      "pano_id": "24mpDCTxHr0rFLbrCr6tQw",
+      "heading": 254.7
+    },
+    {
+      "step_index": 12,
+      "pano_id": "cOBb3of2BLibUVblsTxCZg",
+      "heading": 254.6
+    },
+    {
+      "step_index": 13,
+      "pano_id": "GRGoQzKmMDZzy3IASNIsHg",
+      "heading": 254.5
+    },
+    {
+      "step_index": 14,
+      "pano_id": "qSQ3_V2CtqaRT0lex4x7Ng",
+      "heading": 254.9
+    },
+    {
+      "step_index": 15,
+      "pano_id": "oVqsjIaOu1oymGvXZuHODw",
+      "heading": 255.1
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 170m -> Stop",
+  "agent_concise_description": "Proceed straight down the tree-lined street, passing the Hotel JAL City on the right. Continue forward past a subway entrance on the left and stop at the large intersection with the curved glass building on the left corner."
+}

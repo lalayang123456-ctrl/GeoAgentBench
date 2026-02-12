@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0125_20260205_152532",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Barclays Bank from HSBC Brighton.",
+  "spawn_pano_id": "g3A3cUhgLhk-WTMZpcPeyQ",
+  "spawn_heading": 294.3,
+  "pois": [
+    {
+      "name": "HSBC Brighton",
+      "type": "bank",
+      "lat": 50.8231526,
+      "lng": -0.1406501,
+      "address": "153 North St, Brighton and Hove, Brighton BN1 1RE, UK",
+      "pano_id": "yyTkvAR49h02OkjHX0TDVw"
+    },
+    {
+      "name": "Barclays Bank",
+      "type": "bank",
+      "lat": 50.8234882,
+      "lng": -0.1418272,
+      "address": "139-142 North St, Brighton and Hove, Brighton BN1 1RU, UK",
+      "pano_id": "5bCQsGQdYTHzBnQKazBNyQ"
+    }
+  ],
+  "geofence_id": "list_perception_1770305132",
+  "ground_truth": {
+    "distance_between_pois_m": 90.7,
+    "bearing_a_to_b_deg": 294.3,
+    "bearing_b_to_a_deg": 114.3
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:25:32.921628",
+    "spawn_location": {
+      "lat": 50.82314713127226,
+      "lng": -0.1411436335902977
+    }
+  }
+}

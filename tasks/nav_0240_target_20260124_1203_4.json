@@ -1,0 +1,138 @@
+{
+  "task_id": "nav_0240_target_20260124_1203_4",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_120119",
+  "spawn_point": "haWls8oSHZP0dp4hzWLltg",
+  "spawn_heading": 22.3,
+  "description": "Navigate to MUFG Bank ATM. Head north(on the left) for 94m. Turn left at Hidakaya Ochanomizu-Hijiribashi onto 茗渓通り Pass by Yoshinoya (on the left in 77m) Destination will be on the left for 105m. Total distance: approximately 199 m.",
+  "ground_truth": {
+    "target_name": "MUFG Bank ATM",
+    "target_pano_id": "rAFFNl3jgnimCMfVpquD0w",
+    "optimal_distance_meters": 199,
+    "route_description": "left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "rAFFNl3jgnimCMfVpquD0w"
+  ],
+  "max_steps": 46,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "haWls8oSHZP0dp4hzWLltg",
+      "heading": 22.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "QzonIGqlu-_fZe3VbBa8ew",
+      "heading": 22.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "e_bseKaPBeF5ZRcr_UAD_g",
+      "heading": 21.6
+    },
+    {
+      "step_index": 3,
+      "pano_id": "w5Ge2DY0wmcp1sqYgwfhUQ",
+      "heading": 20.6
+    },
+    {
+      "step_index": 4,
+      "pano_id": "i7oeDjrupqxSbu4QHPY9Gw",
+      "heading": 22.6
+    },
+    {
+      "step_index": 5,
+      "pano_id": "3gNsXUhkj-yAd6tyZynSCg",
+      "heading": 22.6
+    },
+    {
+      "step_index": 6,
+      "pano_id": "aymdY29WtEIQqoZ-S0sf2g",
+      "heading": 22.6
+    },
+    {
+      "step_index": 7,
+      "pano_id": "uDnQHUKd0XCsW4jdwUtEUA",
+      "heading": 22.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "T9_SA2THN6ObLkRvLUlyxA",
+      "heading": 22.4
+    },
+    {
+      "step_index": 9,
+      "pano_id": "F2UI45gBRGcZllwhOFWmJQ",
+      "heading": 22.4
+    },
+    {
+      "step_index": 10,
+      "pano_id": "9xfMD5ssBDnJiTTxMgqQIQ",
+      "heading": 22.4
+    },
+    {
+      "step_index": 11,
+      "pano_id": "Pa8wwywIskLyjNKsYFpkjw",
+      "heading": 48.1
+    },
+    {
+      "step_index": 12,
+      "pano_id": "fA3oQnYz2TqM_rmLLOqnHw",
+      "heading": 286.8
+    },
+    {
+      "step_index": 13,
+      "pano_id": "fnSnjt3tUjUXgdbwU4mzYA",
+      "heading": 289.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "8waq73VOlNE8GDrcxOImiw",
+      "heading": 289.4
+    },
+    {
+      "step_index": 15,
+      "pano_id": "_te3iLc_kxZNEbNPFonbtw",
+      "heading": 289.5
+    },
+    {
+      "step_index": 16,
+      "pano_id": "BXUsxTqAkNG_A75wNnDH0Q",
+      "heading": 289.5
+    },
+    {
+      "step_index": 17,
+      "pano_id": "fecTxSO2a85BP1rio5azuw",
+      "heading": 289.5
+    },
+    {
+      "step_index": 18,
+      "pano_id": "AS4DRB19OAwELyDbneCRrA",
+      "heading": 289.5
+    },
+    {
+      "step_index": 19,
+      "pano_id": "IzS4UMO1PF9MZu0DOdQeHg",
+      "heading": 289.8
+    },
+    {
+      "step_index": 20,
+      "pano_id": "cbHa8-KbBQMaV1El2OuWfw",
+      "heading": 289.8
+    },
+    {
+      "step_index": 21,
+      "pano_id": "UvUfLcx5Do2ol7B0h17Xzg",
+      "heading": 289.8
+    },
+    {
+      "step_index": 22,
+      "pano_id": "rAFFNl3jgnimCMfVpquD0w",
+      "heading": 289.8
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

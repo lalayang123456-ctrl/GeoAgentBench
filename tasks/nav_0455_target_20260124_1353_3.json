@@ -1,0 +1,158 @@
+{
+  "task_id": "nav_0455_target_20260124_1353_3",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_pizza_hut_20260124_135109",
+  "spawn_point": "if0fnmDMe5gc9ei5kfrHUw",
+  "spawn_heading": 0.8,
+  "description": "Navigate to Pizza Hut Delivery - PHD Indonesia. Head north for 79m. Turn right for 147m. Total distance: approximately 226 m.",
+  "ground_truth": {
+    "target_name": "Pizza Hut Delivery - PHD Indonesia",
+    "target_pano_id": "9nNSA_D6ofMCYqjK56QECQ",
+    "optimal_distance_meters": 226,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "9nNSA_D6ofMCYqjK56QECQ"
+  ],
+  "max_steps": 54,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "if0fnmDMe5gc9ei5kfrHUw",
+      "heading": 0.8
+    },
+    {
+      "step_index": 1,
+      "pano_id": "9VfdzJT_IdScoV316tCPBg",
+      "heading": 0.8
+    },
+    {
+      "step_index": 2,
+      "pano_id": "t2MpRPkyMX4d1irU0ZdXfg",
+      "heading": 0.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "UODxrveMr_NSRjaC1wHKlQ",
+      "heading": 0.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "hxRt8bNqHn3hGcP6ZG7fcQ",
+      "heading": 1.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "kKETiyVwXss7QpQ30v8DTw",
+      "heading": 2.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "CewObSlMWYojbKbFjZMUAA",
+      "heading": 356.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "rbAVrvfj3axNin6bv8KCXw",
+      "heading": 353.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "jWQmHLYWbKbQeJDc9yCmUA",
+      "heading": 359.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "3MfpP9fFNlxHnNTEf9beoA",
+      "heading": 359.5
+    },
+    {
+      "step_index": 10,
+      "pano_id": "4WY0OIzvKquvR3pDCtjtiQ",
+      "heading": 90.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "H7A2WaeF3AxPHlEXhBjpWA",
+      "heading": 90.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "zUs52-ayYEVcqtNh-zZlSQ",
+      "heading": 90.6
+    },
+    {
+      "step_index": 13,
+      "pano_id": "I80VKqQc7H-tSZ4xwFLAeA",
+      "heading": 90.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "xpD0VQnQ0PVa3MyMyu0t4w",
+      "heading": 90.6
+    },
+    {
+      "step_index": 15,
+      "pano_id": "9_d-FOgMeLL-PuX6nmDT-A",
+      "heading": 90.6
+    },
+    {
+      "step_index": 16,
+      "pano_id": "RkE7W7rfuhfErAJ0P2rX5A",
+      "heading": 90.6
+    },
+    {
+      "step_index": 17,
+      "pano_id": "DqwXnZq6axD66MtKYg05TA",
+      "heading": 90.6
+    },
+    {
+      "step_index": 18,
+      "pano_id": "bf3BONKhgGyCMU6m30-qYg",
+      "heading": 90.6
+    },
+    {
+      "step_index": 19,
+      "pano_id": "UOyQUFRu_ELPie_Yk1NPqA",
+      "heading": 90.7
+    },
+    {
+      "step_index": 20,
+      "pano_id": "4fX9WQpGePNhEc4__pkirA",
+      "heading": 94.7
+    },
+    {
+      "step_index": 21,
+      "pano_id": "tpw2sps1ubMYN-62Rkyirg",
+      "heading": 95.5
+    },
+    {
+      "step_index": 22,
+      "pano_id": "ZMyebOzzMHkueJuiK6Ak7w",
+      "heading": 90.9
+    },
+    {
+      "step_index": 23,
+      "pano_id": "2CLszPaFY2y8QMNjyJdzLw",
+      "heading": 90.7
+    },
+    {
+      "step_index": 24,
+      "pano_id": "jbCdBtt3grPCyle56KT-gg",
+      "heading": 90.6
+    },
+    {
+      "step_index": 25,
+      "pano_id": "W3mwvhQPd_o0ZCkIlROpEQ",
+      "heading": 90.0
+    },
+    {
+      "step_index": 26,
+      "pano_id": "9nNSA_D6ofMCYqjK56QECQ",
+      "heading": 89.9
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

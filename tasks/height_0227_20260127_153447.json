@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0227_20260127_153447",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your North (approx. 346\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "iNeEaqlR9t_84gxushHWzw",
+  "spawn_heading": 346.4610343146626,
+  "target_building": {
+    "lat": 51.5157161,
+    "lng": -0.14776950000000003,
+    "height": 43.58,
+    "floors": 12,
+    "ground_elevation": 25.09763336181641,
+    "roof_elevation": 68.675545,
+    "name": "buildings/ChIJ3VS2RdMadkgRMW_d68j4qn8",
+    "date": "2020-05-13"
+  },
+  "geofence_id": "list_height_0227_20260127_153447",
+  "ground_truth": {
+    "height_meters": 43.58
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-27T15:34:47.957315",
+    "bearing_deg": 346.4610343146626,
+    "city": "London, UK"
+  }
+}

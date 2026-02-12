@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0121_20260205_152532",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between Subway and size? in meters.",
+  "spawn_pano_id": "g3A3cUhgLhk-WTMZpcPeyQ",
+  "spawn_heading": 352.8,
+  "pois": [
+    {
+      "name": "Subway",
+      "type": "sandwich_shop",
+      "lat": 50.8233216,
+      "lng": -0.14117849999999998,
+      "address": "146 North Street, Ground Floor And Basement, Brighton and Hove, Brighton BN1 1RE, UK",
+      "pano_id": "W1NjzkNCoNgCQaVRBvOX5Q"
+    },
+    {
+      "name": "size?",
+      "type": "shoe_store",
+      "lat": 50.8229324,
+      "lng": -0.14109690000000003,
+      "address": "Unit 2, 32-36 North St, Brighton and Hove, Brighton BN1 1EB, UK",
+      "pano_id": "Jczcez7bKVZyj_4bWuCT9Q"
+    }
+  ],
+  "geofence_id": "list_perception_1770305132",
+  "ground_truth": {
+    "distance_between_pois_m": 43.7,
+    "bearing_a_to_b_deg": 172.5,
+    "bearing_b_to_a_deg": 352.5
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:25:32.917262",
+    "spawn_location": {
+      "lat": 50.82314713127226,
+      "lng": -0.1411436335902977
+    }
+  }
+}

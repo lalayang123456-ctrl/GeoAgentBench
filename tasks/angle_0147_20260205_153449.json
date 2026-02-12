@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0147_20260205_153449",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Vodafone from JD Sports.",
+  "spawn_pano_id": "nqtnOS4F5gNMEG0x8e_OkQ",
+  "spawn_heading": 45.6,
+  "pois": [
+    {
+      "name": "JD Sports",
+      "type": "clothing_store",
+      "lat": 52.237975999999996,
+      "lng": -0.8943681,
+      "address": "Grosvenor Centre, 29 Newland, Northampton NN1 2EB, UK",
+      "pano_id": "WYKKcuTQ-hAkRqCyKHRHtQ"
+    },
+    {
+      "name": "Vodafone",
+      "type": "cell_phone_store",
+      "lat": 52.2384446,
+      "lng": -0.8935877999999999,
+      "address": "31-33 Abington St, Northampton NN1 2AW, UK",
+      "pano_id": "sc9iJMuulfCzZ1Sy7pAomg"
+    }
+  ],
+  "geofence_id": "list_perception_1770305689",
+  "ground_truth": {
+    "distance_between_pois_m": 74.4,
+    "bearing_a_to_b_deg": 45.6,
+    "bearing_b_to_a_deg": 225.6
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:34:49.106999",
+    "spawn_location": {
+      "lat": 52.23819027249049,
+      "lng": -0.8940665212573594
+    }
+  }
+}

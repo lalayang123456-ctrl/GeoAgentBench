@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0222_20260127_153021",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your West (approx. 266\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "QxnVkrfipXpw4h8Nx-nVMw",
+  "spawn_heading": 266.4123057275946,
+  "target_building": {
+    "lat": 1.3640847999999999,
+    "lng": 103.83240599999999,
+    "height": 65.32,
+    "floors": 18,
+    "ground_elevation": 15.1007604598999,
+    "roof_elevation": 80.42358,
+    "name": "buildings/ChIJFU-I4tcW2jERMbAZm8N4FBE",
+    "date": "2017-06-22"
+  },
+  "geofence_id": "list_height_0222_20260127_153021",
+  "ground_truth": {
+    "height_meters": 65.32
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-27T15:30:21.968267",
+    "bearing_deg": 266.4123057275946,
+    "city": "Singapore"
+  }
+}

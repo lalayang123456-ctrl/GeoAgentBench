@@ -1,0 +1,33 @@
+{
+  "task_id": "nav_1203_target_20260125_0353_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_restaurant_20260125_035347",
+  "spawn_point": "QVtCWinU0zbSvaRK70UgFQ",
+  "spawn_heading": 95.6,
+  "description": "Navigate to Fukushima 6-chome. Head east/海老江梅田線 for 13m. Total distance: approximately 13 m.",
+  "ground_truth": {
+    "target_name": "Fukushima 6-chome",
+    "target_pano_id": "qYHPYXG8HKrObS2O5PL9ew",
+    "optimal_distance_meters": 13,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "qYHPYXG8HKrObS2O5PL9ew"
+  ],
+  "max_steps": 4,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "QVtCWinU0zbSvaRK70UgFQ",
+      "heading": 95.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "qYHPYXG8HKrObS2O5PL9ew",
+      "heading": 95.6
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

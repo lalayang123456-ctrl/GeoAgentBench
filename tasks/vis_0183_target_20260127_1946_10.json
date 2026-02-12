@@ -1,0 +1,136 @@
+{
+  "task_id": "nav_0183_target_20260124_1010_6",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_101012",
+  "spawn_point": "BJJIUx54KIqMkgXPajfNuQ",
+  "spawn_heading": 177.4,
+  "description": "Head straight south along the main street lined with covered sidewalks, passing the Mina building with a UNIQLO sign on the right. Continue forward past the Sundrug pharmacy and the large Round 1 bowling pin sign on the right. The route ends on the street near the BAL building on the left.",
+  "ground_truth": {
+    "target_name": "Miyaakiyomotodo Pharmacy",
+    "target_pano_id": "Jhdulgt6slnGkWO2wC5DVg",
+    "optimal_distance_meters": 204,
+    "route_description": "left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Jhdulgt6slnGkWO2wC5DVg"
+  ],
+  "max_steps": 44,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "BJJIUx54KIqMkgXPajfNuQ",
+      "heading": 177.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "EwkKxgui08phTEsgN8zXTg",
+      "heading": 177.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "1nl7gv8V196MMiULKOqxIA",
+      "heading": 177.4
+    },
+    {
+      "step_index": 3,
+      "pano_id": "qzjVBnKfF25L5z-5QVwEWQ",
+      "heading": 177.1
+    },
+    {
+      "step_index": 4,
+      "pano_id": "dZydqcjOmijKSps4MA8MbA",
+      "heading": 177.1
+    },
+    {
+      "step_index": 5,
+      "pano_id": "mfUSJw3uHBGuI8NwJiFacA",
+      "heading": 177.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "bSXbIoLP8VTX9DzsQfEFaQ",
+      "heading": 177.3
+    },
+    {
+      "step_index": 7,
+      "pano_id": "cCM0NAug1NH1o7iAZgXkUw",
+      "heading": 176.6
+    },
+    {
+      "step_index": 8,
+      "pano_id": "zdFm3UTkgpr5KUbPkNfOfw",
+      "heading": 176.6
+    },
+    {
+      "step_index": 9,
+      "pano_id": "KNSjGSWBqkXI2t4CXENY1g",
+      "heading": 176.8
+    },
+    {
+      "step_index": 10,
+      "pano_id": "SXNpq75nN5kJxKoXrTHTbQ",
+      "heading": 176.8
+    },
+    {
+      "step_index": 11,
+      "pano_id": "jf3M2GxzrPYbM1N-eWmssw",
+      "heading": 176.8
+    },
+    {
+      "step_index": 12,
+      "pano_id": "1uvtb3Ridcg_iWbiUmE6iA",
+      "heading": 177.2
+    },
+    {
+      "step_index": 13,
+      "pano_id": "wBjvjbUpAjXyIoZkBbfskA",
+      "heading": 178.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "5bBiM42UnM-veaW0ebAu1A",
+      "heading": 178.4
+    },
+    {
+      "step_index": 15,
+      "pano_id": "ZzYaLSwDd8GJH828cJfAhw",
+      "heading": 177.9
+    },
+    {
+      "step_index": 16,
+      "pano_id": "F5lT2zOasJRUIAryzwPDRQ",
+      "heading": 175.8
+    },
+    {
+      "step_index": 17,
+      "pano_id": "IlJx9u_Oy2LqYZSizVpA_g",
+      "heading": 175.8
+    },
+    {
+      "step_index": 18,
+      "pano_id": "mNmy_j8tNuCbHxklpzefZw",
+      "heading": 175.8
+    },
+    {
+      "step_index": 19,
+      "pano_id": "LZwwjcIXquMu9AFGozgSqw",
+      "heading": 175.8
+    },
+    {
+      "step_index": 20,
+      "pano_id": "4FYSvKxF6s15iD-grjvOfg",
+      "heading": 176.6
+    },
+    {
+      "step_index": 21,
+      "pano_id": "Jhdulgt6slnGkWO2wC5DVg",
+      "heading": 176.6
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 200m",
+  "agent_concise_description": "Head straight south along the main street lined with covered sidewalks, passing the Mina building with a UNIQLO sign on the right. Continue forward past the Sundrug pharmacy and the large Round 1 bowling pin sign on the right. The route ends on the street near the BAL building on the left."
+}

@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0034_20260128_162559",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Burger King from Barclays Bank.",
+  "spawn_pano_id": "n29ZbKBS3Hz36m473qCx4g",
+  "spawn_heading": 14.4,
+  "pois": [
+    {
+      "name": "Barclays Bank",
+      "type": "bank",
+      "lat": 52.4792225,
+      "lng": -1.8950736000000001,
+      "address": "79-84 High St, Birmingham B4 7TE, UK",
+      "pano_id": "n29ZbKBS3Hz36m473qCx4g"
+    },
+    {
+      "name": "Burger King",
+      "type": "restaurant",
+      "lat": 52.479743,
+      "lng": -1.8948547999999996,
+      "address": "High St, Birmingham B4 6AJ, UK",
+      "pano_id": "OuxxN0zHUY6PqUY91hxh4Q"
+    }
+  ],
+  "geofence_id": "list_perception_1769588759",
+  "ground_truth": {
+    "distance_between_pois_m": 59.7,
+    "bearing_a_to_b_deg": 14.4,
+    "bearing_b_to_a_deg": 194.4
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T16:25:59.238071",
+    "spawn_location": {
+      "lat": 52.47917582737774,
+      "lng": -1.894755515784912
+    }
+  }
+}

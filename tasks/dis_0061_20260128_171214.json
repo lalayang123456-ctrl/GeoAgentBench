@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0061_20260128_171214",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between HSBC Manchester and McDonald's in meters.",
+  "spawn_pano_id": "ehTHfJ5B1vvEmHnDBB1dww",
+  "spawn_heading": 316.7,
+  "pois": [
+    {
+      "name": "HSBC Manchester",
+      "type": "bank",
+      "lat": 53.4826112,
+      "lng": -2.2457765999999997,
+      "address": "2-4 St Anns Square, Manchester M2 7HD, UK",
+      "pano_id": "kRIW1MeN5lnbmGyea5uo4Q"
+    },
+    {
+      "name": "McDonald's",
+      "type": "fast_food_restaurant",
+      "lat": 53.4821451,
+      "lng": -2.2459347,
+      "address": "18 St Anns Square, Manchester M2 7HQ, UK",
+      "pano_id": "4ITL98gIKEIgGBqEM3Vmvw"
+    }
+  ],
+  "geofence_id": "list_perception_1769591534",
+  "ground_truth": {
+    "distance_between_pois_m": 52.9,
+    "bearing_a_to_b_deg": 191.4,
+    "bearing_b_to_a_deg": 11.4
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T17:12:14.099436",
+    "spawn_location": {
+      "lat": 53.48237992856929,
+      "lng": -2.245410488631541
+    }
+  }
+}

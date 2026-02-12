@@ -1,0 +1,48 @@
+{
+  "task_id": "nav_0491_target_20260124_1414_9",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_141318",
+  "spawn_point": "8fjlH7-E--K8HLETSuGfsw",
+  "spawn_heading": 271.5,
+  "description": "Navigate to Gage Ave & Compton Ave. Head west for 26m. Total distance: approximately 26 m.",
+  "ground_truth": {
+    "target_name": "Gage Ave & Compton Ave",
+    "target_pano_id": "4Sgp7ST1XX0kOOfW81_PHw",
+    "optimal_distance_meters": 26,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "4Sgp7ST1XX0kOOfW81_PHw"
+  ],
+  "max_steps": 10,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "8fjlH7-E--K8HLETSuGfsw",
+      "heading": 271.5
+    },
+    {
+      "step_index": 1,
+      "pano_id": "XttHaKFygl4Op2_7DqOnYg",
+      "heading": 271.5
+    },
+    {
+      "step_index": 2,
+      "pano_id": "vXZyitM1Ep-QDVplqGuIWw",
+      "heading": 270.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "v5cfRnErrJVoC5fAw9vpZQ",
+      "heading": 270.3
+    },
+    {
+      "step_index": 4,
+      "pano_id": "4Sgp7ST1XX0kOOfW81_PHw",
+      "heading": 270.0
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

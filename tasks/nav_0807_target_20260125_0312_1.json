@@ -1,0 +1,103 @@
+{
+  "task_id": "nav_0807_target_20260125_0312_1",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_restaurant_20260125_031147",
+  "spawn_point": "EdOCZ2lq4xbWcd5D6N7UTQ",
+  "spawn_heading": 38.9,
+  "description": "Navigate to Domino's Pizza Thomson. Head northeast for 142m. Total distance: approximately 142 m.",
+  "ground_truth": {
+    "target_name": "Domino's Pizza Thomson",
+    "target_pano_id": "Wl_pZlwPlgN2yq9OdwGEDg",
+    "optimal_distance_meters": 142,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Wl_pZlwPlgN2yq9OdwGEDg"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "EdOCZ2lq4xbWcd5D6N7UTQ",
+      "heading": 38.9
+    },
+    {
+      "step_index": 1,
+      "pano_id": "_8NASFKMssGDq9-phACLNA",
+      "heading": 38.9
+    },
+    {
+      "step_index": 2,
+      "pano_id": "XYoPSYvfGtVAdXI_rPZAJQ",
+      "heading": 38.9
+    },
+    {
+      "step_index": 3,
+      "pano_id": "5OQ3lJa-PKv76_BNtLYKkg",
+      "heading": 38.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "p0xV1f3ifEP3N7oN7MnEag",
+      "heading": 38.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "WE1jNZBrsuO-mK-RoKjG5A",
+      "heading": 38.9
+    },
+    {
+      "step_index": 6,
+      "pano_id": "1cBWRlqd0Ulc52Jrk_JDbw",
+      "heading": 38.5
+    },
+    {
+      "step_index": 7,
+      "pano_id": "cWUayO9RAMX1-EAgJdKHXQ",
+      "heading": 38.2
+    },
+    {
+      "step_index": 8,
+      "pano_id": "CKNy7-I9TH0fmAIVn33GcQ",
+      "heading": 38.2
+    },
+    {
+      "step_index": 9,
+      "pano_id": "h9ATIT6cghgoYD0hHNdGGg",
+      "heading": 38.2
+    },
+    {
+      "step_index": 10,
+      "pano_id": "UxszugG4KTX9HmPgtra3Mg",
+      "heading": 36.1
+    },
+    {
+      "step_index": 11,
+      "pano_id": "6l_uhDtsrXFDKTaOwioajw",
+      "heading": 32.4
+    },
+    {
+      "step_index": 12,
+      "pano_id": "VQ-jQ0UVAzzrRluDQhLHCg",
+      "heading": 33.9
+    },
+    {
+      "step_index": 13,
+      "pano_id": "kvFyLYWyHKHKpDQqkrTCzQ",
+      "heading": 38.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "9_ha1Y2J_qZ7ErROzeQS6Q",
+      "heading": 34.1
+    },
+    {
+      "step_index": 15,
+      "pano_id": "Wl_pZlwPlgN2yq9OdwGEDg",
+      "heading": 27.7
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

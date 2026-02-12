@@ -1,0 +1,171 @@
+{
+  "task_id": "nav_0235_target_20260124_1159_8",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_mcdonalds_20260124_115755",
+  "spawn_point": "eA-EvZXH4fV3GuDd73lVjw",
+  "spawn_heading": 26.5,
+  "description": "Head straight on the main road, passing the large Allied Builders building on the right. Turn left at the intersection where the KEB building is located on the corner. Continue briefly down the side street; the path ends before reaching a specific destination.",
+  "ground_truth": {
+    "target_name": "Standard Bank ATM",
+    "target_pano_id": "KKzu_Kfjrxb5DzlS6Ac5sg",
+    "optimal_distance_meters": 404,
+    "route_description": "left→left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "KKzu_Kfjrxb5DzlS6Ac5sg"
+  ],
+  "max_steps": 58,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "eA-EvZXH4fV3GuDd73lVjw",
+      "heading": 26.5
+    },
+    {
+      "step_index": 1,
+      "pano_id": "0JyfpvIMXHUpkuOXcH4Tpg",
+      "heading": 26.5
+    },
+    {
+      "step_index": 2,
+      "pano_id": "IyovjP19u0P947xGIpMBpg",
+      "heading": 58.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "qJZ-gx4phNqWKgu0RaMycw",
+      "heading": 31.3
+    },
+    {
+      "step_index": 4,
+      "pano_id": "WSfRQXfcg_RcpHTDkFIVCA",
+      "heading": 31.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "j84pzTVL3_aqHpf5ZgGLGA",
+      "heading": 31.3
+    },
+    {
+      "step_index": 6,
+      "pano_id": "JsQXvk-BoXp0Y2PzypzLuA",
+      "heading": 30.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "EA7azkz3Kl_inzWW_y-Byw",
+      "heading": 30.1
+    },
+    {
+      "step_index": 8,
+      "pano_id": "E3wWvz3POT4gUoST9lkQUA",
+      "heading": 30.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "Tupj45c8ZhMRY64cuEtoZw",
+      "heading": 29.5
+    },
+    {
+      "step_index": 10,
+      "pano_id": "YhhCJJVEvOQn2hD9JVo2ag",
+      "heading": 29.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "ASQWDlMIzYlV2h_52uvjCg",
+      "heading": 29.6
+    },
+    {
+      "step_index": 12,
+      "pano_id": "Q0iaAMe0FWkRXnk8XLeJmQ",
+      "heading": 25.1
+    },
+    {
+      "step_index": 13,
+      "pano_id": "cVRXdxy-wHCIybtPnonnwg",
+      "heading": 23.1
+    },
+    {
+      "step_index": 14,
+      "pano_id": "z9Zn0bX0mMi7nQacKL7gqA",
+      "heading": 21.1
+    },
+    {
+      "step_index": 15,
+      "pano_id": "D-XRihe_j0gtoGJUw07ubw",
+      "heading": 22.9
+    },
+    {
+      "step_index": 16,
+      "pano_id": "O5YhmvaTasOjVQZ104Yjog",
+      "heading": 16.8
+    },
+    {
+      "step_index": 17,
+      "pano_id": "rcNr9lfW1CTWvDNUyIUrQg",
+      "heading": 10.4
+    },
+    {
+      "step_index": 18,
+      "pano_id": "R4O-8czrC05owSRDqKjUlw",
+      "heading": 1.1
+    },
+    {
+      "step_index": 19,
+      "pano_id": "UbCh0NS-8CjLFC2ZG4PQwQ",
+      "heading": 1.2
+    },
+    {
+      "step_index": 20,
+      "pano_id": "e6_tB83x0efTGn5x3WvCDQ",
+      "heading": 1.1
+    },
+    {
+      "step_index": 21,
+      "pano_id": "Xn_DgaIHG2K9tSv6RRSWfQ",
+      "heading": 1.2
+    },
+    {
+      "step_index": 22,
+      "pano_id": "JCS6K58ENFRSIP9td9hq7w",
+      "heading": 359.3
+    },
+    {
+      "step_index": 23,
+      "pano_id": "gkauTLmbDrpdukkFr3KVkA",
+      "heading": 356.3
+    },
+    {
+      "step_index": 24,
+      "pano_id": "jL58H6qhY-61-verc_BZDg",
+      "heading": 343.4
+    },
+    {
+      "step_index": 25,
+      "pano_id": "zV1zTsoNBQud0loREc7D1g",
+      "heading": 343.4
+    },
+    {
+      "step_index": 26,
+      "pano_id": "ryMQst7HcEIJx5B04xOnoQ",
+      "heading": 225.1
+    },
+    {
+      "step_index": 27,
+      "pano_id": "9t2MsKym7Jwl3kG9yR1hLA",
+      "heading": 273.2
+    },
+    {
+      "step_index": 28,
+      "pano_id": "KKzu_Kfjrxb5DzlS6Ac5sg",
+      "heading": 273.2
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 200m -> Turn Left -> Stop",
+  "agent_concise_description": "Head straight on the main road, passing the large Allied Builders building on the right. Turn left at the intersection where the KEB building is located on the corner. Continue briefly down the side street; the path ends before reaching a specific destination."
+}

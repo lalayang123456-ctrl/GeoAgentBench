@@ -1,0 +1,123 @@
+{
+  "task_id": "nav_0543_target_20260124_1433_7",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_subway_20260124_143129",
+  "spawn_point": "qJyTvd-c2crZwwSY48VHJw",
+  "spawn_heading": 351.5,
+  "description": "Navigate to Reganet Cute Akasakamon. Head north for 91m. Turn right after Daily Yamazaki (on the left) for 103m. Turn right at 赤坂（交差点） Destination will be on the left for 16m. Total distance: approximately 210 m.",
+  "ground_truth": {
+    "target_name": "Reganet Cute Akasakamon",
+    "target_pano_id": "xe_gS_He3Z7TUf8fbYrLiw",
+    "optimal_distance_meters": 210,
+    "route_description": "left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "xe_gS_He3Z7TUf8fbYrLiw"
+  ],
+  "max_steps": 40,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "qJyTvd-c2crZwwSY48VHJw",
+      "heading": 351.5
+    },
+    {
+      "step_index": 1,
+      "pano_id": "vBMYy9BO7Ut6rdbyx6vtpQ",
+      "heading": 351.5
+    },
+    {
+      "step_index": 2,
+      "pano_id": "4D_fZcQYIFb55R-TTIYchA",
+      "heading": 351.5
+    },
+    {
+      "step_index": 3,
+      "pano_id": "wde-J1-98hN5C95hCsFlpQ",
+      "heading": 351.5
+    },
+    {
+      "step_index": 4,
+      "pano_id": "G6qMALUAJeiSs3N8pzmrug",
+      "heading": 351.5
+    },
+    {
+      "step_index": 5,
+      "pano_id": "PjTyP7hiEaZc1v_oVUkbaA",
+      "heading": 348.4
+    },
+    {
+      "step_index": 6,
+      "pano_id": "BL67XAyhnao7xujjfjnrRA",
+      "heading": 354.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "kvoQiUynASN_WdfDcQIuBQ",
+      "heading": 351.5
+    },
+    {
+      "step_index": 8,
+      "pano_id": "B94S61F_AHi2qsx062wbVA",
+      "heading": 9.5
+    },
+    {
+      "step_index": 9,
+      "pano_id": "Pkl3VfJE5gy_Bmu1b0TeBA",
+      "heading": 75.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "auO6IKPEoTgRz2R4q8lfeQ",
+      "heading": 75.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "aLAeyumgxJ-ztUjHtS6RtA",
+      "heading": 75.7
+    },
+    {
+      "step_index": 12,
+      "pano_id": "BXNDQAl0bY4cGiTc-Ou7JA",
+      "heading": 74.6
+    },
+    {
+      "step_index": 13,
+      "pano_id": "6ZOgyfNCWBxyku0-kci4zQ",
+      "heading": 74.6
+    },
+    {
+      "step_index": 14,
+      "pano_id": "oVqsjIaOu1oymGvXZuHODw",
+      "heading": 75.1
+    },
+    {
+      "step_index": 15,
+      "pano_id": "qSQ3_V2CtqaRT0lex4x7Ng",
+      "heading": 75.1
+    },
+    {
+      "step_index": 16,
+      "pano_id": "GRGoQzKmMDZzy3IASNIsHg",
+      "heading": 74.9
+    },
+    {
+      "step_index": 17,
+      "pano_id": "cOBb3of2BLibUVblsTxCZg",
+      "heading": 74.5
+    },
+    {
+      "step_index": 18,
+      "pano_id": "24mpDCTxHr0rFLbrCr6tQw",
+      "heading": 74.6
+    },
+    {
+      "step_index": 19,
+      "pano_id": "xe_gS_He3Z7TUf8fbYrLiw",
+      "heading": 74.7
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

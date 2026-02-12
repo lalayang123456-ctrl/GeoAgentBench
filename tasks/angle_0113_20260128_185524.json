@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0113_20260128_185524",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Metro Bank from Sports Direct.",
+  "spawn_pano_id": "jaHI8nalKXBzDdi73yskOg",
+  "spawn_heading": 252.5,
+  "pois": [
+    {
+      "name": "Sports Direct",
+      "type": "clothing_store",
+      "lat": 50.9039989,
+      "lng": -1.4039643,
+      "address": "40-50 Above Bar St, Southampton SO14 7DW, UK",
+      "pano_id": "yzlU46xm8gHFw1wq6QHEcA"
+    },
+    {
+      "name": "Metro Bank",
+      "type": "bank",
+      "lat": 50.903900099999994,
+      "lng": -1.404461,
+      "address": "Unit 1 & 2, West Quay Shopping Centre, Above Bar St, Southampton SO15 1QD, UK",
+      "pano_id": "MFzJtcHrXnR5GnaE2D8N0A"
+    }
+  ],
+  "geofence_id": "list_perception_1769597724",
+  "ground_truth": {
+    "distance_between_pois_m": 36.5,
+    "bearing_a_to_b_deg": 252.5,
+    "bearing_b_to_a_deg": 72.5
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T18:55:24.773179",
+    "spawn_location": {
+      "lat": 50.90416544865934,
+      "lng": -1.404360294391466
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "task_id": "nav_0114_target_20260124_0340_30",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_034002",
+  "spawn_point": "H1aLDG6OLvk_k6-3Umbiiw",
+  "spawn_heading": 198.7,
+  "description": "Walk straight through the pedestrian alleyway and continue forward through the open plaza, passing outdoor dining areas with red umbrellas on the left. Proceed straight past the 'Pomp It Up' store on the right and stop near the spiral staircase structure on the left.",
+  "ground_truth": {
+    "target_name": "PostFinance Store Lausanne",
+    "target_pano_id": "P-G7qrPo9u_eOPjE56m1BA",
+    "optimal_distance_meters": 176,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "P-G7qrPo9u_eOPjE56m1BA"
+  ],
+  "max_steps": 66,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "H1aLDG6OLvk_k6-3Umbiiw",
+      "heading": 198.7
+    },
+    {
+      "step_index": 1,
+      "pano_id": "VG9ss8gaETJqqHDfkxdnSg",
+      "heading": 198.7
+    },
+    {
+      "step_index": 2,
+      "pano_id": "CjJeYkR9_6BDypSDL4IPVg",
+      "heading": 199.6
+    },
+    {
+      "step_index": 3,
+      "pano_id": "5ZOjjs1TNB0xCS18N8OI3w",
+      "heading": 194.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "-7-EVvQuTVvd4IVDVSxvog",
+      "heading": 201.0
+    },
+    {
+      "step_index": 5,
+      "pano_id": "nlHbxfc_ZYcWhN-N42nPVg",
+      "heading": 201.0
+    },
+    {
+      "step_index": 6,
+      "pano_id": "Qjpl-ttNWCL2cW3PVTbpVQ",
+      "heading": 199.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "xSTIuOGKqUI4k3S-LwkPxA",
+      "heading": 110.8
+    },
+    {
+      "step_index": 8,
+      "pano_id": "6G2MCDwFMWQ3ArUT_3LfTA",
+      "heading": 110.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "GJGsQgY8keMyJEI4UKnYHw",
+      "heading": 110.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "-o7JIlT2vapSjSQ4dy-W2Q",
+      "heading": 110.7
+    },
+    {
+      "step_index": 11,
+      "pano_id": "G8S0WGzG-vjMtXAxCgoMsQ",
+      "heading": 110.7
+    },
+    {
+      "step_index": 12,
+      "pano_id": "xSSWnhKVu6iy6k2kYwILGw",
+      "heading": 110.0
+    },
+    {
+      "step_index": 13,
+      "pano_id": "zuiKlPaKFJq8Wnf4JLJb1g",
+      "heading": 109.7
+    },
+    {
+      "step_index": 14,
+      "pano_id": "Br53snQP1h8P9uo8cGPlzw",
+      "heading": 109.7
+    },
+    {
+      "step_index": 15,
+      "pano_id": "ycFfzK0WIcqsjWtNiaW49w",
+      "heading": 109.7
+    },
+    {
+      "step_index": 16,
+      "pano_id": "RONxeLkn7Nrqccr5ilsk1g",
+      "heading": 107.0
+    },
+    {
+      "step_index": 17,
+      "pano_id": "hleInp0LI9L9gJMBtarH7g",
+      "heading": 105.9
+    },
+    {
+      "step_index": 18,
+      "pano_id": "idZvLs5hhdIvO-KlEnzAlQ",
+      "heading": 106.0
+    },
+    {
+      "step_index": 19,
+      "pano_id": "IiigMRxkfXatLu_KI6w9Dg",
+      "heading": 106.3
+    },
+    {
+      "step_index": 20,
+      "pano_id": "uX9_aRZUjw2AbeE9xVH9IQ",
+      "heading": 106.3
+    },
+    {
+      "step_index": 21,
+      "pano_id": "s0qiTvtgVN9aWJ66EBUQjA",
+      "heading": 106.3
+    },
+    {
+      "step_index": 22,
+      "pano_id": "0Erq4tbTRSfC6BkCSvsWhw",
+      "heading": 106.3
+    },
+    {
+      "step_index": 23,
+      "pano_id": "MB0SWgE3QCwZsuKHOl78Bw",
+      "heading": 106.3
+    },
+    {
+      "step_index": 24,
+      "pano_id": "iQZNgRfkhju9qej63g7i0A",
+      "heading": 106.3
+    },
+    {
+      "step_index": 25,
+      "pano_id": "jiNR7MWIcupVnLAKJPZaFA",
+      "heading": 19.5
+    },
+    {
+      "step_index": 26,
+      "pano_id": "a13ooouZN_KLRyy74Wi22w",
+      "heading": 19.5
+    },
+    {
+      "step_index": 27,
+      "pano_id": "62ViG28dM8RqsoYbk0EHlw",
+      "heading": 19.3
+    },
+    {
+      "step_index": 28,
+      "pano_id": "3pYdYDa1ZQ1ZMbHHV3tyvA",
+      "heading": 258.7
+    },
+    {
+      "step_index": 29,
+      "pano_id": "1WisMhFGFZFE0peFzR_Qbg",
+      "heading": 287.9
+    },
+    {
+      "step_index": 30,
+      "pano_id": "Ik3ODFMyw3YuilJoAKvbcg",
+      "heading": 287.9
+    },
+    {
+      "step_index": 31,
+      "pano_id": "C5H9DAHg-njsygY8ExkC_Q",
+      "heading": 288.0
+    },
+    {
+      "step_index": 32,
+      "pano_id": "P-G7qrPo9u_eOPjE56m1BA",
+      "heading": 288.0
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight [176m] -> Stop",
+  "agent_concise_description": "Walk straight through the pedestrian alleyway and continue forward through the open plaza, passing outdoor dining areas with red umbrellas on the left. Proceed straight past the 'Pomp It Up' store on the right and stop near the spiral staircase structure on the left."
+}

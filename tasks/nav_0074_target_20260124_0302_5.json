@@ -1,0 +1,78 @@
+{
+  "task_id": "nav_0074_target_20260124_0302_5",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_landmark_20260124_030152",
+  "spawn_point": "vdZCz69pys2mZiDxtimyZw",
+  "spawn_heading": 92.1,
+  "description": "Navigate to Ufficio postale di Roma Camera Deputati. Head east for 98m. Total distance: approximately 98 m.",
+  "ground_truth": {
+    "target_name": "Ufficio postale di Roma Camera Deputati",
+    "target_pano_id": "Pnpke2PqEATXu9NL_zFguA",
+    "optimal_distance_meters": 98,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "Pnpke2PqEATXu9NL_zFguA"
+  ],
+  "max_steps": 22,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "vdZCz69pys2mZiDxtimyZw",
+      "heading": 92.1
+    },
+    {
+      "step_index": 1,
+      "pano_id": "vLlKKllUQ4ooz3diy55Yng",
+      "heading": 92.1
+    },
+    {
+      "step_index": 2,
+      "pano_id": "ezXrg4Z5fH5DYXXcNEVDgQ",
+      "heading": 90.3
+    },
+    {
+      "step_index": 3,
+      "pano_id": "Lywpt7ksBCUcG-fJEQ8ivw",
+      "heading": 87.7
+    },
+    {
+      "step_index": 4,
+      "pano_id": "1e2X-8m3b1pJ1RFDKMDP_g",
+      "heading": 87.7
+    },
+    {
+      "step_index": 5,
+      "pano_id": "cjD325gMH50GX6krGENtsQ",
+      "heading": 87.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "LOWnYlVR4XOglzUDFFJSDg",
+      "heading": 87.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "oSA-jimid2aKY0q4d0hgvw",
+      "heading": 87.6
+    },
+    {
+      "step_index": 8,
+      "pano_id": "Z9surqExSGiXv_k3ppDSEw",
+      "heading": 86.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "foqMFmAoXplbumlHvFpFZg",
+      "heading": 86.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "Pnpke2PqEATXu9NL_zFguA",
+      "heading": 85.6
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

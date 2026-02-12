@@ -1,0 +1,106 @@
+{
+  "task_id": "nav_0531_target_20260124_1425_10",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_142413",
+  "spawn_point": "X5UbtZenept2HKuRlt0ybQ",
+  "spawn_heading": 90.8,
+  "description": "Head straight on the service road, passing under the highway overpass. Continue straight through the intersection; the destination, Dutch Bros Coffee, is the blue building with the windmill logo on the right side.",
+  "ground_truth": {
+    "target_name": "Dutch Bros Coffee",
+    "target_pano_id": "1-87dqK0WNOtuo7ejOCbHQ",
+    "optimal_distance_meters": 153,
+    "route_description": "right→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "1-87dqK0WNOtuo7ejOCbHQ"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "X5UbtZenept2HKuRlt0ybQ",
+      "heading": 90.8
+    },
+    {
+      "step_index": 1,
+      "pano_id": "JNzJicUTA9Bx91DCxNU9oA",
+      "heading": 90.8
+    },
+    {
+      "step_index": 2,
+      "pano_id": "1kUgtk36nj_gccPzkWXVJA",
+      "heading": 2.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "NpzlhESTDo1xkvDJZlrhNQ",
+      "heading": 0.2
+    },
+    {
+      "step_index": 4,
+      "pano_id": "LP7TVwvkN2_Dh5TXChWWyg",
+      "heading": 2.3
+    },
+    {
+      "step_index": 5,
+      "pano_id": "j1OfV9BtSDMLDHy3nXyU5A",
+      "heading": 1.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "du2GDedRMGbBBFzr6nUHGQ",
+      "heading": 1.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "7viITM1-HEUh2fwIuPWsgQ",
+      "heading": 0.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "bNp5cmCxfSXsraE_nbzJSw",
+      "heading": 359.9
+    },
+    {
+      "step_index": 9,
+      "pano_id": "5jCChLFn7-S7cdipt39quQ",
+      "heading": 352.3
+    },
+    {
+      "step_index": 10,
+      "pano_id": "D9RzcG2W_0Bvwpx1tPHz_Q",
+      "heading": 6.3
+    },
+    {
+      "step_index": 11,
+      "pano_id": "7iSyL63FDUhSwcVi51YwJA",
+      "heading": 359.5
+    },
+    {
+      "step_index": 12,
+      "pano_id": "69CNyWQLsLpyEkeVNpxr8Q",
+      "heading": 358.5
+    },
+    {
+      "step_index": 13,
+      "pano_id": "y8hY-19VqnaOFgrJVWdgbg",
+      "heading": 52.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "sopT6OXHcaEdCM5DgJEpNA",
+      "heading": 82.5
+    },
+    {
+      "step_index": 15,
+      "pano_id": "1-87dqK0WNOtuo7ejOCbHQ",
+      "heading": 89.8
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 150m -> Stop",
+  "agent_concise_description": "Head straight on the service road, passing under the highway overpass. Continue straight through the intersection; the destination, Dutch Bros Coffee, is the blue building with the windmill logo on the right side."
+}

@@ -1,0 +1,106 @@
+{
+  "task_id": "nav_0624_target_20260124_1527_1",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_gas_station_20260124_152602",
+  "spawn_point": "-iKJCPYNDUL_zMNEEoK6EA",
+  "spawn_heading": 345.2,
+  "description": "Head straight through the intersection, passing the Public Storage building on the left and Enterprise Rent-A-Car on the right. Continue forward along the street; the destination is the Chevron gas station located on the left.",
+  "ground_truth": {
+    "target_name": "Chevron",
+    "target_pano_id": "1Z7GvYzGuqryloNU_DTfoA",
+    "optimal_distance_meters": 108,
+    "route_description": "right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "1Z7GvYzGuqryloNU_DTfoA"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "-iKJCPYNDUL_zMNEEoK6EA",
+      "heading": 345.2
+    },
+    {
+      "step_index": 1,
+      "pano_id": "bQWk-nakNj6msg69PNdbrw",
+      "heading": 345.2
+    },
+    {
+      "step_index": 2,
+      "pano_id": "0ekNyJDbarOEr__3m3yFTQ",
+      "heading": 333.2
+    },
+    {
+      "step_index": 3,
+      "pano_id": "V0zX3fmrw9pGuQxNYzoKmw",
+      "heading": 235.3
+    },
+    {
+      "step_index": 4,
+      "pano_id": "XhkmfvXY-T5U5RhyhlWM8Q",
+      "heading": 166.7
+    },
+    {
+      "step_index": 5,
+      "pano_id": "hfG3WFGi8tIzUU6PswvdYw",
+      "heading": 166.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "B8I2-vXJns6qgms7UP39sg",
+      "heading": 166.8
+    },
+    {
+      "step_index": 7,
+      "pano_id": "tqJE55rtCWLn7chwvCDVuw",
+      "heading": 213.3
+    },
+    {
+      "step_index": 8,
+      "pano_id": "_Za53Q9TT6Stb_oQ0r4XCg",
+      "heading": 210.6
+    },
+    {
+      "step_index": 9,
+      "pano_id": "Yq2lgqR_mlWJukDKEh6qJg",
+      "heading": 210.1
+    },
+    {
+      "step_index": 10,
+      "pano_id": "9EeMB5qh-FEJiGZFRhA3VA",
+      "heading": 209.2
+    },
+    {
+      "step_index": 11,
+      "pano_id": "2ac5FeFeFqNap_Wu8R2XxQ",
+      "heading": 208.7
+    },
+    {
+      "step_index": 12,
+      "pano_id": "iOFd_ogv4HLB1yKohbZsLw",
+      "heading": 208.2
+    },
+    {
+      "step_index": 13,
+      "pano_id": "jVOE20BLFplPpne4Quj_pw",
+      "heading": 212.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "y9OW3pEWQvbYpBpgvLdf2w",
+      "heading": 203.0
+    },
+    {
+      "step_index": 15,
+      "pano_id": "1Z7GvYzGuqryloNU_DTfoA",
+      "heading": 204.9
+    }
+  ],
+  "agent_verification": "YES",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 100m -> Stop",
+  "agent_concise_description": "Head straight through the intersection, passing the Public Storage building on the left and Enterprise Rent-A-Car on the right. Continue forward along the street; the destination is the Chevron gas station located on the left."
+}

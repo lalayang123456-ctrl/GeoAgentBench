@@ -1,0 +1,118 @@
+{
+  "task_id": "nav_0228_target_20260124_1159_1",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_mcdonalds_20260124_115755",
+  "spawn_point": "EfhK-_9uHZKw39ERMMweNg",
+  "spawn_heading": 272.0,
+  "description": "Navigate to McDonald's Olifantsfontein. Head west for 230m. Turn left for 24m. Slight right Destination will be on the left for 46m. Total distance: approximately 300 m.",
+  "ground_truth": {
+    "target_name": "McDonald's Olifantsfontein",
+    "target_pano_id": "e6_tB83x0efTGn5x3WvCDQ",
+    "optimal_distance_meters": 300,
+    "route_description": "left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "e6_tB83x0efTGn5x3WvCDQ"
+  ],
+  "max_steps": 38,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "EfhK-_9uHZKw39ERMMweNg",
+      "heading": 272.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "ItV2utThtVV1RxcaFHf-1w",
+      "heading": 272.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "XG3WPJc7fumsb4UvZemoqQ",
+      "heading": 269.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "osV_LqyjSsI4kxJ4eLOD0Q",
+      "heading": 263.2
+    },
+    {
+      "step_index": 4,
+      "pano_id": "4Gn_8BNzkL2aQy8w-cvUkQ",
+      "heading": 256.4
+    },
+    {
+      "step_index": 5,
+      "pano_id": "uTiolVDmsIHA9ITOQSg3og",
+      "heading": 243.5
+    },
+    {
+      "step_index": 6,
+      "pano_id": "ssIs_vA85_6F7Sy2e9wAiw",
+      "heading": 240.4
+    },
+    {
+      "step_index": 7,
+      "pano_id": "Kiw0gDh34wZvZ-t48WfItA",
+      "heading": 240.4
+    },
+    {
+      "step_index": 8,
+      "pano_id": "ZM2VFr74bu_x9GfIIy1Vug",
+      "heading": 239.9
+    },
+    {
+      "step_index": 9,
+      "pano_id": "tBkSZXng31z90pdcc2FHfA",
+      "heading": 237.4
+    },
+    {
+      "step_index": 10,
+      "pano_id": "uuizKICHK8CNOKPES0ax3w",
+      "heading": 237.4
+    },
+    {
+      "step_index": 11,
+      "pano_id": "LQI2u1aIFOkDXsaXmQedyw",
+      "heading": 237.4
+    },
+    {
+      "step_index": 12,
+      "pano_id": "Y4E6zZE5a5Ys-d7jXDc5qw",
+      "heading": 237.4
+    },
+    {
+      "step_index": 13,
+      "pano_id": "zV1zTsoNBQud0loREc7D1g",
+      "heading": 244.3
+    },
+    {
+      "step_index": 14,
+      "pano_id": "jL58H6qhY-61-verc_BZDg",
+      "heading": 163.4
+    },
+    {
+      "step_index": 15,
+      "pano_id": "gkauTLmbDrpdukkFr3KVkA",
+      "heading": 163.4
+    },
+    {
+      "step_index": 16,
+      "pano_id": "JCS6K58ENFRSIP9td9hq7w",
+      "heading": 176.3
+    },
+    {
+      "step_index": 17,
+      "pano_id": "Xn_DgaIHG2K9tSv6RRSWfQ",
+      "heading": 179.3
+    },
+    {
+      "step_index": 18,
+      "pano_id": "e6_tB83x0efTGn5x3WvCDQ",
+      "heading": 181.2
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

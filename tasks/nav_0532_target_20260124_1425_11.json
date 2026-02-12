@@ -1,0 +1,103 @@
+{
+  "task_id": "nav_0532_target_20260124_1425_11",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_burger_king_20260124_142413",
+  "spawn_point": "s4erjjHA2J02P-RkzgfCxA",
+  "spawn_heading": 180.0,
+  "description": "Navigate to Dutch Bros Coffee. Head south for 107m. Turn left for 31m. Turn right Destination will be on the left for 42m. Total distance: approximately 180 m.",
+  "ground_truth": {
+    "target_name": "Dutch Bros Coffee",
+    "target_pano_id": "1-87dqK0WNOtuo7ejOCbHQ",
+    "optimal_distance_meters": 180,
+    "route_description": "left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "1-87dqK0WNOtuo7ejOCbHQ"
+  ],
+  "max_steps": 32,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "s4erjjHA2J02P-RkzgfCxA",
+      "heading": 180.0
+    },
+    {
+      "step_index": 1,
+      "pano_id": "q9ur03JaETpPLjFXz7_hXA",
+      "heading": 180.0
+    },
+    {
+      "step_index": 2,
+      "pano_id": "ZTqmpzGRC4_Zu-pvapAJOQ",
+      "heading": 180.0
+    },
+    {
+      "step_index": 3,
+      "pano_id": "phvNKA6EpHidkhXjqEXcog",
+      "heading": 180.0
+    },
+    {
+      "step_index": 4,
+      "pano_id": "gQpM1k6CM0jzflx_mw5xtQ",
+      "heading": 180.1
+    },
+    {
+      "step_index": 5,
+      "pano_id": "FcuoH22vNybrHCKKmJv-fQ",
+      "heading": 179.2
+    },
+    {
+      "step_index": 6,
+      "pano_id": "NqKAOrzv-BmD32esLtN8_A",
+      "heading": 176.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "RAuqRpo3TFPHZ5YMKFIHWw",
+      "heading": 180.9
+    },
+    {
+      "step_index": 8,
+      "pano_id": "uABLhGhdL9Bsv8arf5Ozfg",
+      "heading": 178.0
+    },
+    {
+      "step_index": 9,
+      "pano_id": "3yO13IryIdahNAgQx7TCpg",
+      "heading": 183.8
+    },
+    {
+      "step_index": 10,
+      "pano_id": "f0IsFqv7cg7tC5AKD9lFUA",
+      "heading": 176.6
+    },
+    {
+      "step_index": 11,
+      "pano_id": "SBDs_cPlf9opyLEgK044DA",
+      "heading": 183.0
+    },
+    {
+      "step_index": 12,
+      "pano_id": "69CNyWQLsLpyEkeVNpxr8Q",
+      "heading": 180.2
+    },
+    {
+      "step_index": 13,
+      "pano_id": "y8hY-19VqnaOFgrJVWdgbg",
+      "heading": 52.4
+    },
+    {
+      "step_index": 14,
+      "pano_id": "sopT6OXHcaEdCM5DgJEpNA",
+      "heading": 82.5
+    },
+    {
+      "step_index": 15,
+      "pano_id": "1-87dqK0WNOtuo7ejOCbHQ",
+      "heading": 89.8
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

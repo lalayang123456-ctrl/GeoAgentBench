@@ -1,0 +1,61 @@
+{
+  "task_id": "nav_0113_target_20260124_0340_29",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_kfc_20260124_034002",
+  "spawn_point": "a13ooouZN_KLRyy74Wi22w",
+  "spawn_heading": 19.3,
+  "description": "Head straight down the pedestrian alley, passing the 'MANIAK' store on your right. Continue forward past the 'Mexican Restaurant' and the building with the geometric diamond facade on your left. The path ends near 'Wawa's Asian Kitchen' and 'Redwood'.",
+  "ground_truth": {
+    "target_name": "PostFinance Store Lausanne",
+    "target_pano_id": "P-G7qrPo9u_eOPjE56m1BA",
+    "optimal_distance_meters": 123,
+    "route_description": "left→right"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "P-G7qrPo9u_eOPjE56m1BA"
+  ],
+  "max_steps": 14,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "a13ooouZN_KLRyy74Wi22w",
+      "heading": 19.3
+    },
+    {
+      "step_index": 1,
+      "pano_id": "62ViG28dM8RqsoYbk0EHlw",
+      "heading": 19.3
+    },
+    {
+      "step_index": 2,
+      "pano_id": "3pYdYDa1ZQ1ZMbHHV3tyvA",
+      "heading": 258.7
+    },
+    {
+      "step_index": 3,
+      "pano_id": "1WisMhFGFZFE0peFzR_Qbg",
+      "heading": 287.9
+    },
+    {
+      "step_index": 4,
+      "pano_id": "Ik3ODFMyw3YuilJoAKvbcg",
+      "heading": 287.9
+    },
+    {
+      "step_index": 5,
+      "pano_id": "C5H9DAHg-njsygY8ExkC_Q",
+      "heading": 288.0
+    },
+    {
+      "step_index": 6,
+      "pano_id": "P-G7qrPo9u_eOPjE56m1BA",
+      "heading": 288.0
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 123m -> Stop",
+  "agent_concise_description": "Head straight down the pedestrian alley, passing the 'MANIAK' store on your right. Continue forward past the 'Mexican Restaurant' and the building with the geometric diamond facade on your left. The path ends near 'Wawa's Asian Kitchen' and 'Redwood'."
+}

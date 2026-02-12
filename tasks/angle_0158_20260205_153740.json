@@ -1,0 +1,41 @@
+{
+  "task_id": "angle_0158_20260205_153740",
+  "task_type": "perception_angle",
+  "description": "Estimate the relative direction (0-360 deg, clockwise from North) of Vodafone from Costa Coffee.",
+  "spawn_pano_id": "QyoCVPd6e5p4f_GHfhoVkw",
+  "spawn_heading": 246.8,
+  "pois": [
+    {
+      "name": "Costa Coffee",
+      "type": "coffee_shop",
+      "lat": 50.372102999999996,
+      "lng": -4.137592,
+      "address": "Unit3 Drake Circus, SC, Plymouth PL1 1EA, UK",
+      "pano_id": "qjqELzsNnQZ7_wObkA6PGg"
+    },
+    {
+      "name": "Vodafone",
+      "type": "cell_phone_store",
+      "lat": 50.371623799999995,
+      "lng": -4.1393461,
+      "address": "2-6 New George St, Plymouth PL1 1RL, UK",
+      "pano_id": "zdnbGHrJXkcgHGSpIBNE1g"
+    }
+  ],
+  "geofence_id": "list_perception_1770305860",
+  "ground_truth": {
+    "distance_between_pois_m": 135.3,
+    "bearing_a_to_b_deg": 246.8,
+    "bearing_b_to_a_deg": 66.8
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-02-05T15:37:40.465582",
+    "spawn_location": {
+      "lat": 50.37145537743192,
+      "lng": -4.139082924828556
+    }
+  }
+}

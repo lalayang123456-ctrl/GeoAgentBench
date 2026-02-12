@@ -1,0 +1,38 @@
+{
+    "gpt-5.2": {
+        "api_base_url": "https://yunwu.ai/v1",
+        "api_key": "sk-UzeZG1S7GNrp1053qHfGFwgQArIYl7rX7EZW3pZ7eD0qV1JH"
+    },
+    "claude-opus-4-5-20251101-thinking": {
+        "api_base_url": "https://yunwu.ai/v1",
+        "api_key": "sk-UzeZG1S7GNrp1053qHfGFwgQArIYl7rX7EZW3pZ7eD0qV1JH"
+    },
+    "gpt-4o": {
+        "api_base_url": "https://yunwu.ai/v1",
+        "api_key": "sk-UzeZG1S7GNrp1053qHfGFwgQArIYl7rX7EZW3pZ7eD0qV1JH"
+    },
+    "qwen3-vl-235b-a22b-instruct": {
+        "api_base_url": "https://yunwu.ai/v1",
+        "api_key": "sk-UzeZG1S7GNrp1053qHfGFwgQArIYl7rX7EZW3pZ7eD0qV1JH"
+    },
+    "qwen3-vl-235b-a22b-thinking": {
+        "api_base_url": "https://yunwu.ai/v1",
+        "api_key": "sk-UzeZG1S7GNrp1053qHfGFwgQArIYl7rX7EZW3pZ7eD0qV1JH"
+    },
+    "gemini-2.5-pro-thinking": {
+        "api_base_url": "https://yunwu.ai/v1",
+        "api_key": "sk-UzeZG1S7GNrp1053qHfGFwgQArIYl7rX7EZW3pZ7eD0qV1JH"
+    },
+    "gemini-3-pro-preview": {
+        "api_base_url": "https://yunwu.ai/v1",
+        "api_key": "sk-zhTP87o7OuL3FSOmHHRFxpPdBuGv3wUbVOJ4h1r4n5yGEgeV"
+    },
+    "doubao-seed-1-8-251228-thinking": {
+        "api_base_url": "https://yunwu.ai/v1",
+        "api_key": "sk-zhTP87o7OuL3FSOmHHRFxpPdBuGv3wUbVOJ4h1r4n5yGEgeV"
+    },
+    "glm-4.6v": {
+        "api_base_url": "https://yunwu.ai/v1",
+        "api_key": "sk-UzeZG1S7GNrp1053qHfGFwgQArIYl7rX7EZW3pZ7eD0qV1JH"
+    }
+}

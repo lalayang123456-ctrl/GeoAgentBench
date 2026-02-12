@@ -1,0 +1,41 @@
+{
+  "task_id": "dis_0035_20260128_162559",
+  "task_type": "perception_distance",
+  "description": "Estimate the distance between Barclays Bank and Metro Bank in meters.",
+  "spawn_pano_id": "n29ZbKBS3Hz36m473qCx4g",
+  "spawn_heading": 283.5,
+  "pois": [
+    {
+      "name": "Barclays Bank",
+      "type": "bank",
+      "lat": 52.4792225,
+      "lng": -1.8950736000000001,
+      "address": "79-84 High St, Birmingham B4 7TE, UK",
+      "pano_id": "n29ZbKBS3Hz36m473qCx4g"
+    },
+    {
+      "name": "Metro Bank",
+      "type": "bank",
+      "lat": 52.4791586,
+      "lng": -1.895318,
+      "address": "85-88 High St, Birmingham B4 7TE, UK",
+      "pano_id": "z8W3f9PzEZtfuHJNezx5DQ"
+    }
+  ],
+  "geofence_id": "list_perception_1769588759",
+  "ground_truth": {
+    "distance_between_pois_m": 18.0,
+    "bearing_a_to_b_deg": 246.8,
+    "bearing_b_to_a_deg": 66.8
+  },
+  "answer": "",
+  "max_steps": 20,
+  "max_time_seconds": null,
+  "metadata": {
+    "created_at": "2026-01-28T16:25:59.240324",
+    "spawn_location": {
+      "lat": 52.47917582737774,
+      "lng": -1.894755515784912
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "task_id": "height_0212_20260127_152024",
+  "task_type": "building_height_estimation",
+  "description": "Facing the building to your North-West (approx. 331\u00b0), estimate the height of the main building in front of you in meters. Answer with one number and a short rationale.",
+  "spawn_pano_id": "bacPDezMi6WKdC9xwB9TzA",
+  "spawn_heading": 331.90628879695896,
+  "target_building": {
+    "lat": 45.5079578,
+    "lng": -73.5588581,
+    "height": 44.97,
+    "floors": 12,
+    "ground_elevation": 16.32764434814453,
+    "roof_elevation": 61.297028,
+    "name": "buildings/ChIJA62fClEayUwRCn6_cqGAph4",
+    "date": "2021-07-24"
+  },
+  "geofence_id": "list_height_0212_20260127_152024",
+  "ground_truth": {
+    "height_meters": 44.97
+  },
+  "answer": "",
+  "max_steps": null,
+  "max_time_seconds": 180,
+  "metadata": {
+    "created_at": "2026-01-27T15:20:24.705120",
+    "bearing_deg": 331.90628879695896,
+    "city": "Montreal, Canada"
+  }
+}

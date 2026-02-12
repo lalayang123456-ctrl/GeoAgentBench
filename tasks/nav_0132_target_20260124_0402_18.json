@@ -1,0 +1,78 @@
+{
+  "task_id": "nav_0132_target_20260124_0402_18",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_mcdonalds_20260124_040149",
+  "spawn_point": "dsynll8qbrb-ksKBrvwmFg",
+  "spawn_heading": 32.4,
+  "description": "Navigate to McDonald's. Head northeast/D92 toward ‫Street 69B‬‎ for 122m. Sharp left for 17m. Slight right Destination will be on the left for 7m. Total distance: approximately 146 m.",
+  "ground_truth": {
+    "target_name": "McDonald's",
+    "target_pano_id": "m1XhA_JqT-iBfobBjbTRLw",
+    "optimal_distance_meters": 146,
+    "route_description": "left→left"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "m1XhA_JqT-iBfobBjbTRLw"
+  ],
+  "max_steps": 22,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "dsynll8qbrb-ksKBrvwmFg",
+      "heading": 32.4
+    },
+    {
+      "step_index": 1,
+      "pano_id": "aqoXvXdL7k9bKXMqoPAQ4g",
+      "heading": 32.4
+    },
+    {
+      "step_index": 2,
+      "pano_id": "Ej-3ZlL2PyUtwuSL3w9Ulw",
+      "heading": 30.9
+    },
+    {
+      "step_index": 3,
+      "pano_id": "mquXkV3UHxXRxMmCPfBICw",
+      "heading": 31.4
+    },
+    {
+      "step_index": 4,
+      "pano_id": "o5TW-nZKM3LYTNH2tlsvjA",
+      "heading": 30.8
+    },
+    {
+      "step_index": 5,
+      "pano_id": "2Hzgr8bf62iuOzECL1P_dg",
+      "heading": 30.7
+    },
+    {
+      "step_index": 6,
+      "pano_id": "wFfaMJg5VFyu5pN7Cc-s-Q",
+      "heading": 30.7
+    },
+    {
+      "step_index": 7,
+      "pano_id": "P6iVgnXAI_pV7fEVvqKNrQ",
+      "heading": 30.8
+    },
+    {
+      "step_index": 8,
+      "pano_id": "EqRZoHdeY3mIiMThBtwjZw",
+      "heading": 30.7
+    },
+    {
+      "step_index": 9,
+      "pano_id": "r3txulP7VZ7OEp2TbO1yTg",
+      "heading": 30.7
+    },
+    {
+      "step_index": 10,
+      "pano_id": "m1XhA_JqT-iBfobBjbTRLw",
+      "heading": 30.6
+    }
+  ],
+  "agent_verification": "SKIPPED"
+}

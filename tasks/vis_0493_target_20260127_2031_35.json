@@ -1,0 +1,56 @@
+{
+  "task_id": "nav_0493_target_20260124_1414_11",
+  "task_type": "navigation_to_poi",
+  "geofence": "list_nav_starbucks_20260124_141318",
+  "spawn_point": "K4rr1jEJ231bt2R-MU0sVg",
+  "spawn_heading": 26.6,
+  "description": "Proceed straight through the intersection with Compton Avenue, passing the Carl's Jr. on the left corner. Continue west along the road, passing the 'Bargain Center Recycling' sign and a bus stop along the fence line on the left.",
+  "ground_truth": {
+    "target_name": "Gage / Compton",
+    "target_pano_id": "uAQ9VvgzzMd5rTO-l2XFHg",
+    "optimal_distance_meters": 32,
+    "route_description": "straight"
+  },
+  "answer": "",
+  "target_pano_ids": [
+    "uAQ9VvgzzMd5rTO-l2XFHg"
+  ],
+  "max_steps": 12,
+  "max_time_seconds": null,
+  "visual_path": [
+    {
+      "step_index": 0,
+      "pano_id": "K4rr1jEJ231bt2R-MU0sVg",
+      "heading": 26.6
+    },
+    {
+      "step_index": 1,
+      "pano_id": "XttHaKFygl4Op2_7DqOnYg",
+      "heading": 26.6
+    },
+    {
+      "step_index": 2,
+      "pano_id": "vXZyitM1Ep-QDVplqGuIWw",
+      "heading": 270.8
+    },
+    {
+      "step_index": 3,
+      "pano_id": "v5cfRnErrJVoC5fAw9vpZQ",
+      "heading": 270.3
+    },
+    {
+      "step_index": 4,
+      "pano_id": "4Sgp7ST1XX0kOOfW81_PHw",
+      "heading": 270.0
+    },
+    {
+      "step_index": 5,
+      "pano_id": "uAQ9VvgzzMd5rTO-l2XFHg",
+      "heading": 270.0
+    }
+  ],
+  "agent_verification": "NO",
+  "agent_model": "gemini-3-pro-preview",
+  "agent_refined_route": "Head Straight 120m",
+  "agent_concise_description": "Proceed straight through the intersection with Compton Avenue, passing the Carl's Jr. on the left corner. Continue west along the road, passing the 'Bargain Center Recycling' sign and a bus stop along the fence line on the left."
+}
