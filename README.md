@@ -214,7 +214,11 @@ The reference agent supports:
 
 ### Multi-Agent Config
 
-Configure multiple agents in `config/agent_configs.json`:
+You can configure multiple AI agents and their corresponding API credentials in `config/agent_configs.json`. This file acts as a centralized registry where you define the `api_base_url` and `api_key` for each model you want to evaluate. 
+
+**Important:** Before running the benchmark, you must replace the placeholder strings (`"YOUR_API_BASE_URL"` and `"YOUR_API_KEY"`) in this file with your actual API endpoints and valid keys.
+
+Example configuration:
 
 ```json
 {
